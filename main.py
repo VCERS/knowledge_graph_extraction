@@ -5,7 +5,7 @@ from os.path import splitext, join, exists
 from absl import flags, app
 from tqdm import tqdm
 import json
-from langchain.document_loaders import UnstructuredPDFLoader, UnstructuredHTMLLoader, TextLoader
+from langchain.document_loaders import UnstructuredPDFLoader, UnstructuredHTMLLoader, UnstructuredMarkdownLoader, TextLoader
 from langchain.graphs import Neo4jGraph
 from langchain_experimental.graph_transformers.llm import LLMGraphTransformer
 from prompts import extract_triplets_template, cypher_generation_template, entity_generation_template, triplets_qa_template
@@ -65,6 +65,8 @@ def main(unused_argv):
         loader = TextLoader(join(root, f))
       elif ext.lower() == '.pdf':
         loader = UnstructuredPDFLoader(join(root, f), mode = 'single')
+      elif ext.lower() == '.md':
+        loader = UnstructuredMarkdownLoader(join(root, f))
       else:
         raise Exception('unknown format!')
       docs = loader.load()
