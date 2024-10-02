@@ -52,7 +52,7 @@ def main(unused_argv):
                      'time',
                      'source'],
     allowed_relationships = [],
-    node_properties = ['alias','chemical_formula','feature','unit','value','functions','author'], relationship_properties = True
+    node_properties = ['alias','chemical_formula','feature','unit','value','functions','author','DOI','URL'], relationship_properties = True
   )
   neo4j = Neo4jGraph(url = FLAGS.host, username = FLAGS.user, password = FLAGS.password, database = FLAGS.database)
 
