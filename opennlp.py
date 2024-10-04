@@ -38,8 +38,10 @@ class OpenNLP(object):
         pos = token_with_part.rfind('_')
         content, part = token_with_part[:pos], token_with_part[pos+1:]
         parts.append((content, part))
+      return parts
     elif self.task == 'TokenizerME':
       tokens = results.split(' ')
+      return tokens
     elif self.task == 'Parser':
       pass
     return results
