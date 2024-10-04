@@ -40,7 +40,7 @@ class Oscar4(object):
       entity_text = entity.getSurface()
       start = entity.getStart()
       end = entity.getEnd()
-      type_ = entity.getType()
+      type_ = entity.getType().toString()
       results.append((entity_text,start,end,self.types[type_]))
       '''
       structure = entity.getFirstChemicalStructure(self.FormatType.STD_INCHI);
@@ -51,4 +51,5 @@ class Oscar4(object):
 
 if __name__ == "__main__":
   oscar = Oscar4()
-  oscar.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  entities = oscar.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  print(entities)
