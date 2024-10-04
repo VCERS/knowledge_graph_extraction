@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 
+from os.path import exists
 import jpype
 import jpype.imports
 from jpype.types import *
+from wget import download
 
 class Oscar4(object):
   def __init__(self, ):
+    if not exists('oscar4-all-5.2.0-with-dependencies.jar'): download('https://repo.maven.apache.org/maven2/uk/ac/cam/ch/wwmm/oscar/oscar4-all/5.2.0/oscar4-all-5.2.0-with-dependencies.jar', out = '.')
     jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','./oscar4-all-5.2.0-with-dependencies.jar'])
     self.String = jpype.JClass('java.lang.String')
     self.List = jpype.JClass('java.util.List')
