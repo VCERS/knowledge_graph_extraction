@@ -29,10 +29,23 @@ class OpenNLP(object):
     self.process.waitnoecho()
     timeout = 5 + len(text) / 20.0
     self.process.expect('\r\n', timeout)
-    results = self.process.before
+    results = self.process.before.decode()
     return results
 
 if __name__ == "__main__":
-  opennlp = OpenNLP()
+  opennlp = OpenNLP('POSTagger')
+  res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  print(res)
+  '''
+  opennlp = OpenNLP('LanguageDetector')
+  res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  print(res)
+  '''
+  '''
+  opennlp = OpenNLP('SentenceDetector')
+  res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  print(res)
+  '''
+  opennlp = OpenNLP('TokenNameFinder')
   res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
