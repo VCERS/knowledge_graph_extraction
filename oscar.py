@@ -13,18 +13,42 @@ class Oscar4(object):
     self.ResolvedNamedEntity = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.ResolvedNamedEntity')
     self.ChemicalStructure = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.ChemicalStructure')
     self.FormatType = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.FormatType')
-  def call(self, s):
-    s = 'Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).'
-    s = self.String(s)
+    self.types = {
+      'CM': 'Compound',
+      'CMS': 'Compounds',
+      'GP': 'Group',
+      'RN': 'Reaction',
+      'CJ': 'Adjective',
+      'CPR': 'Locant Prefix',
+      'AHA': 'Potential Acronym',
+      'ASE': 'Ase',
+      'ASES': 'Ases',
+      'PN': 'Proper Noun',
+      'ONT': 'Ontology Term',
+      'CUST': 'Custom',
+      'STOP': 'Stop Word',
+      'PM': 'Polymer',
+      'DATA': 'Data'
+    }
+  def call(self, text):
+    text = self.String(text)
     oscar = self.Oscar()
-    entities = oscar.findAndResolveNamedEntities(s)
+    entities = oscar.findAndResolveNamedEntities(text)
+    results = list()
     for i in range(entities.size()):
-      ne = entities[i]
-      print(ne.getSurface())
-      stdInchi = ne.getFirstChemicalStructure(self.FormatType.STD_INCHI);
-      if stdInchi != None:
-        print(stdInchi)
+      entity = entities[i]
+      entity_text = entity.getSurface()
+      start = entity.getStart()
+      end = entity.getEnd()
+      type_ = entity.getType()
+      results.append((entity_text,start,end,self.types[type_]))
+      '''
+      structure = entity.getFirstChemicalStructure(self.FormatType.STD_INCHI);
+      if structure != None:
+        print(structure)
+      '''
+    return results
 
 if __name__ == "__main__":
   oscar = Oscar4()
-  oscar.call('')
+  oscar.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
