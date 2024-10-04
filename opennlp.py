@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from os.path import join
+from os.path import join, exists
 import pexpect
 from urllib.parse import urlparse
 from wget import download
@@ -16,9 +16,12 @@ class OpenNLP(object):
     model_url = self.tasks[task]
     model_file = urlparse(model_url).path.split('/')[-1]
     if not exists(model_file): download(model_url, out = '.')
-    self.process = pexpect.spawn(f"{join('bin','opennlp')} {task} {model_file}")
+    self.process = pexpect.spawn(f"{join('/','bin','opennlp')} {task} {model_file}")
     self.process.setecho(False)
     self.process.expect('done')
     self.process.expect('\r\n')
   def call(self, text):
-    
+    pass
+
+if __name__ == "__main__":
+  opennlp = OpenNLP()
