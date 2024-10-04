@@ -19,7 +19,7 @@ class Oscar4(object):
     self.ChemicalStructure = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.ChemicalStructure')
     self.FormatType = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.FormatType')
     self.POSContainer = jpype.JClass('uk.ac.cam.ch.wwmm.chemicaltagger.POSContainer')
-    self.ChemistryPOSTagger = jpype.JClass('uk.ac.cam.ch.wwmm.chemicaltagger.ChemistryPOSTagger')
+    self.ChemistryPOSTagger = jpype.JPackage('uk.ac.cam.ch.wwmm.chemicaltagger').ChemistryPOSTagger
     self.ChemistrySentenceParser = jpype.JClass('uk.ac.cam.ch.wwmm.chemicaltagger.ChemistrySentenceParser')
     self.Utils = jpype.JClass('uk.ac.cam.ch.wwmm.chemicaltagger.Utils')
     self.Document = jpype.JClass('nu.xom.Document')
