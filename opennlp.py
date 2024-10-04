@@ -11,7 +11,8 @@ class OpenNLP(object):
       'LanguageDetector': 'https://dlcdn.apache.org/opennlp/models/langdetect/1.8.3/langdetect-183.bin',
       'SentenceDetector': 'https://dlcdn.apache.org/opennlp/models/ud-models-1.0/opennlp-en-ud-ewt-sentence-1.0-1.9.3.bin',
       'POSTagger': 'https://dlcdn.apache.org/opennlp/models/ud-models-1.0/opennlp-en-ud-ewt-pos-1.0-1.9.3.bin',
-      'TokenizerME': 'https://dlcdn.apache.org/opennlp/models/ud-models-1.0/opennlp-en-ud-ewt-tokens-1.0-1.9.3.bin'
+      'TokenizerME': 'https://dlcdn.apache.org/opennlp/models/ud-models-1.0/opennlp-en-ud-ewt-tokens-1.0-1.9.3.bin',
+      'Parser': 'https://opennlp.sourceforge.net/models-1.5/en-parser-chunking.bin',
     }
     model_url = self.tasks[task]
     model_file = urlparse(model_url).path.split('/')[-1]
@@ -20,6 +21,7 @@ class OpenNLP(object):
     self.process.setecho(False)
     self.process.expect('done')
     self.process.expect('\r\n')
+    self.task = task
   def call(self, text):
     try:
       self.process.read_nonblocking(2048, 0)
@@ -30,22 +32,19 @@ class OpenNLP(object):
     timeout = 5 + len(text) / 20.0
     self.process.expect('\r\n', timeout)
     results = self.process.before.decode()
+    if self.task == 'POSTagger':
+      tokens = results.split(' ')
+      for token in tokens:
+        pass
     return results
 
 if __name__ == "__main__":
   opennlp = OpenNLP('POSTagger')
   res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
-  '''
-  opennlp = OpenNLP('LanguageDetector')
+  opennlp = OpenNLP('TokenizerME')
   res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
-  '''
-  '''
-  opennlp = OpenNLP('SentenceDetector')
-  res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
-  print(res)
-  '''
-  opennlp = OpenNLP('TokenNameFinder')
+  opennlp = OpenNLP('Parser')
   res = opennlp.call('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
