@@ -33,9 +33,15 @@ class OpenNLP(object):
     self.process.expect('\r\n', timeout)
     results = self.process.before.decode()
     if self.task == 'POSTagger':
+      parts = list()
+      for token_with_part in results.split(' '):
+        pos = token_with_part.rfind('_')
+        content, part = token_with_part[:pos], token_with_part[pos+1:]
+        parts.append((content, part))
+    elif self.task == 'TokenizerME':
       tokens = results.split(' ')
-      for token in tokens:
-        pass
+    elif self.task == 'Parser':
+      pass
     return results
 
 if __name__ == "__main__":
