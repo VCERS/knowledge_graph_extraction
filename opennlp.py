@@ -2,6 +2,7 @@
 
 from os.path import join, exists
 import pexpect
+from nltk.tree import Tree
 from urllib.parse import urlparse
 from wget import download
 
@@ -43,7 +44,8 @@ class OpenNLP(object):
       tokens = results.split(' ')
       return tokens
     elif self.task == 'Parser':
-      pass
+      tree = Tree.fromstring(results)
+      return tree
     return results
 
 if __name__ == "__main__":
