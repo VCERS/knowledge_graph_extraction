@@ -10,8 +10,9 @@ class Oscar4(object):
   def __init__(self, ):
     if not exists('oscar4-all-5.2.0-with-dependencies.jar'): download('https://repo.maven.apache.org/maven2/uk/ac/cam/ch/wwmm/oscar/oscar4-all/5.2.0/oscar4-all-5.2.0-with-dependencies.jar', out = '.')
     if not exists('chemicalTagger-1.6.2.jar'): download('https://repo.maven.apache.org/maven2/uk/ac/cam/ch/wwmm/chemicalTagger/1.6.2/chemicalTagger-1.6.2.jar', out = '.')
-    if not exists('antlr-4.7.2-complete.jar'): download('https://www.antlr.org/download/antlr-4.7.2-complete.jar', out = ".")
-    jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','/usr/share/java/log4j-1.2-1.2.17.jar','/usr/share/java/opennlp-tools.jar','./antlr-4.7.2-complete.jar','./oscar4-all-5.2.0-with-dependencies.jar','./chemicalTagger-1.6.2.jar'])
+    if not exists('antlr-3.5.3-complete.jar'): download('http://www.antlr3.org/download/antlr-3.5.3-complete.jar', out = ".")
+    if not exists('antlr-4.5.3-complete.jar'): download('https://www.antlr.org/download/antlr-4.5.3-complete.jar', out = ".")
+    jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','/usr/share/java/log4j-1.2-1.2.17.jar','/usr/share/java/opennlp-tools.jar','./antlr-3.5.3-complete.jar','./antlr-4.5.3-complete.jar','./oscar4-all-5.2.0-with-dependencies.jar','./chemicalTagger-1.6.2.jar'])
     self.String = jpype.JClass('java.lang.String')
     self.List = jpype.JClass('java.util.List')
     self.Oscar = jpype.JClass('uk.ac.cam.ch.wwmm.oscar.Oscar')
