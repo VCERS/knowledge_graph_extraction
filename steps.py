@@ -50,9 +50,12 @@ def main(unused_argv):
         f.write(results)
       print('2) parsing text')
       tree = oscar.parse(results)
-      triplets_by_sentence = extract_triplets_by_sentence(tree)
       with open(join(FLAGS.output_dir, stem + '_parsetree.pkl'), 'wb') as f:
         f.write(pickle.dumps(tree))
+      print('3) extracting triplets')
+      triplets = extract_triplets_by_sentence(tree)
+      with open(join(FLAGS.output_dir, stem + '_triplets.pkl'), 'wb') as f:
+        f.write(pickle.dumps(triplets))
 
 if __name__ == "__main__":
   add_options()
