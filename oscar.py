@@ -59,12 +59,14 @@ class Oscar4(object):
         print(structure)
       '''
     return results
-  def parse(self, text):
+  def parse(self, text, output = "parse_result.xml"):
     text = self.String(text)
     posContainer = self.ChemistryPOSTagger.getDefaultInstance().runTaggers(text)
     chemistrySentenceParser = self.ChemistrySentenceParser(posContainer)
-    tree = chemistrySentenceParser.parseTags()
-    return tree
+    chemistrySentenceParser.parseTags()
+    doc = chemistrySentenceParser.makeXMLDocument()
+    self.Utils.writeXMLToFile(doc, output)
+    return doc
 
 if __name__ == "__main__":
   oscar = Oscar4()
