@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from os import remove
+from os import remove, copy
 from os.path import exists
 import jpype
 import jpype.imports
@@ -69,7 +69,7 @@ class Oscar4(object):
         return element.tag
     # Return a Tree with the element's tag and its children
     return Tree(element.tag, [self.xml_to_nltk_tree(child) for child in children])
-  def parse(self, text):
+  def parse(self, text, out = None):
     text = self.String(text)
     posContainer = self.ChemistryPOSTagger.getDefaultInstance().runTaggers(text)
     chemistrySentenceParser = self.ChemistrySentenceParser(posContainer)
@@ -80,6 +80,8 @@ class Oscar4(object):
       tmpfile_name = tmpfile.name
     root = ET.parse(tmpfile_name).getroot()
     tree = self.xml_to_nltk_tree(root)
+    if out is not None:
+      copy(tmpfile_name, out)
     remove(tmpfile_name)
     return tree
 
