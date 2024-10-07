@@ -59,6 +59,17 @@ class Oscar4(object):
         print(structure)
       '''
     return results
+  def xml_to_nltk_tree(self, xml_node):  
+    # 获取节点的标签和子节点  
+    label = xml_node.get('label')  
+    children = [self.xml_to_nltk_tree(child) for child in xml_node]  
+      
+    # 如果节点有子节点，则创建一个Tree对象；否则，创建一个表示叶子节点的字符串  
+    if children:  
+        return Tree(label, children)  
+    else:  
+        # 这里我们假设叶子节点是文本内容，你可能需要根据实际情况进行调整  
+        return xml_node.text.strip() if xml_node.text else '' 
   def parse(self, text, output = "parse_result.xml"):
     text = self.String(text)
     posContainer = self.ChemistryPOSTagger.getDefaultInstance().runTaggers(text)
@@ -66,7 +77,7 @@ class Oscar4(object):
     chemistrySentenceParser.parseTags()
     doc = chemistrySentenceParser.makeXMLDocument()
     self.Utils.writeXMLToFile(doc, output)
-    return doc
+    return output
 
 if __name__ == "__main__":
   oscar = Oscar4()
