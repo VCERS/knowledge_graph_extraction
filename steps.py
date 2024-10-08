@@ -54,11 +54,11 @@ def main(unused_argv):
       print('2) parsing text')
       tree = oscar.parse(results)
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
-        f.write(json.dumps(tree2dict(tree)))
+        f.write(json.dumps(tree2dict(tree), indent = 2, ensure_ascii = False))
       print('3) extracting triplets')
       triplets = extract_triplets_by_sentence(tree)
       with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
-        f.write(json.dumps(triplets))
+        f.write(json.dumps(triplets, indent = 2, ensure_ascii = False))
 
 if __name__ == "__main__":
   add_options()
