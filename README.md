@@ -7,7 +7,7 @@ this project extract entity and relationship from chemical literatures
 ## Install prerequisite packages
 
 ```shell
-sudo apt install default-jre opennlp antlr4 python3-jpype python3-urllib3 libejml-java
+sudo apt install default-jre opennlp antlr4 python3-jpype python3-urllib3
 python3 -m pip install -r requirements.txt
 ```
 
