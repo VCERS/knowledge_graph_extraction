@@ -5,6 +5,7 @@ from os import walk, mkdir
 from os.path import splitext, join, exists
 from absl import flags, app
 from tqdm import tqdm
+from nltk.tree import Tree
 import json
 from langchain.document_loaders import UnstructuredMarkdownLoader
 import pickle
