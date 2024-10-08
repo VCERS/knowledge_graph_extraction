@@ -31,8 +31,12 @@ def extract_triplets_by_sentence(doc):
   return triplets_by_sentence
 
 def tree2dict(tree):
-  return {tree.node: [tree2dict(t)  if isinstance(t, Tree) else t
-                      for t in tree]}
+  if isinstance(tree, str):
+    return tree
+  return {
+    'label': tree.label(),
+    'children': [tree2dict(child) for child in tree]
+  }
 
 def main(unused_argv):
   if exists(FLAGS.output_dir): rmtree(FLAGS.output_dir)
