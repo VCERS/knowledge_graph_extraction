@@ -19,8 +19,8 @@ class CoreNLP(object):
     jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','./ejml-core-0.39.jar','./ejml-simple-0.39.jar','./ejml-ddense-0.39.jar','protobuf-java-3.19.6.jar','stanford-corenlp-4.5.7.jar','stanford-corenlp-4.5.7-models.jar','stanford-corenlp-4.5.7-models-english.jar'])
     Properties = jpype.JClass('java.util.Properties')
     StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
-    self.CoreDocument = jpype.JClass('edu.stanford.nlp.pipeline.CoreDocument')
-    self.CoreAnnotation = jpype.JClass('edu.stanford.nlp.ling.CoreAnnotation')
+    self.Annotation = jpype.JClass('edu.stanford.nlp.pipeline.Annotation')
+    self.CoreAnnotation = jpype.JClass('edu.stanford.nlp.ling.CoreAnnotations')
     self.NaturalLogicAnnotations = jpype.JClass('edu.stanford.nlp.naturalli.NaturalLogicAnnotations')
     self.String = jpype.JClass('java.lang.String')
     props = Properties()
@@ -30,10 +30,10 @@ class CoreNLP(object):
     self.pipeline = StanfordCoreNLP(props)
   def call(self, text):
     text = self.String(text)
-    document = self.CoreDocument(text)
+    document = self.Annotation(text)
     self.pipeline.annotate(document)
-    for sentence in document.get(self.CoreAnnotation.SentenceAnnotation.class):
-      triplets = sentence.get(self.NaturalLogicAnnotations.RelationTriplesAnnotation.class)
+    for sentence in document.get(self.CoreAnnotation.SentencesAnnotation.__javaclass__):
+      triplets = sentence.get(self.NaturalLogicAnnotations.RelationTriplesAnnotation.__javaclass__)
       for triplet in triplets:
         print((triplet.subjectLemmaGloss(),triplet.relationLemmaGloss(),triplet.objectLemmaGloss()))
 
