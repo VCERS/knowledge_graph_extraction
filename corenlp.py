@@ -32,14 +32,16 @@ class CoreNLP(object):
     text = self.String(text)
     document = self.Annotation(text)
     self.pipeline.annotate(document)
+    results = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       triplets = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.naturalli.NaturalLogicAnnotations$RelationTriplesAnnotation')))
-      for triplet in triplets:
-        print((triplet.subjectLemmaGloss(),triplet.relationLemmaGloss(),triplet.objectLemmaGloss()))
+      triplets = [(triplet.subjectLemmaGloss(),triplet.relationLemmaGloss(),triplet.objectLemmaGloss()) for triplet in triplets]
+      results.append({'triplets': triplets, 'sentence': sentence.toString()})
+    return results
 
 if __name__ == "__main__":
   corenlp = CoreNLP()
-  corenlp.call("A solution of 124C (7.0 g, 32.4 mmol) in concentrate H2SO4 " +
+  results = corenlp.call("A solution of 124C (7.0 g, 32.4 mmol) in concentrate H2SO4 " +
                 "(9.5 mL) was added to a solution of concentrate H2SO4 (9.5 mL) " +
                 "and fuming HNO3 (13 mL) and the mixture was heated at 60°C for " +
                 "30 min. After cooling to room temperature, the reaction mixture " +
@@ -47,3 +49,4 @@ if __name__ == "__main__":
                 "to pH 6 with 1N NaOH solution. The reaction mixture was extracted " +
                 "with dichloromethane (4x100 mL). The combined organic phases were " +
                 "dried over Na2SO4, filtered and concentrated to give 124D as a solid.")
+  print(results)
