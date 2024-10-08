@@ -1,0 +1,512 @@
+[
+  {
+    "triplets": [
+      [
+        "< |start_header_id| > assistant < |end_header_id| >",
+        "is",
+        "in Section 4 Experimental Section"
+      ]
+    ],
+    "sentence": "< |start_header_id| > assistant < |end_header_id| > The experimental part of the paper is in Section 4 Experimental Section ."
+  },
+  {
+    "triplets": [
+      [
+        "4 Experimental Section Materials",
+        "used",
+        "without any purification"
+      ]
+    ],
+    "sentence": "4 Experimental Section Materials All materials were used directly without any purification ."
+  },
+  {
+    "triplets": [
+      [
+        "P2S5( > 99 %",
+        "purchased",
+        "from Sigma-Aldrich"
+      ]
+    ],
+    "sentence": "P2S5( > 99 % ) , LiI ( 99.99 % , anhydrous ) , LiCl ( > 99.98 % , anhydrous ) , LiBr ( 99.9 % , anhydrous ) , and LCO ( 99.8 % ) particles were purchased from Sigma-Aldrich ."
+  },
+  {
+    "triplets": [
+      [
+        "Li2S ( 99.9 % )",
+        "purchased",
+        "from Alfa Aesar"
+      ]
+    ],
+    "sentence": "Li2S ( 99.9 % ) was purchased from Alfa Aesar ."
+  },
+  {
+    "triplets": [
+      [
+        "SnS2(99.999",
+        "purchased",
+        "from American Elements"
+      ]
+    ],
+    "sentence": "SnS2(99.999 % ) was purchased from American Elements ."
+  },
+  {
+    "triplets": [
+      [
+        "ball",
+        "sealed",
+        "in zirconia"
+      ]
+    ],
+    "sentence": "Preparation of LPSI-xSn Sulfide SSEs ( x , the Sn Substitution Percentage , Equals to 0 , 10 , 15 , 17.5 , 20 , 22.5 , 25 , 30 , 50 , 80 , and 100 ) Stoichiometric raw materials ( Li2S , P2S5 , LiI , and SnS2 ) were weighed ( total 1 g ) and sealed in zirconia ball milling pots ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The mass ratio between the mixture and the zirconia ball was 1 : 40 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Low-speed ball milling ( 180 rpm for 2 h ) was used at first to fully mix the starting materials ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After that , high-speed of 510 rpm for 13 h was conducted on the mixture ."
+  },
+  {
+    "triplets": [],
+    "sentence": "All ball milling processes were protected under Ar gas atmosphere by using planetary ball milling apparatus ."
+  },
+  {
+    "triplets": [
+      [
+        "the ball-milled product",
+        "postannealing",
+        "into pellets"
+      ]
+    ],
+    "sentence": "Then , the ball-milled product was pressed into pellets , and sealed in quartz tubes for postannealing treatment ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The annealing condition was 450 °C / 8 h in the muffle furnace ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The rate of increasing temperature was fixed at 5 °C min-1 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After the annealing was completed , the sample naturally cooled down to RT ."
+  },
+  {
+    "triplets": [
+      [
+        "It",
+        "using",
+        "by the following defect equation"
+      ]
+    ],
+    "sentence": "It was noted that S vacancy can be produced by partly replacing P2S5with SnS2in the starting raw materials , which can be represented by the following defect equation using Kröger-Vink notation : ."
+  },
+  {
+    "triplets": [
+      [
+        "the S vacancy",
+        "keep",
+        "while more Li atoms"
+      ]
+    ],
+    "sentence": "Through reacting with other reactants , the S vacancy was occupied , while more Li atoms were introduced to keep the charge balance , increasing the solubility of Li+ ions in the crystal structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Preparation of LPSBr-xSn SSEs ( Substitution Percentage x = 1 , 2.5 , 5 , 10 , 12.5 , 15 , 20 , 30 ) and LPSCl-xSn SSEs ( Substitution Percentage x = 0 and 30 ) Li2S , P2S5 , SnS2 , and LiBr were used for LPSBr-xSn SSEs preparation , while Li2S , P2S5 , SnS2 , and LiCl raw materials for LPSCl-xSn ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Similar to the preparation process of synthesizing LPSI-xSn SSEs , same ball milling condition and annealing process were used to prepare LPSBr-xSn and LPSCl-xSn SSEs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Preparation of LCO@LNO Cathode Materials and LCO@LNO / LGPS Cathode Composites According to the previously reported method from the group , ALD process was used to prepare a LiNbOxcoating layer on the commercial LCO particles to form LCO@LNO composites ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The LCO@LNO / LGPS cathode composite was prepared by milling LCO@LNO powder and LGPS electrolyte ( mass ratio 7 : 3 ) with a roll mixer ."
+  },
+  {
+    "triplets": [
+      [
+        "Ionic Conductivity Measurements Ionic conductivity of prepared SSEs",
+        "measured",
+        "by the EIS measurements and corresponding simulation method"
+      ]
+    ],
+    "sentence": "Ionic Conductivity Measurements Ionic conductivity of prepared SSEs was measured by the EIS measurements and corresponding simulation method ."
+  },
+  {
+    "triplets": [
+      [
+        "EIS measurements",
+        "completed",
+        "on a multichannel potentiostation 3/Z ( German VMP3 )"
+      ]
+    ],
+    "sentence": "EIS measurements were completed on a multichannel potentiostation 3/Z ( German VMP3 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The applied frequency range was 0.1 Hz to 7 MHz and the amplitude was 20 mV ."
+  },
+  {
+    "triplets": [
+      [
+        "The test cell",
+        "pressed",
+        "into a pellet"
+      ]
+    ],
+    "sentence": "The test cell was fabricated as follows : 80 mg of the SSEs were pressed into a pellet ( diameter 1 cm , thickness 0.7 mm ) with a pressure of ≈300 MPa ."
+  },
+  {
+    "triplets": [
+      [
+        "two pieces of indium ( In ) foil",
+        "pressed",
+        "in a model cell"
+      ]
+    ],
+    "sentence": "Subsequently , two pieces of indium ( In ) foil serving as the current collector were pressed on both sides of the electrolyte pellet in a model cell ."
+  },
+  {
+    "triplets": [
+      [
+        "the Arrhenius plot , variable-temperature EIS",
+        "measured",
+        "with an interval of 10 °C"
+      ]
+    ],
+    "sentence": "To gain the Arrhenius plot , variable-temperature EIS was measured from -5 to 45 °C with an interval of 10 °C ."
+  },
+  {
+    "triplets": [
+      [
+        "Cell",
+        "pressed",
+        "by ≈300 MPa"
+      ]
+    ],
+    "sentence": "Cell Assembly and Electrochemical Measurements For Li//LPSI-20Sn//Li symmetric cells , typically , 80 mg of LPSI-20Sn electrolyte was pressed by ≈300 MPa to form solid pellet ."
+  },
+  {
+    "triplets": [
+      [
+        "Two pieces of Li metal ( China Energy Lithium Co . , Ltd . )",
+        "placed",
+        "onto both sides of the LPSI-20Sn pellet"
+      ]
+    ],
+    "sentence": "Two pieces of Li metal ( China Energy Lithium Co . , Ltd . ) were placed onto both sides of the LPSI-20Sn pellet and then pressed by ≈120 MPa for 3 min ."
+  },
+  {
+    "triplets": [
+      [
+        "Li plating/stripping experiments",
+        "carried",
+        "on LAND battery testing stations ( CT-2001A , Wuhan Rambo Testing Equipment Co . , Ltd . )"
+      ]
+    ],
+    "sentence": "Li plating/stripping experiments were carried out on LAND battery testing stations ( CT-2001A , Wuhan Rambo Testing Equipment Co . , Ltd . ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Current density",
+        "set",
+        "at 0.1 mA cm-2 and 0.1 mAh cm-2"
+      ]
+    ],
+    "sentence": "Current density and cut-off capacity were set at 0.1 mA cm-2 and 0.1 mAh cm-2 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li / LPSI-20Sn//LGPS//LCO@LNO//LGPS ASSLMBs were fabricated using LGPS as the electrolyte , prepared LCO@LNO / LGPS as the cathode composite , LPSI-20Sn as the Li metal anode interlayer , and Li metal as the anode ."
+  },
+  {
+    "triplets": [
+      [
+        "80 mg of the LGPS electrolyte ( purchased from MSE supplies LLC )",
+        "pressed",
+        "under ≈300 MPa"
+      ]
+    ],
+    "sentence": "Typically , 80 mg of the LGPS electrolyte ( purchased from MSE supplies LLC ) was pressed under ≈300 MPa to form a solid LGPS layer ( diameter : 10 mm , thickness : 0.65 mm ) ."
+  },
+  {
+    "triplets": [
+      [
+        "20 mg of LPSI-20Sn electrolyte",
+        "pressed",
+        "under ≈300 MPa"
+      ]
+    ],
+    "sentence": "20 mg of LPSI-20Sn electrolyte was spread on one side of the LGPS layer , and pressed under ≈300 MPa to form an interlayer ( diameter : 10 mm , thickness : 0.17 mm ) to separate Li metal and LGPS layer ."
+  },
+  {
+    "triplets": [
+      [
+        "10 mg of LCO@LNO / LGPS powder",
+        "spread",
+        "onto the surface of the other side of LGPS layer"
+      ]
+    ],
+    "sentence": "10 mg of LCO@LNO / LGPS powder was uniformly spread onto the surface of the other side of LGPS layer and pressed under ≈360 MPa for 5 min ."
+  },
+  {
+    "triplets": [
+      [
+        "Li metal",
+        "placed",
+        "on the LPSI-20Sn layer"
+      ]
+    ],
+    "sentence": "Finally , Li metal was placed on the LPSI-20Sn layer and pressed by ≈120 MPa for 3 min ."
+  },
+  {
+    "triplets": [
+      [
+        "The four-layered pellet cell",
+        "sandwiched",
+        "as current collectors"
+      ]
+    ],
+    "sentence": "The four-layered pellet cell was sandwiched between two stainless-steel rods as current collectors and sealed in the model cell ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Galvanostatic charge-discharge was conducted on the LAND battery test system ."
+  },
+  {
+    "triplets": [
+      [
+        "The voltage window",
+        "evaluate",
+        "as 2.8-4.2 V ( vs Li / Li+ ) , and various constant current densities"
+      ]
+    ],
+    "sentence": "The voltage window was set as 2.8-4.2 V ( vs Li / Li+ ) , and various constant current densities were applied to evaluate the cycling stability and the rate performance ."
+  },
+  {
+    "triplets": [
+      [
+        "All cell fabrication processes",
+        "conducted",
+        "in an Ar-filled glovebox"
+      ]
+    ],
+    "sentence": "All cell fabrication processes were conducted in an Ar-filled glovebox ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Air Stability Measurements The electrolyte stability against dry O2was measured in the TGA instrument ."
+  },
+  {
+    "triplets": [
+      [
+        "Powder electrolytes",
+        "recorded",
+        "in the atmosphere of continuous flow"
+      ]
+    ],
+    "sentence": "Powder electrolytes were placed in the atmosphere of continuous flow of dry O2with the weight recorded by the built-in microbalance ."
+  },
+  {
+    "triplets": [
+      [
+        "The stability",
+        "controlling",
+        "with humidity and gas ( O2 , N2 , air , and vacuum )"
+      ]
+    ],
+    "sentence": "The stability toward moisture was evaluated as follows : electrolytes were placed in an airtight chamber with humidity and gas ( O2 , N2 , air , and vacuum ) controlling ."
+  },
+  {
+    "triplets": [
+      [
+        "the EIS measurements",
+        "conducted",
+        "for the electrolyte samples"
+      ]
+    ],
+    "sentence": "After exposure of 10 % humidity overnight , XRD and the EIS measurements were conducted for the electrolyte samples ."
+  },
+  {
+    "triplets": [
+      [
+        "Reheating process",
+        "processed",
+        "in a vacuum oven ( 180 °C ) overnight"
+      ]
+    ],
+    "sentence": "Reheating process was processed in a vacuum oven ( 180 °C ) overnight ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Characterization SEM images and element mapping were obtained by using a Hitachi S-4800 field-emission scanning electron microscope ( FE-SEM , acceleration voltage 5 kV ) equipped with EDS ."
+  },
+  {
+    "triplets": [
+      [
+        "XRD measurements",
+        "performed",
+        "with Cu Kα radiation ( λ = 1.54178 Å )"
+      ]
+    ],
+    "sentence": "XRD measurements were performed on Bruker AXS D8 Advance with Cu Kα radiation ( λ = 1.54178 Å ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Kapton tape",
+        "prevent",
+        "from the air exposure"
+      ]
+    ],
+    "sentence": "Kapton tape was covered on the XRD holder to prevent from the air exposure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Low-speed-scan XRD pattern of LPSI-20Sn electrolyte was obtained by scanning at the speed of 5 s per step ( 1 step = 0.02° ) from 10° to 90° ( 2θ ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "XRD Rietveld refinement was performed by using Materials Studio software ."
+  },
+  {
+    "triplets": [
+      [
+        "Raman spectra",
+        "operated",
+        "at 532 nm"
+      ]
+    ],
+    "sentence": "Raman spectra were measured with a HORIBA Scientific LabRAM HR Raman spectrometer operated under an incident laser beam at 532 nm ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Electrolyte samples were sealed and sandwiched in two pieces of transparent glasses for Raman testing ."
+  },
+  {
+    "triplets": [],
+    "sentence": "XPS spectra were obtained by using Krotos AXIS Ultra Spectrometer system using a monochromatic Al K(alpha) source ( 25 mA , 15 kV ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Solid-state 7Li NMR measurements",
+        "operating",
+        "at a 7Li resonance frequency of 155.248 MHz"
+      ]
+    ],
+    "sentence": "Solid-state 7Li NMR measurements were carried out on a Varian Infinity Plus 400 ( I+400 ) NMR spectrometer ( Bo = 9.4 T ) , operating at a 7Li resonance frequency of 155.248 MHz ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The π / 2 pulse length was determined to be 2.3 µs ."
+  },
+  {
+    "triplets": [
+      [
+        "Chemical shifts",
+        "referenced",
+        "to a 1.0 m LiCl solution"
+      ]
+    ],
+    "sentence": "Chemical shifts were referenced with respect to a 1.0 m LiCl solution ."
+  },
+  {
+    "triplets": [
+      [
+        "The electrolyte sample",
+        "sealed",
+        "in custom-made Teflon"
+      ]
+    ],
+    "sentence": "The electrolyte sample was sealed in custom-made Teflon tubes ( ϕ = 4.7 mm ) in an argon-filled glovebox ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Variable temperature ( -40 to 130 °C with an interval of 5 or 10 °C ) measurements were performed by using a 5 mm static probe.T1relaxation ( spin-lattice ) time at various temperatures was determined by using the saturation recovery method ."
+  },
+  {
+    "triplets": [
+      [
+        "DFT Calculation It",
+        "based",
+        "on the generalized gradient approximation ( GGA )"
+      ]
+    ],
+    "sentence": "DFT Calculation It was conducted for both static computation and geometry optimization of LPSI and LPSI-20Sn crystal , using the CASTEP DFT code of Accelrys Material Studio 8.0 with the exchange-correlation functional of Perdew-Burke-Ernzerhof ( PBE ) based on the generalized gradient approximation ( GGA ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The cut-off energy for the plane-wave basis was set as 380.0 eV ."
+  },
+  {
+    "triplets": [
+      [
+        "Thek-point mesh of 2 × 2 × 2",
+        "set",
+        "as 5.0 × 10-7 eV Å-1"
+      ]
+    ],
+    "sentence": "Thek-point mesh of 2 × 2 × 2 was adopted and the self-consistent field tolerance was set as 5.0 × 10-7 eV Å-1 ."
+  },
+  {
+    "triplets": [
+      [
+        "The fast Fourier",
+        "set",
+        "as 90 × 90 × 90"
+      ]
+    ],
+    "sentence": "The fast Fourier transform grid density was set as 90 × 90 × 90 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The crystal structure of LPSI-20Sn crystal was employed by using different occupation ratios of Sn and P in the same site position ."
+  },
+  {
+    "triplets": [
+      [
+        "one of the S atoms",
+        "changing",
+        "on the differential energy"
+      ]
+    ],
+    "sentence": "The oxygen replacement reaction energy ( ΔE ) of LPSI-20Sn and LPSI electrolytes was simulated based on the differential energy by changing one of the S atoms to O atom in the model structure ."
+  },
+  {
+    "triplets": [
+      [
+        "One 2 × 2 × 2 supercell of LPSI or LPSI-20Sn",
+        "changing",
+        "as the model structure"
+      ]
+    ],
+    "sentence": "One 2 × 2 × 2 supercell of LPSI or LPSI-20Sn was used as the model structure by changing one of the S atoms ."
+  },
+  {
+    "triplets": [
+      [
+        "which",
+        "reveal",
+        "as one of the indicators"
+      ]
+    ],
+    "sentence": "The oxygen replacement reaction energy ( ΔE ) can be calculated as ΔE = U(S atom)+U(PS3O tetrahedron)-U(O atom)-U(PS4 tetrahedron ) , which can be defined as one of the indicators to reveal the resistance capability of sulfide electrolyte ( containing PS4tetrahedron ) to O2 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Conflict of Interest The authors declare no conflict of interest ."
+  }
+]

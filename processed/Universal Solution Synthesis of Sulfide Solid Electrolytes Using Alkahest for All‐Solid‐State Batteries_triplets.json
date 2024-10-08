@@ -1,0 +1,409 @@
+[
+  {
+    "triplets": [
+      [
+        "< |start_header_id| > assistant < |end_header_id| >",
+        "is",
+        "in the 4 Experimental Section"
+      ]
+    ],
+    "sentence": "< |start_header_id| > assistant < |end_header_id| > The experimental part of the paper is in the 4 Experimental Section ."
+  },
+  {
+    "triplets": [],
+    "sentence": "4 Experimental Section Material Preparation For the solution synthesis of Li10GeP2S12 , Li6PS5Cl , and Na11Sn2PS12using EDA ( 98.5 % , Sigma-Aldrich ) and EDT ( 98.0 % , Sigma-Aldrich ) , ET ( 99 % , Alfa-Aesar ) Li2S ( 99.9 % , Alfa-Aesar ) , P2S5(99.9 % , Sigma-Aldrich ) , LiCl ( 99.99 % , Alfa-Aesar ) , GeS2(99.9 % , American Elements ) , Na2S ( Sigma-Aldrich ) , and SnS2(99 % , MKN ) were used as precursor materials ."
+  },
+  {
+    "triplets": [
+      [
+        "Stoichiometric mixtures",
+        "added",
+        "to the EDA-EDT mixture solvent"
+      ]
+    ],
+    "sentence": "Stoichiometric mixtures were added to the EDA-EDT mixture solvent and stirred at 60 °C for 3 h ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For EDT- and ET-Na11Sn2PS12 , the solution was stirred at 70 °C ."
+  },
+  {
+    "triplets": [],
+    "sentence": "All synthetic procedures were performed under an argon atmosphere ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li6PS5Cl0.5Br0.5and Na3PS4used for separating SE layers in all-solid-state Li- and Na-ion cells , respectively , was prepared via ball milling and subsequent HT under an Ar atmosphere ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For Li6PS5Cl0.5Br0.5 , after a stoichiometric mixture of Li2S , P2S5 , LiCl , and LiBr was ball-milled at 600 rpm for 10 h in a ZrO2vial with ZrO2balls using a Pulverisette 7PL ( Fritsch GmbH ) , it was subjected to HT at 550 °C for 5 h under an Ar atmosphere ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For Na3PS4 , a stoichiometric mixture of Na2S and P2S5was ball-milled at 500 rpm for 1 h in a ZrO2vial with ZrO2balls using a Pulverisette 7PL , followed by HT at 270 °C for 1 h under an Ar atmosphere ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li6PS5Cl0.5Br0.5and Na3PS4exhibited ionic conductivities of 4.6 × 10-3 S cm-1 and 9.1 × 10-5 S cm-1 at 30 °C , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To prepare the Na2S-NSPS-C nanocomposites , stoichiometric amounts of Na2S , SnS2 , and P2S5powders were fully dissolved in the EDA-EDT solvent and stirred at 70 °C for 3 h ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Super C65 was then added , and the solution was stirred ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The target weight ratio of Na2S / Na11Sn2PS12/super C65 was 30 : 50 : 20 ."
+  },
+  {
+    "triplets": [
+      [
+        "The solvent",
+        "removed",
+        "under vacuum"
+      ],
+      [
+        "the as-obtained powders",
+        "subjected",
+        "to HT"
+      ]
+    ],
+    "sentence": "The solvent was removed at 150 °C for 3 h under vacuum , and the as-obtained powders were subjected to HT at 700 °C for 12 h under an argon atmosphere ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The mixture electrodes were prepared via conventional manual mixing of Na2S , NSPS ( prepared by solid-state synthesis , 0.8 mS cm-1 ) , and super C65 , with a weight ratio of 30 : 50 : 20 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Material Characterization Powder XRD patterns were measured using a MiniFlex600 ( Rigaku ) with Cu-Kαradiation ( λ = 1.54056 Å ) at 40 kV and 15 mA ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The samples were hermetically sealed using a beryllium window ."
+  },
+  {
+    "triplets": [
+      [
+        "The Raman spectra",
+        "collected",
+        "at an excitation wavelength of 514.5 nm"
+      ]
+    ],
+    "sentence": "The Raman spectra were collected with an Ar-ion laser beam at an excitation wavelength of 514.5 nm using LabRam Arimis ( Horiba Jobin Yvon ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the samples",
+        "prevent",
+        "with vacuum transfer"
+      ]
+    ],
+    "sentence": "For the cryo-TEM measurements , the samples were loaded onto a lacey Cu grid and mounted on a double-tilt cryo-TEM holder with vacuum transfer ( Double tilt LN2 Atmos Defend Holder , Mel-Build ) to prevent air exposure of the samples ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The cryo-TEM images were obtained using a JEM-2100F ( JEOL ) at an acceleration voltage of 200 kV ."
+  },
+  {
+    "triplets": [],
+    "sentence": "UV-vis spectra were measured using a UV-IR spectrometer ( S-4100 , SCINCO ) and Starna quartz cuvettes with 10 mm path lengths ."
+  },
+  {
+    "triplets": [
+      [
+        "The TGA data",
+        "using",
+        "at a scan rate of 5 °C min-1"
+      ]
+    ],
+    "sentence": "The TGA data were recorded in the range of room temperature to 700 °C at a scan rate of 5 °C min-1 under continuous Ar flow using a Q600 ( TA instrument Corp . ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Elemental analyses were performed using a Flash 2000 organic elemental analyzer ( Thermo Scientific ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Electrochemical Characterization To extract ionic conductivities of solution-synthesized SEs , two types of symmetric cells were fabricated ( Figure , Supporting Information ) : Li/Li6PS5Cl0.5Br0.5(200 mg )/Li cell and Li/Li6PS5Cl0.5Br0.5(100 mg )/SE ( 70 mg )/Li6PS5Cl0.5Br0.5(100 mg )/Li cell ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The ionic conductivities of solution-synthesized Li10GeP2S12 , Li6PS5Cl , and Na11Sn2PS12were determined by subtracting the resistance of Li/Li6PS5Cl0.5Br0.5(200 mg )/Li cell ( = RLPSX+ 2Rint(Li/LPSX interfacial resistance ) ) from that of the Li/ Li6PS5Cl0.5Br0.5(100 mg )/SE ( 70 mg )/Li6PS5Cl0.5Br0.5(100 mg )/Li cells ( = RLPSX+ 2Rint(Li/LPSX interfacial resistance )+RSE ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Thus , only the ionic resistances of SE ( RSE ) could be extracted ."
+  },
+  {
+    "triplets": [
+      [
+        "The cell resistances",
+        "confirmed",
+        "by electrochemical impedance spectroscopy measurements"
+      ]
+    ],
+    "sentence": "The cell resistances were measured by cyclic voltammetry , and confirmed by electrochemical impedance spectroscopy measurements ."
+  },
+  {
+    "triplets": [
+      [
+        "the cells , SE powders",
+        "attaching",
+        "under 360 MPa"
+      ]
+    ],
+    "sentence": "To assemble the cells , SE powders were placed in a poly(aryl-ether - ether - ketone ( PEEK ) mold ( diameter : 13 mm ) and pressed under 360 MPa before attaching Li foils on both sides ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The TiS2composite electrodes were prepared by mixing TiS2(99.9 % , Sigma-Aldrich ) and SEs in a weight ratio of 1 : 2 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li0.5In ( nominal composition ) powders prepared by mixing Li powders ( FMC Lithium Corp . ) and In powder ( Sigma-Aldrich , 99 % ) were used as the counter/reference electrodes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The SE layers were prepared by pelletizing the Li6PS5Cl0.5Br0.5powder ( 150 mg ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The as-prepared electrodes ( 15 mg ) and Li0.5In powders ( 100 mg )",
+        "spread",
+        "on each side of the SE layer"
+      ]
+    ],
+    "sentence": "The as-prepared electrodes ( 15 mg ) and Li0.5In powders ( 100 mg ) were then spread on each side of the SE layer ."
+  },
+  {
+    "triplets": [
+      [
+        "the assemblies",
+        "pressed",
+        "at 370 MPa"
+      ]
+    ],
+    "sentence": "Finally , the assemblies were pressed at 370 MPa ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For the fabrication of all-solid-state Na-S cells , Na3PS4was pelletized and used as the SE layer ."
+  },
+  {
+    "triplets": [
+      [
+        "an operating voltage of ≈0.1 V versus Na / Na+",
+        "exhibited",
+        "as the counter/reference electrodes , which"
+      ]
+    ],
+    "sentence": "Na3Sn ( nominal composition ) powders were prepared by mixing Na metal ( 800 mg ) and Sn metal ( 1376 mg ) , and used as the counter/reference electrodes , which exhibited an operating voltage of ≈0.1 V versus Na / Na+ ."
+  },
+  {
+    "triplets": [
+      [
+        "the Na2S-NSPS-C and Na3Sn powders",
+        "pressing",
+        "at 370 MPa"
+      ]
+    ],
+    "sentence": "After , the Na2S-NSPS-C and Na3Sn powders were spread on each side of the Na3PS4layer , the whole assemblies were subjected to pressing at 370 MPa ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The mass loading of Na2S-NSPS-C was 7 mg ."
+  },
+  {
+    "triplets": [
+      [
+        "All assemblies",
+        "carried",
+        "as the current collectors"
+      ]
+    ],
+    "sentence": "All assemblies were carried out in a PEEK mold ( diameter : 13 mm ) with two Ti rods as the current collectors ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Theoretical Calculations All DFT calculations were performed using DMol3 program ."
+  },
+  {
+    "triplets": [
+      [
+        "The electron exchange-correlation energy",
+        "calculated",
+        "with the generalized gradient approximation"
+      ]
+    ],
+    "sentence": "The electron exchange-correlation energy was calculated with the generalized gradient approximation and the Perdew-Burke-Ernzerhof functional ."
+  },
+  {
+    "triplets": [
+      [
+        "The effective core potential",
+        "used",
+        "with a basis set of DNP 4.4 level"
+      ]
+    ],
+    "sentence": "The effective core potential was used for core treatment with a basis set of DNP 4.4 level ."
+  },
+  {
+    "triplets": [
+      [
+        "The convergence criteria",
+        "set",
+        "as 1.0 × 10-5 Ha , 0.002 Ha Å-1 , and 0.005 Å"
+      ]
+    ],
+    "sentence": "The convergence criteria for energy , force , and displacement were set as 1.0 × 10-5 Ha , 0.002 Ha Å-1 , and 0.005 Å , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Conductor-like Screening Model solvation model was applied using the dielectric constant of EDA-EDT ( 10 : 1 vol ) solvent mixture ( ε 15.83 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To include the dispersion correction of the van der Waals effect , the DFT empirical dispersion correction ( DFT-D3 ) was used ."
+  },
+  {
+    "triplets": [
+      [
+        "The Brillouin-zone",
+        "sampled",
+        "for surface model systems"
+      ]
+    ],
+    "sentence": "The Brillouin-zone was sampled by a Monkhorst-Pack as a single k-point ( Γ-point ) for surface model systems ."
+  },
+  {
+    "triplets": [
+      [
+        "The dipole slab correction",
+        "employed",
+        "for all slab calculations"
+      ]
+    ],
+    "sentence": "The dipole slab correction was also employed for all slab calculations ."
+  },
+  {
+    "triplets": [
+      [
+        "the linear synchronous transit and quadratic synchronous transit methods",
+        "set",
+        "as 0.003 Ha Å-1"
+      ]
+    ],
+    "sentence": "To examine the reaction paths , the linear synchronous transit and quadratic synchronous transit methods were used to satisfy the convergence criteria of the RMS force , which was set as 0.003 Ha Å-1 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To observe the proton transfer reaction in the EDA-EDT mixture solvent , a DFT model with the explicit solvents was sampled using molecular dynamics ( md ) simulation ."
+  },
+  {
+    "triplets": [],
+    "sentence": "md simulation was performed using COMPASS forcefield under the isothermal-isobaric ( i.e.,NPT ) ensemble , whereNis the number of atoms,Pis the pressure , andTis the temperature ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The temperature and pressure were maintained at 298 K and atmospheric pressure using a Berendsen thermostat and barostat ."
+  },
+  {
+    "triplets": [
+      [
+        "The cutoff distance of the van der",
+        "using",
+        "to 12.5 Å"
+      ]
+    ],
+    "sentence": "The cutoff distance of the van der Waals interaction was set to 12.5 Å , and the electrostatic interactions were calculated using the Ewald summation method with an accuracy of 10-5 kcal mol-1 ."
+  },
+  {
+    "triplets": [
+      [
+        "The time step",
+        "was",
+        "to 1 fs"
+      ]
+    ],
+    "sentence": "The time step was set to 1 fs , and the total simulation time was 2 ns ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The EDA-EDT mixture solvent was considered to contain 60 EDA molecules and 6 EDT molecules ( i.e. , 10 : 1 vol ) in a 20 Å cubic box , and the equilibrated density was 0.92 g cc-1 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "From the last configuration of md simulation , one EDT molecule and surrounding molecules within 3 Å around the EDT were selected for calculating the energy of proton transfer as EDA-EDT cluster , which contained the 8 EDA molecules and 2 EDT molecules ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "DFT calculations of the dissolution mechanism",
+        "employed",
+        "by the XRD measurement ( Figure , Supporting Information )"
+      ]
+    ],
+    "sentence": "To carry out theoretical DFT calculations of the dissolution mechanism on GeS2 , a slab model consisting of two atomic layers of GeS2with the ( 001 ) surface of the experimental structure determined by the XRD measurement ( Figure , Supporting Information ) was employed ."
+  },
+  {
+    "triplets": [
+      [
+        "The top layer of the model system",
+        "represent",
+        "while the bottom layer"
+      ]
+    ],
+    "sentence": "The top layer of the model system was relaxed , while the bottom layer was fixed to represent the bulk phase during the optimization calculation ."
+  },
+  {
+    "triplets": [
+      [
+        "The vacuum region of the slab model",
+        "avoid",
+        "for all slab models"
+      ]
+    ],
+    "sentence": "The vacuum region of the slab model was set to ≈30 Å for all slab models to avoid self-interaction errors ."
+  },
+  {
+    "triplets": [
+      [
+        "When",
+        "added",
+        "near the GeS2slab region"
+      ]
+    ],
+    "sentence": "When a deprotonated EDT molecule was added near the GeS2slab region , protonated EDA was also added to the vacuum region for charge balance ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the distances",
+        "reacting",
+        "in the vacuum area"
+      ]
+    ],
+    "sentence": "Note that when two or more protonated EDAs were in the vacuum area , the distances between protonated EDAs were maximized to prevent them from reacting ."
+  },
+  {
+    "triplets": [
+      [
+        "Statistical Analysis Raman spectra",
+        "have",
+        "in Figure"
+      ]
+    ],
+    "sentence": "Statistical Analysis Raman spectra shown in Figure were normalized to have identical maximum intensity ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Conflict of Interest The authors declare no conflict of interest ."
+  }
+]

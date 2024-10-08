@@ -1,0 +1,391 @@
+[
+  {
+    "triplets": [
+      [
+        "< |start_header_id| > assistant < |end_header_id| >",
+        "is",
+        "in the section \" 4 Experimental Section \""
+      ]
+    ],
+    "sentence": "< |start_header_id| > assistant < |end_header_id| > The experimental part of the paper is in the section \" 4 Experimental Section \" ."
+  },
+  {
+    "triplets": [
+      [
+        "4 Experimental Section Materials Single-crystalline NCM811 sample",
+        "purchased",
+        "from Guangdong Canrd New Energy Technology Co"
+      ]
+    ],
+    "sentence": "4 Experimental Section Materials Single-crystalline NCM811 sample without coating or doping modifications was purchased from Guangdong Canrd New Energy Technology Co ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Ltd ."
+  },
+  {
+    "triplets": [
+      [
+        "Lithium metal anode ( 200 µm thick )",
+        "bought",
+        "from China Energy Lithium Co"
+      ]
+    ],
+    "sentence": "Lithium metal anode ( 200 µm thick ) was bought from China Energy Lithium Co ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Ltd ."
+  },
+  {
+    "triplets": [
+      [
+        "LPSCl , Li7P3S11,and 0.7Li3PS4-0.3LiI electrolyte powders",
+        "supplied",
+        "by Ganfeng Lithium Group Co"
+      ]
+    ],
+    "sentence": "LPSCl , Li7P3S11,and 0.7Li3PS4-0.3LiI electrolyte powders were supplied by Ganfeng Lithium Group Co ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Ltd ."
+  },
+  {
+    "triplets": [
+      [
+        "LGePS powder",
+        "supported",
+        "by Guilin Electrical Equipment Scientific Research Institute Co"
+      ]
+    ],
+    "sentence": "LGePS powder was supported by Guilin Electrical Equipment Scientific Research Institute Co ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Ltd ."
+  },
+  {
+    "triplets": [
+      [
+        "LSnPS electrolyte",
+        "synthesized",
+        "by mechanical ball milling"
+      ]
+    ],
+    "sentence": "LSnPS electrolyte was synthesized by mechanical ball milling and annealing ."
+  },
+  {
+    "triplets": [
+      [
+        "Li2S ( 99.98 % , Sigma Aldrich ) , SnS2(99.5",
+        "put",
+        "together with 25 zirconia balls"
+      ]
+    ],
+    "sentence": "Li2S ( 99.98 % , Sigma Aldrich ) , SnS2(99.5 % , Energy Chemical ) , and P2S5(99.9 % , Alfa Aesar ) were weighed and put into a zirconia jar ( 125 mL ) together with 25 zirconia balls ."
+  },
+  {
+    "triplets": [
+      [
+        "Mechanical milling",
+        "performed",
+        "with a milling machine"
+      ]
+    ],
+    "sentence": "Mechanical milling was performed with a milling machine ( Fritsch , P7 ) for 2 hours at a speed of 580 rpm min-1 ."
+  },
+  {
+    "triplets": [
+      [
+        "The mixed powder",
+        "pressed",
+        "into pellets"
+      ]
+    ],
+    "sentence": "The mixed powder was pressed into pellets and then sintered for 2 h at 873 K ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The sintered pellets were ultimately powdered in a mortar ."
+  },
+  {
+    "triplets": [
+      [
+        "The LSnS electrolyte",
+        "produced",
+        "via a gas-phase synthesis route"
+      ]
+    ],
+    "sentence": "The LSnS electrolyte was produced via a gas-phase synthesis route ."
+  },
+  {
+    "triplets": [
+      [
+        "The stoichiometric Li2CO3(99.99",
+        "transferred",
+        "in a tubular furnace"
+      ]
+    ],
+    "sentence": "The stoichiometric Li2CO3(99.99 % , Innochem ) and SnO2(99.9 % , Macklin ) were hand-ground and transferred into an alumina crucible in a tubular furnace ."
+  },
+  {
+    "triplets": [],
+    "sentence": "N2with a controlled flow rate was passed through CS2liquid , thereby converting CS2into gaseous reaction gas into a tubular furnace ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The reactant was heated at 500 °C for 24 h , and the product was ground to obtain solid electrolyte powder ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Batteries Assembly The electrolyte pellet was formed by cold pressing 240 mg of electrolyte powder under 220 MPa in a battery mold with a diameter of 15 mm ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For the multilayer design , 140 mg of LPSCl and 100 mg of interlayer powder were used ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To create the cathode mixture , 350 mg of NCM811 and 150 mg of LPSCl powders were mixed and hand-ground for 30 min in an agate mortar ."
+  },
+  {
+    "triplets": [
+      [
+        "A cold press method",
+        "create",
+        "at 230 MPa"
+      ]
+    ],
+    "sentence": "A cold press method operating at 230 MPa was used to create the close contact between the composite cathode layer and the electrolyte pellet ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The mass loading of NCM811 was ≈5.2 mg cm-2 ."
+  },
+  {
+    "triplets": [
+      [
+        "Electrochemical Test Li||SNCM811",
+        "pressurized",
+        "in the homemade"
+      ]
+    ],
+    "sentence": "Electrochemical Test Li||SNCM811 were conducted in the homemade pressurized cell under 15 MPa during cycling ."
+  },
+  {
+    "triplets": [
+      [
+        "The Li||Li symmetric cells",
+        "cycled",
+        "under 15 MPa"
+      ]
+    ],
+    "sentence": "The Li||Li symmetric cells using composite SSEs with HVMEC-interlayer were cycled under 15 MPa ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The pressure of 15 MPa was befitting to make good interface contact of Li-SSE and NCM811-SSE ."
+  },
+  {
+    "triplets": [
+      [
+        "It",
+        "be",
+        "before cycling ( Figure , Supporting Information )"
+      ]
+    ],
+    "sentence": "It should be mentioned that the Li||Li symmetric cells with single HVMEF-SSEs and their composites were cycled under 5 MPa because the pressure of 15 MPa induces the cells to be short-circuited before cycling ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Galvanostatic charge-discharge experiments were conducted using the LAND systems ( CT2001A ) at 30 °C ."
+  },
+  {
+    "triplets": [
+      [
+        "Li||SNCM811 cells",
+        "cycled",
+        "at different C rates ( 1C = 180 mAh g-1 )"
+      ]
+    ],
+    "sentence": "Li||SNCM811 cells were cycled between 2.5 and 4.2 V at different C rates ( 1C = 180 mAh g-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "EIS measurements for the Li+ ion blocking setup ( stainless steel||electrolyte pellet||stainless steel ) under 220 MPa were used to obtain the temperature-dependent ionic conductivity of electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "The activation energy ( Ea ) of electrolytes",
+        "derived",
+        "from the Arrhenius relation"
+      ]
+    ],
+    "sentence": "The activation energy ( Ea ) of electrolytes was derived from the Arrhenius relation ."
+  },
+  {
+    "triplets": [
+      [
+        "The electronic conductivities of the samples",
+        "measured",
+        "at 220 MPa"
+      ]
+    ],
+    "sentence": "The electronic conductivities of the samples were measured by direct current ( DC ) polarization tests with externally applied voltages of 0.5 V for 1 h at 220 MPa ."
+  },
+  {
+    "triplets": [],
+    "sentence": "As for LSnS , DC polarization of 1 V was used to increase the current signal due to its low electronic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "The EIS tests of Li||Li symmetric cells",
+        "conducted",
+        "to 0.01 Hz"
+      ]
+    ],
+    "sentence": "The EIS tests of Li||Li symmetric cells were conducted by an electrochemical workstation ( CellTest 1470E , Solartron ) in the frequency range of 100 KHz to 0.01 Hz at 30 °C ."
+  },
+  {
+    "triplets": [
+      [
+        "Characterizations Powder XRD",
+        "using",
+        "on a RIGAKU D/MAX 2550/PC equipment"
+      ]
+    ],
+    "sentence": "Characterizations Powder XRD was measured on a RIGAKU D/MAX 2550/PC equipment using copper Kαradiation between 10° and 70° ( 2θ ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The XRD data",
+        "obtained",
+        "by scanning 2"
+      ]
+    ],
+    "sentence": "The XRD data for Rietveld refinements was obtained by scanning 2 s per step with a step of 0.02° between 10° and 120° ( 2θ ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the samples",
+        "sealed",
+        "with Kapton tape"
+      ],
+      [
+        "air exposure",
+        "mounted",
+        "on an X-ray diffractometer"
+      ]
+    ],
+    "sentence": "To prevent air exposure , the samples were sealed into a specimen holder with Kapton tape before being mounted on an X-ray diffractometer ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Raman spectra were collected using a Renishaw in Viareflex Raman spectrophotometer at the laser excitation source of 532 nm ."
+  },
+  {
+    "triplets": [
+      [
+        "The morphology of the solid electrolyte and Li anode",
+        "evaluated",
+        "at 5 kV"
+      ]
+    ],
+    "sentence": "The morphology of the solid electrolyte and Li anode was evaluated by SEM ( SU-8010 , Hitachi ) at 5 kV ."
+  },
+  {
+    "triplets": [
+      [
+        "morphology of sandwich-type electrolyte , ceramic cutting",
+        "used",
+        "with the ion beam polisher ( JEOL , IB-19520 , Japan )"
+      ]
+    ],
+    "sentence": "In order to achieve cross-sectional morphology of sandwich-type electrolyte , ceramic cutting combined with the ion beam polisher ( JEOL , IB-19520 , Japan ) was used ."
+  },
+  {
+    "triplets": [
+      [
+        "XPS",
+        "analyzed",
+        "as the excitation source"
+      ]
+    ],
+    "sentence": "XPS was analyzed by a Thermo Scientific K-Alpha X-ray photoelectron spectrometer with Al KαX-ray as the excitation source ."
+  },
+  {
+    "triplets": [
+      [
+        "Computational Procedure",
+        "applied",
+        "in this work"
+      ]
+    ],
+    "sentence": "Computational Procedure The Vienna Ab initio Simulation Package ( VASP ) was utilized for density functional theory ( DFT ) calculations in this work , and the Perdew-Burke-Ernzerhof ( PBE ) generalized gradient approximation ( GGA ) functional was applied ."
+  },
+  {
+    "triplets": [
+      [
+        "The material phase which",
+        "used",
+        "for the construction of the alloying phase diagram"
+      ]
+    ],
+    "sentence": "The material phase which can exist stably in the Materials Project ( MP ) database is used as the basis for the construction of the alloying phase diagram ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To calculate the reaction energy , the parameters such as the plane-wave energy cutoff andk"
+  },
+  {
+    "triplets": [
+      [
+        "-points density",
+        "ignored",
+        "as in previous studies"
+      ]
+    ],
+    "sentence": "-points density used in DFT calculations were consistent with the parameters employed for MP. In addition , the PV and entropy components ’ contributions to the computed reaction energies were ignored as in previous studies ."
+  },
+  {
+    "triplets": [],
+    "sentence": "More accurate parameters were used to calculate the density of state and band structure ."
+  },
+  {
+    "triplets": [
+      [
+        "A plane wave basis set",
+        "projected",
+        "with a kinetic energy cutoff of 500 eV"
+      ]
+    ],
+    "sentence": "A plane wave basis set was used with a kinetic energy cutoff of 500 eV to characterize the ionic cores and incorporate valence electrons using projected augmented wave ( PAW ) potentials ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Using the Gaussian smearing technique and a width of 0.05 eV , partial occupancies of the Kohn-Sham orbitals were permitted ."
+  },
+  {
+    "triplets": [],
+    "sentence": "When the energy shift was < 10-5 eV , the electronic energy was regarded as self-consistent ."
+  },
+  {
+    "triplets": [],
+    "sentence": "When the energy change was < 0.02 eV Å-1 , a geometry optimization was deemed to have reached convergence ."
+  },
+  {
+    "triplets": [
+      [
+        "The Brillouin zone",
+        "integrated",
+        "for all structures"
+      ]
+    ],
+    "sentence": "The Brillouin zone was integrated with a Monkhorst-Pack method for all structures ."
+  }
+]

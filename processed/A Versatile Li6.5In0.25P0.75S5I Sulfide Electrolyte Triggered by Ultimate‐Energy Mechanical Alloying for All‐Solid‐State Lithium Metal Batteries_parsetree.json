@@ -1,0 +1,3978 @@
+{
+  "label": "Document",
+  "children": [
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "SYM",
+              "children": [
+                "<"
+              ]
+            },
+            {
+              "label": "JJ",
+              "children": [
+                "|start_header_id|"
+              ]
+            },
+            {
+              "label": "SYM",
+              "children": [
+                ">"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "assistant"
+              ]
+            },
+            {
+              "label": "SYM",
+              "children": [
+                "<"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "|end_header_id|"
+              ]
+            },
+            {
+              "label": "SYM",
+              "children": [
+                ">"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "JJ",
+              "children": [
+                "experimental"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "part"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "paper"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBZ",
+              "children": [
+                "is"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-IN",
+                  "children": [
+                    "in"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "NN",
+                      "children": [
+                        "section"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "4"
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Experimental"
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Section"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "CD",
+                  "children": [
+                    "4"
+                  ]
+                },
+                {
+                  "label": "NNP",
+                  "children": [
+                    "Experimental"
+                  ]
+                },
+                {
+                  "label": "NNP",
+                  "children": [
+                    "Section"
+                  ]
+                },
+                {
+                  "label": "NN-SYNTHESIZE",
+                  "children": [
+                    "Synthesis"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-OF",
+                      "children": [
+                        "of"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "NN-CHEMENTITY",
+                          "children": [
+                            "materials"
+                          ]
+                        },
+                        {
+                          "label": "MOLECULE",
+                          "children": [
+                            {
+                              "label": "OSCARCM",
+                              "children": [
+                                {
+                                  "label": "OSCAR-CM",
+                                  "children": [
+                                    "Li6PS5I"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "JJ-CHEM",
+                              "children": [
+                                "glass-ceramic"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "was"
+                  ]
+                },
+                {
+                  "label": "VB-SYNTHESIZE",
+                  "children": [
+                    "synthesized"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-VIA",
+                      "children": [
+                        "via"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "MOLECULE",
+                          "children": [
+                            {
+                              "label": "OSCARCM",
+                              "children": [
+                                {
+                                  "label": "OSCAR-CM",
+                                  "children": [
+                                    "UEMA"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "PROCEDURE",
+                          "children": [
+                            {
+                              "label": "NN-METHOD",
+                              "children": [
+                                "method"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "JJ-CHEM",
+              "children": [
+                "starting"
+              ]
+            },
+            {
+              "label": "NN-CHEMENTITY",
+              "children": [
+                "materials"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "Li2S"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "MIXTURE",
+                  "children": [
+                    {
+                      "label": "_-LRB-",
+                      "children": [
+                        "("
+                      ]
+                    },
+                    {
+                      "label": "QUANTITY",
+                      "children": [
+                        {
+                          "label": "PERCENT",
+                          "children": [
+                            {
+                              "label": "CD",
+                              "children": [
+                                "99.9"
+                              ]
+                            },
+                            {
+                              "label": "NN-PERCENT",
+                              "children": [
+                                "%"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "COMMA",
+                      "children": [
+                        ","
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Alfa"
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Aesar"
+                      ]
+                    },
+                    {
+                      "label": "_-RRB-",
+                      "children": [
+                        ")"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "COMMA",
+              "children": [
+                ","
+              ]
+            },
+            {
+              "label": "QUANTITY",
+              "children": [
+                {
+                  "label": "PERCENT",
+                  "children": [
+                    {
+                      "label": "CD",
+                      "children": [
+                        "P2S5(99.9"
+                      ]
+                    },
+                    {
+                      "label": "NN-PERCENT",
+                      "children": [
+                        "%"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "COMMA",
+              "children": [
+                ","
+              ]
+            },
+            {
+              "label": "NNP",
+              "children": [
+                "Alfa"
+              ]
+            },
+            {
+              "label": "NNP",
+              "children": [
+                "Aesar"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "_-RRB-",
+              "children": [
+                ")"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "COMMA",
+              "children": [
+                ","
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "CC",
+              "children": [
+                "and"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "LiI"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "MIXTURE",
+                  "children": [
+                    {
+                      "label": "_-LRB-",
+                      "children": [
+                        "("
+                      ]
+                    },
+                    {
+                      "label": "QUANTITY",
+                      "children": [
+                        {
+                          "label": "PERCENT",
+                          "children": [
+                            {
+                              "label": "CD",
+                              "children": [
+                                "99.99"
+                              ]
+                            },
+                            {
+                              "label": "NN-PERCENT",
+                              "children": [
+                                "%"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "COMMA",
+                      "children": [
+                        ","
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Aladdin"
+                      ]
+                    },
+                    {
+                      "label": "_-RRB-",
+                      "children": [
+                        ")"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "QUANTITY",
+              "children": [
+                {
+                  "label": "MASS",
+                  "children": [
+                    {
+                      "label": "CD",
+                      "children": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "label": "NN-MASS",
+                      "children": [
+                        "g"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "JJ",
+              "children": [
+                "overall"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "mass"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "MOLECULE",
+                      "children": [
+                        {
+                          "label": "OSCARCM",
+                          "children": [
+                            {
+                              "label": "OSCAR-CM",
+                              "children": [
+                                "Li2S"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "COMMA",
+                      "children": [
+                        ","
+                      ]
+                    },
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "P2S5,and"
+                      ]
+                    },
+                    {
+                      "label": "MOLECULE",
+                      "children": [
+                        {
+                          "label": "OSCARCM",
+                          "children": [
+                            {
+                              "label": "OSCAR-CM",
+                              "children": [
+                                "LiI"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "IN-WITH",
+              "children": [
+                "with"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "NN-MOLAR",
+              "children": [
+                "molar"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "NN",
+              "children": [
+                "ratio"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "RATIO",
+                      "children": [
+                        {
+                          "label": "CD",
+                          "children": [
+                            "5"
+                          ]
+                        },
+                        {
+                          "label": "COLON",
+                          "children": [
+                            ":"
+                          ]
+                        },
+                        {
+                          "label": "CD",
+                          "children": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "label": "COLON",
+                          "children": [
+                            ":"
+                          ]
+                        },
+                        {
+                          "label": "CD",
+                          "children": [
+                            "2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "weighed"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "CC",
+          "children": [
+            "and"
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBN",
+              "children": [
+                "put"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-INTO",
+                  "children": [
+                    "into"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT",
+                      "children": [
+                        "a"
+                      ]
+                    },
+                    {
+                      "label": "MOLECULE",
+                      "children": [
+                        {
+                          "label": "OSCARCM",
+                          "children": [
+                            {
+                              "label": "OSCAR-CM",
+                              "children": [
+                                "zirconia"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "jar"
+                      ]
+                    },
+                    {
+                      "label": "QUANTITY",
+                      "children": [
+                        {
+                          "label": "_-LRB-",
+                          "children": [
+                            "("
+                          ]
+                        },
+                        {
+                          "label": "VOLUME",
+                          "children": [
+                            {
+                              "label": "CD",
+                              "children": [
+                                "125"
+                              ]
+                            },
+                            {
+                              "label": "NN-VOL",
+                              "children": [
+                                "mL"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "_-RRB-",
+                          "children": [
+                            ")"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-WITH",
+                  "children": [
+                    "with"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "CD",
+                      "children": [
+                        "25"
+                      ]
+                    },
+                    {
+                      "label": "MOLECULE",
+                      "children": [
+                        {
+                          "label": "OSCARCM",
+                          "children": [
+                            {
+                              "label": "OSCAR-CM",
+                              "children": [
+                                "zirconia"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "NNS",
+                      "children": [
+                        "balls"
+                      ]
+                    },
+                    {
+                      "label": "MIXTURE",
+                      "children": [
+                        {
+                          "label": "_-LRB-",
+                          "children": [
+                            "("
+                          ]
+                        },
+                        {
+                          "label": "CD",
+                          "children": [
+                            "10"
+                          ]
+                        },
+                        {
+                          "label": "CD",
+                          "children": [
+                            "mm"
+                          ]
+                        },
+                        {
+                          "label": "IN-IN",
+                          "children": [
+                            "in"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "diameter"
+                          ]
+                        },
+                        {
+                          "label": "COMMA",
+                          "children": [
+                            ","
+                          ]
+                        },
+                        {
+                          "label": "JJ",
+                          "children": [
+                            "overall"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "mass"
+                          ]
+                        },
+                        {
+                          "label": "SYM",
+                          "children": [
+                            "="
+                          ]
+                        },
+                        {
+                          "label": "QUANTITY",
+                          "children": [
+                            {
+                              "label": "MASS",
+                              "children": [
+                                {
+                                  "label": "CD",
+                                  "children": [
+                                    "75"
+                                  ]
+                                },
+                                {
+                                  "label": "NN-MASS",
+                                  "children": [
+                                    "g"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "_-RRB-",
+                          "children": [
+                            ")"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "JJ",
+              "children": [
+                "mechanosynthesized"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "process"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "was"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "carried"
+              ]
+            },
+            {
+              "label": "RP",
+              "children": [
+                "out"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-ON",
+                  "children": [
+                    "on"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "JJ",
+                      "children": [
+                        "mechanical"
+                      ]
+                    },
+                    {
+                      "label": "JJ-CHEM",
+                      "children": [
+                        "alloying"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "apparatus"
+                      ]
+                    },
+                    {
+                      "label": "CITATION",
+                      "children": [
+                        {
+                          "label": "_-LRB-",
+                          "children": [
+                            "("
+                          ]
+                        },
+                        {
+                          "label": "NNP",
+                          "children": [
+                            "Retsch"
+                          ]
+                        },
+                        {
+                          "label": "COMMA",
+                          "children": [
+                            ","
+                          ]
+                        },
+                        {
+                          "label": "NNP",
+                          "children": [
+                            "Emax"
+                          ]
+                        },
+                        {
+                          "label": "_-RRB-",
+                          "children": [
+                            ")"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-WITH",
+                  "children": [
+                    "with"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "CD",
+                      "children": [
+                        "1200"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "rpm"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "IN-FOR",
+              "children": [
+                "for"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "TimePhrase",
+          "children": [
+            {
+              "label": "JJ",
+              "children": [
+                "different"
+              ]
+            },
+            {
+              "label": "DT",
+              "children": [
+                "alloying"
+              ]
+            },
+            {
+              "label": "NN-TIME",
+              "children": [
+                "time"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "IN-IN",
+              "children": [
+                "In"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "NN",
+                  "children": [
+                    "order"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "TO",
+              "children": [
+                "to"
+              ]
+            },
+            {
+              "label": "VB",
+              "children": [
+                "avoid"
+              ]
+            },
+            {
+              "label": "TempPhrase",
+              "children": [
+                {
+                  "label": "NN-TEMP",
+                  "children": [
+                    "high-temperature"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "NN",
+              "children": [
+                "decomposition"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "NNS",
+                      "children": [
+                        "samples"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "JJ",
+              "children": [
+                "due"
+              ]
+            },
+            {
+              "label": "TO",
+              "children": [
+                "to"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "JJ-CHEM",
+                  "children": [
+                    "high-speed"
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "grinding"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "COMMA",
+          "children": [
+            ","
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "JJ-CHEM",
+                  "children": [
+                    "milling"
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "apparatus"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "was"
+                  ]
+                },
+                {
+                  "label": "VB-APPARATUS",
+                  "children": [
+                    "equipped"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-WITH",
+                      "children": [
+                        "with"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT",
+                          "children": [
+                            "a"
+                          ]
+                        },
+                        {
+                          "label": "JJ-CHEM",
+                          "children": [
+                            "cooling"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "machine"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "TO",
+                  "children": [
+                    "to"
+                  ]
+                },
+                {
+                  "label": "VB-HEAT",
+                  "children": [
+                    "maintain"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "NN-TEMP",
+                  "children": [
+                    "temperature"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-OF",
+                      "children": [
+                        "of"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT-THE",
+                          "children": [
+                            "the"
+                          ]
+                        },
+                        {
+                          "label": "MOLECULE",
+                          "children": [
+                            {
+                              "label": "OSCARCM",
+                              "children": [
+                                {
+                                  "label": "OSCAR-CM",
+                                  "children": [
+                                    "zirconia"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "jar"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "TempPhrase",
+              "children": [
+                {
+                  "label": "IN",
+                  "children": [
+                    "at"
+                  ]
+                },
+                {
+                  "label": "CD",
+                  "children": [
+                    "298-308"
+                  ]
+                },
+                {
+                  "label": "NN-TEMP",
+                  "children": [
+                    "K"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "Unmatched",
+              "children": [
+                {
+                  "label": "IN-IN",
+                  "children": [
+                    "In"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Unmatched",
+              "children": [
+                {
+                  "label": "JJ",
+                  "children": [
+                    "particular"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Unmatched",
+              "children": [
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "WRB",
+                  "children": [
+                    "when"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "JJ",
+                  "children": [
+                    "mechanical"
+                  ]
+                },
+                {
+                  "label": "JJ-CHEM",
+                  "children": [
+                    "alloying"
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "timet"
+                  ]
+                },
+                {
+                  "label": "SYM",
+                  "children": [
+                    "="
+                  ]
+                },
+                {
+                  "label": "CD",
+                  "children": [
+                    "0"
+                  ]
+                },
+                {
+                  "label": "NN-TIME",
+                  "children": [
+                    "min"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "COMMA",
+              "children": [
+                ","
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "JJ",
+                  "children": [
+                    "raw"
+                  ]
+                },
+                {
+                  "label": "NN-CHEMENTITY",
+                  "children": [
+                    "materials"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "were"
+                  ]
+                },
+                {
+                  "label": "VB-ADD",
+                  "children": [
+                    "mixed"
+                  ]
+                },
+                {
+                  "label": "RB",
+                  "children": [
+                    "uniformly"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-IN",
+                      "children": [
+                        "in"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT",
+                          "children": [
+                            "a"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "mortar"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "TimePhrase",
+                  "children": [
+                    {
+                      "label": "IN-FOR",
+                      "children": [
+                        "for"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "20"
+                      ]
+                    },
+                    {
+                      "label": "NN-TIME",
+                      "children": [
+                        "min"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "The"
+                  ]
+                },
+                {
+                  "label": "JJ",
+                  "children": [
+                    "traditional"
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "Li6PS5I"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "NN-STATE",
+                      "children": [
+                        "crystal"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "was"
+                  ]
+                },
+                {
+                  "label": "VB-SYNTHESIZE",
+                  "children": [
+                    "synthesized"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-VIA",
+                      "children": [
+                        "via"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "NN",
+                          "children": [
+                            "milling"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN",
+                      "children": [
+                        "at"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "CD",
+                          "children": [
+                            "600"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "TimePhrase",
+                  "children": [
+                    {
+                      "label": "JJ",
+                      "children": [
+                        "rpm"
+                      ]
+                    },
+                    {
+                      "label": "IN-FOR",
+                      "children": [
+                        "for"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "13"
+                      ]
+                    },
+                    {
+                      "label": "NN-TIME",
+                      "children": [
+                        "h"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "JJ-CHEM",
+              "children": [
+                "obtained"
+              ]
+            },
+            {
+              "label": "NNS",
+              "children": [
+                "precursors"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "pressed"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-INTO",
+                  "children": [
+                    "into"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "NNS",
+                      "children": [
+                        "pellets"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "COMMA",
+          "children": [
+            ","
+          ]
+        },
+        {
+          "label": "CC",
+          "children": [
+            "and"
+          ]
+        },
+        {
+          "label": "RB-CONJ",
+          "children": [
+            "then"
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VB-APPARATUS",
+                  "children": [
+                    "sealed"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-IN",
+                      "children": [
+                        "in"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT",
+                          "children": [
+                            "a"
+                          ]
+                        },
+                        {
+                          "label": "JJ-CHEM",
+                          "children": [
+                            "quartz"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "ampule"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "CC",
+          "children": [
+            "and"
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "annealed"
+                  ]
+                },
+                {
+                  "label": "TempPhrase",
+                  "children": [
+                    {
+                      "label": "IN",
+                      "children": [
+                        "at"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "873"
+                      ]
+                    },
+                    {
+                      "label": "NN-TEMP",
+                      "children": [
+                        "K"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "TimePhrase",
+                  "children": [
+                    {
+                      "label": "IN-FOR",
+                      "children": [
+                        "for"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "label": "NN-TIME",
+                      "children": [
+                        "h"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "IN-FOR",
+              "children": [
+                "For"
+              ]
+            },
+            {
+              "label": "VBG",
+              "children": [
+                "ensuring"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "JJ",
+                  "children": [
+                    "adequate"
+                  ]
+                },
+                {
+                  "label": "NN-SYNTHESIZE",
+                  "children": [
+                    "reaction"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-OF",
+                      "children": [
+                        "of"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT-THE",
+                          "children": [
+                            "the"
+                          ]
+                        },
+                        {
+                          "label": "JJ",
+                          "children": [
+                            "raw"
+                          ]
+                        },
+                        {
+                          "label": "NN-CHEMENTITY",
+                          "children": [
+                            "materials"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "COMMA",
+          "children": [
+            ","
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "Li6PS5Br"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "Li6PS5Cl"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                },
+                {
+                  "label": "CC",
+                  "children": [
+                    "and"
+                  ]
+                },
+                {
+                  "label": "NNP",
+                  "children": [
+                    "Li6.5In0.25P0.75S5I"
+                  ]
+                },
+                {
+                  "label": "NNS",
+                  "children": [
+                    "electrolytes"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "were"
+                  ]
+                },
+                {
+                  "label": "VB-SYNTHESIZE",
+                  "children": [
+                    "prepared"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-VIA",
+                      "children": [
+                        "via"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "JJ",
+                          "children": [
+                            "mechanical"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "alloying"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN",
+                      "children": [
+                        "at"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "CD",
+                          "children": [
+                            "1200"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "rpm"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "TimePhrase",
+                  "children": [
+                    {
+                      "label": "IN-FOR",
+                      "children": [
+                        "for"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "60"
+                      ]
+                    },
+                    {
+                      "label": "NN-TIME",
+                      "children": [
+                        "min"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "cathode"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "IN-IN",
+              "children": [
+                "in"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "NN-STATE",
+                  "children": [
+                    "solid-state"
+                  ]
+                },
+                {
+                  "label": "NNS",
+                  "children": [
+                    "batteries"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "consisted"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "JJ",
+                      "children": [
+                        "sublimed"
+                      ]
+                    },
+                    {
+                      "label": "MOLECULE",
+                      "children": [
+                        {
+                          "label": "OSCARCM",
+                          "children": [
+                            {
+                              "label": "OSCAR-CM",
+                              "children": [
+                                "sulfur"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "COMMA",
+                      "children": [
+                        ","
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "vapor"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBN",
+              "children": [
+                "grown"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "carbon"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "fiber"
+              ]
+            },
+            {
+              "label": "MIXTURE",
+              "children": [
+                {
+                  "label": "_-LRB-",
+                  "children": [
+                    "("
+                  ]
+                },
+                {
+                  "label": "NNP",
+                  "children": [
+                    "VGCF"
+                  ]
+                },
+                {
+                  "label": "_-RRB-",
+                  "children": [
+                    ")"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "COMMA",
+              "children": [
+                ","
+              ]
+            },
+            {
+              "label": "CC",
+              "children": [
+                "and"
+              ]
+            },
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "SSE"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "The"
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "S"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "VGCF"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                },
+                {
+                  "label": "CC",
+                  "children": [
+                    "and"
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "SSE"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "were"
+                  ]
+                },
+                {
+                  "label": "VB-ADD",
+                  "children": [
+                    "mixed"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN",
+                      "children": [
+                        "at"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "DT-THE",
+                          "children": [
+                            "the"
+                          ]
+                        },
+                        {
+                          "label": "JJ-CHEM",
+                          "children": [
+                            "mass"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "ratio"
+                          ]
+                        },
+                        {
+                          "label": "PrepPhrase",
+                          "children": [
+                            {
+                              "label": "IN-OF",
+                              "children": [
+                                "of"
+                              ]
+                            },
+                            {
+                              "label": "NounPhrase",
+                              "children": [
+                                {
+                                  "label": "RATIO",
+                                  "children": [
+                                    {
+                                      "label": "CD",
+                                      "children": [
+                                        "7"
+                                      ]
+                                    },
+                                    {
+                                      "label": "COLON",
+                                      "children": [
+                                        ":"
+                                      ]
+                                    },
+                                    {
+                                      "label": "CD",
+                                      "children": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "label": "COLON",
+                                      "children": [
+                                        ":"
+                                      ]
+                                    },
+                                    {
+                                      "label": "CD",
+                                      "children": [
+                                        "2"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "IN-BY",
+                  "children": [
+                    "by"
+                  ]
+                },
+                {
+                  "label": "VBG",
+                  "children": [
+                    "grinding"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN",
+                      "children": [
+                        "at"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "CD",
+                          "children": [
+                            "300"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "rpm"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "TimePhrase",
+                  "children": [
+                    {
+                      "label": "IN-FOR",
+                      "children": [
+                        "for"
+                      ]
+                    },
+                    {
+                      "label": "CD",
+                      "children": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "label": "NN-TIME",
+                      "children": [
+                        "h"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "Unmatched",
+              "children": [
+                {
+                  "label": "DT",
+                  "children": [
+                    "All"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "NN-SYNTHESIZE",
+                      "children": [
+                        "preparation"
+                      ]
+                    },
+                    {
+                      "label": "NNS",
+                      "children": [
+                        "processes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VBD",
+                  "children": [
+                    "were"
+                  ]
+                },
+                {
+                  "label": "VBN",
+                  "children": [
+                    "operated"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-IN",
+                      "children": [
+                        "in"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "MultipleApparatus",
+                          "children": [
+                            {
+                              "label": "APPARATUS",
+                              "children": [
+                                {
+                                  "label": "DT",
+                                  "children": [
+                                    "an"
+                                  ]
+                                },
+                                {
+                                  "label": "MOLECULE",
+                                  "children": [
+                                    {
+                                      "label": "OSCARCM",
+                                      "children": [
+                                        {
+                                          "label": "OSCAR-CM",
+                                          "children": [
+                                            "argon-filled"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "NN-APPARATUS",
+                                  "children": [
+                                    "glove"
+                                  ]
+                                },
+                                {
+                                  "label": "NN-APPARATUS",
+                                  "children": [
+                                    "box"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "MIXTURE",
+              "children": [
+                {
+                  "label": "_-LRB-",
+                  "children": [
+                    "("
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "H2O"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "SYM",
+                  "children": [
+                    "<"
+                  ]
+                },
+                {
+                  "label": "CD",
+                  "children": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "ppm"
+                  ]
+                },
+                {
+                  "label": "COMMA",
+                  "children": [
+                    ","
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "O2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "SYM",
+                  "children": [
+                    "<"
+                  ]
+                },
+                {
+                  "label": "CD",
+                  "children": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "ppm"
+                  ]
+                },
+                {
+                  "label": "_-RRB-",
+                  "children": [
+                    ")"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "NNP",
+              "children": [
+                "Air"
+              ]
+            },
+            {
+              "label": "NNP",
+              "children": [
+                "Stability"
+              ]
+            },
+            {
+              "label": "NNPS",
+              "children": [
+                "Measurements"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "IN-FOR",
+              "children": [
+                "For"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "DT-THE",
+                  "children": [
+                    "the"
+                  ]
+                },
+                {
+                  "label": "MOLECULE",
+                  "children": [
+                    {
+                      "label": "OSCARCM",
+                      "children": [
+                        {
+                          "label": "OSCAR-CM",
+                          "children": [
+                            "H2S"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "NN",
+                  "children": [
+                    "generation"
+                  ]
+                },
+                {
+                  "label": "NNS",
+                  "children": [
+                    "tests"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "COMMA",
+          "children": [
+            ","
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "the"
+              ]
+            },
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "sulfide"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NNS",
+              "children": [
+                "samples"
+              ]
+            },
+            {
+              "label": "QUANTITY",
+              "children": [
+                {
+                  "label": "_-LRB-",
+                  "children": [
+                    "("
+                  ]
+                },
+                {
+                  "label": "MASS",
+                  "children": [
+                    {
+                      "label": "CD",
+                      "children": [
+                        "150"
+                      ]
+                    },
+                    {
+                      "label": "NN-MASS",
+                      "children": [
+                        "mg"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "_-RRB-",
+                  "children": [
+                    ")"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "pressed"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-INTO",
+                  "children": [
+                    "into"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "pellet"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "Unmatched",
+          "children": [
+            {
+              "label": "RB-CONJ",
+              "children": [
+                "Then"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "the"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "pellet"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "CC",
+          "children": [
+            "and"
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT",
+              "children": [
+                "a"
+              ]
+            },
+            {
+              "label": "MOLECULE",
+              "children": [
+                {
+                  "label": "OSCARCM",
+                  "children": [
+                    {
+                      "label": "OSCAR-CM",
+                      "children": [
+                        "H2S"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "NN-STATE",
+                  "children": [
+                    "gas"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "sensor"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "put"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-INTO",
+                  "children": [
+                    "into"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT",
+                      "children": [
+                        "a"
+                      ]
+                    },
+                    {
+                      "label": "JJ-CHEM",
+                      "children": [
+                        "sealed"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "container"
+                      ]
+                    },
+                    {
+                      "label": "QUANTITY",
+                      "children": [
+                        {
+                          "label": "_-LRB-",
+                          "children": [
+                            "("
+                          ]
+                        },
+                        {
+                          "label": "VOLUME",
+                          "children": [
+                            {
+                              "label": "CD",
+                              "children": [
+                                "10"
+                              ]
+                            },
+                            {
+                              "label": "NN-VOL",
+                              "children": [
+                                "L"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "_-RRB-",
+                          "children": [
+                            ")"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ActionPhrase",
+          "children": [
+            {
+              "label": "VerbPhrase",
+              "children": [
+                {
+                  "label": "VB-FILL",
+                  "children": [
+                    "filled"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-WITH",
+                      "children": [
+                        "with"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "JJ",
+                          "children": [
+                            "humid"
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "air"
+                          ]
+                        },
+                        {
+                          "label": "MIXTURE",
+                          "children": [
+                            {
+                              "label": "_-LRB-",
+                              "children": [
+                                "("
+                              ]
+                            },
+                            {
+                              "label": "NN",
+                              "children": [
+                                "humidity"
+                              ]
+                            },
+                            {
+                              "label": "IN",
+                              "children": [
+                                "around"
+                              ]
+                            },
+                            {
+                              "label": "QUANTITY",
+                              "children": [
+                                {
+                                  "label": "PERCENT",
+                                  "children": [
+                                    {
+                                      "label": "CD",
+                                      "children": [
+                                        "10"
+                                      ]
+                                    },
+                                    {
+                                      "label": "NN-PERCENT",
+                                      "children": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "_-RRB-",
+                              "children": [
+                                ")"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "JJ-CHEM",
+              "children": [
+                "measurement"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "process"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "was"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-IN",
+                  "children": [
+                    "in"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "JJ-CHEM",
+                      "children": [
+                        "drying"
+                      ]
+                    },
+                    {
+                      "label": "NN-TEMP",
+                      "children": [
+                        "room"
+                      ]
+                    },
+                    {
+                      "label": "COMMA",
+                      "children": [
+                        ","
+                      ]
+                    },
+                    {
+                      "label": "WDT",
+                      "children": [
+                        "which"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "MD",
+              "children": [
+                "could"
+              ]
+            },
+            {
+              "label": "VB",
+              "children": [
+                "control"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "the"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "humidity"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "IN-IN",
+              "children": [
+                "In"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "NN",
+                  "children": [
+                    "addition"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "COMMA",
+          "children": [
+            ","
+          ]
+        },
+        {
+          "label": "PrepPhrase",
+          "children": [
+            {
+              "label": "IN-AFTER",
+              "children": [
+                "after"
+              ]
+            },
+            {
+              "label": "NounPhrase",
+              "children": [
+                {
+                  "label": "NN",
+                  "children": [
+                    "exposure"
+                  ]
+                },
+                {
+                  "label": "PrepPhrase",
+                  "children": [
+                    {
+                      "label": "IN-OF",
+                      "children": [
+                        "of"
+                      ]
+                    },
+                    {
+                      "label": "NounPhrase",
+                      "children": [
+                        {
+                          "label": "QUANTITY",
+                          "children": [
+                            {
+                              "label": "PERCENT",
+                              "children": [
+                                {
+                                  "label": "CD",
+                                  "children": [
+                                    "10"
+                                  ]
+                                },
+                                {
+                                  "label": "NN-PERCENT",
+                                  "children": [
+                                    "%"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "NN",
+                          "children": [
+                            "humidity"
+                          ]
+                        },
+                        {
+                          "label": "COMMA",
+                          "children": [
+                            ","
+                          ]
+                        },
+                        {
+                          "label": "NNP",
+                          "children": [
+                            "XRD"
+                          ]
+                        },
+                        {
+                          "label": "CC",
+                          "children": [
+                            "and"
+                          ]
+                        },
+                        {
+                          "label": "NNP",
+                          "children": [
+                            "Raman"
+                          ]
+                        },
+                        {
+                          "label": "NNS",
+                          "children": [
+                            "measurements"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBD",
+              "children": [
+                "were"
+              ]
+            },
+            {
+              "label": "VBN",
+              "children": [
+                "conducted"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-FOR",
+                  "children": [
+                    "for"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "DT-THE",
+                      "children": [
+                        "the"
+                      ]
+                    },
+                    {
+                      "label": "NN",
+                      "children": [
+                        "electrolyte"
+                      ]
+                    },
+                    {
+                      "label": "NNS",
+                      "children": [
+                        "samples"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sentence",
+      "children": [
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "NNP",
+              "children": [
+                "Conflict"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "NNP",
+                      "children": [
+                        "Interest"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT-THE",
+              "children": [
+                "The"
+              ]
+            },
+            {
+              "label": "NNS",
+              "children": [
+                "authors"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "VerbPhrase",
+          "children": [
+            {
+              "label": "VBP",
+              "children": [
+                "declare"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "NounPhrase",
+          "children": [
+            {
+              "label": "DT",
+              "children": [
+                "no"
+              ]
+            },
+            {
+              "label": "NN",
+              "children": [
+                "conflict"
+              ]
+            },
+            {
+              "label": "PrepPhrase",
+              "children": [
+                {
+                  "label": "IN-OF",
+                  "children": [
+                    "of"
+                  ]
+                },
+                {
+                  "label": "NounPhrase",
+                  "children": [
+                    {
+                      "label": "NN",
+                      "children": [
+                        "interest"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "STOP",
+          "children": [
+            "."
+          ]
+        }
+      ]
+    }
+  ]
+}
