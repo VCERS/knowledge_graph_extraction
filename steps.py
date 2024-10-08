@@ -29,6 +29,9 @@ def extract_triplets_by_sentence(doc):
     triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})
   return triplets_by_sentence
 
+def tree2dict(tree):
+  return {tree.node: [tree2dict(t)  if isinstance(t, Tree) else t for t in tree]}
+
 def main(unused_argv):
   if exists(FLAGS.output_dir): rmtree(FLAGS.output_dir)
   mkdir(FLAGS.output_dir)
@@ -50,12 +53,12 @@ def main(unused_argv):
         f.write(results)
       print('2) parsing text')
       tree = oscar.parse(results)
-      with open(join(FLAGS.output_dir, stem + '_parsetree.pkl'), 'wb') as f:
-        f.write(pickle.dumps(tree))
+      with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
+        f.write(json.dumps(tree2dict(tree)))
       print('3) extracting triplets')
       triplets = extract_triplets_by_sentence(tree)
-      with open(join(FLAGS.output_dir, stem + '_triplets.pkl'), 'wb') as f:
-        f.write(pickle.dumps(triplets))
+      with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
+        f.write(json.dumps(triplets))
 
 if __name__ == "__main__":
   add_options()
