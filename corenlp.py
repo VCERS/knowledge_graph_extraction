@@ -21,7 +21,7 @@ class CoreNLP(object):
     StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
     self.Annotation = jpype.JClass('edu.stanford.nlp.pipeline.Annotation')
     self.CoreAnnotation = jpype.JClass('edu.stanford.nlp.ling.CoreAnnotations')
-    self.NaturalLogicAnnotations = jpype.JClass('edu.stanford.nlp.naturalli.NaturalLogicAnnotations')
+    self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
     props = Properties()
     props.setProperty('annotators', "tokenize,pos,lemma,ner,parse,depparse,coref,kbp,quote,natlog,openie")
@@ -32,8 +32,8 @@ class CoreNLP(object):
     text = self.String(text)
     document = self.Annotation(text)
     self.pipeline.annotate(document)
-    for sentence in document.get(self.CoreAnnotation.SentencesAnnotation.__javaclass__):
-      triplets = sentence.get(self.NaturalLogicAnnotations.RelationTriplesAnnotation.__javaclass__)
+    for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
+      triplets = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.naturalli.NaturalLogicAnnotations$RelationTriplesAnnotation')))
       for triplet in triplets:
         print((triplet.subjectLemmaGloss(),triplet.relationLemmaGloss(),triplet.objectLemmaGloss()))
 
