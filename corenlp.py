@@ -9,8 +9,10 @@ from wget import download
 
 class CoreNLP(object):
   def __init__(self,):
-    if not exists('stanford-corenlp-4.5.7-models-english.jar'): download('https://search.maven.org/remotecontent?filepath=edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7-models-english.jar', out = '.')
-    jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','stanford-corenlp-4.5.7-models-english.jar'])
+    if not exists('stanford-corenlp-4.5.7.jar'): download('https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7.jar', out = '.')
+    if not exists('stanford-corenlp-4.5.7-models.jar'): download('https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7-models.jar', out = '.')
+    if not exists('stanford-corenlp-4.5.7-models-english.jar'): download('https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7-models-english.jar', out = '.')
+    jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','stanford-corenlp-4.5.7.jar','stanford-corenlp-4.5.7-models.jar','stanford-corenlp-4.5.7-models-english.jar'])
     Properties = jpype.JClass('java.util.Properties')
     StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
     self.CoreDocument = jpype.JClass('edu.stanford.nlp.pipeline.CoreDocument')
