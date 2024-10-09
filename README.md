@@ -14,5 +14,5 @@ python3 -m pip install -r requirements.txt
 ## extract experimental steps
 
 ```shell
-python3 steps.py --input_dir <path/to/literatures/in/markdown/format> --output_dir <output/path>
+python3 main.py --input_dir <path/to/literatures/in/markdown/format> --output_dir <output/path> --method (oscar|corenlp)
 ```
