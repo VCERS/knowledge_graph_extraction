@@ -33,8 +33,8 @@ class CoreNLP(object):
     document = self.Annotation(text)
     self.pipeline.annotate(document)
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
-      tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$TreeAnnotation')))
-      print(tree)
+      tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation')))
+      print(tree.toString())
       break
   def triplets(self, text):
     text = self.String(text)
