@@ -1,0 +1,739 @@
+[
+  {
+    "triplets": [],
+    "sentence": "<|start_header_id|>assistant<|end_header_id|>\n\n4 Experimental Section\n\nSynthesis of materials\n\nLi6PS5I glass-ceramic was synthesized via UEMA method."
+  },
+  {
+    "triplets": [
+      [
+        "start material",
+        "be",
+        "li2s"
+      ],
+      [
+        "material",
+        "be",
+        "li2s"
+      ]
+    ],
+    "sentence": "The starting materials were Li2S (99.9%, Alfa Aesar), P2S5(99.9%, Alfa Aesar), and LiI (99.99%, Aladdin)."
+  },
+  {
+    "triplets": [
+      [
+        "25 zirconia ball",
+        "mm in",
+        "diameter"
+      ],
+      [
+        "10 mm",
+        "be in",
+        "diameter"
+      ],
+      [
+        "lii",
+        "be with",
+        "molar ratio of 5 1 2"
+      ]
+    ],
+    "sentence": "2 g overall mass of Li2S, P2S5,and LiI with molar ratio of 5: 1: 2 were weighed and put into a zirconia jar (125mL) with 25 zirconia balls (10 mm in diameter, overall mass = 75 g)."
+  },
+  {
+    "triplets": [
+      [
+        "mechanosynthesized process",
+        "be carry out on",
+        "alloying apparatus"
+      ],
+      [
+        "process",
+        "be carry out on",
+        "alloying apparatus"
+      ],
+      [
+        "process",
+        "be carry out with",
+        "1200 rpm"
+      ],
+      [
+        "mechanosynthesized process",
+        "be carry out for",
+        "alloying time"
+      ],
+      [
+        "mechanosynthesized process",
+        "be carry out with",
+        "1200 rpm"
+      ],
+      [
+        "process",
+        "be carry out for",
+        "different alloying time"
+      ],
+      [
+        "process",
+        "be carry out on",
+        "mechanical alloying apparatus"
+      ],
+      [
+        "process",
+        "be carry out for",
+        "alloying time"
+      ],
+      [
+        "mechanosynthesized process",
+        "be carry out on",
+        "mechanical alloying apparatus"
+      ],
+      [
+        "mechanosynthesized process",
+        "be carry out for",
+        "different alloying time"
+      ]
+    ],
+    "sentence": "The mechanosynthesized process was carried out on the mechanical alloying apparatus (Retsch, Emax) with 1200 rpm for different alloying time."
+  },
+  {
+    "triplets": [
+      [
+        "order",
+        "avoid",
+        "high temperature decomposition of sample"
+      ],
+      [
+        "milling apparatus",
+        "be equip with",
+        "cool machine"
+      ],
+      [
+        "milling apparatus",
+        "be",
+        "equip"
+      ],
+      [
+        "milling apparatus",
+        "maintain",
+        "temperature of zirconia jar"
+      ],
+      [
+        "order",
+        "avoid",
+        "temperature decomposition of sample"
+      ],
+      [
+        "order",
+        "avoid temperature decomposition due",
+        "grind"
+      ],
+      [
+        "order",
+        "avoid",
+        "high temperature decomposition"
+      ],
+      [
+        "order",
+        "avoid",
+        "temperature decomposition"
+      ],
+      [
+        "milling apparatus",
+        "maintain",
+        "temperature"
+      ],
+      [
+        "milling apparatus",
+        "be equip with",
+        "machine"
+      ]
+    ],
+    "sentence": "In order to avoid high-temperature decomposition of samples due to high-speed grinding, the milling apparatus was equipped with a cooling machine to maintain the temperature of the zirconia jar at 298–308 K."
+  },
+  {
+    "triplets": [
+      [
+        "material",
+        "be",
+        "mix"
+      ],
+      [
+        "material",
+        "be mix uniformly in",
+        "mortar"
+      ],
+      [
+        "raw material",
+        "be",
+        "mix in mortar for 20 min."
+      ],
+      [
+        "raw material",
+        "be mix uniformly for",
+        "20 min."
+      ],
+      [
+        "material",
+        "be mix in",
+        "mortar"
+      ],
+      [
+        "raw material",
+        "be mix in",
+        "particular"
+      ],
+      [
+        "raw material",
+        "be mix for",
+        "20 min."
+      ],
+      [
+        "material",
+        "be",
+        "mix uniformly"
+      ],
+      [
+        "raw material",
+        "be",
+        "mix uniformly"
+      ],
+      [
+        "raw material",
+        "be",
+        "mix uniformly in mortar for 20 min."
+      ],
+      [
+        "material",
+        "be",
+        "mix uniformly in mortar for 20 min."
+      ],
+      [
+        "raw material",
+        "be mix uniformly in",
+        "particular"
+      ],
+      [
+        "raw material",
+        "be",
+        "mix"
+      ],
+      [
+        "raw material",
+        "be mix in",
+        "mortar"
+      ],
+      [
+        "material",
+        "be mix in",
+        "particular"
+      ],
+      [
+        "material",
+        "be mix for",
+        "20 min."
+      ],
+      [
+        "raw material",
+        "be mix uniformly in",
+        "mortar"
+      ],
+      [
+        "material",
+        "be",
+        "mix in mortar for 20 min."
+      ],
+      [
+        "material",
+        "be mix uniformly in",
+        "particular"
+      ],
+      [
+        "material",
+        "be mix uniformly for",
+        "20 min."
+      ]
+    ],
+    "sentence": "In particular, when the mechanical alloying timet= 0 min, the raw materials were mixed uniformly in a mortar for 20 min."
+  },
+  {
+    "triplets": [
+      [
+        "traditional li6ps5i crystal",
+        "be synthesize for",
+        "13 h"
+      ],
+      [
+        "li6ps5i crystal",
+        "be synthesize for",
+        "13 h"
+      ],
+      [
+        "li6ps5i crystal",
+        "be",
+        "synthesize at 600 rpm for 13 h"
+      ],
+      [
+        "li6ps5i crystal",
+        "be synthesize via",
+        "milling"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be synthesize at",
+        "600 rpm"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be",
+        "synthesize via milling at 600 rpm"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be",
+        "synthesize at 600 rpm for 13 h"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be",
+        "synthesize via milling for 13 h"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be",
+        "synthesize"
+      ],
+      [
+        "li6ps5i crystal",
+        "be",
+        "synthesize via milling at 600 rpm"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be",
+        "synthesize via milling at 600 rpm for 13 h"
+      ],
+      [
+        "traditional li6ps5i crystal",
+        "be synthesize via",
+        "milling"
+      ],
+      [
+        "li6ps5i crystal",
+        "be",
+        "synthesize via milling at 600 rpm for 13 h"
+      ],
+      [
+        "li6ps5i crystal",
+        "be synthesize at",
+        "600 rpm"
+      ],
+      [
+        "li6ps5i crystal",
+        "be",
+        "synthesize"
+      ],
+      [
+        "li6ps5i crystal",
+        "be",
+        "synthesize via milling for 13 h"
+      ]
+    ],
+    "sentence": "The traditional Li6PS5I crystal was synthesized via milling at 600 rpm for 13 h."
+  },
+  {
+    "triplets": [
+      [
+        "obtain precursor",
+        "be press into",
+        "pellet"
+      ],
+      [
+        "precursor",
+        "be",
+        "press"
+      ],
+      [
+        "precursor",
+        "seal in",
+        "quartz ampule"
+      ],
+      [
+        "obtain precursor",
+        "be",
+        "press"
+      ],
+      [
+        "obtain precursor",
+        "seal in",
+        "quartz ampule"
+      ],
+      [
+        "precursor",
+        "be press into",
+        "pellet"
+      ]
+    ],
+    "sentence": "The obtained precursors were pressed into pellets, and then sealed in a quartz ampule and annealed at 873 K for 2 h."
+  },
+  {
+    "triplets": [
+      [
+        "Li",
+        "be prepare at",
+        "1200 rpm"
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via alloying at 1200 rpm for 60 min."
+      ],
+      [
+        "Li",
+        "be prepare for",
+        "60 min."
+      ],
+      [
+        "Li 6.5",
+        "be prepare for",
+        "60 min."
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via alloying at 1200 rpm"
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via alloying for 60 min."
+      ],
+      [
+        "Li 6.5",
+        "be prepare at",
+        "1200 rpm"
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via alloying at 1200 rpm for 60 min."
+      ],
+      [
+        "Li",
+        "be prepare via",
+        "alloying"
+      ],
+      [
+        "Li 6.5",
+        "be prepare via",
+        "alloying"
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via alloying at 1200 rpm"
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare"
+      ],
+      [
+        "Li 6.5",
+        "be prepare via",
+        "mechanical alloying"
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via mechanical alloying at 1200 rpm for 60 min."
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare at 1200 rpm for 60 min."
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via mechanical alloying at 1200 rpm for 60 min."
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via mechanical alloying at 1200 rpm"
+      ],
+      [
+        "Li",
+        "be in",
+        "0.25p 0.75 s5i electrolyte"
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via mechanical alloying for 60 min."
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via alloying for 60 min."
+      ],
+      [
+        "Li",
+        "be",
+        "prepare at 1200 rpm for 60 min."
+      ],
+      [
+        "Li",
+        "be",
+        "prepare"
+      ],
+      [
+        "Li",
+        "be prepare via",
+        "mechanical alloying"
+      ],
+      [
+        "Li",
+        "be",
+        "prepare via mechanical alloying for 60 min."
+      ],
+      [
+        "Li 6.5",
+        "be",
+        "prepare via mechanical alloying at 1200 rpm"
+      ]
+    ],
+    "sentence": "For ensuring the adequate reaction of the raw materials, the Li6PS5Br, Li6PS5Cl, and Li6.5In0.25P0.75S5I electrolytes were prepared via mechanical alloying at 1200 rpm for 60 min."
+  },
+  {
+    "triplets": [
+      [
+        "cathode",
+        "be in",
+        "solid state battery"
+      ],
+      [
+        "cathode",
+        "consist of",
+        "sulfur"
+      ],
+      [
+        "cathode",
+        "consist of",
+        "sublime sulfur"
+      ]
+    ],
+    "sentence": "The cathode in solid-state batteries consisted of sublimed sulfur, vapor grown carbon fiber (VGCF), and SSE."
+  },
+  {
+    "triplets": [
+      [
+        "s",
+        "be",
+        "mix at mass ratio"
+      ],
+      [
+        "s",
+        "be",
+        "mix"
+      ]
+    ],
+    "sentence": "The S, VGCF, and SSE were mixed at the mass ratio of 7: 1: 2 by grinding at 300 rpm for 1 h."
+  },
+  {
+    "triplets": [],
+    "sentence": "All of the preparation processes were operated in an argon-filled glove box (H2O < 0.1 ppm, O2< 0.1 ppm)."
+  },
+  {
+    "triplets": [
+      [
+        "Air Stability measurement",
+        "be",
+        "press"
+      ],
+      [
+        "Air Stability measurement",
+        "be press into",
+        "pellet"
+      ],
+      [
+        "h2s generation test",
+        "for measurement be",
+        "sulfide sample"
+      ]
+    ],
+    "sentence": "Air Stability Measurements\n\nFor the H2S generation tests, the sulfide samples (150 mg) were pressed into the pellet."
+  },
+  {
+    "triplets": [
+      [
+        "pellet",
+        "be",
+        "put into sealed container fill with humid air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into sealed container fill"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into sealed container"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into sealed container"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into container fill with humid air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into sealed container fill with air"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into container fill with air"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into container"
+      ],
+      [
+        "pellet",
+        "be",
+        "put"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into sealed container fill"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into sealed container fill with humid air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into container fill with humid air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into container fill"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into container fill"
+      ],
+      [
+        "pellet",
+        "be",
+        "put into sealed container fill with air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into container fill with air"
+      ],
+      [
+        "pellet",
+        "be",
+        "then put into container"
+      ]
+    ],
+    "sentence": "Then the pellet and a H2S gas sensor were put into a sealed container (10 L) filled with humid air (humidity around 10%)."
+  },
+  {
+    "triplets": [
+      [
+        "measurement process",
+        "be in",
+        "drying room"
+      ]
+    ],
+    "sentence": "The measurement process was in the drying room, which could control the humidity."
+  },
+  {
+    "triplets": [
+      [
+        "xrd measurement",
+        "be conduct after",
+        "exposure"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "in addition after exposure of 10 % humidity conduct"
+      ],
+      [
+        "xrd measurement",
+        "be conduct after",
+        "exposure of 10 % humidity"
+      ],
+      [
+        "xrd measurement",
+        "be conduct for",
+        "electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be conduct in",
+        "addition"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "in addition after exposure conduct for electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "in addition after exposure conduct"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "in addition after exposure of 10 % humidity conduct for electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "in addition conduct for electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "after exposure conduct for electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "after exposure of 10 % humidity conduct for electrolyte sample"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "conduct"
+      ]
+    ],
+    "sentence": "In addition, after exposure of 10% humidity, XRD and Raman measurements were conducted for the electrolyte samples."
+  },
+  {
+    "triplets": [],
+    "sentence": "Conflict of Interest\n\nThe authors declare no conflict of interest."
+  }
+]

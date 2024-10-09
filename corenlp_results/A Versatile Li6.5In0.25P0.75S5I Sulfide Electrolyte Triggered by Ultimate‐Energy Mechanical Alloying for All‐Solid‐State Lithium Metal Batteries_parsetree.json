@@ -1,0 +1,4296 @@
+[
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "-LRB-",
+            "children": [
+              "<"
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NFP",
+                    "children": [
+                      "|"
+                    ]
+                  },
+                  {
+                    "label": "NFP",
+                    "children": [
+                      "start_header_id"
+                    ]
+                  },
+                  {
+                    "label": "NFP",
+                    "children": [
+                      "|"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "SYM",
+                    "children": [
+                      ">"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "assistant"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "SYM",
+                    "children": [
+                      "<"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "HYPH",
+                            "children": [
+                              "|"
+                            ]
+                          },
+                          {
+                            "label": "SYM",
+                            "children": [
+                              "end_header_id"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "NFP",
+                        "children": [
+                          "|"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "QP",
+                                "children": [
+                                  {
+                                    "label": "SYM",
+                                    "children": [
+                                      ">"
+                                    ]
+                                  },
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "4"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "JJ",
+                                "children": [
+                                  "Experimental"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "Section"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "Synthesis"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "of"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NML",
+                                    "children": [
+                                      {
+                                        "label": "NNS",
+                                        "children": [
+                                          "materials"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "Li6PS5I"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": "NML",
+                                    "children": [
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "glass"
+                                        ]
+                                      },
+                                      {
+                                        "label": "HYPH",
+                                        "children": [
+                                          "-"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "ceramic"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "was"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "synthesized"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "via"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "UEMA"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "method"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "The"
+                ]
+              },
+              {
+                "label": "VBG",
+                "children": [
+                  "starting"
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "materials"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "Li2S"
+                        ]
+                      },
+                      {
+                        "label": "PRN",
+                        "children": [
+                          {
+                            "label": "-LRB-",
+                            "children": [
+                              "-LRB-"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "99.9"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "%"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": ",",
+                                "children": [
+                                  ","
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Alfa"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Aesar"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "-RRB-",
+                            "children": [
+                              "-RRB-"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": ",",
+                    "children": [
+                      ","
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "P2S5"
+                        ]
+                      },
+                      {
+                        "label": "PRN",
+                        "children": [
+                          {
+                            "label": "-LRB-",
+                            "children": [
+                              "-LRB-"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "99.9"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "%"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": ",",
+                                "children": [
+                                  ","
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Alfa"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Aesar"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "-RRB-",
+                            "children": [
+                              "-RRB-"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": ",",
+                    "children": [
+                      ","
+                    ]
+                  },
+                  {
+                    "label": "CC",
+                    "children": [
+                      "and"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "LiI"
+                        ]
+                      },
+                      {
+                        "label": "PRN",
+                        "children": [
+                          {
+                            "label": "-LRB-",
+                            "children": [
+                              "-LRB-"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "CD",
+                                "children": [
+                                  "99.99"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "%"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": ",",
+                            "children": [
+                              ","
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NNP",
+                                "children": [
+                                  "Aladdin"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "-RRB-",
+                            "children": [
+                              "-RRB-"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NML",
+                    "children": [
+                      {
+                        "label": "CD",
+                        "children": [
+                          "2"
+                        ]
+                      },
+                      {
+                        "label": "NN",
+                        "children": [
+                          "g"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "JJ",
+                    "children": [
+                      "overall"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "mass"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "of"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "Li2S"
+                            ]
+                          },
+                          {
+                            "label": ",",
+                            "children": [
+                              ","
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "P2S5"
+                            ]
+                          },
+                          {
+                            "label": ",",
+                            "children": [
+                              ","
+                            ]
+                          },
+                          {
+                            "label": "CC",
+                            "children": [
+                              "and"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "LiI"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "PP",
+                        "children": [
+                          {
+                            "label": "IN",
+                            "children": [
+                              "with"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "JJ",
+                                    "children": [
+                                      "molar"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "ratio"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "PP",
+                                "children": [
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "of"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "QP",
+                                        "children": [
+                                          {
+                                            "label": "CD",
+                                            "children": [
+                                              "5"
+                                            ]
+                                          },
+                                          {
+                                            "label": "SYM",
+                                            "children": [
+                                              ":"
+                                            ]
+                                          },
+                                          {
+                                            "label": "CD",
+                                            "children": [
+                                              "1"
+                                            ]
+                                          },
+                                          {
+                                            "label": "SYM",
+                                            "children": [
+                                              ":"
+                                            ]
+                                          },
+                                          {
+                                            "label": "CD",
+                                            "children": [
+                                              "2"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "weighed"
+                    ]
+                  },
+                  {
+                    "label": "CC",
+                    "children": [
+                      "and"
+                    ]
+                  },
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "put"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "into"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "a"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "zirconia"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "jar"
+                            ]
+                          },
+                          {
+                            "label": "PRN",
+                            "children": [
+                              {
+                                "label": "-LRB-",
+                                "children": [
+                                  "-LRB-"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "125mL"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-RRB-",
+                                "children": [
+                                  "-RRB-"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "with"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "CD",
+                            "children": [
+                              "25"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "zirconia"
+                            ]
+                          },
+                          {
+                            "label": "NNS",
+                            "children": [
+                              "balls"
+                            ]
+                          },
+                          {
+                            "label": "PRN",
+                            "children": [
+                              {
+                                "label": "-LRB-",
+                                "children": [
+                                  "-LRB-"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "10"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "mm"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": "PP",
+                                    "children": [
+                                      {
+                                        "label": "IN",
+                                        "children": [
+                                          "in"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "diameter"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": ",",
+                                "children": [
+                                  ","
+                                ]
+                              },
+                              {
+                                "label": "S",
+                                "children": [
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "JJ",
+                                        "children": [
+                                          "overall"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "mass"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": "VP",
+                                    "children": [
+                                      {
+                                        "label": "SYM",
+                                        "children": [
+                                          "="
+                                        ]
+                                      },
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "CD",
+                                            "children": [
+                                              "75"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "g"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-RRB-",
+                                "children": [
+                                  "-RRB-"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "The"
+                ]
+              },
+              {
+                "label": "JJ",
+                "children": [
+                  "mechanosynthesized"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "process"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "was"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "carried"
+                    ]
+                  },
+                  {
+                    "label": "PRT",
+                    "children": [
+                      {
+                        "label": "RP",
+                        "children": [
+                          "out"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "on"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "the"
+                            ]
+                          },
+                          {
+                            "label": "JJ",
+                            "children": [
+                              "mechanical"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "alloying"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "apparatus"
+                            ]
+                          },
+                          {
+                            "label": "PRN",
+                            "children": [
+                              {
+                                "label": "-LRB-",
+                                "children": [
+                                  "-LRB-"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Retsch"
+                                    ]
+                                  },
+                                  {
+                                    "label": ",",
+                                    "children": [
+                                      ","
+                                    ]
+                                  },
+                                  {
+                                    "label": "NNP",
+                                    "children": [
+                                      "Emax"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-RRB-",
+                                "children": [
+                                  "-RRB-"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "with"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "CD",
+                                "children": [
+                                  "1200"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "rpm"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "for"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "JJ",
+                                    "children": [
+                                      "different"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "alloying"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "time"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "In"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "order"
+                    ]
+                  },
+                  {
+                    "label": "S",
+                    "children": [
+                      {
+                        "label": "VP",
+                        "children": [
+                          {
+                            "label": "TO",
+                            "children": [
+                              "to"
+                            ]
+                          },
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "VB",
+                                "children": [
+                                  "avoid"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "NML",
+                                        "children": [
+                                          {
+                                            "label": "JJ",
+                                            "children": [
+                                              "high"
+                                            ]
+                                          },
+                                          {
+                                            "label": "HYPH",
+                                            "children": [
+                                              "-"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "temperature"
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "decomposition"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": "PP",
+                                    "children": [
+                                      {
+                                        "label": "IN",
+                                        "children": [
+                                          "of"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "NNS",
+                                            "children": [
+                                              "samples"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "PP",
+                                "children": [
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "due"
+                                    ]
+                                  },
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "to"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "NML",
+                                        "children": [
+                                          {
+                                            "label": "JJ",
+                                            "children": [
+                                              "high"
+                                            ]
+                                          },
+                                          {
+                                            "label": "HYPH",
+                                            "children": [
+                                              "-"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "speed"
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "label": "VBG",
+                                        "children": [
+                                          "grinding"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ",",
+            "children": [
+              ","
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "the"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "milling"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "apparatus"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "was"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "equipped"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "with"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "a"
+                            ]
+                          },
+                          {
+                            "label": "VBG",
+                            "children": [
+                              "cooling"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "machine"
+                            ]
+                          },
+                          {
+                            "label": "S",
+                            "children": [
+                              {
+                                "label": "VP",
+                                "children": [
+                                  {
+                                    "label": "TO",
+                                    "children": [
+                                      "to"
+                                    ]
+                                  },
+                                  {
+                                    "label": "VP",
+                                    "children": [
+                                      {
+                                        "label": "VB",
+                                        "children": [
+                                          "maintain"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "NP",
+                                            "children": [
+                                              {
+                                                "label": "DT",
+                                                "children": [
+                                                  "the"
+                                                ]
+                                              },
+                                              {
+                                                "label": "NN",
+                                                "children": [
+                                                  "temperature"
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "label": "PP",
+                                            "children": [
+                                              {
+                                                "label": "IN",
+                                                "children": [
+                                                  "of"
+                                                ]
+                                              },
+                                              {
+                                                "label": "NP",
+                                                "children": [
+                                                  {
+                                                    "label": "DT",
+                                                    "children": [
+                                                      "the"
+                                                    ]
+                                                  },
+                                                  {
+                                                    "label": "NN",
+                                                    "children": [
+                                                      "zirconia"
+                                                    ]
+                                                  },
+                                                  {
+                                                    "label": "NN",
+                                                    "children": [
+                                                      "jar"
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "label": "PP",
+                                        "children": [
+                                          {
+                                            "label": "IN",
+                                            "children": [
+                                              "at"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NP",
+                                            "children": [
+                                              {
+                                                "label": "QP",
+                                                "children": [
+                                                  {
+                                                    "label": "CD",
+                                                    "children": [
+                                                      "298"
+                                                    ]
+                                                  },
+                                                  {
+                                                    "label": "SYM",
+                                                    "children": [
+                                                      "–"
+                                                    ]
+                                                  },
+                                                  {
+                                                    "label": "CD",
+                                                    "children": [
+                                                      "308"
+                                                    ]
+                                                  },
+                                                  {
+                                                    "label": "NN",
+                                                    "children": [
+                                                      "K"
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "In"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "JJ",
+                        "children": [
+                          "particular"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": ",",
+                    "children": [
+                      ","
+                    ]
+                  },
+                  {
+                    "label": "SBAR",
+                    "children": [
+                      {
+                        "label": "WHADVP",
+                        "children": [
+                          {
+                            "label": "WRB",
+                            "children": [
+                              "when"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "S",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "DT",
+                                "children": [
+                                  "the"
+                                ]
+                              },
+                              {
+                                "label": "JJ",
+                                "children": [
+                                  "mechanical"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "alloying"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "timet"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "SYM",
+                                "children": [
+                                  "="
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "0"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "min"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ",",
+            "children": [
+              ","
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "the"
+                ]
+              },
+              {
+                "label": "JJ",
+                "children": [
+                  "raw"
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "materials"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "mixed"
+                    ]
+                  },
+                  {
+                    "label": "ADVP",
+                    "children": [
+                      {
+                        "label": "RB",
+                        "children": [
+                          "uniformly"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "in"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "DT",
+                                "children": [
+                                  "a"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "mortar"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "for"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "20"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "min."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "The"
+                ]
+              },
+              {
+                "label": "JJ",
+                "children": [
+                  "traditional"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "Li6PS5I"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "crystal"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "was"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "synthesized"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "via"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "milling"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "at"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "CD",
+                                "children": [
+                                  "600"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "rpm"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "for"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "13"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "h"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "The"
+                ]
+              },
+              {
+                "label": "ADJP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "obtained"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "precursors"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VP",
+                    "children": [
+                      {
+                        "label": "VBN",
+                        "children": [
+                          "pressed"
+                        ]
+                      },
+                      {
+                        "label": "PP",
+                        "children": [
+                          {
+                            "label": "IN",
+                            "children": [
+                              "into"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NNS",
+                                "children": [
+                                  "pellets"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": ",",
+                    "children": [
+                      ","
+                    ]
+                  },
+                  {
+                    "label": "CC",
+                    "children": [
+                      "and"
+                    ]
+                  },
+                  {
+                    "label": "ADVP",
+                    "children": [
+                      {
+                        "label": "RB",
+                        "children": [
+                          "then"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "VP",
+                    "children": [
+                      {
+                        "label": "VBN",
+                        "children": [
+                          "sealed"
+                        ]
+                      },
+                      {
+                        "label": "PP",
+                        "children": [
+                          {
+                            "label": "IN",
+                            "children": [
+                              "in"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "DT",
+                                "children": [
+                                  "a"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "quartz"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "ampule"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "CC",
+                    "children": [
+                      "and"
+                    ]
+                  },
+                  {
+                    "label": "VP",
+                    "children": [
+                      {
+                        "label": "VBN",
+                        "children": [
+                          "annealed"
+                        ]
+                      },
+                      {
+                        "label": "PP",
+                        "children": [
+                          {
+                            "label": "IN",
+                            "children": [
+                              "at"
+                            ]
+                          },
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "873"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "K"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "PP",
+                                "children": [
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "for"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "2"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "h"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "For"
+                ]
+              },
+              {
+                "label": "S",
+                "children": [
+                  {
+                    "label": "VP",
+                    "children": [
+                      {
+                        "label": "VBG",
+                        "children": [
+                          "ensuring"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "DT",
+                                "children": [
+                                  "the"
+                                ]
+                              },
+                              {
+                                "label": "JJ",
+                                "children": [
+                                  "adequate"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "reaction"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "of"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "DT",
+                                        "children": [
+                                          "the"
+                                        ]
+                                      },
+                                      {
+                                        "label": "JJ",
+                                        "children": [
+                                          "raw"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NNS",
+                                        "children": [
+                                          "materials"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": ",",
+                                    "children": [
+                                      ","
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "DT",
+                                        "children": [
+                                          "the"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "Li6PS5Br"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": ",",
+                                    "children": [
+                                      ","
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "Li6PS5Cl"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "label": ",",
+                                    "children": [
+                                      ","
+                                    ]
+                                  },
+                                  {
+                                    "label": "CC",
+                                    "children": [
+                                      "and"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "NNP",
+                                        "children": [
+                                          "Li"
+                                        ]
+                                      },
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "6.5"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "In"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "0.25P"
+                    ]
+                  },
+                  {
+                    "label": "CD",
+                    "children": [
+                      "0.75"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NN",
+                "children": [
+                  "S5I"
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "electrolytes"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "prepared"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "via"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "JJ",
+                            "children": [
+                              "mechanical"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "alloying"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "at"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "CD",
+                                "children": [
+                                  "1200"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "rpm"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "for"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "60"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "min."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "The"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "cathode"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "in"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NML",
+                        "children": [
+                          {
+                            "label": "JJ",
+                            "children": [
+                              "solid"
+                            ]
+                          },
+                          {
+                            "label": "HYPH",
+                            "children": [
+                              "-"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "state"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "NNS",
+                        "children": [
+                          "batteries"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "consisted"
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "of"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "VBN",
+                            "children": [
+                              "sublimed"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "sulfur"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": ",",
+                        "children": [
+                          ","
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "vapor"
+                            ]
+                          },
+                          {
+                            "label": "VBN",
+                            "children": [
+                              "grown"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "carbon"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "fiber"
+                            ]
+                          },
+                          {
+                            "label": "PRN",
+                            "children": [
+                              {
+                                "label": "-LRB-",
+                                "children": [
+                                  "-LRB-"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "VGCF"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-RRB-",
+                                "children": [
+                                  "-RRB-"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": ",",
+                        "children": [
+                          ","
+                        ]
+                      },
+                      {
+                        "label": "CC",
+                        "children": [
+                          "and"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NNP",
+                            "children": [
+                              "SSE"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "The"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": ",",
+                "children": [
+                  ","
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "VGCF"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": ",",
+                "children": [
+                  ","
+                ]
+              },
+              {
+                "label": "CC",
+                "children": [
+                  "and"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NNP",
+                    "children": [
+                      "SSE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "mixed"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "at"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "DT",
+                                "children": [
+                                  "the"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "mass"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "ratio"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "of"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "QP",
+                                    "children": [
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "7"
+                                        ]
+                                      },
+                                      {
+                                        "label": "SYM",
+                                        "children": [
+                                          ":"
+                                        ]
+                                      },
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "1"
+                                        ]
+                                      },
+                                      {
+                                        "label": "SYM",
+                                        "children": [
+                                          ":"
+                                        ]
+                                      },
+                                      {
+                                        "label": "CD",
+                                        "children": [
+                                          "2"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "by"
+                        ]
+                      },
+                      {
+                        "label": "S",
+                        "children": [
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "VBG",
+                                "children": [
+                                  "grinding"
+                                ]
+                              },
+                              {
+                                "label": "PP",
+                                "children": [
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "at"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "CD",
+                                            "children": [
+                                              "300"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "rpm"
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "label": "PP",
+                                        "children": [
+                                          {
+                                            "label": "IN",
+                                            "children": [
+                                              "for"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NP",
+                                            "children": [
+                                              {
+                                                "label": "CD",
+                                                "children": [
+                                                  "1"
+                                                ]
+                                              },
+                                              {
+                                                "label": "NN",
+                                                "children": [
+                                                  "h"
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "All"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "of"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "DT",
+                        "children": [
+                          "the"
+                        ]
+                      },
+                      {
+                        "label": "NN",
+                        "children": [
+                          "preparation"
+                        ]
+                      },
+                      {
+                        "label": "NNS",
+                        "children": [
+                          "processes"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "operated"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "in"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "an"
+                            ]
+                          },
+                          {
+                            "label": "ADJP",
+                            "children": [
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "argon"
+                                ]
+                              },
+                              {
+                                "label": "HYPH",
+                                "children": [
+                                  "-"
+                                ]
+                              },
+                              {
+                                "label": "VBN",
+                                "children": [
+                                  "filled"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "glove"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "box"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PRN",
+                    "children": [
+                      {
+                        "label": "-LRB-",
+                        "children": [
+                          "-LRB-"
+                        ]
+                      },
+                      {
+                        "label": "S",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "H2O"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "SYM",
+                                "children": [
+                                  "<"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "0.1"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "ppm"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": ",",
+                        "children": [
+                          ","
+                        ]
+                      },
+                      {
+                        "label": "S",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "O2"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "SYM",
+                                "children": [
+                                  "<"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "0.1"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "ppm"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "-RRB-",
+                        "children": [
+                          "-RRB-"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NML",
+                "children": [
+                  {
+                    "label": "NNP",
+                    "children": [
+                      "Air"
+                    ]
+                  },
+                  {
+                    "label": "NNP",
+                    "children": [
+                      "Stability"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "Measurements"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "For"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "the"
+                    ]
+                  },
+                  {
+                    "label": "NML",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "H2S"
+                        ]
+                      },
+                      {
+                        "label": "NN",
+                        "children": [
+                          "generation"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "NNS",
+                    "children": [
+                      "tests"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ",",
+            "children": [
+              ","
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "the"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "sulfide"
+                    ]
+                  },
+                  {
+                    "label": "NNS",
+                    "children": [
+                      "samples"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "-LRB-",
+                "children": [
+                  "-LRB-"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "CD",
+                    "children": [
+                      "150"
+                    ]
+                  },
+                  {
+                    "label": "NNS",
+                    "children": [
+                      "mg"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "-RRB-",
+                "children": [
+                  "-RRB-"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "pressed"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "into"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "the"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "pellet"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "ADVP",
+            "children": [
+              {
+                "label": "RB",
+                "children": [
+                  "Then"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "the"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "pellet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "CC",
+                "children": [
+                  "and"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "DT",
+                    "children": [
+                      "a"
+                    ]
+                  },
+                  {
+                    "label": "NML",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "H2S"
+                        ]
+                      },
+                      {
+                        "label": "NN",
+                        "children": [
+                          "gas"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "sensor"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "put"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "into"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "DT",
+                                    "children": [
+                                      "a"
+                                    ]
+                                  },
+                                  {
+                                    "label": "JJ",
+                                    "children": [
+                                      "sealed"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "container"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-LRB-",
+                                "children": [
+                                  "-LRB-"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "10"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "L"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "label": "-RRB-",
+                                "children": [
+                                  "-RRB-"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "VP",
+                            "children": [
+                              {
+                                "label": "VBN",
+                                "children": [
+                                  "filled"
+                                ]
+                              },
+                              {
+                                "label": "PP",
+                                "children": [
+                                  {
+                                    "label": "IN",
+                                    "children": [
+                                      "with"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NP",
+                                    "children": [
+                                      {
+                                        "label": "JJ",
+                                        "children": [
+                                          "humid"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NN",
+                                        "children": [
+                                          "air"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PRN",
+                    "children": [
+                      {
+                        "label": "-LRB-",
+                        "children": [
+                          "-LRB-"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NP",
+                            "children": [
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "humidity"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PP",
+                            "children": [
+                              {
+                                "label": "IN",
+                                "children": [
+                                  "around"
+                                ]
+                              },
+                              {
+                                "label": "NP",
+                                "children": [
+                                  {
+                                    "label": "CD",
+                                    "children": [
+                                      "10"
+                                    ]
+                                  },
+                                  {
+                                    "label": "NN",
+                                    "children": [
+                                      "%"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "-RRB-",
+                        "children": [
+                          "-RRB-"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "DT",
+                "children": [
+                  "The"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "measurement"
+                ]
+              },
+              {
+                "label": "NN",
+                "children": [
+                  "process"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "was"
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "in"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "the"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "drying"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "room"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": ",",
+                        "children": [
+                          ","
+                        ]
+                      },
+                      {
+                        "label": "SBAR",
+                        "children": [
+                          {
+                            "label": "WHNP",
+                            "children": [
+                              {
+                                "label": "WDT",
+                                "children": [
+                                  "which"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "S",
+                            "children": [
+                              {
+                                "label": "VP",
+                                "children": [
+                                  {
+                                    "label": "MD",
+                                    "children": [
+                                      "could"
+                                    ]
+                                  },
+                                  {
+                                    "label": "VP",
+                                    "children": [
+                                      {
+                                        "label": "VB",
+                                        "children": [
+                                          "control"
+                                        ]
+                                      },
+                                      {
+                                        "label": "NP",
+                                        "children": [
+                                          {
+                                            "label": "DT",
+                                            "children": [
+                                              "the"
+                                            ]
+                                          },
+                                          {
+                                            "label": "NN",
+                                            "children": [
+                                              "humidity"
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "In"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "addition"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ",",
+            "children": [
+              ","
+            ]
+          },
+          {
+            "label": "PP",
+            "children": [
+              {
+                "label": "IN",
+                "children": [
+                  "after"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NN",
+                        "children": [
+                          "exposure"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "of"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NML",
+                            "children": [
+                              {
+                                "label": "CD",
+                                "children": [
+                                  "10"
+                                ]
+                              },
+                              {
+                                "label": "NN",
+                                "children": [
+                                  "%"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "humidity"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ",",
+            "children": [
+              ","
+            ]
+          },
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NML",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "XRD"
+                    ]
+                  },
+                  {
+                    "label": "CC",
+                    "children": [
+                      "and"
+                    ]
+                  },
+                  {
+                    "label": "NN",
+                    "children": [
+                      "Raman"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "NNS",
+                "children": [
+                  "measurements"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBD",
+                "children": [
+                  "were"
+                ]
+              },
+              {
+                "label": "VP",
+                "children": [
+                  {
+                    "label": "VBN",
+                    "children": [
+                      "conducted"
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "for"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "the"
+                            ]
+                          },
+                          {
+                            "label": "NN",
+                            "children": [
+                              "electrolyte"
+                            ]
+                          },
+                          {
+                            "label": "NNS",
+                            "children": [
+                              "samples"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "ROOT",
+    "children": [
+      {
+        "label": "S",
+        "children": [
+          {
+            "label": "NP",
+            "children": [
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NN",
+                    "children": [
+                      "Conflict"
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "PP",
+                "children": [
+                  {
+                    "label": "IN",
+                    "children": [
+                      "of"
+                    ]
+                  },
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "Interest"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "DT",
+                            "children": [
+                              "The"
+                            ]
+                          },
+                          {
+                            "label": "NNS",
+                            "children": [
+                              "authors"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "VP",
+            "children": [
+              {
+                "label": "VBP",
+                "children": [
+                  "declare"
+                ]
+              },
+              {
+                "label": "NP",
+                "children": [
+                  {
+                    "label": "NP",
+                    "children": [
+                      {
+                        "label": "DT",
+                        "children": [
+                          "no"
+                        ]
+                      },
+                      {
+                        "label": "NN",
+                        "children": [
+                          "conflict"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "PP",
+                    "children": [
+                      {
+                        "label": "IN",
+                        "children": [
+                          "of"
+                        ]
+                      },
+                      {
+                        "label": "NP",
+                        "children": [
+                          {
+                            "label": "NN",
+                            "children": [
+                              "interest"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": ".",
+            "children": [
+              "."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
