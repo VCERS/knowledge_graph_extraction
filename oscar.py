@@ -55,7 +55,7 @@ class Oscar4(object):
       start = entity.getStart()
       end = entity.getEnd()
       type_ = entity.getType().toString()
-      results.append((entity_text,start,end,self.types[type_]))
+      results.append((str(entity_text),int(start),int(end),self.types[type_]))
       '''
       structure = entity.getFirstChemicalStructure(self.FormatType.STD_INCHI);
       if structure != None:
