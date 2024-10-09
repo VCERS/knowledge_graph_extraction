@@ -60,17 +60,15 @@ def main(unused_argv):
       if ext != '.md': continue
       loader = UnstructuredMarkdownLoader(join(root, f), model = 'single', strategy = 'fast')
       text = ' '.join([doc.page_content for doc in loader.load()])
-      '''
       print('1) extracting experimental part')
       results = exp_chain.invoke({'text': text})
       with open(join(FLAGS.output_dir, stem + '_experimental.md'), 'w') as f:
         f.write(results)
-      '''
       print('2) parsing text')
       if FLAGS.method == 'oscar':
-        tree = oscar.parse(text)
+        tree = oscar.parse(results)
       elif FLAGS.method == 'corenlp':
-        tree = corenlp.parse(text)
+        tree = corenlp.parse(results)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
@@ -79,7 +77,7 @@ def main(unused_argv):
       if FLAGS.method == 'oscar':
         triplets = extract_triplets_by_sentence(tree)
       elif FLAGS.method == 'corenlp':
-        triplets = corenlp.triplets(text)
+        triplets = corenlp.triplets(results)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
