@@ -28,6 +28,16 @@ class CoreNLP(object):
     props.setProperty('triplet.strict','true')
     props.setProperty('regexner.mapping','electrolyte_ner.txt')
     self.pipeline = StanfordCoreNLP(props)
+  def ner(self, text):
+    text = self.String(text)
+    document = self.Annotation(text)
+    sentences = list()
+    for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
+      entities = list()
+      for namedEntity in sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation')))
+        entities.append((str(namedEntity.toString()), str(namedEntity.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation'))))))
+      sentences.append({'entities': entities, 'original sentence': str(sentence)})
+    return sentences
   def parse(self, text):
     text = self.String(text)
     document = self.Annotation(text)
