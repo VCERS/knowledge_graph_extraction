@@ -26,6 +26,7 @@ class CoreNLP(object):
     props.setProperty('annotators', "tokenize,pos,lemma,ner,parse,depparse,coref,kbp,quote,natlog,openie")
     props.setProperty('coref.algorithm','neural')
     props.setProperty('triplet.strict','true')
+    props.setProperty('regexner.mapping','electrolyte_ner.txt')
     self.pipeline = StanfordCoreNLP(props)
   def parse(self, text):
     text = self.String(text)
