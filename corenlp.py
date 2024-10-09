@@ -34,7 +34,7 @@ class CoreNLP(object):
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       entities = list()
-      for namedEntity in sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation')))
+      for namedEntity in sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation'))):
         entities.append((str(namedEntity.toString()), str(namedEntity.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation'))))))
       sentences.append({'entities': entities, 'original sentence': str(sentence)})
     return sentences
