@@ -23,7 +23,7 @@ class CoreNLP(object):
     self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
     props = Properties()
-    props.setProperty('annotators', "tokenize,pos,lemma,ner,parse,depparse,coref,kbp,quote,natlog,openie")
+    props.setProperty('annotators', "tokenize,pos,lemma,ner,regexner,parse,depparse,coref,kbp,quote,natlog,openie")
     props.setProperty('coref.algorithm','neural')
     props.setProperty('triplet.strict','true')
     props.setProperty('regexner.mapping','electrolyte_ner.txt')
