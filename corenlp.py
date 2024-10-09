@@ -28,7 +28,15 @@ class CoreNLP(object):
     props.setProperty('coref.algorithm','neural')
     props.setProperty('triplet.strict','true')
     self.pipeline = StanfordCoreNLP(props)
-  def call(self, text):
+  def parse(self, text):
+    text = self.String(text)
+    document = self.Annotation(text)
+    self.pipeline.annotate(document)
+    for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
+      tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$TreeAnnotation')))
+      print(tree)
+      break
+  def triplets(self, text):
     text = self.String(text)
     document = self.Annotation(text)
     self.pipeline.annotate(document)
@@ -41,7 +49,7 @@ class CoreNLP(object):
 
 if __name__ == "__main__":
   corenlp = CoreNLP()
-  results = corenlp.call("A solution of 124C (7.0 g, 32.4 mmol) in concentrate H2SO4 " +
+  results = corenlp.parse("A solution of 124C (7.0 g, 32.4 mmol) in concentrate H2SO4 " +
                 "(9.5 mL) was added to a solution of concentrate H2SO4 (9.5 mL) " +
                 "and fuming HNO3 (13 mL) and the mixture was heated at 60°C for " +
                 "30 min. After cooling to room temperature, the reaction mixture " +
