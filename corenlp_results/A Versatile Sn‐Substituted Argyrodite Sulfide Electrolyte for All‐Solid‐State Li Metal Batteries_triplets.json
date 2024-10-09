@@ -1,0 +1,2054 @@
+[
+  {
+    "triplets": [
+      [
+        "assistant",
+        "be in",
+        "section"
+      ]
+    ],
+    "sentence": "<|start_header_id|>assistant<|end_header_id|>\n\nThe experimental part of the paper is in the section labeled \"4 Experimental Section\"."
+  },
+  {
+    "triplets": [
+      [
+        "experimental section material",
+        "be use without",
+        "purification"
+      ],
+      [
+        "here",
+        "be text of",
+        "part"
+      ],
+      [
+        "here",
+        "be",
+        "text"
+      ],
+      [
+        "experimental section material",
+        "be use directly without",
+        "purification"
+      ],
+      [
+        "here",
+        "be",
+        "original text"
+      ],
+      [
+        "here",
+        "be original text of",
+        "part"
+      ],
+      [
+        "here",
+        "be original text of",
+        "experimental part"
+      ],
+      [
+        "here",
+        "be text of",
+        "experimental part"
+      ],
+      [
+        "4 experimental section material",
+        "be use without",
+        "purification"
+      ],
+      [
+        "4 experimental section material",
+        "be use directly without",
+        "purification"
+      ]
+    ],
+    "sentence": "Here is the original text of the experimental part:\n\n4 Experimental Section\n\nMaterials\nAll materials were used directly without any purification."
+  },
+  {
+    "triplets": [],
+    "sentence": "P2S5(>99%), LiI (99.99%, anhydrous), LiCl (>99.98%, anhydrous), LiBr (99.9%, anhydrous), and LCO (99.8%) particles were purchased from Sigma-Aldrich."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li2S (99.9%) was purchased from Alfa Aesar."
+  },
+  {
+    "triplets": [],
+    "sentence": "SnS2(99.999%) was purchased from American Elements."
+  },
+  {
+    "triplets": [
+      [
+        "Preparation",
+        "equal",
+        "weigh"
+      ],
+      [
+        "Preparation",
+        "equal",
+        "to weigh"
+      ],
+      [
+        "Stoichiometric material",
+        "seal in",
+        "zirconia ball milling pot"
+      ],
+      [
+        "Stoichiometric raw material",
+        "seal in",
+        "zirconia ball milling pot"
+      ]
+    ],
+    "sentence": "Preparation of LPSI-xSn Sulfide SSEs (x, the Sn Substitution Percentage, Equals to 0, 10, 15, 17.5, 20, 22.5, 25, 30, 50, 80, and 100)\nStoichiometric raw materials (Li2S, P2S5, LiI, and SnS2) were weighed (total 1 g) and sealed in zirconia ball milling pots."
+  },
+  {
+    "triplets": [
+      [
+        "mass ratio",
+        "be",
+        "1:40"
+      ]
+    ],
+    "sentence": "The mass ratio between the mixture and the zirconia ball was 1:40."
+  },
+  {
+    "triplets": [],
+    "sentence": "Low-speed ball milling (180 rpm for 2 h) was used at first to fully mix the starting materials."
+  },
+  {
+    "triplets": [],
+    "sentence": "After that, high-speed of 510 rpm for 13 h was conducted on the mixture."
+  },
+  {
+    "triplets": [
+      [
+        "ball milling process",
+        "be",
+        "protect under Ar gas atmosphere by use ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be protect by",
+        "planetary ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be",
+        "protect under Ar gas atmosphere by use planetary ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be",
+        "protect under Ar gas atmosphere by planetary ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be",
+        "protect under Ar gas atmosphere by ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be protect by",
+        "use planetary ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be protect by",
+        "use ball milling apparatus"
+      ],
+      [
+        "ball milling process",
+        "be protect by",
+        "ball milling apparatus"
+      ]
+    ],
+    "sentence": "All ball milling processes were protected under Ar gas atmosphere by using planetary ball milling apparatus."
+  },
+  {
+    "triplets": [
+      [
+        "mill product",
+        "be",
+        "press"
+      ],
+      [
+        "product",
+        "be",
+        "then press into pellet"
+      ],
+      [
+        "mill product",
+        "seal for",
+        "postanneal treatment"
+      ],
+      [
+        "mill product",
+        "be press into",
+        "pellet"
+      ],
+      [
+        "product",
+        "be",
+        "then press"
+      ],
+      [
+        "product",
+        "seal in",
+        "quartz tube"
+      ],
+      [
+        "mill product",
+        "seal in",
+        "quartz tube"
+      ],
+      [
+        "product",
+        "be",
+        "press"
+      ],
+      [
+        "mill product",
+        "seal for",
+        "treatment"
+      ],
+      [
+        "mill product",
+        "be",
+        "then press"
+      ],
+      [
+        "product",
+        "be press into",
+        "pellet"
+      ],
+      [
+        "mill product",
+        "be",
+        "then press into pellet"
+      ],
+      [
+        "product",
+        "seal for",
+        "postanneal treatment"
+      ],
+      [
+        "product",
+        "seal for",
+        "treatment"
+      ]
+    ],
+    "sentence": "Then, the ball-milled product was pressed into pellets, and sealed in quartz tubes for postannealing treatment."
+  },
+  {
+    "triplets": [
+      [
+        "annealing condition",
+        "be",
+        "450 °c 8 h"
+      ],
+      [
+        "annealing condition",
+        "be",
+        "450 °c 8 h in muffle furnace"
+      ],
+      [
+        "450 °c",
+        "be in",
+        "muffle furnace"
+      ],
+      [
+        "condition",
+        "be",
+        "450 °c 8 h"
+      ],
+      [
+        "condition",
+        "be",
+        "450 °c"
+      ],
+      [
+        "condition",
+        "be",
+        "450 °c in muffle furnace"
+      ],
+      [
+        "condition",
+        "be",
+        "450 °c 8 h in muffle furnace"
+      ],
+      [
+        "annealing condition",
+        "be",
+        "450 °c"
+      ],
+      [
+        "annealing condition",
+        "be",
+        "450 °c in muffle furnace"
+      ]
+    ],
+    "sentence": "The annealing condition was 450 °C/8 h in the muffle furnace."
+  },
+  {
+    "triplets": [
+      [
+        "rate",
+        "be",
+        "fix"
+      ],
+      [
+        "rate",
+        "be fix at",
+        "5 °c min −1"
+      ]
+    ],
+    "sentence": "The rate of increasing temperature was fixed at 5 °C min−1."
+  },
+  {
+    "triplets": [
+      [
+        "sample",
+        "cool down",
+        "complete"
+      ],
+      [
+        "sample",
+        "cool down to",
+        "RT."
+      ],
+      [
+        "annealing",
+        "be",
+        "after complete"
+      ],
+      [
+        "annealing",
+        "be",
+        "complete"
+      ],
+      [
+        "sample",
+        "naturally cool down",
+        "complete"
+      ],
+      [
+        "sample",
+        "naturally cool down to",
+        "RT."
+      ],
+      [
+        "sample",
+        "cool down",
+        "after complete"
+      ],
+      [
+        "sample",
+        "naturally cool down",
+        "after complete"
+      ]
+    ],
+    "sentence": "After the annealing was completed, the sample naturally cooled down to RT."
+  },
+  {
+    "triplets": [
+      [
+        "s vacancy",
+        "be produce material by",
+        "replace p2s5with sns2in"
+      ],
+      [
+        "it",
+        "be",
+        "note"
+      ],
+      [
+        "s vacancy",
+        "be produce material by",
+        "p2s5with sns2in"
+      ],
+      [
+        "s vacancy",
+        "be produce material by",
+        "partly replace p2s5with sns2in"
+      ]
+    ],
+    "sentence": "It was noted that S vacancy can be produced by partly replacing P2S5with SnS2in the starting raw materials, which can be represented by the following defect equation using Kröger–Vink notation:."
+  },
+  {
+    "triplets": [
+      [
+        "s vacancy",
+        "be occupy through",
+        "react"
+      ],
+      [
+        "s vacancy",
+        "be occupy through",
+        "react with other reactant"
+      ],
+      [
+        "s vacancy",
+        "be occupy",
+        "introduce"
+      ],
+      [
+        "Li atom",
+        "keep",
+        "charge balance"
+      ],
+      [
+        "Li atom",
+        "be",
+        "introduce"
+      ],
+      [
+        "solubility",
+        "be in",
+        "crystal structure"
+      ],
+      [
+        "s vacancy",
+        "be occupy through",
+        "react with reactant"
+      ],
+      [
+        "more Li atom",
+        "keep",
+        "charge balance"
+      ],
+      [
+        "s vacancy",
+        "be occupy",
+        "while introduce"
+      ],
+      [
+        "Li atom",
+        "be",
+        "while introduce"
+      ],
+      [
+        "more Li atom",
+        "be",
+        "introduce"
+      ],
+      [
+        "more Li atom",
+        "be",
+        "while introduce"
+      ],
+      [
+        "s vacancy",
+        "be",
+        "occupy"
+      ]
+    ],
+    "sentence": "Through reacting with other reactants, the S vacancy was occupied, while more Li atoms were introduced to keep the charge balance, increasing the solubility of Li+ ions in the crystal structure."
+  },
+  {
+    "triplets": [],
+    "sentence": "Preparation of LPSBr-xSn SSEs (Substitution Percentage x = 1, 2.5, 5, 10, 12.5, 15, 20, 30) and LPSCl-xSn SSEs (Substitution Percentage x = 0 and 30)\nLi2S, P2S5, SnS2, and LiBr were used for LPSBr-xSn SSEs preparation, while Li2S, P2S5, SnS2, and LiCl raw materials for LPSCl-xSn."
+  },
+  {
+    "triplets": [
+      [
+        "similar ball milling condition process",
+        "be",
+        "use"
+      ],
+      [
+        "same ball milling condition process",
+        "be",
+        "use"
+      ],
+      [
+        "similar same ball milling condition process",
+        "be",
+        "use"
+      ],
+      [
+        "ball milling condition process",
+        "be",
+        "use"
+      ],
+      [
+        "similar same ball milling condition process",
+        "prepare",
+        "lpsbr xsn ss"
+      ],
+      [
+        "ball milling condition process",
+        "prepare",
+        "lpsbr xsn ss"
+      ],
+      [
+        "similar ball milling condition process",
+        "prepare",
+        "lpsbr xsn ss"
+      ],
+      [
+        "same ball milling condition process",
+        "prepare",
+        "lpsbr xsn ss"
+      ]
+    ],
+    "sentence": "Similar to the preparation process of synthesizing LPSI-xSn SSEs, same ball milling condition and annealing process were used to prepare LPSBr-xSn and LPSCl-xSn SSEs."
+  },
+  {
+    "triplets": [
+      [
+        "Preparation",
+        "be",
+        "use"
+      ],
+      [
+        "ald process",
+        "prepare",
+        "linboxcoating layer on lco particle"
+      ],
+      [
+        "ald process",
+        "prepare",
+        "linboxcoating layer"
+      ],
+      [
+        "ald process",
+        "prepare",
+        "linboxcoating layer on commercial lco particle"
+      ],
+      [
+        "linboxcoating layer",
+        "form",
+        "LCO@LNO composite"
+      ]
+    ],
+    "sentence": "Preparation of LCO@LNO Cathode Materials and LCO@LNO/LGPS Cathode Composites\nAccording to the previously reported method from the group, ALD process was used to prepare a LiNbOxcoating layer on the commercial LCO particles to form LCO@LNO composites."
+  },
+  {
+    "triplets": [
+      [
+        "lco@lno lgps cathode composite",
+        "be",
+        "prepare by mill lco@lno powder with roll mixer"
+      ],
+      [
+        "lco@lno lgps cathode composite",
+        "be prepare by",
+        "lco@lno powder"
+      ],
+      [
+        "lco@lno lgps cathode composite",
+        "be prepare by",
+        "mill lco@lno powder"
+      ],
+      [
+        "lco@lno lgps cathode composite",
+        "be",
+        "prepare by lco@lno powder with roll mixer"
+      ]
+    ],
+    "sentence": "The LCO@LNO/LGPS cathode composite was prepared by milling LCO@LNO powder and LGPS electrolyte (mass ratio 7:3) with a roll mixer."
+  },
+  {
+    "triplets": [
+      [
+        "Ionic conductivity measurement",
+        "correspond",
+        "simulation method"
+      ],
+      [
+        "conductivity measurement",
+        "correspond",
+        "simulation method"
+      ],
+      [
+        "conductivity measurement",
+        "be measure by",
+        "eis measurement"
+      ],
+      [
+        "Ionic conductivity measurement",
+        "be measure by",
+        "eis measurement"
+      ]
+    ],
+    "sentence": "Ionic Conductivity Measurements\nIonic conductivity of prepared SSEs was measured by the EIS measurements and corresponding simulation method."
+  },
+  {
+    "triplets": [
+      [
+        "eis measurement",
+        "be",
+        "complete on"
+      ],
+      [
+        "eis measurement",
+        "be",
+        "complete"
+      ]
+    ],
+    "sentence": "EIS measurements were completed on a multichannel potentiostation 3/Z (German VMP3)."
+  },
+  {
+    "triplets": [
+      [
+        "apply frequency range",
+        "be",
+        "0.1 hz to 7 mhz"
+      ],
+      [
+        "frequency range",
+        "be",
+        "0.1 hz to 7 mhz"
+      ],
+      [
+        "0.1 hz",
+        "be",
+        "20 mv"
+      ],
+      [
+        "apply frequency range",
+        "be",
+        "0.1 hz"
+      ],
+      [
+        "frequency range",
+        "be",
+        "0.1 hz"
+      ]
+    ],
+    "sentence": "The applied frequency range was 0.1 Hz to 7 MHz and the amplitude was 20 mV."
+  },
+  {
+    "triplets": [
+      [
+        "test cell",
+        "be",
+        "fabricate"
+      ],
+      [
+        "test cell",
+        "be fabricate as",
+        "follow"
+      ]
+    ],
+    "sentence": "The test cell was fabricated as follows: 80 mg of the SSEs were pressed into a pellet (diameter 1 cm, thickness 0.7 mm) with a pressure of ≈300 MPa."
+  },
+  {
+    "triplets": [
+      [
+        "collector",
+        "be",
+        "as press on side of electrolyte pellet in model cell"
+      ],
+      [
+        "collector",
+        "be",
+        "as press on side of electrolyte pellet"
+      ],
+      [
+        "current collector",
+        "be",
+        "press on side of electrolyte pellet in model cell"
+      ],
+      [
+        "current collector",
+        "be press on",
+        "side of electrolyte pellet"
+      ],
+      [
+        "collector",
+        "be",
+        "press on side of electrolyte pellet in model cell"
+      ],
+      [
+        "current collector",
+        "be",
+        "as press on side of electrolyte pellet"
+      ],
+      [
+        "collector",
+        "be press on",
+        "side of electrolyte pellet"
+      ],
+      [
+        "current collector",
+        "be",
+        "as press on side of electrolyte pellet in model cell"
+      ]
+    ],
+    "sentence": "Subsequently, two pieces of indium (In) foil serving as the current collector were pressed on both sides of the electrolyte pellet in a model cell."
+  },
+  {
+    "triplets": [
+      [
+        "variable temperature eis",
+        "be",
+        "measure from −5 to 45 °c"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure from −5 with interval of 10 °c"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure from −5 to 45 °c"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure to 45 °c with interval"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure from −5 to 45 °c with interval of 10 °c"
+      ],
+      [
+        "temperature eis",
+        "be measure with",
+        "interval of 10 °c"
+      ],
+      [
+        "variable temperature eis",
+        "be measure from",
+        "−5"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure from −5 to 45 °c with interval"
+      ],
+      [
+        "variable temperature eis",
+        "be measure with",
+        "interval"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure"
+      ],
+      [
+        "temperature eis",
+        "be measure to",
+        "45 °c"
+      ],
+      [
+        "temperature eis",
+        "be measure from",
+        "−5"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure from −5 to 45 °c with interval"
+      ],
+      [
+        "temperature eis",
+        "gain",
+        "Arrhenius plot"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure"
+      ],
+      [
+        "variable temperature eis",
+        "gain",
+        "Arrhenius plot"
+      ],
+      [
+        "variable temperature eis",
+        "be measure with",
+        "interval of 10 °c"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure from −5 to 45 °c with interval of 10 °c"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure from −5 with interval of 10 °c"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure from −5 with interval"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure to 45 °c with interval of 10 °c"
+      ],
+      [
+        "variable temperature eis",
+        "be",
+        "measure to 45 °c with interval"
+      ],
+      [
+        "temperature eis",
+        "be measure with",
+        "interval"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure to 45 °c with interval of 10 °c"
+      ],
+      [
+        "temperature eis",
+        "be",
+        "measure from −5 with interval"
+      ],
+      [
+        "variable temperature eis",
+        "be measure to",
+        "45 °c"
+      ]
+    ],
+    "sentence": "To gain the Arrhenius plot, variable-temperature EIS was measured from −5 to 45 °C with an interval of 10 °C."
+  },
+  {
+    "triplets": [],
+    "sentence": "Cell Assembly and Electrochemical Measurements\nFor Li//LPSI-20Sn//Li symmetric cells, typically, 80 mg of LPSI-20Sn electrolyte was pressed by ≈300 MPa to form solid pellet."
+  },
+  {
+    "triplets": [],
+    "sentence": "Two pieces of Li metal (China Energy Lithium Co., Ltd.) were placed onto both sides of the LPSI-20Sn pellet and then pressed by ≈120 MPa for 3 min."
+  },
+  {
+    "triplets": [
+      [
+        "Li plating stripping experiment",
+        "be carry out on",
+        "land battery testing station"
+      ]
+    ],
+    "sentence": "Li plating/stripping experiments were carried out on LAND battery testing stations (CT-2001A, Wuhan Rambo Testing Equipment Co., Ltd.)."
+  },
+  {
+    "triplets": [
+      [
+        "density capacity",
+        "be",
+        "set"
+      ],
+      [
+        "density capacity",
+        "be set at",
+        "0.1 ma cm −2"
+      ],
+      [
+        "current density capacity",
+        "be",
+        "set"
+      ],
+      [
+        "current density capacity",
+        "be set at",
+        "0.1 ma cm −2"
+      ]
+    ],
+    "sentence": "Current density and cut-off capacity were set at 0.1 mA cm−2 and 0.1 mAh cm−2."
+  },
+  {
+    "triplets": [
+      [
+        "lco@lno asslmb",
+        "use lgps as",
+        "electrolyte"
+      ],
+      [
+        "lco@lno asslmb",
+        "be fabricate",
+        "lco@lno lgps as cathode composite"
+      ],
+      [
+        "lco@lno asslmb",
+        "be fabricate",
+        "prepared lco@lno lgps"
+      ],
+      [
+        "lco@lno asslmb",
+        "use",
+        "lgps"
+      ],
+      [
+        "lco@lno asslmb",
+        "be fabricate",
+        "prepared lco@lno lgps as cathode composite"
+      ],
+      [
+        "lco@lno asslmb",
+        "be fabricate",
+        "lco@lno lgps"
+      ]
+    ],
+    "sentence": "Li/LPSI-20Sn//LGPS//LCO@LNO//LGPS ASSLMBs were fabricated using LGPS as the electrolyte, prepared LCO@LNO/LGPS as the cathode composite, LPSI-20Sn as the Li metal anode interlayer, and Li metal as the anode."
+  },
+  {
+    "triplets": [],
+    "sentence": "Typically, 80 mg of the LGPS electrolyte (purchased from MSE supplies LLC) was pressed under ≈300 MPa to form a solid LGPS layer (diameter: 10 mm, thickness: 0.65 mm)."
+  },
+  {
+    "triplets": [
+      [
+        "interlayer",
+        "separate",
+        "Li metal layer"
+      ]
+    ],
+    "sentence": "20 mg of LPSI-20Sn electrolyte was spread on one side of the LGPS layer, and pressed under ≈300 MPa to form an interlayer (diameter: 10 mm, thickness: 0.17 mm) to separate Li metal and LGPS layer."
+  },
+  {
+    "triplets": [],
+    "sentence": "10 mg of LCO@LNO/LGPS powder was uniformly spread onto the surface of the other side of LGPS layer and pressed under ≈360 MPa for 5 min."
+  },
+  {
+    "triplets": [
+      [
+        "Li metal",
+        "be",
+        "finally place"
+      ],
+      [
+        "Li metal",
+        "press for",
+        "3 min."
+      ],
+      [
+        "Li metal",
+        "be place on",
+        "lpsi 20sn layer"
+      ],
+      [
+        "Li metal",
+        "finally be place on",
+        "lpsi 20sn layer"
+      ],
+      [
+        "Li metal",
+        "be",
+        "place"
+      ]
+    ],
+    "sentence": "Finally, Li metal was placed on the LPSI-20Sn layer and pressed by ≈120 MPa for 3 min."
+  },
+  {
+    "triplets": [
+      [
+        "pellet cell",
+        "be sandwich as",
+        "current collector"
+      ],
+      [
+        "layer pellet cell",
+        "be sandwich between",
+        "two steel rod"
+      ],
+      [
+        "pellet cell",
+        "be sandwich as",
+        "collector"
+      ],
+      [
+        "pellet cell",
+        "be",
+        "sandwich between two steel rod as current collector"
+      ],
+      [
+        "pellet cell",
+        "be sandwich between",
+        "two steel rod"
+      ],
+      [
+        "layer pellet cell",
+        "be",
+        "sandwich"
+      ],
+      [
+        "layer pellet cell",
+        "be",
+        "sandwich between two steel rod as collector"
+      ],
+      [
+        "layer pellet cell",
+        "be",
+        "sandwich between two steel rod as current collector"
+      ],
+      [
+        "layer pellet cell",
+        "seal in",
+        "model cell"
+      ],
+      [
+        "layer pellet cell",
+        "be",
+        "sandwich between two stainless steel rod as collector"
+      ],
+      [
+        "pellet cell",
+        "be sandwich between",
+        "two stainless steel rod"
+      ],
+      [
+        "pellet cell",
+        "be",
+        "sandwich between two stainless steel rod as current collector"
+      ],
+      [
+        "pellet cell",
+        "be",
+        "sandwich between two steel rod as collector"
+      ],
+      [
+        "pellet cell",
+        "be",
+        "sandwich between two stainless steel rod as collector"
+      ],
+      [
+        "pellet cell",
+        "be",
+        "sandwich"
+      ],
+      [
+        "layer pellet cell",
+        "be sandwich as",
+        "current collector"
+      ],
+      [
+        "layer pellet cell",
+        "be",
+        "sandwich between two stainless steel rod as current collector"
+      ],
+      [
+        "pellet cell",
+        "seal in",
+        "model cell"
+      ],
+      [
+        "layer pellet cell",
+        "be sandwich between",
+        "two stainless steel rod"
+      ],
+      [
+        "layer pellet cell",
+        "be sandwich as",
+        "collector"
+      ]
+    ],
+    "sentence": "The four-layered pellet cell was sandwiched between two stainless-steel rods as current collectors and sealed in the model cell."
+  },
+  {
+    "triplets": [
+      [
+        "charge",
+        "be",
+        "conduct"
+      ],
+      [
+        "galvanostatic charge",
+        "be conduct on",
+        "land battery test system"
+      ],
+      [
+        "charge",
+        "be conduct on",
+        "land battery test system"
+      ],
+      [
+        "galvanostatic charge",
+        "be",
+        "conduct"
+      ]
+    ],
+    "sentence": "Galvanostatic charge–discharge was conducted on the LAND battery test system."
+  },
+  {
+    "triplets": [
+      [
+        "various density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "constant current density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "density",
+        "be",
+        "apply"
+      ],
+      [
+        "current density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "constant current density",
+        "be",
+        "apply"
+      ],
+      [
+        "various current density",
+        "be",
+        "apply"
+      ],
+      [
+        "various constant density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "current density",
+        "be",
+        "apply"
+      ],
+      [
+        "various constant density",
+        "be",
+        "apply"
+      ],
+      [
+        "various current density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "constant density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "constant density",
+        "be",
+        "apply"
+      ],
+      [
+        "various constant current density",
+        "be",
+        "apply"
+      ],
+      [
+        "voltage window",
+        "be",
+        "set"
+      ],
+      [
+        "various constant current density",
+        "evaluate",
+        "cycling stability"
+      ],
+      [
+        "various density",
+        "be",
+        "apply"
+      ]
+    ],
+    "sentence": "The voltage window was set as 2.8–4.2 V (vs Li/Li+), and various constant current densities were applied to evaluate the cycling stability and the rate performance."
+  },
+  {
+    "triplets": [
+      [
+        "cell fabrication process",
+        "be conduct in",
+        "ar fill glovebox"
+      ],
+      [
+        "cell fabrication process",
+        "be conduct in",
+        "glovebox"
+      ],
+      [
+        "cell fabrication process",
+        "be conduct in",
+        "fill glovebox"
+      ],
+      [
+        "cell fabrication process",
+        "be",
+        "conduct"
+      ]
+    ],
+    "sentence": "All cell fabrication processes were conducted in an Ar-filled glovebox."
+  },
+  {
+    "triplets": [],
+    "sentence": "Air Stability Measurements\nThe electrolyte stability against dry O2was measured in the TGA instrument."
+  },
+  {
+    "triplets": [
+      [
+        "powder electrolyte",
+        "be",
+        "place"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of flow"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of continuous flow of dry o2with"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of continuous flow"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of flow of dry o2with"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of continuous flow of o2with"
+      ],
+      [
+        "powder electrolyte",
+        "be place in",
+        "atmosphere of flow of o2with"
+      ]
+    ],
+    "sentence": "Powder electrolytes were placed in the atmosphere of continuous flow of dry O2with the weight recorded by the built-in microbalance."
+  },
+  {
+    "triplets": [
+      [
+        "electrolyte",
+        "be",
+        "place in chamber with humidity"
+      ],
+      [
+        "stability",
+        "be",
+        "evaluate"
+      ],
+      [
+        "electrolyte",
+        "be place in",
+        "chamber"
+      ],
+      [
+        "electrolyte",
+        "be place in",
+        "airtight chamber"
+      ],
+      [
+        "stability",
+        "be evaluate as",
+        "follow"
+      ],
+      [
+        "electrolyte",
+        "be place with",
+        "humidity"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "place"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "place in airtight chamber with humidity"
+      ]
+    ],
+    "sentence": "The stability toward moisture was evaluated as follows: electrolytes were placed in an airtight chamber with humidity and gas (O2, N2, air, and vacuum) controlling."
+  },
+  {
+    "triplets": [
+      [
+        "xrd",
+        "be",
+        "after exposure conduct for electrolyte sample"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure of 10 % humidity conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure of 10 % humidity overnight conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "conduct for electrolyte sample"
+      ],
+      [
+        "xrd",
+        "be",
+        "conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "overnight conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure of 10 % humidity conduct for electrolyte sample"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure overnight conduct"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure overnight conduct for electrolyte sample"
+      ],
+      [
+        "xrd",
+        "be",
+        "overnight conduct for electrolyte sample"
+      ],
+      [
+        "xrd",
+        "be",
+        "after exposure of 10 % humidity overnight conduct for electrolyte sample"
+      ]
+    ],
+    "sentence": "After exposure of 10% humidity overnight, XRD and the EIS measurements were conducted for the electrolyte samples."
+  },
+  {
+    "triplets": [
+      [
+        "process",
+        "be",
+        "process"
+      ],
+      [
+        "reheat process",
+        "be process in",
+        "180 °c"
+      ],
+      [
+        "process",
+        "be process overnight in",
+        "vacuum oven"
+      ],
+      [
+        "reheat process",
+        "be process overnight in",
+        "180 °c"
+      ],
+      [
+        "reheat process",
+        "be",
+        "process overnight"
+      ],
+      [
+        "process",
+        "be process overnight in",
+        "180 °c"
+      ],
+      [
+        "reheat process",
+        "be process in",
+        "vacuum oven"
+      ],
+      [
+        "process",
+        "be process in",
+        "180 °c"
+      ],
+      [
+        "process",
+        "be process in",
+        "vacuum oven"
+      ],
+      [
+        "reheat process",
+        "be process overnight in",
+        "vacuum oven"
+      ],
+      [
+        "reheat process",
+        "be",
+        "process"
+      ],
+      [
+        "process",
+        "be",
+        "process overnight"
+      ]
+    ],
+    "sentence": "Reheating process was processed in a vacuum oven (180 °C) overnight."
+  },
+  {
+    "triplets": [
+      [
+        "characterization sem image",
+        "be",
+        "obtain by"
+      ],
+      [
+        "characterization sem image",
+        "be",
+        "obtain"
+      ]
+    ],
+    "sentence": "Characterization\nSEM images and element mapping were obtained by using a Hitachi S-4800 field-emission scanning electron microscope (FE-SEM, acceleration voltage 5 kV) equipped with EDS."
+  },
+  {
+    "triplets": [
+      [
+        "xrd measurement",
+        "be",
+        "perform on Bruker AXS d8 advance with Cu Kα radiation"
+      ],
+      [
+        "xrd measurement",
+        "be perform with",
+        "Cu Kα radiation"
+      ],
+      [
+        "xrd measurement",
+        "be perform on",
+        "Bruker AXS d8 advance"
+      ],
+      [
+        "xrd measurement",
+        "be",
+        "perform"
+      ]
+    ],
+    "sentence": "XRD measurements were performed on Bruker AXS D8 Advance with Cu Kα radiation (λ = 1.54178 Å)."
+  },
+  {
+    "triplets": [
+      [
+        "Kapton tape",
+        "prevent from",
+        "air exposure"
+      ],
+      [
+        "Kapton tape",
+        "be cover",
+        "prevent from air exposure"
+      ],
+      [
+        "Kapton tape",
+        "be cover",
+        "prevent"
+      ],
+      [
+        "Kapton tape",
+        "be cover",
+        "to prevent from air exposure"
+      ],
+      [
+        "Kapton tape",
+        "be cover on",
+        "xrd holder"
+      ],
+      [
+        "Kapton tape",
+        "be",
+        "cover"
+      ],
+      [
+        "Kapton tape",
+        "be cover",
+        "to prevent"
+      ]
+    ],
+    "sentence": "Kapton tape was covered on the XRD holder to prevent from the air exposure."
+  },
+  {
+    "triplets": [
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan from 10 ° to 90 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step from 10 ° to 90 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan from 10 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be obtain by",
+        "scan"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be obtain by",
+        "scan"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step from 10 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s per step"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed of 5 s"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan from 10 °"
+      ],
+      [
+        "speed scan xrd pattern",
+        "be",
+        "obtain by scan from 10 ° to 90 °"
+      ],
+      [
+        "low speed scan xrd pattern",
+        "be",
+        "obtain by scan at speed per step from 10 °"
+      ]
+    ],
+    "sentence": "Low-speed-scan XRD pattern of LPSI-20Sn electrolyte was obtained by scanning at the speed of 5 s per step (1 step = 0.02°) from 10° to 90° (2θ)."
+  },
+  {
+    "triplets": [
+      [
+        "XRD Rietveld refinement",
+        "be perform by",
+        "material Studio software"
+      ],
+      [
+        "XRD Rietveld refinement",
+        "be perform by",
+        "use material Studio software"
+      ]
+    ],
+    "sentence": "XRD Rietveld refinement was performed by using Materials Studio software."
+  },
+  {
+    "triplets": [
+      [
+        "Raman spectrum",
+        "be measure with",
+        "HORIBA Scientific LabRAM HR Raman spectrometer"
+      ],
+      [
+        "Raman spectrum",
+        "be",
+        "measure"
+      ],
+      [
+        "Raman",
+        "be scientific labram hr of",
+        "HORIBA"
+      ],
+      [
+        "Raman spectrum",
+        "be measure with",
+        "HORIBA Scientific LabRAM HR Raman spectrometer operate under incident laser beam"
+      ],
+      [
+        "Raman spectrum",
+        "be measure with",
+        "HORIBA Scientific LabRAM HR Raman spectrometer operate under incident laser beam at 532 nm"
+      ],
+      [
+        "Raman spectrum",
+        "be measure with",
+        "HORIBA Scientific LabRAM HR Raman spectrometer operate"
+      ]
+    ],
+    "sentence": "Raman spectra were measured with a HORIBA Scientific LabRAM HR Raman spectrometer operated under an incident laser beam at 532 nm."
+  },
+  {
+    "triplets": [
+      [
+        "electrolyte sample",
+        "be seal for",
+        "Raman testing"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in two piece for Raman testing"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in two piece of transparent glass for Raman testing"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "two piece of glass"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "two piece"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "two piece of transparent glass"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in two piece of glass for Raman testing"
+      ]
+    ],
+    "sentence": "Electrolyte samples were sealed and sandwiched in two pieces of transparent glasses for Raman testing."
+  },
+  {
+    "triplets": [
+      [
+        "XPS spectrum",
+        "be obtain by",
+        "Krotos AXIS Ultra Spectrometer system"
+      ],
+      [
+        "XPS spectrum",
+        "be obtain by",
+        "use Krotos AXIS Ultra Spectrometer system"
+      ]
+    ],
+    "sentence": "XPS spectra were obtained by using Krotos AXIS Ultra Spectrometer system using a monochromatic Al K(alpha) source (25 mA, 15 kV)."
+  },
+  {
+    "triplets": [
+      [
+        "state 7li nmr measurement",
+        "be carry out",
+        "nmr spectrometer"
+      ],
+      [
+        "solid state 7li nmr measurement",
+        "be carry out",
+        "nmr spectrometer"
+      ]
+    ],
+    "sentence": "Solid-state 7Li NMR measurements were carried out on a Varian Infinity Plus 400 (I+400) NMR spectrometer (Bo= 9.4 T), operating at a 7Li resonance frequency of 155.248 MHz."
+  },
+  {
+    "triplets": [
+      [
+        "π pulse length",
+        "be",
+        "determine"
+      ],
+      [
+        "π 2 pulse length",
+        "be determine",
+        "2.3 µs"
+      ],
+      [
+        "π pulse length",
+        "be",
+        "2.3 µs"
+      ],
+      [
+        "π pulse length",
+        "be determine",
+        "2.3 µs"
+      ],
+      [
+        "π 2 pulse length",
+        "be determine",
+        "to 2.3 µs"
+      ],
+      [
+        "π 2 pulse length",
+        "be",
+        "2.3 µs"
+      ],
+      [
+        "π pulse length",
+        "be determine",
+        "to 2.3 µs"
+      ],
+      [
+        "π 2 pulse length",
+        "be",
+        "determine"
+      ]
+    ],
+    "sentence": "The π/2 pulse length was determined to be 2.3 µs."
+  },
+  {
+    "triplets": [
+      [
+        "Chemical shift",
+        "be reference with",
+        "1.0 m licl solution"
+      ],
+      [
+        "Chemical shift",
+        "be",
+        "reference"
+      ]
+    ],
+    "sentence": "Chemical shifts were referenced with respect to a 1.0 m LiCl solution."
+  },
+  {
+    "triplets": [
+      [
+        "electrolyte sample",
+        "be seal in",
+        "argon fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in custom make Teflon tube in argon fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "Teflon tube"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in Teflon tube in glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in custom make Teflon tube in glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in Teflon tube in fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in Teflon tube in argon fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in make Teflon tube in argon fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "custom make Teflon tube"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in make Teflon tube in fill glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be seal in",
+        "make Teflon tube"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in make Teflon tube in glovebox"
+      ],
+      [
+        "electrolyte sample",
+        "be",
+        "seal in custom make Teflon tube in fill glovebox"
+      ]
+    ],
+    "sentence": "The electrolyte sample was sealed in custom-made Teflon tubes (ϕ = 4.7 mm) in an argon-filled glovebox."
+  },
+  {
+    "triplets": [
+      [
+        "variable temperature measurement",
+        "be perform by",
+        "use"
+      ],
+      [
+        "temperature measurement",
+        "be perform by",
+        "use"
+      ],
+      [
+        "−40",
+        "be with",
+        "interval of 5 °c"
+      ]
+    ],
+    "sentence": "Variable temperature (−40 to 130 °C with an interval of 5 or 10 °C) measurements were performed by using a 5 mm static probe.T1relaxation (spin–lattice) time at various temperatures was determined by using the saturation recovery method."
+  },
+  {
+    "triplets": [
+      [
+        "DFT calculation",
+        "be",
+        "conduct for static computation of lpsi"
+      ],
+      [
+        "DFT calculation",
+        "be",
+        "conduct for static computation"
+      ],
+      [
+        "DFT calculation",
+        "be",
+        "conduct"
+      ]
+    ],
+    "sentence": "DFT Calculation\nIt was conducted for both static computation and geometry optimization of LPSI and LPSI-20Sn crystal, using the CASTEP DFT code of Accelrys Material Studio 8.0 with the exchange–correlation functional of Perdew–Burke–Ernzerhof (PBE) based on the generalized gradient approximation (GGA)."
+  },
+  {
+    "triplets": [
+      [
+        "cut off energy",
+        "be set as",
+        "380.0 ev"
+      ],
+      [
+        "cut off energy",
+        "be",
+        "set"
+      ]
+    ],
+    "sentence": "The cut-off energy for the plane-wave basis was set as 380.0 eV."
+  },
+  {
+    "triplets": [
+      [
+        "Thek point mesh",
+        "be",
+        "adopt"
+      ],
+      [
+        "field tolerance",
+        "be",
+        "set"
+      ]
+    ],
+    "sentence": "Thek-point mesh of 2 × 2 × 2 was adopted and the self-consistent field tolerance was set as 5.0 × 10−7 eV Å−1."
+  },
+  {
+    "triplets": [
+      [
+        "fourier",
+        "transform",
+        "grid density"
+      ],
+      [
+        "fast fourier",
+        "transform",
+        "grid density"
+      ]
+    ],
+    "sentence": "The fast Fourier transform grid density was set as 90 × 90 × 90."
+  },
+  {
+    "triplets": [
+      [
+        "crystal structure",
+        "be",
+        "employ by"
+      ],
+      [
+        "crystal structure",
+        "be",
+        "employ"
+      ],
+      [
+        "structure",
+        "be",
+        "employ"
+      ],
+      [
+        "structure",
+        "be",
+        "employ by"
+      ]
+    ],
+    "sentence": "The crystal structure of LPSI-20Sn crystal was employed by using different occupation ratios of Sn and P in the same site position."
+  },
+  {
+    "triplets": [
+      [
+        "δe",
+        "be",
+        "simulate"
+      ]
+    ],
+    "sentence": "The oxygen replacement reaction energy (ΔE) of LPSI-20Sn and LPSI electrolytes was simulated based on the differential energy by changing one of the S atoms to O atom in the model structure."
+  },
+  {
+    "triplets": [],
+    "sentence": "One 2 × 2 × 2 supercell of LPSI or LPSI-20Sn was used as the model structure by changing one of the S atoms."
+  },
+  {
+    "triplets": [
+      [
+        "δe",
+        "can",
+        "can calculate"
+      ]
+    ],
+    "sentence": "The oxygen replacement reaction energy (ΔE) can be calculated as ΔE=U(S atom)+U(PS3O tetrahedron)−U(O atom)−U(PS4 tetrahedron), which can be defined as one of the indicators to reveal the resistance capability of sulfide electrolyte (containing PS4tetrahedron) to O2."
+  },
+  {
+    "triplets": [],
+    "sentence": "Conflict of Interest\nThe authors declare no conflict of interest."
+  }
+]

@@ -1,0 +1,1608 @@
+[
+  {
+    "triplets": [],
+    "sentence": "<|start_header_id|>assistant<|end_header_id|>\n\n4 Experimental Section\n\nPreparation of Materials\n\nCommercial 5,7,12,14-pentacenetetrone was obtained from TCI and used as received for active materials."
+  },
+  {
+    "triplets": [
+      [
+        "electrolyte li7p3s11",
+        "be",
+        "synthesize via state route as report"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be synthesize via",
+        "state route"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be synthesize as",
+        "report"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be synthesize via",
+        "solid state route"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be",
+        "synthesize via state route as report elsewhere"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be",
+        "synthesize via solid state route as report elsewhere"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be synthesize as",
+        "report elsewhere"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be",
+        "synthesize"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be synthesize as",
+        "report"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be",
+        "synthesize via state route as report"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be synthesize via",
+        "solid state route"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be",
+        "synthesize via solid state route as report"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be",
+        "synthesize via solid state route as report"
+      ],
+      [
+        "electrolyte li7p3s11",
+        "be",
+        "synthesize via state route as report elsewhere"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be",
+        "synthesize via solid state route as report elsewhere"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be",
+        "synthesize"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be synthesize via",
+        "state route"
+      ],
+      [
+        "solid electrolyte li7p3s11",
+        "be synthesize as",
+        "report elsewhere"
+      ]
+    ],
+    "sentence": "The solid electrolytes Li7P3S11(LPS) glass ceramic used in this work was synthesized via a solid-state route as reported elsewhere."
+  },
+  {
+    "triplets": [
+      [
+        "sulfide",
+        "be with",
+        "molar ratio of 70:30"
+      ],
+      [
+        "sulfide",
+        "be",
+        "typically weight"
+      ],
+      [
+        "sulfide",
+        "be",
+        "weight"
+      ]
+    ],
+    "sentence": "Typically, sulfide (Li2S, 99.9%, Alfa Aesar) and phosphorus pentasulfide (P2S5, 99%, Aladdin) with molar ratio of 70:30 were weighted and ground together."
+  },
+  {
+    "triplets": [],
+    "sentence": "2 g of powder was loaded into a ZrO2ball-mill jar with 40 g of 5 mm diameter ZrO2balls."
+  },
+  {
+    "triplets": [
+      [
+        "jar",
+        "be",
+        "place"
+      ],
+      [
+        "jar",
+        "be place in",
+        "Pulverisette 7"
+      ],
+      [
+        "jar",
+        "mill for",
+        "30 h"
+      ],
+      [
+        "jar",
+        "be place in",
+        "Planetary Micro Mill"
+      ],
+      [
+        "jar",
+        "mill at",
+        "400 rpm"
+      ]
+    ],
+    "sentence": "The jars were placed in Planetary Micro Mill (Pulverisette 7, Fritsch) and milled for 30 h at 400 rpm (10 min of milling followed by 5 min breaks to dissipate heat)."
+  },
+  {
+    "triplets": [
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h"
+      ],
+      [
+        "result powder",
+        "cool naturally to",
+        "room temperature"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 1 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 3 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be subsequently anneal for",
+        "3 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 3 h for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be subsequently anneal with",
+        "heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be anneal at",
+        "210 °c"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be anneal with",
+        "heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be subsequently anneal at",
+        "210 °c"
+      ],
+      [
+        "result powder",
+        "be subsequently anneal at",
+        "210 °c"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be subsequently anneal for",
+        "3 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "cool to",
+        "room temperature"
+      ],
+      [
+        "powder",
+        "cool naturally to",
+        "room temperature"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be anneal for",
+        "3 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be subsequently anneal with",
+        "heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be anneal for",
+        "3 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be subsequently anneal with",
+        "heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h"
+      ],
+      [
+        "result powder",
+        "be anneal with",
+        "heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 3 h for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 3 h for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be subsequently anneal for",
+        "1 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be anneal at",
+        "210 °c"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal at 210 °c for 3 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal"
+      ],
+      [
+        "powder",
+        "be subsequently anneal for",
+        "1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 1 h with heating rate"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h"
+      ],
+      [
+        "result powder",
+        "cool to",
+        "room temperature"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be anneal with",
+        "heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be anneal for",
+        "1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 3 h for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 3 h for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 1 h with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c with heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "result powder",
+        "be",
+        "anneal for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be anneal for",
+        "1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal at 210 °c for 3 h for 1 h"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal for 3 h with heating rate"
+      ],
+      [
+        "powder",
+        "be subsequently anneal with",
+        "heating rate"
+      ],
+      [
+        "result powder",
+        "be",
+        "subsequently anneal for 3 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "anneal for 1 h with heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be anneal with",
+        "heating rate of 1 °c min −1"
+      ],
+      [
+        "powder",
+        "be",
+        "subsequently anneal at 210 °c for 3 h"
+      ]
+    ],
+    "sentence": "The resulting powder was subsequently annealed at 210 °C for 3 h and 250 °C for 1 h with a heating rate of 1 °C min−1 and cooled to room temperature naturally."
+  },
+  {
+    "triplets": [
+      [
+        "above experiment",
+        "be carry out under",
+        "Ar atmosphere"
+      ]
+    ],
+    "sentence": "All the above experiments were carried out under Ar atmosphere."
+  },
+  {
+    "triplets": [
+      [
+        "material characterization xrd pattern",
+        "be obtain by",
+        "Bruker d8 advance diffractometer"
+      ],
+      [
+        "material characterization xrd pattern",
+        "be obtain by",
+        "Bruker d8 advance diffractometer equip with Cu Kα radiation"
+      ],
+      [
+        "material characterization xrd pattern",
+        "be obtain by",
+        "Bruker d8 advance diffractometer equip"
+      ]
+    ],
+    "sentence": "Materials Characterization\n\nXRD patterns were obtained by a Bruker D8 advance diffractometer equipped with Cu Kα radiation (λ = 1.54178)."
+  },
+  {
+    "triplets": [
+      [
+        "lps",
+        "be seal for",
+        "xrd measurement"
+      ],
+      [
+        "lps",
+        "avoid",
+        "moisture"
+      ],
+      [
+        "lps",
+        "be",
+        "for xrd measurement seal with Kapton film"
+      ],
+      [
+        "lps",
+        "be",
+        "seal"
+      ],
+      [
+        "lps",
+        "be seal with",
+        "Kapton film"
+      ]
+    ],
+    "sentence": "For XRD measurement, LPS was sealed with Kapton film to avoid the moisture."
+  },
+  {
+    "triplets": [
+      [
+        "imitate battery system",
+        "be with",
+        "beryllium"
+      ],
+      [
+        "in xrd",
+        "be",
+        "test"
+      ],
+      [
+        "xrd",
+        "be",
+        "test"
+      ]
+    ],
+    "sentence": "The in situ XRD was tested using a imitate battery system with beryllium as a test window."
+  },
+  {
+    "triplets": [
+      [
+        "scanning electron microscopy",
+        "study",
+        "morphology"
+      ],
+      [
+        "scanning electron microscopy",
+        "study",
+        "morphology of material"
+      ],
+      [
+        "scanning electron microscopy",
+        "be",
+        "use"
+      ]
+    ],
+    "sentence": "Scanning electron microscopy (SEM, Hitachi S4800) was used to study the morphology and mapping of materials."
+  },
+  {
+    "triplets": [
+      [
+        "FTIR spectra measurement",
+        "be",
+        "perform"
+      ],
+      [
+        "FTIR spectra measurement",
+        "be perform on",
+        "Thermo Fisher Nicolet 6700 FTIR spectrometer"
+      ],
+      [
+        "FTIR spectra measurement",
+        "study",
+        "structure"
+      ],
+      [
+        "FTIR spectra measurement",
+        "study",
+        "structure of pt"
+      ]
+    ],
+    "sentence": "FTIR spectra measurement was performed on Thermo Fisher Nicolet 6700 FTIR spectrometer to study the structure of PT."
+  },
+  {
+    "triplets": [
+      [
+        "Young",
+        "have",
+        "modulus of pt"
+      ],
+      [
+        "Nanoindentation test",
+        "gain",
+        "Young 's modulus"
+      ],
+      [
+        "Nanoindentation test",
+        "be conduct by",
+        "Nano Indenter"
+      ],
+      [
+        "Nanoindentation test",
+        "be",
+        "conduct by Nano Indenter with Berkovich tip"
+      ],
+      [
+        "Nanoindentation test",
+        "be",
+        "conduct by Nano Indenter with standard Berkovich tip"
+      ],
+      [
+        "Nanoindentation test",
+        "be conduct by",
+        "Bruker Hysitron ti980"
+      ],
+      [
+        "Nanoindentation test",
+        "gain",
+        "Young 's modulus of pt"
+      ]
+    ],
+    "sentence": "Nanoindentation test was conducted by a Nano Indenter (Bruker Hysitron TI980) with a standard Berkovich tip to gain the Young's modulus of PT."
+  },
+  {
+    "triplets": [
+      [
+        "xps measurement",
+        "be carry out by",
+        "Thermo Scientific K Alpha"
+      ]
+    ],
+    "sentence": "XPS measurements were carried out by a Thermo Scientific K-Alpha+ with monochromatic Al Kα radiation (1486.6 eV)."
+  },
+  {
+    "triplets": [
+      [
+        "state 31p mas nmr single pulse experiment",
+        "be",
+        "conduct"
+      ],
+      [
+        "solid state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer"
+      ],
+      [
+        "solid state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate"
+      ],
+      [
+        "solid state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer"
+      ],
+      [
+        "state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer"
+      ],
+      [
+        "solid state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate at 161.97 mhz"
+      ],
+      [
+        "solid state 31p mas nmr pulse experiment",
+        "be",
+        "conduct"
+      ],
+      [
+        "state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate at 161.97 mhz"
+      ],
+      [
+        "solid state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate"
+      ],
+      [
+        "state 31p mas nmr single pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate"
+      ],
+      [
+        "state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate at 161.97 mhz"
+      ],
+      [
+        "state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate"
+      ],
+      [
+        "solid state 31p mas nmr single pulse experiment",
+        "be",
+        "conduct"
+      ],
+      [
+        "state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer"
+      ],
+      [
+        "state 31p mas nmr pulse experiment",
+        "be",
+        "conduct"
+      ],
+      [
+        "solid state 31p mas nmr pulse experiment",
+        "be conduct on",
+        "400 mhz Bruker Avance III spectrometer operate at 161.97 mhz"
+      ]
+    ],
+    "sentence": "Solid-state 31P MAS NMR single pulse experiments were conducted on a 400 MHz Bruker Avance III spectrometer operating at 161.97 MHz."
+  },
+  {
+    "triplets": [
+      [
+        "sample",
+        "be",
+        "pack"
+      ],
+      [
+        "sample",
+        "be",
+        "pack into 1.9 mm zro2rotor in glove box below 1 ppm"
+      ],
+      [
+        "sample",
+        "be",
+        "pack into 1.9 mm zro2rotor in glove box with oxygen level"
+      ],
+      [
+        "sample",
+        "be",
+        "pack into 1.9 mm zro2rotor in glove box with oxygen level below 1 ppm"
+      ],
+      [
+        "sample",
+        "be pack in",
+        "glove box with oxygen level below 1 ppm"
+      ],
+      [
+        "glove box",
+        "be with",
+        "oxygen level"
+      ],
+      [
+        "sample",
+        "be pack in",
+        "glove box with oxygen level"
+      ],
+      [
+        "sample",
+        "be pack into",
+        "1.9 mm zro2rotor"
+      ],
+      [
+        "sample",
+        "be pack in",
+        "glove box below 1 ppm"
+      ],
+      [
+        "sample",
+        "be pack in",
+        "glove box"
+      ],
+      [
+        "sample",
+        "be",
+        "pack into 1.9 mm zro2rotor in glove box"
+      ]
+    ],
+    "sentence": "All samples were packed into 1.9 mm ZrO2rotors in a glove box with oxygen and H2O level below 1 ppm."
+  },
+  {
+    "triplets": [
+      [
+        "sample",
+        "be",
+        "spin at 30 khz inside 1.9 mm hxy resonance probe"
+      ],
+      [
+        "sample",
+        "be spin",
+        "temperature regulate at room temperature"
+      ],
+      [
+        "sample",
+        "be spin",
+        "with temperature regulate"
+      ],
+      [
+        "temperature",
+        "regulate at",
+        "room temperature"
+      ],
+      [
+        "sample",
+        "be spin",
+        "with temperature regulate at room temperature"
+      ],
+      [
+        "sample",
+        "be",
+        "spin"
+      ],
+      [
+        "sample",
+        "be spin inside",
+        "1.9 mm hxy resonance probe"
+      ],
+      [
+        "sample",
+        "be spin at",
+        "30 khz"
+      ],
+      [
+        "sample",
+        "be spin inside",
+        "1.9 mm hxy triple resonance probe"
+      ],
+      [
+        "sample",
+        "be spin",
+        "temperature regulate"
+      ],
+      [
+        "sample",
+        "be",
+        "spin at 30 khz inside 1.9 mm hxy triple resonance probe"
+      ]
+    ],
+    "sentence": "The samples were spun at 30 kHz inside a 1.9 mm HXY triple resonance probe with temperature regulated at room temperature."
+  },
+  {
+    "triplets": [
+      [
+        "31p nmr signal",
+        "be",
+        "collect"
+      ]
+    ],
+    "sentence": "The 31P NMR signal was collected using a π/2 pulse of 1.5 µs, a recycle delay of 7.5 s, and 256 transients."
+  },
+  {
+    "triplets": [
+      [
+        "Chemical shift",
+        "be externally reference to",
+        "nh4h2po4at 0.81 ppm"
+      ],
+      [
+        "Chemical shift",
+        "be",
+        "externally reference"
+      ],
+      [
+        "Chemical shift",
+        "be reference to",
+        "solid nh4h2po4at 0.81 ppm"
+      ],
+      [
+        "Chemical shift",
+        "be externally reference to",
+        "solid nh4h2po4at 0.81 ppm"
+      ],
+      [
+        "Chemical shift",
+        "be reference to",
+        "nh4h2po4at 0.81 ppm"
+      ],
+      [
+        "Chemical shift",
+        "be",
+        "reference"
+      ]
+    ],
+    "sentence": "Chemical shift was externally referenced to the solid NH4H2PO4at 0.81 ppm."
+  },
+  {
+    "triplets": [
+      [
+        "cell",
+        "prepare for",
+        "kind of characterization"
+      ]
+    ],
+    "sentence": "The cells prepared for all kinds of characterizations were operated at 0.1 C and 60 °C."
+  },
+  {
+    "triplets": [
+      [
+        "Ketjenblack",
+        "be with",
+        "weight ratio of 6:3:1 in isopropanol solvent"
+      ],
+      [
+        "weight ratio",
+        "be in",
+        "isopropanol solvent"
+      ]
+    ],
+    "sentence": "Electrochemical Measurements\n\nThe PT electrode used for preparing the Li-PT liquid cell was prepared by mixing the PT powders with conductive carbon (Ketjenblack) and binder (polytetrafluorethylene, PTFE) with a weight ratio of 6:3:1 in the isopropanol solvent."
+  },
+  {
+    "triplets": [
+      [
+        "slurry",
+        "dry at",
+        "80 °c"
+      ],
+      [
+        "slurry",
+        "dry for",
+        "12 h"
+      ],
+      [
+        "slurry",
+        "be",
+        "roll"
+      ],
+      [
+        "slurry",
+        "be",
+        "then roll into film"
+      ],
+      [
+        "slurry",
+        "be",
+        "then roll"
+      ],
+      [
+        "slurry",
+        "be roll into",
+        "film"
+      ]
+    ],
+    "sentence": "Then the slurry was rolled into a film and dried at 80 °C for 12 h."
+  },
+  {
+    "triplets": [],
+    "sentence": "The PT electrode was obtained by compressing the above film onto the current collector (titanium mesh)."
+  },
+  {
+    "triplets": [
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "fill glove box with pt electrode"
+      ],
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "argon fill glove box with pt electrode"
+      ],
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "glove box"
+      ],
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "glove box with pt electrode"
+      ],
+      [
+        "Li pt coin cell",
+        "be",
+        "assemble"
+      ],
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "fill glove box"
+      ],
+      [
+        "fill glove box",
+        "be with",
+        "pt electrode"
+      ],
+      [
+        "Li pt coin cell",
+        "be assemble in",
+        "argon fill glove box"
+      ]
+    ],
+    "sentence": "The Li-PT coin cell (CR2016) was assembled in an argon-filled glove box with a PT electrode, a Celgard 2300 separator and a lithium metal anode."
+  },
+  {
+    "triplets": [
+      [
+        "use electrolyte",
+        "be compose with",
+        "1 wt % lino3additive"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve in mixture of DOL with 1 wt % lino3additive"
+      ],
+      [
+        "electrolyte",
+        "be compose of",
+        "1m litfsi dissolve"
+      ],
+      [
+        "use electrolyte",
+        "be compose of",
+        "1m litfsi dissolve in mixture"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "compose of 1m litfsi with 1 wt % lino3additive"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve with 1 wt % lino3additive"
+      ],
+      [
+        "use electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve in mixture with 1 wt % lino3additive"
+      ],
+      [
+        "use electrolyte",
+        "be",
+        "compose"
+      ],
+      [
+        "use electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve with 1 wt % lino3additive"
+      ],
+      [
+        "electrolyte",
+        "be compose with",
+        "1 wt % lino3additive"
+      ],
+      [
+        "use electrolyte",
+        "be compose of",
+        "1m litfsi dissolve"
+      ],
+      [
+        "use electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve in mixture of DOL with 1 wt % lino3additive"
+      ],
+      [
+        "electrolyte",
+        "be compose of",
+        "1m litfsi dissolve in mixture of DOL"
+      ],
+      [
+        "use electrolyte",
+        "be compose of",
+        "1m litfsi dissolve in mixture of DOL"
+      ],
+      [
+        "electrolyte",
+        "be compose of",
+        "1m litfsi"
+      ],
+      [
+        "electrolyte",
+        "be compose of",
+        "1m litfsi dissolve in mixture"
+      ],
+      [
+        "use electrolyte",
+        "be compose of",
+        "1m litfsi"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "compose"
+      ],
+      [
+        "electrolyte",
+        "be",
+        "compose of 1m litfsi dissolve in mixture with 1 wt % lino3additive"
+      ],
+      [
+        "use electrolyte",
+        "be",
+        "compose of 1m litfsi with 1 wt % lino3additive"
+      ]
+    ],
+    "sentence": "The used electrolyte was composed of 1M LiTFSI dissolved in a mixture of DOL and DME (1:1, volume ratio) with 1 wt% LiNO3additive."
+  },
+  {
+    "triplets": [
+      [
+        "Li pt liquid cell",
+        "be with",
+        "glass bottle"
+      ],
+      [
+        "Li pt liquid cell",
+        "employ",
+        "cathode"
+      ],
+      [
+        "Li pt liquid cell",
+        "employ cathode as",
+        "coin cell"
+      ],
+      [
+        "Li pt liquid cell",
+        "employ",
+        "same cathode"
+      ]
+    ],
+    "sentence": "The Li-PT liquid cell with glass bottle employed the same cathode, anode and electrolyte as coin cell."
+  },
+  {
+    "triplets": [
+      [
+        "cell",
+        "loading of be",
+        "1 mg cm −2"
+      ]
+    ],
+    "sentence": "The mass loading of both cells was 1 mg cm−2."
+  },
+  {
+    "triplets": [
+      [
+        "solid state cell",
+        "be",
+        "assemble"
+      ],
+      [
+        "solid state cell",
+        "be assemble as",
+        "follow"
+      ]
+    ],
+    "sentence": "All solid-state cells were assembled as follows."
+  },
+  {
+    "triplets": [
+      [
+        "polycarbonate cylinder",
+        "be with",
+        "inner wall diameter of 10 mm"
+      ]
+    ],
+    "sentence": "First, 80 mg of the LPS powders were cold pressed in a polycarbonate cylinder with an inner-wall diameter of 10 mm under 360 MPa to fabricate the solid electrolyte pellet."
+  },
+  {
+    "triplets": [
+      [
+        "cathode",
+        "be prepare by",
+        "pt"
+      ],
+      [
+        "composite cathode",
+        "be prepare by",
+        "pt"
+      ],
+      [
+        "different carbon additive",
+        "be with",
+        "mass ratio of 2:7:1 use for 15 min."
+      ],
+      [
+        "composite cathode",
+        "be prepare by",
+        "mix pt"
+      ],
+      [
+        "cathode",
+        "be prepare by",
+        "mix pt"
+      ]
+    ],
+    "sentence": "The composite cathode was prepared by mixing PT, LPS, and different carbon additives with a mass ratio of 2:7:1 using a pestle and mortar for 15 min."
+  },
+  {
+    "triplets": [
+      [
+        "lps",
+        "be with",
+        "mass ratio of 2:8"
+      ]
+    ],
+    "sentence": "For composite cathode without carbon additives, PT and LPS with a mass ratio of 2:8 were mixed by the same way."
+  },
+  {
+    "triplets": [
+      [
+        "cathode",
+        "be",
+        "compose"
+      ],
+      [
+        "cathode",
+        "be compose of",
+        "pt"
+      ],
+      [
+        "composite cathode",
+        "be",
+        "compose"
+      ],
+      [
+        "composite cathode",
+        "be compose of",
+        "pt"
+      ]
+    ],
+    "sentence": "When Mo6S8was used, the composite cathode was composed of PT, LPS, and Mo6S8with a mass ratio of 1:3:1."
+  },
+  {
+    "triplets": [
+      [
+        "cold",
+        "press for",
+        "1 min."
+      ],
+      [
+        "cold",
+        "press under",
+        "360 mpa"
+      ]
+    ],
+    "sentence": "Next, ≈4.2 mg of composite cathode was distributed on one side of LPS pellet (corresponding to a loading of 1.07 mg cm−2), followed by cold pressing under 360 MPa for 1 min."
+  },
+  {
+    "triplets": [
+      [
+        "lithium foil",
+        "finish",
+        "cell fabrication"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "side of obtain lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "other side of obtain lps pellet"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "side of as obtain lps pellet"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "other side of obtain lps pellet"
+      ],
+      [
+        "lithium foil",
+        "be",
+        "press"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "other side of as obtain lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "side of lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "other side"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "side"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "other side of lps pellet"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "side of lps pellet"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "other side of as obtain lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "other side of lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be press onto",
+        "side of as obtain lps pellet"
+      ],
+      [
+        "thin lithium foil",
+        "be",
+        "press"
+      ],
+      [
+        "thin lithium foil",
+        "finish",
+        "cell fabrication"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "side"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "other side"
+      ],
+      [
+        "lithium foil",
+        "be press onto",
+        "side of obtain lps pellet"
+      ]
+    ],
+    "sentence": "A thin lithium foil was pressed onto the other side of the as-obtained LPS pellet to finish the cell fabrication."
+  },
+  {
+    "triplets": [],
+    "sentence": "A moderate axial pressure of ≈15 MPa was applied through the test."
+  },
+  {
+    "triplets": [
+      [
+        "charge discharge test",
+        "be",
+        "conduct"
+      ],
+      [
+        "galvanostatic charge discharge test",
+        "be",
+        "conduct"
+      ]
+    ],
+    "sentence": "Galvanostatic charge/discharge tests at different current density were conducted between 1.5–3.5 V versus Li+/Li using a Land battery test system (Wuhan, China) at 60 °C."
+  },
+  {
+    "triplets": [
+      [
+        "eis",
+        "be carry out rest after",
+        "1 h charge discharge"
+      ],
+      [
+        "in eis",
+        "be carry out",
+        "rest"
+      ],
+      [
+        "eis",
+        "be carry out",
+        "rest"
+      ],
+      [
+        "eis",
+        "achieve",
+        "equilibrium"
+      ],
+      [
+        "in eis",
+        "be carry out rest after",
+        "1 h charge discharge"
+      ],
+      [
+        "in eis",
+        "achieve",
+        "equilibrium"
+      ]
+    ],
+    "sentence": "In situ EIS was carried out after 1 h charge/discharge and 0.5 h rest to achieve equilibrium."
+  },
+  {
+    "triplets": [
+      [
+        "1 mhz −100 mhz",
+        "be with",
+        "10 point per decade"
+      ]
+    ],
+    "sentence": "An amplitude of 10 mV was chosen for measurements in the frequency range of 1 MHz−100 mHz with 10 points per decade."
+  }
+]
