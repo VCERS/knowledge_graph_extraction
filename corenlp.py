@@ -43,7 +43,7 @@ class CoreNLP(object):
     results = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       triplets = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.naturalli.NaturalLogicAnnotations$RelationTriplesAnnotation')))
-      triplets = [(triplet.subjectLemmaGloss(),triplet.relationLemmaGloss(),triplet.objectLemmaGloss()) for triplet in triplets]
+      triplets = [(str(triplet.subjectLemmaGloss()),str(triplet.relationLemmaGloss()),str(triplet.objectLemmaGloss())) for triplet in triplets]
       results.append({'triplets': triplets, 'sentence': str(sentence.toString())})
     return results
 
