@@ -20,7 +20,6 @@ class CoreNLP(object):
     Properties = jpype.JClass('java.util.Properties')
     StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
     self.Annotation = jpype.JClass('edu.stanford.nlp.pipeline.Annotation')
-    self.CoreAnnotation = jpype.JClass('edu.stanford.nlp.ling.CoreAnnotations')
     self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
     props = Properties()
