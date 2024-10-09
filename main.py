@@ -67,7 +67,16 @@ def main(unused_argv):
       results = exp_chain.invoke({'text': text})
       with open(join(FLAGS.output_dir, stem + '_experimental.md'), 'w') as f:
         f.write(results)
-      print('2) parsing text')
+      print('2) named entity recognition')
+      if FLAGS.method == 'oscar':
+        ne = oscar.ner(results)
+      elif FLAGS.method == 'corenlp':
+        ne = corenlp.ner(results)
+      else:
+        raise Exception('unknown method!')
+      with open(join(FLAGS.output_dir, stem + '_ner.json'), 'w') as f:
+        f.write(json.dumps(ne, indent = 2, ensure_ascii = False))
+      print('3) parsing text')
       if FLAGS.method == 'oscar':
         tree = oscar.parse(results)
       elif FLAGS.method == 'corenlp':
@@ -76,7 +85,7 @@ def main(unused_argv):
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
         f.write(json.dumps(tree2dict(tree), indent = 2, ensure_ascii = False))
-      print('3) extracting triplets')
+      print('4) extracting triplets')
       if FLAGS.method == 'oscar':
         triplets = extract_triplets_by_sentence(tree)
       elif FLAGS.method == 'corenlp':
