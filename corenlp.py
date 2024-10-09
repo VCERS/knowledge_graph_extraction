@@ -31,10 +31,11 @@ class CoreNLP(object):
     text = self.String(text)
     document = self.Annotation(text)
     self.pipeline.annotate(document)
+    sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation')))
-      print(tree.toString())
-      break
+      sentences.append(Tree.fromstring(tree.toString()))
+    return sentences
   def triplets(self, text):
     text = self.String(text)
     document = self.Annotation(text)
