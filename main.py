@@ -35,6 +35,8 @@ def extract_triplets_by_sentence(doc):
 def tree2dict(tree):
   if isinstance(tree, str):
     return tree
+  if isinstance(tree, list):
+    return [tree2dict(child) for child in tree]
   return {
     'label': tree.label(),
     'children': [tree2dict(child) for child in tree]
