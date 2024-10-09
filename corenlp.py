@@ -34,7 +34,7 @@ class CoreNLP(object):
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation')))
-      sentences.append(Tree.fromstring(tree.toString()))
+      sentences.append(Tree.fromstring(str(tree.toString())))
     return sentences
   def triplets(self, text):
     text = self.String(text)
