@@ -5,4 +5,3 @@
 \b-?\d*(\.\d+)?([eE][-+]?\d+)?\s+(\bWh\s+kg-1\b|\bWh\/kg\b)	VOLUMETRIC_ENERGY_DENSITY
 \b-?\d*(\.\d+)?([eE][-+]?\d+)?\s+(\bWh\s+m3-1\b|\bWh\/m3\b)	MASS_ENERGY_DENSITY
 \b-?\d*(\.\d+)?([eE][-+]?\d+)?\s+GPa\b	YOUNGS_MODULUS
-
