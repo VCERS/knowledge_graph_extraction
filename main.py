@@ -13,6 +13,7 @@ from models import Llama3, Qwen2
 from chains import experimental_chain
 from oscar import Oscar4
 from triplet import extract_triplets
+from corenlp import CoreNLP
 
 FLAGS = flags.FLAGS
 
@@ -46,7 +47,12 @@ def main(unused_argv):
     'llama3': Llama3,
     'qwen2': Qwen2}[FLAGS.model](True)
   exp_chain = experimental_chain(llm, tokenizer)
-  oscar = Oscar4()
+  if FLAGS.method == 'oscar':
+    oscar = Oscar4()
+  elif FLAGS.method == 'corenlp':
+    corenlp = CoreNLP()
+  else:
+    raise Exception('unknown method!')
   for root, dirs, files in tqdm(walk(FLAGS.input_dir)):
     for f in files:
       print(f'processing {f}')
@@ -54,16 +60,28 @@ def main(unused_argv):
       if ext != '.md': continue
       loader = UnstructuredMarkdownLoader(join(root, f), model = 'single', strategy = 'fast')
       text = ' '.join([doc.page_content for doc in loader.load()])
+      '''
       print('1) extracting experimental part')
       results = exp_chain.invoke({'text': text})
       with open(join(FLAGS.output_dir, stem + '_experimental.md'), 'w') as f:
         f.write(results)
+      '''
       print('2) parsing text')
-      tree = oscar.parse(results)
+      if FLAGS.method == 'oscar':
+        tree = oscar.parse(text)
+      elif FLAGS.method == 'corenlp':
+        tree = corenlp.parse(text)
+      else:
+        raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
         f.write(json.dumps(tree2dict(tree), indent = 2, ensure_ascii = False))
       print('3) extracting triplets')
-      triplets = extract_triplets_by_sentence(tree)
+      if FLAGS.method == 'oscar':
+        triplets = extract_triplets_by_sentence(tree)
+      elif FLAGS.method == 'corenlp':
+        triplets = corenlp.triplets(text)
+      else:
+        raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
         f.write(json.dumps(triplets, indent = 2, ensure_ascii = False))
 
