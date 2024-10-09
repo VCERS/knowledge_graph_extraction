@@ -31,6 +31,7 @@ class CoreNLP(object):
   def ner(self, text):
     text = self.String(text)
     document = self.Annotation(text)
+    self.pipeline.annotate(document)
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       entities = list()
