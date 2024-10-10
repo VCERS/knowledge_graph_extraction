@@ -22,14 +22,6 @@ class CoreNLP(object):
     self.Annotation = jpype.JClass('edu.stanford.nlp.pipeline.Annotation')
     self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
-    '''
-    props = Properties()
-    props.setProperty('annotators', "tokenize,ssplit,pos,lemma,ner,regexner,parse,depparse,coref,kbp,quote,natlog,openie")
-    props.setProperty('coref.algorithm','neural')
-    props.setProperty('triplet.strict','true')
-    props.setProperty('regexner.mapping','electrolyte_ner.txt')
-    self.pipeline = StanfordCoreNLP(props)
-    '''
   def ner(self, text):
     props = self.Properties()
     props.setProperty('annotators', "tokenize,ssplit,pos,lemma,regexner")
