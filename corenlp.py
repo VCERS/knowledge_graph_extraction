@@ -17,21 +17,27 @@ class CoreNLP(object):
     if not exists('stanford-corenlp-4.5.7-models.jar'): download('https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7-models.jar', out = '.')
     if not exists('stanford-corenlp-4.5.7-models-english.jar'): download('https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/4.5.7/stanford-corenlp-4.5.7-models-english.jar', out = '.')
     jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','./ejml-core-0.39.jar','./ejml-simple-0.39.jar','./ejml-ddense-0.39.jar','protobuf-java-3.19.6.jar','stanford-corenlp-4.5.7.jar','stanford-corenlp-4.5.7-models.jar','stanford-corenlp-4.5.7-models-english.jar'])
-    Properties = jpype.JClass('java.util.Properties')
-    StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
+    self.Properties = jpype.JClass('java.util.Properties')
+    self.StanfordCoreNLP = jpype.JClass('edu.stanford.nlp.pipeline.StanfordCoreNLP')
     self.Annotation = jpype.JClass('edu.stanford.nlp.pipeline.Annotation')
     self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
+    '''
     props = Properties()
     props.setProperty('annotators', "tokenize,ssplit,pos,lemma,ner,regexner,parse,depparse,coref,kbp,quote,natlog,openie")
     props.setProperty('coref.algorithm','neural')
     props.setProperty('triplet.strict','true')
     props.setProperty('regexner.mapping','electrolyte_ner.txt')
     self.pipeline = StanfordCoreNLP(props)
+    '''
   def ner(self, text):
+    props = self.Properties()
+    props.setProperty('annotators', "tokenize,ssplit,pos,lemma,regexner")
+    props.setProperty('regexner.mapping','electrolyte_ner.txt')
+    pipeline = self.StanfordCoreNLP(props)
     text = self.String(text)
     document = self.Annotation(text)
-    self.pipeline.annotate(document)
+    pipeline.annotate(document)
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       entities = list()
@@ -42,18 +48,24 @@ class CoreNLP(object):
       sentences.append({'entities': entities, 'original sentence': str(sentence)})
     return sentences
   def parse(self, text):
+    props = self.Properties()
+    props.setProperty('annotators', "tokenize,ssplit,pos,lemma,parse")
+    pipeline = self.StanfordCoreNLP(props)
     text = self.String(text)
     document = self.Annotation(text)
-    self.pipeline.annotate(document)
+    pipeline.annotate(document)
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       tree = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.trees.TreeCoreAnnotations$TreeAnnotation')))
       sentences.append(Tree.fromstring(str(tree.toString())))
     return sentences
   def triplets(self, text):
+    props = self.Properties()
+    props.setProperty('annotators', "tokenize,ssplit,pos,lemma,depparse,natlog,openie")
+    pipeline = self.StanfordCoreNLP(props)
     text = self.String(text)
     document = self.Annotation(text)
-    self.pipeline.annotate(document)
+    pipeline.annotate(document)
     results = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       triplets = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.naturalli.NaturalLogicAnnotations$RelationTriplesAnnotation')))
