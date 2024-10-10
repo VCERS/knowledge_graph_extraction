@@ -69,6 +69,44 @@ class OpenNLP(object):
       parse.show(sb)
       results.append(Tree.fromstring(str(sb.toString())))
     return results
+  def extract_triplets_from_sentence(self, tree):
+    triplets = list()
+    subject = None
+    predicate = None
+    obj = None
+    
+    for subtree in tree:
+        if type(subtree) is str:
+            # skip terminal node
+            continue
+        # find object, predicate, subject in this subtree
+        if subtree.label() == 'NP' and not subject:
+            # generate object from noun phrase
+            subject = ' '.join(subtree.leaves())
+        elif subtree.label() == 'VP':
+            # generate predicate and subject from verb phrase
+            for vp_subtree in subtree:
+                if type(vp_subtree) is str: continue
+                if vp_subtree.label().startswith('V'):
+                    predicate = ' '.join(vp_subtree.leaves())
+                elif vp_subtree.label() in ['NP', 'PP']:
+                    # both noun phrase and preposition phrase can be subject
+                    obj = ' '.join(vp_subtree.leaves())
+        # if this is a non-terminal node, recursively generate triplets among its children
+        if len(subtree) > 0:
+            triplets.extend(self.extract_triplets_from_sentence(subtree))
+    if subject and predicate and obj:
+        triplets.append((subject, predicate, obj))
+    
+    return triplets
+  def triplets(self, tree):
+    triplets_by_sentence = list()
+    assert type(tree) is list
+    for s in tree:
+      assert s.label() == 'TOP'
+      triplets = self.extract_triplets_from_sentence(s)
+      triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})
+    return triplets_by_sentence
 
 if __name__ == "__main__":
   opennlp = OpenNLP()
@@ -77,4 +115,6 @@ if __name__ == "__main__":
   res = opennlp.pos('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
   res = opennlp.parse('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
+  print(res)
+  res = opennlp.triplets('Figure 5. Kinetic characteristic tests of chemical reaction between Li1–xCoO2(x= 0, 0.3, 0.5) and typical sulfide SEs. (a) DSC curves of the Li1–xCoO2+ Li6PS5Cl mixed powder at different heating rates (3, 5, 7, 15, 20 °C/min).')
   print(res)
