@@ -9,6 +9,7 @@ from wget import download
 
 class OpenNLP(object):
   def __init__(self,):
+    if not exists('en-token.bin'): download('https://opennlp.sourceforge.net/models-1.5/en-token.bin', out = '.')
     if not exists('en-ner-date.bin'): download('https://opennlp.sourceforge.net/models-1.5/en-ner-date.bin', out = '.')
     if not exists('en-ner-location.bin'): download('https://opennlp.sourceforge.net/models-1.5/en-ner-location.bin', out = '.')
     if not exists('en-ner-money.bin'): download('https://opennlp.sourceforge.net/models-1.5/en-ner-money.bin', out = '.')
@@ -20,6 +21,8 @@ class OpenNLP(object):
     if not exists('en-parser-chunking.bin'): download('https://opennlp.sourceforge.net/models-1.5/en-parser-chunking.bin', out = '.')
     jpype.startJVM(classpath = ['/usr/share/java/org.jpype-1.3.0.jar','/usr/share/java/opennlp-tools.jar'])
     self.FileInputStream = jpype.JClass('java.io.FileInputStream')
+    self.TokenizerModel = jpype.JClass('opennlp.tools.tokenize.TokenizerModel')
+    self.TokenizerME = jpype.JClass('opennlp.tools.tokenize.TokenizerME')
     self.TokenNameFinderModel = jpype.JClass('opennlp.tools.namefind.TokenNameFinderModel')
     self.NameFinderME = jpype.JClass('opennlp.tools.namefind.NameFinderME')
     self.POSModel = jpype.JClass('opennlp.tools.postag.POSModel')
@@ -28,13 +31,7 @@ class OpenNLP(object):
     self.ParserFactory = jpype.JPackage('opennlp.tools.parser').ParserFactory
     self.ParserTool = jpype.JPackage('opennlp.tools.cmdline.parser').ParserTool
     self.StringBuffer = jpype.JClass('java.lang.StringBuffer')
-    self.tasks = {
-      'LanguageDetector': 'langdetect-183.bin',
-      'SentenceDetector': 'opennlp-en-ud-ewt-sentence-1.0-1.9.3.bin',
-      'POSTagger': 'opennlp-en-ud-ewt-pos-1.0-1.9.3.bin',
-      'TokenizerME': 'opennlp-en-ud-ewt-tokens-1.0-1.9.3.bin',
-      'Parser': 'en-parser-chunking.bin',
-    }
+    self.tokenizer = self.TokenizerME(self.TokenizerModel(self.FileInputStream('en-token.bin')))
   def ner(self, text):
     models = {
       'date': self.NameFinderME(self.TokenNameFinderModel(self.FileInputStream('en-ner-date.bin'))),
@@ -45,13 +42,13 @@ class OpenNLP(object):
       'person': self.NameFinderME(self.TokenNameFinderModel(self.FileInputStream('en-ner-person.bin'))),
       'time': self.NameFinderME(self.TokenNameFinderModel(self.FileInputStream('en-ner-time.bin'))),
     }
-    sentence = JArray(JString,1)(text.split(' '))
+    tokens = self.tokenizer.tokenize(JString(text))
     entities = list()
     for name_type, finder in models.items():
-      names = finder.find(sentence)
+      names = finder.find(tokens)
       for name in names:
         entities.append({
-          'entity': str(sentence[name.getStart()]),
+          'entity': str(tokens[name.getStart()]),
           'type': str(name.getType()),
           'start': int(name.getStart()),
           'end': int(name.getEnd())
@@ -59,8 +56,8 @@ class OpenNLP(object):
     return entities
   def pos(self, text):
     tagger = self.POSTaggerME(self.POSModel(self.FileInputStream('en-pos-maxent.bin')))
-    sentence = JArray(JString,1)(text.split(' '))
-    tags = [str(tag) for tag in tagger.tag(sentence)]
+    tokens = self.tokenizer.tokenize(JString(text))
+    tags = [str(tag) for tag in tagger.tag(tokens)]
     return tags
   def parse(self, text):
     parser = self.ParserFactory.create(self.ParserModel(self.FileInputStream('en-parser-chunking.bin')))
