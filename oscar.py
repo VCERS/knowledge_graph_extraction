@@ -82,6 +82,44 @@ class Oscar4(object):
     tree = self.xml_to_nltk_tree(root)
     remove(tmpfile_name)
     return tree
+  def extract_triplets_from_sentence(self, tree):
+    triplets = list()
+    subject = None
+    predicate = None
+    obj = None
+    
+    for subtree in tree:
+        if type(subtree) is str:
+            # skip terminal node
+            continue
+        # find object, predicate, subject in this subtree
+        if subtree.label() == 'NounPhrase' and not subject:
+            # generate object from noun phrase
+            subject = ' '.join(subtree.leaves())
+        elif subtree.label() == 'VerbPhrase':
+            # generate predicate and subject from verb phrase
+            for vp_subtree in subtree:
+                if type(vp_subtree) is str: continue
+                if vp_subtree.label().startswith('V'):
+                    predicate = ' '.join(vp_subtree.leaves())
+                elif vp_subtree.label() in ['NounPhrase', 'PrepPhrase']:
+                    # both noun phrase and preposition phrase can be subject
+                    obj = ' '.join(vp_subtree.leaves())
+        # if this is a non-terminal node, recursively generate triplets among its children
+        if len(subtree) > 0:
+            triplets.extend(extract_triplets(subtree))
+    if subject and predicate and obj:
+        triplets.append((subject, predicate, obj))
+    
+    return triplets
+  def triplets(self, doc):
+    triplets_by_sentence = list()
+    assert doc.label() == 'Document'
+    for s in doc:
+      assert s.label() == 'Sentence'
+      triplets = self.extract_triplets_from_sentence(s)
+      triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})
+    return triplets_by_sentence
 
 if __name__ == "__main__":
   oscar = Oscar4()
