@@ -23,7 +23,7 @@ class CoreNLP(object):
     self.Class = jpype.JPackage('java.lang').Class
     self.String = jpype.JClass('java.lang.String')
     props = Properties()
-    props.setProperty('annotators', "tokenize,pos,lemma,ner,regexner,parse,depparse,coref,kbp,quote,natlog,openie")
+    props.setProperty('annotators', "tokenize,ssplit,pos,lemma,ner,regexner,parse,depparse,coref,kbp,quote,natlog,openie")
     props.setProperty('coref.algorithm','neural')
     props.setProperty('triplet.strict','true')
     props.setProperty('regexner.mapping','electrolyte_ner.txt')
@@ -63,12 +63,5 @@ class CoreNLP(object):
 
 if __name__ == "__main__":
   corenlp = CoreNLP()
-  results = corenlp.parse("A solution of 124C (7.0 g, 32.4 mmol) in concentrate H2SO4 " +
-                "(9.5 mL) was added to a solution of concentrate H2SO4 (9.5 mL) " +
-                "and fuming HNO3 (13 mL) and the mixture was heated at 60°C for " +
-                "30 min. After cooling to room temperature, the reaction mixture " +
-                "was added to iced 6M solution of NaOH (150 mL) and neutralized " +
-                "to pH 6 with 1N NaOH solution. The reaction mixture was extracted " +
-                "with dichloromethane (4x100 mL). The combined organic phases were " +
-                "dried over Na2SO4, filtered and concentrated to give 124D as a solid.")
+  results = corenlp.ner("Unfortunately, despite of the advantages described above, the application of sulfide-based ASSLBs is still impeded when coupled with transitional metal oxide cathodes such as LiCoO2 and LiNixMnyCo1−x−yO2(NMC), which is attributed to the catastrophic interfacial issues including severe interfacial reaction and mechanical failure.")
   print(results)
