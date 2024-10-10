@@ -107,7 +107,7 @@ class Oscar4(object):
                     obj = ' '.join(vp_subtree.leaves())
         # if this is a non-terminal node, recursively generate triplets among its children
         if len(subtree) > 0:
-            triplets.extend(extract_triplets(subtree))
+            triplets.extend(self.extract_triplets_from_sentence(subtree))
     if subject and predicate and obj:
         triplets.append((subject, predicate, obj))
     
