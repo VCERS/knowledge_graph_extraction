@@ -21,7 +21,7 @@ def add_options():
   flags.DEFINE_string('input_dir', default = None, help = 'path to input directory')
   flags.DEFINE_string('output_dir', default = 'processed', help = 'path to output directory')
   flags.DEFINE_enum('model', default = 'llama3', enum_values = {'llama3', 'qwen2'}, help = 'model to use')
-  flags.DEFINE_enum('method', default = 'oscar', enum_values = {'oscar', 'corenlp'}, help = 'which method to use for triplet extraction')
+  flags.DEFINE_enum('method', default = 'corenlp', enum_values = {'oscar', 'corenlp'}, help = 'which method to use for triplet extraction')
 
 def extract_triplets_by_sentence(doc):
   triplets_by_sentence = list()
