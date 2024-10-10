@@ -103,7 +103,6 @@ class OpenNLP(object):
     triplets_by_sentence = list()
     assert type(tree) is list
     for s in tree:
-      assert s.label() == 'TOP'
       triplets = self.extract_triplets_from_sentence(s)
       triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})
     return triplets_by_sentence
