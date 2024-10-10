@@ -13,6 +13,7 @@ from models import Llama3, Qwen2
 from chains import experimental_chain
 from oscar import Oscar4
 from corenlp import CoreNLP
+from opennlp import OpenNLP
 
 FLAGS = flags.FLAGS
 
@@ -20,7 +21,7 @@ def add_options():
   flags.DEFINE_string('input_dir', default = None, help = 'path to input directory')
   flags.DEFINE_string('output_dir', default = 'processed', help = 'path to output directory')
   flags.DEFINE_enum('model', default = 'llama3', enum_values = {'llama3', 'qwen2'}, help = 'model to use')
-  flags.DEFINE_enum('method', default = 'corenlp', enum_values = {'oscar', 'corenlp'}, help = 'which method to use for triplet extraction')
+  flags.DEFINE_enum('method', default = 'corenlp', enum_values = {'oscar', 'corenlp', 'opennlp'}, help = 'which method to use for triplet extraction')
   flags.DEFINE_boolean('only_exp', default = False, help = 'whether to use only experimental part of the paper')
 
 def tree2dict(tree):
@@ -46,6 +47,8 @@ def main(unused_argv):
     oscar = Oscar4()
   elif FLAGS.method == 'corenlp':
     corenlp = CoreNLP()
+  elif FLAGS.method == 'opennlp':
+    opennlp = OpenNLP()
   else:
     raise Exception('unknown method!')
   for root, dirs, files in tqdm(walk(FLAGS.input_dir)):
@@ -65,6 +68,8 @@ def main(unused_argv):
         ne = oscar.ner(text)
       elif FLAGS.method == 'corenlp':
         ne = corenlp.ner(text)
+      elif FLAGS.method == 'opennlp':
+        ne = opennlp.ner(text)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_ner.json'), 'w') as f:
@@ -74,6 +79,8 @@ def main(unused_argv):
         tree = oscar.parse(text)
       elif FLAGS.method == 'corenlp':
         tree = corenlp.parse(text)
+      elif FLAGS.method == 'opennlp':
+        tree = opennlp.parse(text)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
@@ -83,6 +90,8 @@ def main(unused_argv):
         triplets = oscar.triplets(tree)
       elif FLAGS.method == 'corenlp':
         triplets = corenlp.triplets(text)
+      elif FLAGS.method == 'opennlp':
+        triplets = opennlp.triplets(tree)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
