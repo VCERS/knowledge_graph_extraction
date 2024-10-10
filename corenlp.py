@@ -35,10 +35,10 @@ class CoreNLP(object):
     sentences = list()
     for sentence in document.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$SentencesAnnotation'))):
       entities = list()
-      nes = sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation')))
-      if nes is not None:
-        for namedEntity in nes:
-          entities.append((str(namedEntity.toString()), str(namedEntity.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation'))))))
+      for token in sentence.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation'))):
+        entity = token.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$TextAnnotation')))
+        tag = token.get(self.Class.forName(self.String('edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation')))
+        entities.append((str(entity), str(tag)))
       sentences.append({'entities': entities, 'original sentence': str(sentence)})
     return sentences
   def parse(self, text):
