@@ -1,13 +1,1292 @@
 [
   {
+    "triplets": [],
+    "sentence": "1 Introduction All-solid-state Li metal batteries ( ASSLMBs ) have been proposed to eliminate the safety problems and limited energy density ( < 500 Wh kg-1 ) in current lithium-ion batteries ( LIBs ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The solid-state electrolyte ( SSE ) is a critical component in ASSLMBs and has received extensive attention ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", Among the various types of SSEs , sulfide-based SSEs are considered as one of the most promising candidates , because of their high ionic conductivity , inherent softness for intimate contact between electrodes and electrolytes , as well as good mechanical strength for large-scale practical applications ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , two major detrimental factors have plagued the development of sulfide SSEs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "First , the poor electrode material/sulfide SSEs interface deteriorates the battery performance ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", Since the compatibility issue between cathode materials and sulfide SSEs has prevented sulfide SSEs from achieving stable cycling performance , considerable efforts have been made to develop strategies to alleviate those problems ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", In contrast , catastrophic Li metal anode interface makes the use of Li metal as an anode directly against sulfide electrolyte extremely challenging , because of its strong reducing capabilities toward almost all kinds of sulfide SSEs , such as β-Li3PS4 , Li7P3S11 , argyrodite-type , and thio-LISICON-type electrolytes ."
+  },
+  {
     "triplets": [
       [
-        "< |start_header_id| > assistant < |end_header_id| >",
-        "is",
-        "in Section 4 Experimental Section"
+        "the uneven Li deposition",
+        "vitiate",
+        "through the soft electrolyte"
       ]
     ],
-    "sentence": "< |start_header_id| > assistant < |end_header_id| > The experimental part of the paper is in Section 4 Experimental Section ."
+    "sentence": "Moreover , the uneven Li deposition can cause Li dendrites formation , which can penetrate through the soft electrolyte to vitiate batteries ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Second , the air-sensitive nature of sulfide SSEs increases the difficulty for manufacturing and practical applications ."
+  },
+  {
+    "triplets": [
+      [
+        "Due",
+        "generate",
+        "with H2O"
+      ]
+    ],
+    "sentence": "Due to the high oxygen affinity of P5+ , the sulfide SSEs that contain PS43-structure blocks are extremely prone to reacting with H2O to generate toxic H2S gas ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Thus , vacuum or inert gas atmosphere is required to handle sulfide SSEs , which would complicate the manufacturing and preparation processes with increased fabrication cost ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To alleviate the poor Li metal anode/sulfide SSEs interface problem , rich I or F-containing Li metal anode/sulfide SSEs interfaces have been reported ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The functional interface can exhibit very stable electrochemical behaviors against sulfide SSEs in fabricated symmetric or full cells ."
+  },
+  {
+    "triplets": [
+      [
+        "LiI or LiF compositions",
+        "formed",
+        "between Li metal and sulfide SSEs"
+      ]
+    ],
+    "sentence": "LiI or LiF compositions in the solid-electrolyte-interphase ( SEI ) formed between Li metal and sulfide SSEs play crucial roles in preventing side reactions and Li dendrites formation ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Especially when I- or F-based sulfide SSEs are used , high current density and reversible cut-off capacities can be achieved to meet the requirement of high-energy-density ASSLMBs ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", Nevertheless , it is still very challenging to realize air-stable sulfide SSEs with decent room temperature ( RT ) ionic conductivity ( > 10-4 S cm-1 ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Li-Sn-S electrolytes ( Li4SnS4and Li2SnS3 )",
+        "benefiting",
+        "from the hard-softs-acids-bases ( HSAB ) theory"
+      ]
+    ],
+    "sentence": "Li-Sn-S electrolytes ( Li4SnS4and Li2SnS3 ) were demonstrated to possess excellent air stability , benefiting from the hard-softs-acids-bases ( HSAB ) theory ."
+  },
+  {
+    "triplets": [
+      [
+        "Sn",
+        "prefers",
+        "rather than hard base O"
+      ]
+    ],
+    "sentence": "Sn is classified as a soft acid , which prefers to bond with soft base S rather than hard base O ."
+  },
+  {
+    "triplets": [
+      [
+        "the low ionic conductivity of pristine Li-Sn-S electrolytes",
+        "restrains",
+        "at 10-5 S cm-1 level"
+      ]
+    ],
+    "sentence": "However , the low ionic conductivity of pristine Li-Sn-S electrolytes limited at 10-5 S cm-1 level restrains their development ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Although As substitution in Li4SnS4can improve the RT ionic conductivity to reach 1.0 × 10-3 S cm-1 , the highly toxic As element brings additional safety and environmental concerns ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Nevertheless , the air stability of the sulfide electrolytes is predicted to be improved after Sn substitution in the PS43-structure ."
+  },
+  {
+    "triplets": [
+      [
+        "the aliovalent element ( Sn ) substitution",
+        "expand",
+        "with phosphorus ( P )"
+      ]
+    ],
+    "sentence": "Furthermore , the aliovalent element ( Sn ) substitution with larger atomic radius and lower valence compared with phosphorus ( P ) can expand the cell volume and increase the Li solubility in the unit cells , which can synergistically increase the corresponding ionic conductivity ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Argyrodite electrolytes Li6PS5X ( LPSX , X = Cl , Br , and I ) represent one type of popular sulfide electrolytes , due to the low cost of raw materials and high ionic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "Both LPSCl and LPSBr",
+        "mentioned",
+        "from the problems that"
+      ]
+    ],
+    "sentence": "Both LPSCl and LPSBr with a high ionic conductivity of > 1 × 10-3 S cm-1 still suffer from the problems that are mentioned above ."
+  },
+  {
+    "triplets": [
+      [
+        "Li6PS5I ( LPSI )",
+        "leads",
+        "in the order of 10-6 S cm-1"
+      ]
+    ],
+    "sentence": ", Li6PS5I ( LPSI ) has received less attention , because the low S-/I-exchange disorder leads to a low conductivity in the order of 10-6 S cm-1 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , the high I concentration in the electrolyte itself is highly anticipated to stabilize the Li metal/LPSI-based electrolyte interface in ASSLMBs if decent ionic conductivity can be obtained ."
+  },
+  {
+    "triplets": [
+      [
+        "Recent studies",
+        "improved",
+        "by aliovalent element substitutions"
+      ]
+    ],
+    "sentence": "Recent studies show that the ionic conductivity of LPSI SSE can be significantly improved by aliovalent element substitutions ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", Different from previous work that is fundamentally dedicated to improve the ionic conductivity fundamentally , we aim in using a versatile strategy to achieve an excellent sulfide SSE with good Li metal compatibility , improved air stability , and decent ionic conductivity , simultaneously ."
+  },
+  {
+    "triplets": [
+      [
+        "we",
+        "propose",
+        "for P in LPSI argyrodite electrolytes"
+      ]
+    ],
+    "sentence": "Herein , we originally propose to partially substitute Sn for P in LPSI argyrodite electrolytes to prepare new argyrodite-type electrolytes : LPSI-xSn or Li6+yP1-ySnyS5I ( xis the Sn substitution percentage,y = x % ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The optimized ionic conductivity of LPSI-20Sn reaches a value as high as 3.5 × 10-4 S cm-1 , which is 125 times higher than that of the LPSI electrolyte without Sn substitution ."
+  },
+  {
+    "triplets": [
+      [
+        "LPSI-20Sn electrolyte",
+        "postheating",
+        "to 10 % humidity atmosphere"
+      ]
+    ],
+    "sentence": "More importantly , LPSI-20Sn electrolyte is stable without any degradation in pure O2 , and even shows negligible decrease in ionic conductivity after being exposed to 10 % humidity atmosphere and postheating treatment ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Additionally , the robust Li / LPSI-20Sn interface enables ultrastable Li plating/stripping for over 200 h at a high current density ( 1.26 mA cm-2 ) and cut-off capacity ( 1 mAh cm-2 ) in Li//LPSI-20Sn//Li symmetric cells ."
+  },
+  {
+    "triplets": [
+      [
+        "The application of this electrolyte",
+        "exhibits",
+        "in ASSLMBs"
+      ]
+    ],
+    "sentence": "The application of this electrolyte is also demonstrated in ASSLMBs by using LPSI-20Sn as the Li anode interlayer in full cells that exhibits excellent cycling stability and rate capability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "2 Results and Discussion 2.1 Synthesis and Structure of LPSI-xSn SSEs Conventional solid-state-reaction methods were employed to synthesize a series of Sn-substituted argyrodite LPSI-based electrolytes with various Sn substitution percentages : LPSI-xSn ( x = 0 , 10 , 20 , 30 , 50 , 80 , and 100 , wherex = 0 is the pristine LPSI electrolyte , andx = 100 means complete substitution of P with Sn in the LPSI electrolyte ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The corresponding chemical reaction equation can be written as : ( 5+y ) Li2S+( 1 -y ) P2S5+ ( 2y ) SnS2+ 2 LiI = 2 Li6+yP1-ySnyS5I , whereyis the substitution content of Sn ( 0 ≤ y≤ 1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "X-ray diffraction ( XRD ) measurements were first carried out to study the phase composition of the prepared LPSI-xSn electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "pure LPSI phase",
+        "is",
+        "with the referenced LPSI ( PDF# 04-018-1431 )"
+      ]
+    ],
+    "sentence": "As shown in Figure a , pure LPSI phase can be obtained without any Sn substitution , which is highly consistent with the referenced LPSI ( PDF# 04-018-1431 ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The border diffraction peak",
+        "prevent",
+        "to the Kapton tape , which"
+      ]
+    ],
+    "sentence": "The border diffraction peak at around 18° is assigned to the Kapton tape , which is used to seal the XRD sample and prevent air exposure ."
+  },
+  {
+    "triplets": [
+      [
+        "the characteristic diffraction peaks of LPSI",
+        "belonging",
+        "to the Li4SnS4and LiI phases"
+      ]
+    ],
+    "sentence": "With the Sn substitution percentage increasing , the characteristic diffraction peaks of LPSI vanish , while some peaks belonging to the Li4SnS4and LiI phases raise gradually ."
+  },
+  {
+    "triplets": [
+      [
+        "patterns",
+        "lower",
+        "that the strongest diffraction peak in LPSI"
+      ]
+    ],
+    "sentence": "Close inspection on the XRD pattern in the 2θ range of 24.5°-25° ( Figure b ) suggests that the strongest diffraction peak in LPSI patterns at 24.8° shifts continually to lower diffraction angle along with increased Sn substitution amount ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure c presents a low-speed-scan XRD with Rietveld refinement of the representative LPSI-20Sn electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "One predominant phase is an argyrodite structure with cubic symmetry ( space groupF-43m ) with unit cell parameters : a = b = c = 10.21760 Å , α = β = γ = 90.00° , andV = 1066.71 Å3 ( Table S1 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The small amount of impurity ( 2.7 % )",
+        "identified",
+        "as LiI"
+      ]
+    ],
+    "sentence": "The small amount of impurity ( 2.7 % ) is identified as LiI ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The distorted argyrodite structure ( as shown in Figure d ) exhibits a nonstoichiometric composition of Li6.24P0.823Sn0.177S4.58I0.9with Li-rich and vacancy in the structure ( Table S2 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The substituted Sn atom",
+        "is",
+        "around 17.8 % , which"
+      ]
+    ],
+    "sentence": "The substituted Sn atom in the 4b site is shared with P and the occupation is around 17.8 % , which is close to the designed substitution content ( 20 % ) ."
+  },
+  {
+    "triplets": [
+      [
+        "It",
+        "indicating",
+        "that the Li-rich environment and vacancy distribution"
+      ]
+    ],
+    "sentence": "It is found that the Li-rich environment and vacancy distribution within the synthesized of Li6.24P0.823Sn0.177S4.58I0.9is quite different from that of the Li6PS5I structure ( Table S3 , Supporting Information ) , indicating different Li+ conduction and migration pathways in the electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "The enlarged crystal unit cell",
+        "has",
+        "with Sn , which"
+      ]
+    ],
+    "sentence": "The enlarged crystal unit cell is derived from the replacement of P with Sn , which has a larger atomic radius ( R1.40 Å > R1.10 Å ) , and the increased Li+ ion concentration in the specific unit cell ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The characteristic unit cell is expected to benefit the Li+ ion conduction and to increase the ionic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "A similar phenomenon",
+        "occur",
+        "in the LPSCl-xSn ( x = 0 and 30 ) system ( Figure S2 , Supporting Information )"
+      ]
+    ],
+    "sentence": "A similar phenomenon is observed in the LPSBr-xSn ( x = 0 , 1 , 5 , 10 , 12.5 , 15 , 20 , 30 ) system ( Figure S1 , Supporting Information ) , but cannot occur in the LPSCl-xSn ( x = 0 and 30 ) system ( Figure S2 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The reason",
+        "endows",
+        "in the argyrodite structure ( X = Cl , Br , and I ) , where"
+      ]
+    ],
+    "sentence": "The reason is related to the atomic radius of X in the argyrodite structure ( X = Cl , Br , and I ) , where the larger size of the I atom endows the LPSX structure with more possibilities of various aliovalent elemental substitutions ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 1 a ) XRD patterns of the prepared LPSI-xSn sulfide-based electrolytes ( x = 0 , 10 , 20 , 30 , 50 , 80 , 100 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) Magnified region of the XRD patterns in the 2θ range : 24° < 2θ < 25.5° ."
+  },
+  {
+    "triplets": [],
+    "sentence": "c ) Low-speed-scan XRD pattern of representative LPSI-20Sn electrolyte and the corresponding Rietveld refinements ."
+  },
+  {
+    "triplets": [],
+    "sentence": "d ) Structure of the prepared LPSI-20Sn ( Li6.24P0.823Sn0.177S4.58I0.9 ) from the view of perpendicular toc-axis ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Furthermore , Raman spectral measurements were conducted to verify Sn substitution in the position of P in LPSI-xSn electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "the Raman shift",
+        "exists",
+        "in tetrahedral PS4in LPSI electrolyte"
+      ]
+    ],
+    "sentence": "As shown in Figure S3 in the Supporting Information , the Raman shift at 416.3 cm-1 is the fingerprint position that reflects the PS4blocks ( P only exists in tetrahedral PS4in LPSI electrolyte ) in LPSI electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After Sn substitution , the intensity of PS4peak reduces , and an additional peak in the 337.7-342.9 cm-1 region appears and increases in intensity with increased Sn substitution percentage ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Co-existence of the two peaks implies the formation of ( P/Sn)S4structure ."
+  },
+  {
+    "triplets": [
+      [
+        "the only characteristic peak",
+        "indicates",
+        "with the previously reported position"
+      ]
+    ],
+    "sentence": "In the fully Sn-substituted sample LPSI-100Sn , the only characteristic peak at 342.9 cm-1 agrees well with the previously reported position that indicates the formation of SnS4structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Scanning electron microscopy ( SEM ) was used to examine the morphology and the element distribution in LPSI-20Sn electrolyte ( Figure S4 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Microsized irregular LPSI-20Sn secondary particle",
+        "composed",
+        "of nanosized primary particles ( ≈100 nm )"
+      ]
+    ],
+    "sentence": "Microsized irregular LPSI-20Sn secondary particle is composed of nanosized primary particles ( ≈100 nm ) ."
+  },
+  {
+    "triplets": [
+      [
+        "electrolytes",
+        "dispersed",
+        "in granular LPSI-20Sn"
+      ],
+      [
+        "Energy dispersive spectroscopy ( EDS ) element mapping",
+        "demonstrates",
+        "that P , S , Sn , and I"
+      ]
+    ],
+    "sentence": "Energy dispersive spectroscopy ( EDS ) element mapping for the selected area demonstrates that P , S , Sn , and I are homogeneously dispersed in granular LPSI-20Sn electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In other words , the Sn precursors can fully mix and react with other raw materials for substitution ."
+  },
+  {
+    "triplets": [
+      [
+        "compositional analyses",
+        "achieved",
+        "for P in LPSI-xSn structure"
+      ]
+    ],
+    "sentence": "The results of the above mentioned structural and compositional analyses confirm that successful Sn substitution for P in LPSI-xSn structure is achieved ."
+  },
+  {
+    "triplets": [
+      [
+        "The expanded unit cells and small electrolyte particle sizes",
+        "are",
+        "for high ionic conductivity and applicable LPSI-based electrolytes"
+      ]
+    ],
+    "sentence": "The expanded unit cells and small electrolyte particle sizes are desirable for high ionic conductivity and applicable LPSI-based electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The derived I chemistry at Li/electrolyte interface is favorable toward achieving a stable Li metal anode ."
+  },
+  {
+    "triplets": [
+      [
+        "the formation of the SnS bonds",
+        "is",
+        "for enhanced air stability"
+      ]
+    ],
+    "sentence": "In addition , the formation of the SnS bonds is also beneficial for enhanced air stability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "2.2 Ionic Conductivity and Li+ Ion Dynamics of LPSI-xSn SSEs Electrochemical impedance spectroscopy ( EIS ) was measured to deduce the ionic conductivity ( σ ) of the prepared LPSI-xSn electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "The plot of σ value",
+        "shown",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The plot of σ value as a function of Sn content at RT is shown in Figure a ."
+  },
+  {
+    "triplets": [
+      [
+        "The LPSI electrolyte",
+        "is",
+        "with previously reported literatures"
+      ]
+    ],
+    "sentence": "The LPSI electrolyte without any Sn substitution shows a very low σ of 2.8 × 10-6 S cm-1 , which is in agreement with previously reported literatures ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After partly replacing P with Sn in the tetrahedral PS4 of LPSI-based electrolyte , dramatic change of σ takes place ."
+  },
+  {
+    "triplets": [],
+    "sentence": "10 % Sn substitution can significantly increase the σ to 4.2 × 10-5 S cm-1 , showing a 15 times increase ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The optimized σ can reach 3.5 × 10-4 S cm-1 when the Sn substitution percentage is 20 % ."
+  },
+  {
+    "triplets": [
+      [
+        "the σ of LPSI-20Sn exhibits",
+        "increase",
+        "of 125 times"
+      ]
+    ],
+    "sentence": "Compared with the σ of the pristine LPSI electrolyte , the σ of LPSI-20Sn exhibits an increase of 125 times ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This makes LPSI-20Sn comparable to some common sulfide SSEs in terms of ionic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "too much Sn substitution",
+        "decrease",
+        "in σ"
+      ]
+    ],
+    "sentence": "Nevertheless , too much Sn substitution can lead to decrease in σ as a result of the formation of impurity phases ."
+  },
+  {
+    "triplets": [
+      [
+        "Figure b",
+        "derived",
+        "from a series of ionic conductivities"
+      ]
+    ],
+    "sentence": "Figure b compares the Arrhenius plots of LPSI and LPSI-20Sn electrolytes derived from a series of ionic conductivities in a temperature range from -5 to 45 °C ( interval 10 °C for each point ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The σ value of the LPSI-20Sn electrolyte",
+        "is",
+        "about two orders of magnitude"
+      ]
+    ],
+    "sentence": "The σ value of the LPSI-20Sn electrolyte at any given temperature is about two orders of magnitude higher than that of LPSI electrolyte without Sn substitution ."
+  },
+  {
+    "triplets": [
+      [
+        "the activation energy of Li+ ion transport in LPSI-20Sn",
+        "is",
+        "from the slop of Arrhenius plot"
+      ]
+    ],
+    "sentence": "Furthermore , the activation energy of Li+ ion transport in LPSI-20Sn structure ( Ea-LPSI-20Sn ) calculated from the slop of Arrhenius plot is 0.299 eV , which is much lower than that in LPSI structure ( Ea-LPSI = 0.424 eV ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Arrhenius plots of other Sn-substituted LPSI-xSn electrolytes ( x = 10 , 15 , 17.5 , 22.5 , 25 , 30 , 50 , 80 )",
+        "displayed",
+        "in Figure c"
+      ]
+    ],
+    "sentence": "Arrhenius plots of other Sn-substituted LPSI-xSn electrolytes ( x = 10 , 15 , 17.5 , 22.5 , 25 , 30 , 50 , 80 ) are also presented in Figure S5 in the Supporting Information , and the derived activation energy of each composition is displayed in Figure c ."
+  },
+  {
+    "triplets": [
+      [
+        "The trend",
+        "compared",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The trend for change inEaagainst Sn substitution amount is inverse compared with the trend in Figure a ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Li+ ion movement becomes much easier after Sn substitution in the LPSI structure ."
+  },
+  {
+    "triplets": [
+      [
+        "The lowest point",
+        "is",
+        "ion motion"
+      ]
+    ],
+    "sentence": "The lowest point appears with a substitution percentage of 20 % , which is corresponding to the fastest Li+ ion motion and the largest ionic conductivity in this structure ."
+  },
+  {
+    "triplets": [
+      [
+        "The activation energy",
+        "is",
+        "over 20 %"
+      ]
+    ],
+    "sentence": "The activation energy shows an increasing trend after the Sn substitution percentage is over 20 % ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This is ascribed to the gradually increasing amount of impurity phases ( mainly LiI and Li4SnS4 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "σ of another Sn-substituted system , LPSBr-xSn ( substitution percentagex = 1 , 2.5 , 5 , 10 , 12.5 , 15 , 20 , 30 ) , was also investigated to further understand the Sn substitution effect on the ionic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "The results",
+        "shown",
+        "in the Supporting Information"
+      ]
+    ],
+    "sentence": "The results are shown in Figure S6 in the Supporting Information ."
+  },
+  {
+    "triplets": [
+      [
+        "The optimized σ value of 2.1 × 10-3 S cm-1",
+        "is",
+        "in the LPSBr structure"
+      ]
+    ],
+    "sentence": "The optimized σ value of 2.1 × 10-3 S cm-1 is achieved when the degree of Sn substitution is at 12.5 % in the LPSBr structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This σ value of LPSBr-12.5Sn is twice larger than that of LPSBr electrolyte ( σ-LPSBr = 1.0 × 10-3 S cm-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Meanwhile , the activation energy of LPSBr-12.5Sn ( 0.30 eV ) is lower than that of LPSBr ( 0.33 eV ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 2 a ) The room temperature ( RT , 25 °C ) ionic conductivity of LPSI-xSn sulfide-based electrolytes with different amounts of Sn substitution ( x = 0 , 10 , 15 , 17.5 , 20 , 22.5 , 25 , 30 , 50 , 80 , 100 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) Arrhenius plots of the LPSI-20Sn electrolyte and LPSI electrolyte without Sn substitution ."
+  },
+  {
+    "triplets": [],
+    "sentence": "c ) Change trend of the activation energy against different substitution percentages ."
+  },
+  {
+    "triplets": [
+      [
+        "d",
+        "measured",
+        "for LPSI-20Sn electrolytes"
+      ]
+    ],
+    "sentence": "d ) Temperature-dependent 7Li spin-lattice relaxation ( SLR ) NMR rates measured in the laboratory frame for LPSI-20Sn electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "7Li solid-state nuclear magnetic resonance ( 7Li-NMR ) was employed to probe the Li+ ion dynamics in LPSI-20Sn at an atomic level ."
+  },
+  {
+    "triplets": [],
+    "sentence": "It can provide information on bulk ionic conductivity of the electrolyte without the contribution from grain boundaries in SSEs ."
+  },
+  {
+    "triplets": [
+      [
+        "First",
+        "presented",
+        "in the Supporting Information"
+      ]
+    ],
+    "sentence": "First , the line-shapes of 7Li static NMR resonance of LPSI-20Sn at different temperatures are presented as Figure S7 in the Supporting Information ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The line-shape of 7Li resonance becomes narrower with increasing temperature , a phenomenon reported elsewhere ."
+  },
+  {
+    "triplets": [
+      [
+        "The observed line",
+        "is",
+        "at higher test temperatures"
+      ]
+    ],
+    "sentence": "The observed line narrowing is due to the increased Li-ion mobility that averages out the dipolar interaction at higher test temperatures ."
+  },
+  {
+    "triplets": [
+      [
+        "7Li",
+        "measured",
+        "as a function of temperature ( T )"
+      ]
+    ],
+    "sentence": "Then , 7Li spin-lattice relaxation ( SLR ) rates ( 1/T1 ) were measured as a function of temperature ( T ) ."
+  },
+  {
+    "triplets": [
+      [
+        "a minimumT1(T1min)",
+        "observed",
+        "in Figure d"
+      ]
+    ],
+    "sentence": "As shown in Figure d , a minimumT1(T1min) is observed whenTreaches 130 °C ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The slopes of the linear portions of the curves on both low temperature ( LT ) and high temperature ( HT ) sides of theT1minare used to calculate the activation energy of short-range ( EaLT ) and long-range ( EaHT ) Li+ ion mobility , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "They are 0.041 and 0.075 eV forEaHT andEaLT , respectively ."
+  },
+  {
+    "triplets": [
+      [
+        "These results",
+        "excluded",
+        "because the negative effect of boundary"
+      ]
+    ],
+    "sentence": "These results are reasonable as they are much lower than the values derived from the EIS measurements , because the negative effect of boundary has been excluded ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", In contrast , for the LPSI electrolyte without Sn substitution , the 7Li SLR results ( Figure S8 , Supporting Information ) show a larger activation energy in both HT and LT regions ( 0.076 and 0.082 eV , respectively ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "All above Li+ ion motion analyses ( both EIS and 7Li-NMR results ) confirm that replacing P with appropriate amounts of Sn can promote Li+ ion transport in the favorable Sn-substituted argyrodite LPSI structures ."
+  },
+  {
+    "triplets": [
+      [
+        "The Sn substitution",
+        "results",
+        "in significantly improved ionic conductivity"
+      ]
+    ],
+    "sentence": "The Sn substitution results in significantly improved ionic conductivity and reduced Li+ ion motional activation energy ."
+  },
+  {
+    "triplets": [],
+    "sentence": "2.3 Air Stability of LPSI-20Sn SSEs After optimizing ionic conductivity and probing Li+ ion mobility in the LPSI-xSn electrolyte system , the air stability of the LPSI-20Sn electrolyte was examined ."
+  },
+  {
+    "triplets": [
+      [
+        "The reactivity",
+        "exposed",
+        "to pure O2(99.999 %"
+      ]
+    ],
+    "sentence": "The reactivity toward O2was investigated by monitoring the weight change of the electrolyte in a microbalance of a thermogravimetric analysis ( TGA ) instrument when the electrolyte is exposed to pure O2(99.999 % ) flow ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure a illustrates the change in mass percentage of the electrolytes as a function of the exposure time in pure O2atmosphere ."
+  },
+  {
+    "triplets": [
+      [
+        "resistance",
+        "shows",
+        "to O2for 10 h , LPSI-20Sn electrolyte ( specific surface area : 1.41 cm2 g-1 )"
+      ]
+    ],
+    "sentence": "Compared with pure LPSI electrolyte ( specific surface area : 1.50 cm2 g-1 ) whose weight increases by 1.12 % after being exposed to O2for 10 h , LPSI-20Sn electrolyte ( specific surface area : 1.41 cm2 g-1 ) shows significantly improved resistance toward O2 ."
+  },
+  {
+    "triplets": [
+      [
+        "which",
+        "maintains",
+        "that the LPSI-20Sn electrolyte"
+      ]
+    ],
+    "sentence": "The mass percentage increase is as low as 0.28 % after exposure to pure O2for 10 h and only 0.35 % after 20 h , which indicates that the LPSI-20Sn electrolyte maintains its structure in pure O2after initial minor decomposition ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition to the good resistance to O2 , LPSI-20Sn electrolyte also exhibits excellent stability toward moisture ."
+  },
+  {
+    "triplets": [
+      [
+        "the XRD patterns",
+        "exhibit",
+        "in Figure b"
+      ]
+    ],
+    "sentence": "As shown in Figure b , the XRD patterns exhibit little difference between LPSI-20Sn electrolytes before and after exposure to 10 % humidity overnight except for some small unknown impurity peaks ( Figure S9 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the chemical environment change of P",
+        "exposing",
+        "to 10 % humidity overnight"
+      ]
+    ],
+    "sentence": "X-ray absorption near-edge spectra ( XANES ) of P K-edge ( Figure c ) cannot also witness the chemical environment change of P after exposing to 10 % humidity overnight , but the ionic conductivity of LPSI-20Sn drops slightly to 2.2 × 10-4 S cm-1 at RT ( Figure d ) ."
+  },
+  {
+    "triplets": [
+      [
+        "effectively Sn",
+        "substituted",
+        "to the decomposition of some PS4blocks which"
+      ]
+    ],
+    "sentence": "This might be ascribed to the decomposition of some PS4blocks which are not effectively Sn substituted ."
+  },
+  {
+    "triplets": [
+      [
+        "the ionic conductivity of LPSI-20Sn",
+        "recover",
+        "to 3.1 × 10-4 S cm-1"
+      ]
+    ],
+    "sentence": "However , the ionic conductivity of LPSI-20Sn can recover to 3.1 × 10-4 S cm-1 at RT after a postheating process ( 180 °C in vacuum oven ) is conducted ."
+  },
+  {
+    "triplets": [
+      [
+        "The XRD pattern of the postheated sample",
+        "agree",
+        "with the pristine LPSI-20Sn electrolyte"
+      ]
+    ],
+    "sentence": "The XRD pattern of the postheated sample in Figure b confirms that the impurity phases vanish and all featured diffraction peaks agree well with the pristine LPSI-20Sn electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In contrast , a larger amount of impurity diffraction peaks can be observed after exposing LPSI electrolytes to 10 % humidity ( Figure S10 , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Even after the same postheating treatment , the diffraction peaks from impurities still exist ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 3 a ) Time-resolved mass change of LPSI and LPSI-20Sn electrolytes in pure O2 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) XRD patterns and d ) Arrhenius plots of the LPSI-20Sn electrolyte before and after exposure to air with 10 % humidity , as well as after postheating process ."
+  },
+  {
+    "triplets": [
+      [
+        "c",
+        "exposing",
+        "to 10 % humidity"
+      ]
+    ],
+    "sentence": "c ) XANES of P K-edge in LPSI-20Sn and the sample after exposing to 10 % humidity ."
+  },
+  {
+    "triplets": [
+      [
+        "e",
+        "based",
+        "on the DFT calculation"
+      ]
+    ],
+    "sentence": "e ) Schematic diagram of the difficult degree of being oxidized by H2O of PS4and ( P/Sn)S4tetrahedrons based on the DFT calculation ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Density functional theory ( DFT ) calculations of the oxygen replacement reaction energy ( ΔE ) were conducted to reveal the improved air stability of LPSI-20Sn electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Generally , the first-step degradation of the sulfide electrolyte containing PS4tetrahedron toward O2or H2O is related to the replacement reaction of S with O atom ."
+  },
+  {
+    "triplets": [
+      [
+        "one of the S atoms",
+        "changing",
+        "on the differential energy"
+      ]
+    ],
+    "sentence": "The oxygen replacement reaction energy of LPSI-20Sn and LPSI electrolytes was simulated based on the differential energy by changing one of the S atoms to O atom in the model structure ."
+  },
+  {
+    "triplets": [
+      [
+        "When",
+        "simulated",
+        "as PS4tetrahedron + O atom = PS3O tetrahedron+S atom"
+      ]
+    ],
+    "sentence": "When changing one of the PS4tetrahedrons to PS3O tetrahedron in the whole crystal structure , the reaction can be simulated as PS4tetrahedron + O atom = PS3O tetrahedron+S atom ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Therefore , the oxygen replacement reaction energy ( ΔE ) can be calculated as ΔE = U(S atom)+U(PS3O tetrahedron)-U(O atom)-U(PS4 tetrahedron ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The oxygen replacement reaction energy ( ΔE ) can be defined as one of the indicators to evaluate the reaction capabilities between sulfide electrolytes and O2or H2O ."
+  },
+  {
+    "triplets": [],
+    "sentence": "As a result of the DFT calculation , the ΔEof LPSI and LPSI-20Sn electrolyte is 2.667 and 9.298 eV , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The results indicate a much stronger bonding energy of ( P / Sn)-S in the ( P / Sn)S4tetrahedron than that of P-S in the PS4tetrahedron when replacing S with O ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In other words , a better resistance capability of LPSI-based electrolytes can be obtained after Sn substitution ( see the schematic diagram in Figure e ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The Sn",
+        "have",
+        "rather than O"
+      ]
+    ],
+    "sentence": "The Sn substituted in the lattice prefers to bond to S rather than O , endowing the LPSI-20Sn electrolyte to have a stable crystal structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "2.4 Li Metal Compatibility of LPSI-20Sn SSEs The Li anode interface stability of Li / LPSI-20Sn compared to that of Li / LPSI was evaluated by cycling the Li-Li symmetric cells ."
+  },
+  {
+    "triplets": [
+      [
+        "The results",
+        "shown",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The results are shown in Figure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Under a current density of 0.1 mA cm-2 and a cut-off capacity of 0.1 mAh cm-2 , Li//LPSI-20Sn//Li symmetric cell can perform an ultrastable Li plating/stripping for over 700 h ( 350 cycles ) at RT ( Figure a ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Even under a high current density of 1.26 mA cm-2 and cut-off capacity of 1 mAh cm-2 , our Li//LPSI-20Sn//Li symmetric cell can still display a very stable Li plating and stripping behavior for ≈200 h ( 125 cycles ) at RT ( Figure c ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The durability",
+        "using",
+        "to the best performances"
+      ]
+    ],
+    "sentence": "The durability can be comparable to the best performances in the previous reported symmetric cells using sulfide-based electrolytes ( Table S4 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "voltage profiles",
+        "seen",
+        "in Figure a-1-a-3"
+      ]
+    ],
+    "sentence": "Detailed plating/stripping voltage profiles under low current density of 0.1 mA cm-2 can be seen in the magnified regions at different cycling time points in Figure a-1-a-3 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Flat and axisymmetric polarization curves exhibit ultrastable and highly reversible Li plating and stripping behaviors at the Li / LPSI-20Sn interface ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The initial overpotential is 30 mV , which is comparable to that of the LiI-doped LPS electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After 700 h of stable Li plating and stripping process , the overpotential increases to 56 mV , which is due to the in situ formed SEI layer slightly increasing the interfacial impedance ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In sharp contrast , the Li-Li symmetric cell using LPSI as the electrolyte even cannot plate and strip regularly for one cycle ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The ultralow ionic conductivity of LPSI leads to a high overpotential of more than 3 V ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The violent fluctuation and gradually reduced overpotential indicate poor Li plating/stripping kinetics at the Li / LPSI interface ( Figure b ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Time-resolved EIS of the Li//LPSI-20Sn//Li symmetric cell was also used to enclose the stable Li / LPSI-20Sn interface before symmetric cell cycling ( Figure S11 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "negligible impedance change",
+        "found",
+        "in the Li//LPSI-20Sn//Li symmetric cell"
+      ]
+    ],
+    "sentence": "During the 24 h after assembling , negligible impedance change can be found in the Li//LPSI-20Sn//Li symmetric cell ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This reveals that there is no side reaction happening to the Li / LPSI-20Sn interface ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The robust Li anode interface benefits from the rich I-containing electrolytes ( 7.7 % mole ratio ) , which has also been demonstrated in LiI-doped LPS electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "SEM measurements for the Li metal surface were conducted after Li plating/stripping in the Li//LPSI-20Sn//Li symmetric cell at 0.1 mA cm-2 / 0.1 mAh cm-2 for ≈60 h ( Figure S12 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "dense Li surface",
+        "formed",
+        "in situ , which"
+      ]
+    ],
+    "sentence": "A relatively smooth and dense Li surface is formed in situ , which shows a uniform distribution of I-containing species ."
+  },
+  {
+    "triplets": [
+      [
+        "X-ray photoelectron spectroscopy ( XPS ) measurements",
+        "is",
+        "that the I species"
+      ]
+    ],
+    "sentence": "X-ray photoelectron spectroscopy ( XPS ) measurements for the surface further confirm that the I species is LiI compounds ( Figure S13 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The binding energy of 3d2/3(630.6 eV",
+        "agree",
+        "with the previous literature"
+      ]
+    ],
+    "sentence": "The binding energy of 3d2/3(630.6 eV ) and 3d5/3(619.1 eV ) agree well with the previous literature ."
+  },
+  {
+    "triplets": [
+      [
+        "The LiI",
+        "formed",
+        "anode interface"
+      ],
+      [
+        "SEI",
+        "create",
+        "as a vital component"
+      ]
+    ],
+    "sentence": "The LiI formed at the Li anode interface can serve as a vital component for stabilizing SEI to create uniform electron and ion distribution as well as suppress the formation of Li dendrites ."
+  },
+  {
+    "triplets": [],
+    "sentence": ", Figure 4 Li-Li symmetric cells performance : a ) comparison of using LPSI and LPSI-20Sn to operate symmetric cells ;"
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) magnified region of 0-10 h in ( a ) ;"
+  },
+  {
+    "triplets": [],
+    "sentence": "a-1-a-3 ) The magnified regions of the voltage profile at different time from ( a ) ."
+  },
+  {
+    "triplets": [
+      [
+        "c",
+        "tested",
+        "under 1.26 mA cm-2/1 mAh cm-2"
+      ]
+    ],
+    "sentence": "c ) Li plating/stripping polarization of the Li//LPSI-20Sn//Li symmetric cell tested under 1.26 mA cm-2/1 mAh cm-2 ."
+  },
+  {
+    "triplets": [
+      [
+        "2.5 Full Battery Performance",
+        "shown",
+        "in the schematic diagram Figure"
+      ]
+    ],
+    "sentence": "2.5 Full Battery Performance To demonstrate the applicability of the LPSI-20Sn electrolyte in ASSLMBs , we further employed the LPSI-20Sn electrolyte as the interlayer separating the Li metal and Li10GeP2S12(LGPS) electrolyte , with the use of a LiNbOxcoated LiCoO2(LCO@LNO) cathode ( as shown in the schematic diagram Figure a ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Li / Li+",
+        "conducted",
+        "in a voltage window of 2.8-4.2 V"
+      ]
+    ],
+    "sentence": "RT galvanostatic charge-discharge tests were conducted on full batteries in a voltage window of 2.8-4.2 V ( Li / Li+ , the same below ) and under various current densities at RT ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure b shows the first three charging and discharging curves under a low current density of 0.05 C ( 1 C = 140 mA gLCO-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The charge and discharge curves with a plateau at ≈3.9 V are extremely similar to those in the liquid electrolyte systems , suggesting highly reversible Li+ ion de-intercalation and intercalation behavior toward the LCO cathode materials ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The first-cycle reversible specific capacity is 123.7 mAh g-1 , and the corresponding Coulombic efficiency can reach as high as 91 % ."
+  },
+  {
+    "triplets": [
+      [
+        "The first cycle efficiency",
+        "using",
+        "for ASSLMBs"
+      ]
+    ],
+    "sentence": "The first cycle efficiency is one of the highest reported for ASSLMBs using Li metal as the anode directly ."
+  },
+  {
+    "triplets": [
+      [
+        "The high efficiency",
+        "attributed",
+        "to the excellent stability of Li / LPSI-20Sn interface"
+      ]
+    ],
+    "sentence": "The high efficiency is attributed to the excellent stability of Li / LPSI-20Sn interface ."
+  },
+  {
+    "triplets": [
+      [
+        "the Li",
+        "dendrites",
+        "through this LiI-assistant robust Li anode interface"
+      ]
+    ],
+    "sentence": "Because Li+ ions can smoothly shutter through this LiI-assistant robust Li anode interface , no waste of Li source accounts for consumption of irreversible reactions and the Li dendrites ."
+  },
+  {
+    "triplets": [
+      [
+        "cycles",
+        "displayed",
+        "in Figure c"
+      ]
+    ],
+    "sentence": "After three initial cycles at 0.05 C , the cycling stability of this full battery at 0.1 C at RT is displayed in Figure c ."
+  },
+  {
+    "triplets": [
+      [
+        "The reversible specific capacity",
+        "observed",
+        "in the first 20 cycles"
+      ]
+    ],
+    "sentence": "The reversible specific capacity maintains steady at ≈113.0 mAh g-1 , and negligible capacity decay is observed in the first 20 cycles ."
+  },
+  {
+    "triplets": [],
+    "sentence": "After 50 cycles , a capacity retention of 88.5 % can be achieved ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Remarkably , the average coulombic efficiency reaches 99.8 % during the long cycling process , suggesting highly reversible Li+ ion intercalation/de-intercalation ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In sharp contrast , the full battery without the LPSI-20Sn functional interlayer ( Li//LGPS//LCO@LNO//LGPS ) shows large voltage polarization at 0.05 C and even cannot deliver reversible capacity at 0.1 C ( Figure S14 , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the rate capability",
+        "shown",
+        "in Figure d"
+      ]
+    ],
+    "sentence": "Apart from the cycling stability , the rate capability was also evaluated as shown in Figure d ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The rate performance was obtained by elevating the discharge current densities , while keeping the charge current density at 0.05 C ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This method enables the complete uptake of Li source from the cathode and an estimate of the influence of sluggish Li+ ion transport problem in cathode composites ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In this way , reversible specific capacities can hold to as high as 98.1 and 93.8 mAh g-1 at high current densities of 0.8 and 1 C , respectively ."
+  },
+  {
+    "triplets": [
+      [
+        "the specific capacity",
+        "recover",
+        "to 111.0 mAh g-1"
+      ],
+      [
+        "when",
+        "remains",
+        "in the following cycling"
+      ]
+    ],
+    "sentence": "Moreover , when the current density is reduced to 0.1 C afterward , the specific capacity can recover to 111.0 mAh g-1 and remains stable in the following cycling ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Unlike the reported results that indicate Li dendrites are prone to form under high current densities , our full batteries have been proved to possess very promising performance , particularly , the rate capability for the practical applications ( Table S5 , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 5 Electrochemical performance of ASSLMBs : a ) schematic diagram of the Li / LPSI-20Sn//LGPS//LCO@LNO//LGPS ASSLMBs with the highlighted anode interlayer ;"
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) the first three charge-discharge profiles of the fabricated ASSLMBs ;"
+  },
+  {
+    "triplets": [],
+    "sentence": "c ) cycling stability and d ) rate capability of the Li / LPSI-20Sn//LGPS//LCO@LNO//LGPS at RT ."
+  },
+  {
+    "triplets": [
+      [
+        "3 Conclusion",
+        "replaced",
+        "by Sn ( IV )"
+      ]
+    ],
+    "sentence": "3 Conclusion To conclude , P ( V ) in argyrodite LPSI electrolyte was partially replaced by Sn ( IV ) to form a series of new LPSI-xSn electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "the optimized LPSI-20Sn electrolyte",
+        "compared",
+        "with LPSI electrolyte ( 2.8 × 10-6 S cm-1 )"
+      ]
+    ],
+    "sentence": "The larger cell volume and increased Li+ solubility resulting from Sn substitution for P in the PS4tetrahedral structure endow the optimized LPSI-20Sn electrolyte with two orders of magnitudes higher ( 125 times ) ionic conductivity ( 3.5 × 10-4 S cm-1 ) compared with LPSI electrolyte ( 2.8 × 10-6 S cm-1 ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the optimized LPSI-20Sn electrolyte",
+        "derived",
+        "from the strong Sn-S bonding energy"
+      ]
+    ],
+    "sentence": "More remarkably , the optimized LPSI-20Sn electrolyte is also proved to possess excellent air stability ( O2and moisture ) derived from the strong Sn-S bonding energy in ( P/Sn)S4structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The mass and ionic conductivity of LPSI-20Sn exhibits negligible changes after O2and 10 % humidity exposure ( after reheating ) , respectively ."
+  },
+  {
+    "triplets": [
+      [
+        "the Li metal anode interface",
+        "exhibit",
+        "from the I-based chemistry"
+      ]
+    ],
+    "sentence": "In addition , benefiting from the I-based chemistry in stabilizing the Li metal anode interface against sulfide electrolytes , Li-Li symmetric cells using LPSI-20Sn as the electrolyte can exhibit outstanding plating and stripping for over 200 h at a high current density ( 1.26 mA cm-2 ) and cut-off capacity ( 1 mAh cm-2 ) in the Li//LPSI-20Sn//Li symmetric cell ."
+  },
+  {
+    "triplets": [
+      [
+        "LPSI-20Sn electrolyte",
+        "achieving",
+        "as the Li metal anode interlayer in ASSLMBs"
+      ]
+    ],
+    "sentence": "LPSI-20Sn electrolyte was further employed as the Li metal anode interlayer in ASSLMBs to provide a stabilized Li metal anode interface for achieving excellent cycling stability and rate capability ."
+  },
+  {
+    "triplets": [
+      [
+        "All",
+        "make",
+        "for the problematic element"
+      ]
+    ],
+    "sentence": "All these results suggest that the reasonable aliovalent element substitution for the problematic element in promising sulfide electrolytes can exhibit multifunction capabilities and make them more suitable for application in sulfide-based ASSLMBs ."
   },
   {
     "triplets": [

@@ -2,12 +2,1274 @@
   {
     "triplets": [
       [
-        "< |start_header_id| > assistant < |end_header_id| >",
-        "is",
-        "in section 4 Experimental Section"
+        "1 Introduction",
+        "utilized",
+        "in daily life"
       ]
     ],
-    "sentence": "< |start_header_id| > assistant < |end_header_id| > The experimental part of the paper is in section 4 Experimental Section ."
+    "sentence": "1 Introduction Currently , with the popularity of electric cars and portable electronic devices , lithium-ion batteries ( LIBs ) have been generally utilized in daily life ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , the use of combustible organic electrolytes in LIBs has raised significant concerns about the safety ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition , the limited energy density further hinders the extensive application of LIBs ."
+  },
+  {
+    "triplets": [
+      [
+        "All-solid-state Li metal batteries ( ASSLMBs )",
+        "considered",
+        "as one of the most significant energy storage methods"
+      ]
+    ],
+    "sentence": "All-solid-state Li metal batteries ( ASSLMBs ) have been considered as one of the most significant energy storage methods , resulting from high energy density , the excellent safety , and ultrastable cycling performance ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Since the solid electrolyte is the vital component in ASSLMBs , it has captured plentiful attentions ."
+  },
+  {
+    "triplets": [
+      [
+        "Sulfide solid electrolytes ( SSEs )",
+        "regarded",
+        "as one of the most promising alternatives"
+      ]
+    ],
+    "sentence": "Sulfide solid electrolytes ( SSEs ) , possessing high ionic conductivity , appropriate mechanical strength , and high-temperature stability , have been regarded as one of the most promising alternatives ."
+  },
+  {
+    "triplets": [
+      [
+        "a superionic conductor Li7P3S11was",
+        "synthesized",
+        "with an ionic conductivity"
+      ]
+    ],
+    "sentence": "In 2005 , a superionic conductor Li7P3S11was synthesized successfully with an ionic conductivity ( 3.2 mS cm-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Additionally , the 70Li2S-30P2S5electrolyte possesses high ionic conductivity ( 17 mS cm-1 ) via removing the voids and grain impedances ."
+  },
+  {
+    "triplets": [
+      [
+        "the Li9.54Si1.74P1.44S11.7Cl0.3electrolyte",
+        "be",
+        "than the liquid organic electrolyte"
+      ]
+    ],
+    "sentence": "Furthermore , the Li9.54Si1.74P1.44S11.7Cl0.3electrolyte presents incredible ionic conductivity of 25 mS cm-1 , which can be even better than the liquid organic electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Despite making remarkable progresses , there are still some drawbacks that limit the application of SSEs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "At first , the traditional preparation method , involving in mechanical milling plus annealing , is outdated on account of cost-intensive and time-consuming processes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Moreover , it is still challenging to match SSEs with Li metal directly due to the strong reducibility of lithium ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Ultimately , on account of the high oxygen affinity of hard acid ( P5+ ) , the SSEs containing PS43-units tend to react with H2O to release poisonous H2S gas ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Hence , it is urgent to develop a versatile SSEs with a simple method ."
+  },
+  {
+    "triplets": [
+      [
+        "the application of SSEs , several practical approaches",
+        "deal",
+        "with these issues in ASSLMBs"
+      ]
+    ],
+    "sentence": "For realizing the application of SSEs , several practical approaches have been propounded to deal with these issues in ASSLMBs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "One is to utilize the mechanochemically synthesized method to prepare SSEs , which is an innovative method that contains pulverizing , glassification , and crystallization in one-pot process ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Furthermore , for enhancing the poor interfacial stability of SSEs against Li metal , the F-rich or I-containing functional interfaces have been proposed to solve the issue ."
+  },
+  {
+    "triplets": [
+      [
+        "the F- or I-based SSEs",
+        "react",
+        "with Li metal"
+      ]
+    ],
+    "sentence": "In particular , the F- or I-based SSEs can directly react with Li metal to configure a robust solid electrolyte interphase ( SEI ) , which can alleviate side reactions and the formation of Li dendrites in ASSLMBs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Nevertheless , it is still difficult to obtain a superionic conductor ( > 10-3 S cm-1 ) with good air stability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Fortunately , replacing hard acid ( P5+ ) with soft acid is a feasible method to enhance the air stability of SSEs from the hard-soft-acid-base theory ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For instance , the Li6PS5I electrolyte has been demonstrated to obtain improved air stability with soft Sn substitution ."
+  },
+  {
+    "triplets": [
+      [
+        "the air stability of Li10GeP2S12is",
+        "enhanced",
+        "with Sb-doping"
+      ]
+    ],
+    "sentence": "Moreover , since soft acid Sb tends to bond with soft base S rather than hard base O , the air stability of Li10GeP2S12is enhanced with Sb-doping ."
+  },
+  {
+    "triplets": [],
+    "sentence": "What is more , the incorporation of elements with larger atomic radius will broaden the Li+ migration channel , which can simultaneously improve the ionic conductivity ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The classic argyrodite-type Li6PS5X ( X = Cl , Br and I ) have captured great attentions on account of the low cost of raw materials ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Rich I concentration in the sulfide electrolytes can in situ construct a stable SEI to prevent Li dendrites ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Li6PS5I electrolyte will be promising electrolyte if proper ionic conductivity ( > 10-3 S cm-1 ) is acquired ."
+  },
+  {
+    "triplets": [
+      [
+        "Recent study",
+        "enhanced",
+        "that the ionic conductivity of Li6PS5I electrolyte"
+      ]
+    ],
+    "sentence": "Recent study has indicated that the ionic conductivity of Li6PS5I electrolyte is enhanced after soft mechanical treatment ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition , the incorporation of soft acid ( Sn , As and Sb ) can not only raise ionic conductivity , but also enhance air stability ."
+  },
+  {
+    "triplets": [
+      [
+        "the argyrodite-type electrolytes",
+        "prepared",
+        "in one-pot process"
+      ]
+    ],
+    "sentence": "In this present work , the argyrodite-type electrolytes are prepared rapidly via the UEMA approach in one-pot process ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The In-doped Li6PS5I electrolyte obtains higher ionic conductivity and better air stability compared to pristine Li6PS5I at the same alloying time , and still possesses excellent cycling stability on account of forming a LiI-rich layer at the interface of Li metal ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Moreover , the constructed all-solid-state Li-S batteries with Li6.5In0.25P0.75S5I electrolyte as an interlayer exhibit ultrastable cycling performance ."
+  },
+  {
+    "triplets": [],
+    "sentence": "2 Results and Discussion Figure descripts the preparation process of the Li6PS5I electrolyte employing the UEMA method ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To know the detailed features of the process , the relationship between the ionic conductivity ( σ ) of Li6PS5I and the mechanical alloying time is examined ( Figure ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "It takes only 10 min to synthesize the Li6PS5I electrolyte with a high ionic conductivity ( 1.82 mS cm-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This is the valuable report that SSEs can be prepared with such a short period of time ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , as the mechanical alloying time further increases , the ionic conductivity of the electrolyte will decrease continuously ."
+  },
+  {
+    "triplets": [
+      [
+        "the ionic conductivity",
+        "decreases",
+        "to the plateau value ( 0.79 mS cm-1 )"
+      ]
+    ],
+    "sentence": "When the mechanical alloying time exceeds 60 min , the ionic conductivity decreases to the plateau value ( 0.79 mS cm-1 ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "As a comparison , the ionic conductivity of Li6PS5I electrolyte via the traditional method presents a low value of 7.25 × 10-3 mS cm-1 in Figure ( Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the detailed Nyquist plots of Li6PS5I",
+        "synthesized",
+        "by UEMA"
+      ]
+    ],
+    "sentence": "Moreover , the detailed Nyquist plots of Li6PS5I synthesized by UEMA for different alloying time are displayed in Figure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 1 a ) Schematic diagram of the preparation of Li6PS5I electrolyte using UEMA method ."
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) Ionic conductivity ( σ ) of Li6PS5I versus the mechanical alloying time ."
+  },
+  {
+    "triplets": [
+      [
+        "c",
+        "synthesized",
+        "by UEMA"
+      ]
+    ],
+    "sentence": "c ) Nyquist plots of Li6PS5I electrolytes synthesized by UEMA for different alloying time at 298 K , d ) the Nyquist plot of precursor ( mechanical alloying timet = 0 min ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the structural variation of the synthesized electrolytes",
+        "investigated",
+        "by means of X-ray diffraction ( XRD ) , Raman and nuclear magnetic resonance ( NMR )"
+      ]
+    ],
+    "sentence": "To elucidate the structural variation of the synthesized electrolytes affected by mechanical alloying time , the materials were investigated by means of X-ray diffraction ( XRD ) , Raman and nuclear magnetic resonance ( NMR ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure displays the XRD patterns of Li6PS5I electrolytes obtained by conventional and UEMA methods ."
+  },
+  {
+    "triplets": [
+      [
+        "The Li6PS5I electrolyte",
+        "prepared",
+        "by the traditional mechanical alloying method"
+      ],
+      [
+        "a high Li-argyrodite crystallinity , which",
+        "agrees",
+        "with the previous report"
+      ]
+    ],
+    "sentence": "The Li6PS5I electrolyte prepared by the traditional mechanical alloying method shows a high Li-argyrodite crystallinity , which agrees with the previous report ."
+  },
+  {
+    "triplets": [
+      [
+        "The Li-argyrodite phase",
+        "illustrates",
+        "that the method"
+      ]
+    ],
+    "sentence": "The Li-argyrodite phase also appears in the samples prepared by UEMA , which illustrates that the method can successfully synthesize Li6PS5I electrolyte in one-pot process ."
+  },
+  {
+    "triplets": [
+      [
+        "The XRD peak of Li6PS5I",
+        "prepared",
+        "by UEMA"
+      ]
+    ],
+    "sentence": "The XRD peak of Li6PS5I prepared by UEMA is wider than that of the traditional method , indicating that the grain sizes of the electrolyte prepared by UEMA are smaller ."
+  },
+  {
+    "triplets": [
+      [
+        "The grain size of the samples",
+        "prepared",
+        "with the alloying time"
+      ]
+    ],
+    "sentence": "The grain size of the samples prepared by UEMA varies with the alloying time ."
+  },
+  {
+    "triplets": [
+      [
+        "the average crystallite size of conventional Li6PS5I",
+        "is",
+        "from the Scherrer equation"
+      ]
+    ],
+    "sentence": "As calculated from the Scherrer equation , the average crystallite size of conventional Li6PS5I is 70 nm , and that of crystalline Li6PS5I prepared by UEMA is 11-16 nm ( Tables , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "Li+",
+        "facilitate",
+        "for the intercage diffusion step"
+      ]
+    ],
+    "sentence": "Based on previous reports , S2-/I-anion site disorder is necessary for the intercage diffusion step to facilitate long-range Li+ ion transport ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , I ions only occupy the 4a position and there is no the S2-/I-anion site disorder in the conventional Li6PS5I electrolyte , which hinders intercage diffusion of Li ions ."
+  },
+  {
+    "triplets": [
+      [
+        "Larger grain size",
+        "is",
+        "in the Li6PS5I electrolyte"
+      ]
+    ],
+    "sentence": "Larger grain size implies longer range ordered crystal structure , which is not conducive to the Li+ migration in the Li6PS5I electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In particular , low-speed-scan XRD patterns and Rietveld refinements of crystalline Li6PS5I electrolytes by conventional and UEMA methods are tested to investigate the evolution of the S2-/I-anion site order ( Figures and , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the electrolyte",
+        "prepared",
+        "by UEMA method"
+      ],
+      [
+        "the higher S2-/I-anion site disorder ( Table , Supporting Information ) , which",
+        "is",
+        "to Li+ migration"
+      ]
+    ],
+    "sentence": "Compared with the conventional Li6PS5I , the electrolyte prepared by UEMA method shows the higher S2-/I-anion site disorder ( Table , Supporting Information ) , which is beneficial to Li+ migration ."
+  },
+  {
+    "triplets": [
+      [
+        "the enhanced ionic conductivity of Li6PS5I electrolytes",
+        "prepared",
+        "by UEMA"
+      ]
+    ],
+    "sentence": "Therefore , the enhanced ionic conductivity of Li6PS5I electrolytes prepared by UEMA is attributed to the small grain size and high S2-/I-anion site disorder ."
+  },
+  {
+    "triplets": [
+      [
+        "the XRD pattern of the sample",
+        "exists",
+        "in the amorphous state"
+      ]
+    ],
+    "sentence": "When the mechanical alloying time is 10 min , the XRD pattern of the sample represents Halo peak and residual Li2S , indicating that the Li6PS5I electrolyte mainly exists in the amorphous state ."
+  },
+  {
+    "triplets": [
+      [
+        "the intensity of Li2S impurity",
+        "appears",
+        "while the Li-argyrodite phase"
+      ]
+    ],
+    "sentence": "With the increase of mechanical alloying time , the intensity of Li2S impurity decreases , while the Li-argyrodite phase appears and increases continuously ."
+  },
+  {
+    "triplets": [
+      [
+        "which",
+        "lead",
+        "in the Li6PS5I electrolytes"
+      ]
+    ],
+    "sentence": "This means that the structural disorder or distortion is reduced , which will lead to the reduction of ionic conductivity in the Li6PS5I electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "the grain size",
+        "is",
+        "to crystallization of the electrolytes"
+      ]
+    ],
+    "sentence": "Furthermore , the grain size reaches the peak value after the mechanical alloying time exceeds 60 min , indicating that the glassification rate is equal to crystallization of the electrolytes obtained by the UEMA method ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For ensuring the adequate reaction of the raw material , the mechanical alloying time in the subsequent work was set to 60 min ."
+  },
+  {
+    "triplets": [
+      [
+        "The Raman spectra of the Li6PS5I electrolytes",
+        "represented",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The Raman spectra of the Li6PS5I electrolytes are represented in Figure ."
+  },
+  {
+    "triplets": [
+      [
+        "The major peaks",
+        "match",
+        "with LiI and PS43-units"
+      ]
+    ],
+    "sentence": "The major peaks at 406 cm-1 and 421 cm-1 can match with LiI and PS43-units , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Since the UEMA method can provide ultrahigh energy , there are a lot of defects and distortions in the Li6PS5I electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "The Raman spectra of the electrolytes",
+        "prepared",
+        "by UEMA"
+      ]
+    ],
+    "sentence": "The Raman spectra of the electrolytes prepared by UEMA have slight offset compared with the pristine Li6PS5I ."
+  },
+  {
+    "triplets": [
+      [
+        "the reduction of defects and distortions",
+        "indicating",
+        "of the peak position"
+      ]
+    ],
+    "sentence": "With the increase of mechanical alloying time , the offset of the peak position decreases , indicating the reduction of defects and distortions in the electrolytes ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 2 a ) XRD patterns and b ) Raman spectra of Li6PS5I electrolytes by conventional and UEMA methods ."
+  },
+  {
+    "triplets": [],
+    "sentence": "c ) 7Li MAS NMR and d ) 31P MAS NMR spectra of Li6PS5I electrolytes prepared by conventional and UEMA methods ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For further distinguishing the difference of Li6PS5I electrolytes prepared by conventional and UEMA methods , the high resolution 7Li MAS and 31P MAS NMR spectroscopes are performed ."
+  },
+  {
+    "triplets": [],
+    "sentence": "As exhibited Figure , the two electrolytes ( microcrystalline and nanocrystalline ) have similar 7Li NMR signals ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Gaussian character of the lineshape should be symmetric ."
+  },
+  {
+    "triplets": [
+      [
+        "the nanocrystalline Li6PS5I",
+        "is",
+        "on account of greater halogen disorder"
+      ]
+    ],
+    "sentence": "However , the nanocrystalline Li6PS5I has a more obvious chemical shift asymmetry , which is on account of greater halogen disorder ."
+  },
+  {
+    "triplets": [
+      [
+        "the 7Li NMR signal of nanocrystalline Li6PS5I",
+        "exists",
+        "in the nanocrystalline Li6PS5I electrolyte"
+      ]
+    ],
+    "sentence": "Notably , the 7Li NMR signal of nanocrystalline Li6PS5I is narrower than that of the microcrystalline , which illustrates that a larger proportion of mobile Li ions exists in the nanocrystalline Li6PS5I electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Furthermore , the lineshape of 31P NMR presents a distinct contrast ( Figure ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The 31P NMR spectrum of the microcrystalline Li6PS5I",
+        "is",
+        "with the previous reports"
+      ]
+    ],
+    "sentence": "The 31P NMR spectrum of the microcrystalline Li6PS5I consists of a single resonance peak ( 95.85 ppm ) , which is consistent with the previous reports ."
+  },
+  {
+    "triplets": [
+      [
+        "The signal",
+        "ordered",
+        "that the arrangement of all PS43-tetrahedra"
+      ]
+    ],
+    "sentence": "The signal reflects that the arrangement of all PS43-tetrahedra is ordered and regular ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition to the main peak ( 95.65 ppm ) , an extra peak ( 85.09 ppm ) in the nanocrystalline Li6PS5I can be observed ( Figure ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The similar resonance peak",
+        "illustrates",
+        "that the UEMA method"
+      ]
+    ],
+    "sentence": "The similar resonance peak at 95.65 ppm illustrates that the UEMA method can directly synthesize the electrolyte containing Li-argyrodite crystallinity ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Particularly , the broad Gaussian resonance peak represents the different 31P environments ."
+  },
+  {
+    "triplets": [
+      [
+        "The serious polyhedral distortions and local defects",
+        "blame",
+        "for the dramatic change"
+      ]
+    ],
+    "sentence": "The serious polyhedral distortions and local defects are to blame for the dramatic change ."
+  },
+  {
+    "triplets": [
+      [
+        "The microstructures of electrolytes",
+        "investigated",
+        "by bright-filed TEM"
+      ]
+    ],
+    "sentence": "The microstructures of electrolytes were also investigated by bright-filed TEM and the selected-area electron diffraction ( SAED ) measurements ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure ( Supporting Information ) reveals the grain shapes and crystalline structures of Li6PS5I electrolytes prepared by conventional and UEMA methods ."
+  },
+  {
+    "triplets": [
+      [
+        "The presence of ring and blurred spherical pattern",
+        "prepared",
+        "by UEMA method"
+      ]
+    ],
+    "sentence": "The presence of ring and blurred spherical pattern for Li6PS5I electrolyte prepared by UEMA method indicates the amorphous and polycrystalline Li-argyrodite features ."
+  },
+  {
+    "triplets": [
+      [
+        "the conventional Li6PS5I electrolyte",
+        "becomes",
+        "that the sample"
+      ]
+    ],
+    "sentence": "However , the conventional Li6PS5I electrolyte displays a distinct face-centered cubic diffraction spots that can match with the ( 222 ) and ( 311 ) atomic planes of the Li-argyrodite phase , suggesting that the sample becomes more crystalline ."
+  },
+  {
+    "triplets": [
+      [
+        "The large well-oriented crystal grains",
+        "is",
+        "in the Li6PS5I electrolyte"
+      ]
+    ],
+    "sentence": "The large well-oriented crystal grains mean long range ordered crystal structure , which is not conducive to the Li+ migration in the Li6PS5I electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "For demonstrating that UEMA is a general method to synthesize the argyrodite-type electrolytes , Li6PS5Br and Li6PS5Cl are also attempted ."
+  },
+  {
+    "triplets": [
+      [
+        "The XRD and Raman measurements of the Li6PS5Br and Li6PS5Cl electrolytes",
+        "prepared",
+        "by UEMA also present Li-argyrodite crystallinity ( Figures and , Supporting Information )"
+      ]
+    ],
+    "sentence": "The XRD and Raman measurements of the Li6PS5Br and Li6PS5Cl electrolytes prepared by UEMA also present Li-argyrodite crystallinity ( Figures and , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The ionic conductivity",
+        "shown",
+        "in Figures and ( Supporting Information )"
+      ]
+    ],
+    "sentence": "The ionic conductivity and calculated activation energy are shown in Figures and ( Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Li6PS5Br and Li6PS5Br electrolytes represent a superior ionic conductivity of 1.12 and 1.33 mS cm-1 , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Replacing hard acid ( P5+ ) with soft acid , such as In3+ , can improve the air stability of SSEs from the hard-soft-acid-base theory ."
+  },
+  {
+    "triplets": [
+      [
+        "the ionic conductivity",
+        "enhance",
+        "with the lower valence , which"
+      ]
+    ],
+    "sentence": "Meanwhile , the Li+ carriers concentration can be improved in the unit cells on account of the replacement of P5+ by In3+ with the lower valence , which contributes to enhance the ionic conductivity ."
+  },
+  {
+    "triplets": [
+      [
+        "The decomposition energy",
+        "listed",
+        "in Table ( Supporting Information )"
+      ]
+    ],
+    "sentence": "For knowing whether indium can be successfully doped into the Li6PS5I electrolyte , the decomposition energy ΔEfor the following hypothetical reaction ( 1 ) is figured based on DFT calculation ( 1 ) The decomposition energy ΔEof Li6PS5X ( X = Cl , Br and I ) is also calculated in the same method and listed in Table ( Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The negative value of ΔEdecompositionmeans Li6PS5X ( X = Cl , Br and I ) electrolytes are thermodynamically unstable ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , many previous reports have demonstrated the existence of Li6PS5X ( X = Cl , Br and I ) electrolytes at room temperature ."
+  },
+  {
+    "triplets": [],
+    "sentence": "This indicates that the decomposition energy is relatively small and can be stabilized by the kinetic barrier at room temperature , thus forming metastable Li6PS5X ( X = Cl , Br and I ) electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "the incorporation of indium",
+        "illustrating",
+        "that the In-doped Li6PS5I electrolyte"
+      ]
+    ],
+    "sentence": "Furthermore , according to the DFT calculations , the incorporation of indium does not lead to a significant increase in the decomposition energy of Li6PS5I , illustrating that the In-doped Li6PS5I electrolyte can be prepared potentially ."
+  },
+  {
+    "triplets": [
+      [
+        "the substituted indium atom",
+        "shared",
+        "with P in the 4b site"
+      ]
+    ],
+    "sentence": "As represented in Figure , the substituted indium atom is shared with P in the 4b site ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 3 The structure diagram of In-doped Li6PS5I electrolyte from DFT calculation ."
+  },
+  {
+    "triplets": [
+      [
+        "the XRD and Raman measurements",
+        "performed",
+        "to the samples"
+      ]
+    ],
+    "sentence": "For demonstrating that the In-doped Li6PS5I electrolyte can be synthesized by UEMA successfully , the XRD and Raman measurements are performed to the samples ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To ensure adequate reaction of the raw materials and the formation of Li-argyrodite phase , the mechanical alloying time is determined to be 60 min ."
+  },
+  {
+    "triplets": [
+      [
+        "the XRD pattern of the In-doped Li6PS5I electrolyte",
+        "matches",
+        "with Li-argyrodite crystalline peaks and residual Li2S peaks"
+      ]
+    ],
+    "sentence": "As depicted in Figure , the XRD pattern of the In-doped Li6PS5I electrolyte matches with Li-argyrodite crystalline peaks and residual Li2S peaks ."
+  },
+  {
+    "triplets": [
+      [
+        "the ( 2 2 0 ) peak of Li6.5In0.25P0.75S5I",
+        "doped",
+        "into the crystal structure"
+      ]
+    ],
+    "sentence": "Compared with Li6PS5I , the ( 2 2 0 ) peak of Li6.5In0.25P0.75S5I has a left offset and no corresponding peaks of In2S3appear in the magnifying XRD patterns ( Figure , Supporting Information ) , exemplifying that the indium elements are successfully doped into the crystal structure and then result in expanded lattice ."
+  },
+  {
+    "triplets": [
+      [
+        "there",
+        "offset",
+        "in the Raman spectrum"
+      ]
+    ],
+    "sentence": "Additionally , there is an apparent offset in the Raman spectrum after the incorporation of indium element in Li6PS5I ( Figure ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the morphology and size of the samples",
+        "changed",
+        "by In-doping ( Figure , Supporting Information )"
+      ]
+    ],
+    "sentence": "Moreover , the morphology and size of the samples are not significantly changed by In-doping ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The EDS mapping",
+        "is",
+        "in the electrolyte"
+      ]
+    ],
+    "sentence": "The EDS mapping illustrates that the distribution of indium is homogeneous in the electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 4 a ) XRD patterns and b ) Raman spectra of Li6PS5I and Li6.5In0.25P0.75S5I electrolytes at the mechanical alloying time of 60 min ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Low-speed-scan XRD patterns and Rietveld refinements of c ) Li6.5In0.25P0.75S5I"
+  },
+  {
+    "triplets": [],
+    "sentence": "and d ) Li6PS5I electrolytes ."
+  },
+  {
+    "triplets": [
+      [
+        "e",
+        "tested",
+        "from 268"
+      ]
+    ],
+    "sentence": "e ) Nyquist plot at 298 K and f ) Arrhenius profile of Li6.5In0.25P0.75S5I electrolyte tested from 268 to 393 K ."
+  },
+  {
+    "triplets": [
+      [
+        "the variation of crystalline phases",
+        "tested",
+        "by In-doping , Low-speed-scan XRD patterns and Rietveld refinements of Li6PS5I and Li6.5In0.25P0.75S5I electrolytes"
+      ]
+    ],
+    "sentence": "To reveal in detail the variation of crystalline phases caused by In-doping , Low-speed-scan XRD patterns and Rietveld refinements of Li6PS5I and Li6.5In0.25P0.75S5I electrolytes are tested ( Figure ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the unit cell parameters of Li6.5In0.25P0.75S5I ( a = b = c = 10.15242 Å )",
+        "are",
+        "in Tables and ( Supporting Information )"
+      ]
+    ],
+    "sentence": "As described in Tables and ( Supporting Information ) , the unit cell parameters of Li6.5In0.25P0.75S5I ( a = b = c = 10.15242 Å ) are larger than those of Li6PS5I ( a = b = c = 10.13466 Å ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The result quantifies the impact of indium incorporation on the unit cell parameters ."
+  },
+  {
+    "triplets": [
+      [
+        "The doped indium atom",
+        "shared",
+        "with P"
+      ]
+    ],
+    "sentence": "The doped indium atom in the 4b site is shared with P ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Moreover , the incorporation of indium increases the Li+ carrier concentration and induces the S2-/I-anion site disorder ( Table , Supporting Information ) , which are expected to promote the Li+ migration and enhance the ionic conductivity ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The alternating current impedance was performed to test the ionic conductivity of the In-doped electrolyte ."
+  },
+  {
+    "triplets": [
+      [
+        "The Nyquist plot of the Li6.5In0.25P0.75S5I electrolyte",
+        "shown",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The Nyquist plot of the Li6.5In0.25P0.75S5I electrolyte is shown in Figure ."
+  },
+  {
+    "triplets": [
+      [
+        "It",
+        "compared",
+        "at the same alloying time of 60 min"
+      ]
+    ],
+    "sentence": "It has an enhanced ionic conductivity ( 1.06 mS cm-1 ) compared with Li6PS5I ( 0.79 mS cm-1 ) at the same alloying time of 60 min ."
+  },
+  {
+    "triplets": [
+      [
+        "a smaller activation energy ( 0.276 eV ) of Li6.5In0.25P0.75S5I",
+        "found",
+        "in Figure"
+      ]
+    ],
+    "sentence": "In comparison with the activation energy ( 0.324 eV ) of Li6PS5I , a smaller activation energy ( 0.276 eV ) of Li6.5In0.25P0.75S5I is found in Figure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The expanding Li+ transport channel and the increased Li+ carrier concentration effectively weaken the transport obstacles and promote the Li+ migration ."
+  },
+  {
+    "triplets": [
+      [
+        "the electronic conductivity of the Li6.5In0.25P0.75S5I electrolyte",
+        "plays",
+        "in Figure ( Supporting Information )"
+      ]
+    ],
+    "sentence": "Besides , the electronic conductivity of the Li6.5In0.25P0.75S5I electrolyte shown in Figure ( Supporting Information ) exhibits the reduced electronic conductivity ( 8.32 × 10-9 S cm-1 ) , which plays a vital part in Li dendrite suppression ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The poor air stability of SSEs will generate toxic H2S gas and increase the fabrication cost of batteries ."
+  },
+  {
+    "triplets": [
+      [
+        "the pristine Li6PS5I electrolyte",
+        "depicted",
+        "in Figure"
+      ]
+    ],
+    "sentence": "Without the incorporation of indium element , the pristine Li6PS5I electrolyte generates a large amount of H2S after being exposed to 10 % humidity air as depicted in Figure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "While the generation of H2S in Li6.5In0.25P0.75S5I reduces drastically , thus implying that In-doping can enhance the air stability of Li6PS5I-based electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The XRD and Raman measurements were performed to characterize the structure changes after exposure in moist air ."
+  },
+  {
+    "triplets": [
+      [
+        "the unknown peaks",
+        "show",
+        "in the XRD pattern of pristine Li6PS5I"
+      ]
+    ],
+    "sentence": "As described in Figure , the unknown peaks show in the XRD pattern of pristine Li6PS5I ."
+  },
+  {
+    "triplets": [],
+    "sentence": "On the contrary , the XRD pattern of Li6.5In0.25P0.75S5I remains unchanged as expected ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition , two new peaks at 348 cm-1 and 388 cm-1 can be observed in the corresponding enlarged Raman spectra of Li6PS5I ( Figure , Supporting Information ) , which result from the destroy of PS bond after air exposure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , the Li6.5In0.25P0.75S5I electrolyte can maintain its structure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Therefore , replacing P5+ with In3+ is an easy and useful method to strengthen the air stability of Li6PS5I-based electrolyte ."
+  },
+  {
+    "triplets": [
+      [
+        "Figure 5",
+        "produced",
+        "from both Li6.5In0.25P0.75S5I and Li6PS5I electrolytes when"
+      ]
+    ],
+    "sentence": "Figure 5 a ) The quantity of H2S gas produced from both Li6.5In0.25P0.75S5I and Li6PS5I electrolytes when exposed in moisture air ."
+  },
+  {
+    "triplets": [
+      [
+        "b",
+        "exposing",
+        "in moisture air"
+      ]
+    ],
+    "sentence": "b ) XRD patterns and c ) Raman spectra of Li6.5In0.25P0.75S5I and Li6PS5I electrolytes before and after exposing in moisture air ."
+  },
+  {
+    "triplets": [
+      [
+        "d",
+        "reacting",
+        "on the basis of the DFT calculation"
+      ]
+    ],
+    "sentence": "d ) Illustration of the difficult degree of PS4and InS4tetrahedrons reacting with H2O on the basis of the DFT calculation ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The hydrolysis reaction energy ΔEis applied to evaluate the air stability of SSEs ."
+  },
+  {
+    "triplets": [],
+    "sentence": "As a result , the hydrolysis energy on the basis of DFT calculation is determined to disclose the enhanced air stability of In-doped Li6PS5I electrolyte ."
+  },
+  {
+    "triplets": [
+      [
+        "the deterioration of the sulfide",
+        "refers",
+        "with O atom"
+      ]
+    ],
+    "sentence": "In general , the deterioration of the sulfide involves the attack of H2O to PS4tetrahedron , which refers to the substitution of S with O atom ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The hydrolysis energy of PS4and InS4units"
+  },
+  {
+    "triplets": [],
+    "sentence": "is calculated for the following reactions ( 2 ) ( 3 ) The ΔEof PS4and InS4units"
+  },
+  {
+    "triplets": [],
+    "sentence": "are -1.00 and 0.81 eV , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The negative value of ΔEmeans PS4tetrahedron is easy to react with H2O ( Figure ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , the ΔEof InS4units is a positive value , which illustrates that the hydrolysis reaction of InS4units is thermodynamically unfavorable ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In other words , indium gives priority to bond sulfur rather than oxygen ."
+  },
+  {
+    "triplets": [
+      [
+        "the air stability of the Li6.5In0.25P0.75S5I electrolyte",
+        "agree",
+        "with our experimental data"
+      ]
+    ],
+    "sentence": "Therefore , the air stability of the Li6.5In0.25P0.75S5I electrolyte can be enhanced sharply , which agree well with our experimental data ."
+  },
+  {
+    "triplets": [
+      [
+        "The interfacial stability",
+        "evaluated",
+        "by the galvanostatic charge/discharge test of Li symmetric cells"
+      ]
+    ],
+    "sentence": "The interfacial stability between the Li6.5In0.25P0.75S5I electrolyte and Li metal was evaluated by the galvanostatic charge/discharge test of Li symmetric cells ."
+  },
+  {
+    "triplets": [
+      [
+        "a sudden voltage drop",
+        "appears",
+        "in the Li / Li3PS4 / Li symmetric cell"
+      ]
+    ],
+    "sentence": "As depicted in Figure , a sudden voltage drop appears in the Li / Li3PS4 / Li symmetric cell after 58 h , illustrating that a soft short circuit occurs in the cell ."
+  },
+  {
+    "triplets": [
+      [
+        "the Li / Li6PS5I / Li symmetric cell",
+        "is",
+        "with previous reports"
+      ]
+    ],
+    "sentence": "However , the Li / Li6PS5I / Li symmetric cell can deliver a stable cycle for 600 h ( Figure ) , which is consistent with previous reports ."
+  },
+  {
+    "triplets": [],
+    "sentence": "I-doped sulfide solid electrolytes can alleviate the interfacial side reactions and the formation of Li dendrite ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Moreover , the Li/Li6.5In0.25P0.75S5I/Li symmetric cell also shows a low initial overpotential of 15 mV and can remain a stable cycle for 1000 h at a current density of 0.1 mA cm-2 ."
+  },
+  {
+    "triplets": [
+      [
+        "( Figure )",
+        "increases",
+        "to 22 mV"
+      ]
+    ],
+    "sentence": "Notably , the overpotential only increases to 22 mV after 1000 h ( Figure ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Additionally , the Li/Li6.5In0.25P0.75S5I/Li symmetric cell can cycle steadily at a current density of 0.2 mA cm-2 ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Besides , the time-dependent impedance spectra are also employed to evaluate the interfacial stability of Li6.5In0.25P0.75S5I electrolyte ."
+  },
+  {
+    "triplets": [
+      [
+        "There",
+        "possesses",
+        "that the electrolyte"
+      ]
+    ],
+    "sentence": "There is negligible impedance change in the Li/Li6.5In0.25P0.75S5I/Li symmetric cell after storage for 64 h , which confirms that the electrolyte possesses good interfacial stability ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "The cycling stability of Li6.5In0.25P0.75S5I electrolyte",
+        "is",
+        "in previous reports ( Table , Supporting Information )"
+      ]
+    ],
+    "sentence": "The cycling stability of Li6.5In0.25P0.75S5I electrolyte is equal with the best performances of SSEs in previous reports ( Table , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the morphology variations of Li surface",
+        "displayed",
+        "in Figures and ( Supporting Information )"
+      ]
+    ],
+    "sentence": "Furthermore , the morphology variations of Li surface after cycling are observed by SEM as displayed in Figures and ( Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "There are obvious dendrites and cracks in the Li / Li3PS4 / Li symmetric cell ."
+  },
+  {
+    "triplets": [
+      [
+        "the interface",
+        "is",
+        "dense in the Li / Li6PS5I / Li and Li/Li6.5In0.25P0.75S5I/Li symmetric cell"
+      ]
+    ],
+    "sentence": "By contrast , the interface after cycling is flat and dense in the Li / Li6PS5I / Li and Li/Li6.5In0.25P0.75S5I/Li symmetric cell ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The EDS mapping manifests that the interphase is I-rich ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure ( Supporting Information ) exhibits the XPS spectra of I 3d at the Li metal surface ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The formation of the I-rich , namely LiI-rich SEI , is the essence to realize the remarkable cycling stability ."
+  },
+  {
+    "triplets": [
+      [
+        "the basic properties of Li6.5In0.25P0.75S5I electrolyte",
+        "is",
+        "that Li6.5In0.25P0.75S5I"
+      ]
+    ],
+    "sentence": "Besides , the basic properties of Li6.5In0.25P0.75S5I electrolyte is summarized compared with other representative SSEs ( Table , Supporting Information ) , which reveals that Li6.5In0.25P0.75S5I is a promising electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 6 Electrochemical performance of Li plating/stripping on the a ) Li / Li3PS4 / Li , b ) Li / Li6PS5I / Li , and c ) Li/ Li6.5In0.25P0.75S5I"
+  },
+  {
+    "triplets": [],
+    "sentence": "/Li symmetric cells at a current density of 0.1 mA cm-1 ."
+  },
+  {
+    "triplets": [
+      [
+        "the applicability of Li6.5In0.25P0.75S5I in ASSLMBs",
+        "stabilize",
+        "as an interlayer"
+      ]
+    ],
+    "sentence": "For manifesting the applicability of Li6.5In0.25P0.75S5I in ASSLMBs , the electrolyte emerged as an interlayer to stabilize the interface between the Li10SnP2S12electrolyte and Li metal ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure describes the schematic diagram of the assembled ASSLMBs with S cathode ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Cyclic voltammetry measurement was applied to evaluate the electrochemical redox reaction of ASSLMBs with or without Li6.5In0.25P0.75S5I interlayer ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The oxidation-reduction pair peaks at around 1.6 and 2.5 V prove the solid phase transfer mechanism between S and Li2S , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "With the Li6.5In0.25P0.75S5I interlayer , the peak currents and the enclosed region are almost identical to each other , indicating the good electrochemical reversibility ."
+  },
+  {
+    "triplets": [],
+    "sentence": "However , the enclosed areas of ASSLMBs without the interlayer deliver a decreased value , implying that an irreversible side reaction has occurred ."
+  },
+  {
+    "triplets": [
+      [
+        "The charge/discharge curves of the ASSLMBs",
+        "represented",
+        "in Figure"
+      ]
+    ],
+    "sentence": "The charge/discharge curves of the ASSLMBs with the Li6.5In0.25P0.75S5I interlayer at 0.05 C are represented in Figure ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Li/Li6.5In0.25P0.75S5I-Li10SnP2S12/S battery represents an initial discharge capacity of 954 mAh g-1 ."
+  },
+  {
+    "triplets": [],
+    "sentence": "In addition , with Li6.5In0.25P0.75S5I as an interlayer , the assembled ASSLMBs exhibit excellent cycling stability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Remarkably , the capacity retention of 96 % can be accomplished after 200 cycles at 0.1C ( Figure ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Moreover , a capacity retention of 75 % with a reversible capacity of 390 mAh g-1 after 200 cycles at 0.5 C are demonstrated ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "By contrast , the Li / Li10SnP2S12 / S battery exhibits large voltage polarization and low discharge capacity of 823 mAh g-1 ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the battery",
+        "decreases",
+        "to 78 mAh g-1"
+      ]
+    ],
+    "sentence": "Furthermore , as depicted in Figure ( Supporting Information ) , the battery presents a rapid capacity decay and its capacity decreases to 78 mAh g-1 after 60 cycles at 0.1C on account of continuous interfacial reaction between the Li10SnP2S12electrolyte and Li metal ."
+  },
+  {
+    "triplets": [],
+    "sentence": "To further assess the impact of the interfacial reaction , the rate capability of ASSLMBs was tested ( Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The discharge capacities of Li/Li6.5In0.25P0.75S5I-Li10SnP2S12 / S battery are 950 , 902 , 787 , 557 , and 323 mAh g-1 at 0.05 , 0.1 , 0.2 , 0.5 , and 1 C , respectively ."
+  },
+  {
+    "triplets": [],
+    "sentence": "On the contrary , the ASSLMBs without interlayer only show a discharge capacity of 826 , 576 , 233 , 18 , and 0 mAh g-1 at the corresponding rates , respectively ."
+  },
+  {
+    "triplets": [
+      [
+        "The enhanced rate capacity",
+        "attributed",
+        "by the Li6.5In0.25P0.75S5I layer"
+      ]
+    ],
+    "sentence": "The enhanced rate capacity is attributed to the suppression of interfacial side reactions by the Li6.5In0.25P0.75S5I layer ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Additionally , the alternating current impedances of ASSLMBs before and after cycling were also characterized to evaluate the applicability of the Li6.5In0.25P0.75S5I electrolyte ."
+  },
+  {
+    "triplets": [
+      [
+        "The impedance of Li/Li6.5In0.25P0.75S5I-Li10SnP2S12/S battery",
+        "raises",
+        "to 165 Ω"
+      ]
+    ],
+    "sentence": "The impedance of Li/Li6.5In0.25P0.75S5I-Li10SnP2S12/S battery raises from 120 to 165 Ω after 200 cycles ( Figure , Figure , Supporting Information ) ."
+  },
+  {
+    "triplets": [
+      [
+        "the impedance of battery",
+        "restrain",
+        "that the Li6.5In0.25P0.75S5I interlayer"
+      ]
+    ],
+    "sentence": "As a comparison , the impedance of battery without the interlayer elevates significantly from 170 to 8000 Ω ( Figure , Supporting Information ) , testifying that the Li6.5In0.25P0.75S5I interlayer possesses a remarkable applicability to restrain the interfacial reaction ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Figure 7 a ) Schematic diagram of the Li/Li6.5In0.25P0.75S5I-Li10SnP2S12/S battery ."
+  },
+  {
+    "triplets": [],
+    "sentence": "b ) Galvanostatic charge/discharge curves at 0.05 C ."
+  },
+  {
+    "triplets": [],
+    "sentence": "c ) Cycling stability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "d ) The impedance spectra from 1 MHz-0.01 Hz before cycling ."
+  },
+  {
+    "triplets": [],
+    "sentence": "3 Conclusion In summary , the novel ultimate-energy mechanical alloying approach is introduced to produce rapidly the argyrodite-type electrolytes in one-pot process ."
+  },
+  {
+    "triplets": [],
+    "sentence": "On the basis of the DFT calculation , In-doped Li6PS5I electrolyte can exist steadily ."
+  },
+  {
+    "triplets": [],
+    "sentence": "Replacing P5+ with In3+ improves the air stability of the Li6PS5I electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The Li6.5In0.25P0.75S5I electrolyte prepared exhibits enhanced ionic conductivity ( 1.06 mS cm-1 ) , and possesses excellent interfacial stability against Li metal on account of the formation of the LiI-rich layer ."
+  },
+  {
+    "triplets": [],
+    "sentence": "With the Li6.5In0.25P0.75S5I electrolyte as an interlayer , the assembled Li-S batteries present high discharge capacity ( 954 mAh g-1 ) and remarkable cycling stability ."
+  },
+  {
+    "triplets": [],
+    "sentence": "The ultimate-energy mechanical alloying method is a simple and practical approach to produce the argyrodite-type electrolyte ."
+  },
+  {
+    "triplets": [],
+    "sentence": "And In-doped Li6PS5I electrolyte has remarkable potential for ASSLMBs application ."
   },
   {
     "triplets": [],
