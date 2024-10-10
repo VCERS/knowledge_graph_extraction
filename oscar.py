@@ -112,10 +112,10 @@ class Oscar4(object):
         triplets.append((subject, predicate, obj))
     
     return triplets
-  def triplets(self, doc):
+  def triplets(self, tree):
     triplets_by_sentence = list()
-    assert doc.label() == 'Document'
-    for s in doc:
+    assert tree.label() == 'Document'
+    for s in tree:
       assert s.label() == 'Sentence'
       triplets = self.extract_triplets_from_sentence(s)
       triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})

@@ -12,7 +12,6 @@ import pickle
 from models import Llama3, Qwen2
 from chains import experimental_chain
 from oscar import Oscar4
-from triplet import extract_triplets
 from corenlp import CoreNLP
 
 FLAGS = flags.FLAGS
@@ -23,15 +22,6 @@ def add_options():
   flags.DEFINE_enum('model', default = 'llama3', enum_values = {'llama3', 'qwen2'}, help = 'model to use')
   flags.DEFINE_enum('method', default = 'corenlp', enum_values = {'oscar', 'corenlp'}, help = 'which method to use for triplet extraction')
   flags.DEFINE_boolean('only_exp', default = False, help = 'whether to use only experimental part of the paper')
-
-def extract_triplets_by_sentence(doc):
-  triplets_by_sentence = list()
-  assert doc.label() == 'Document'
-  for s in doc:
-    assert s.label() == 'Sentence'
-    triplets = extract_triplets(s)
-    triplets_by_sentence.append({'triplets': triplets, 'sentence': ' '.join(s.leaves())})
-  return triplets_by_sentence
 
 def tree2dict(tree):
   if isinstance(tree, str):
@@ -90,7 +80,7 @@ def main(unused_argv):
         f.write(json.dumps(tree2dict(tree), indent = 2, ensure_ascii = False))
       print('4) extracting triplets')
       if FLAGS.method == 'oscar':
-        triplets = extract_triplets_by_sentence(tree)
+        triplets = oscar.triplets(tree)
       elif FLAGS.method == 'corenlp':
         triplets = corenlp.triplets(text)
       else:
