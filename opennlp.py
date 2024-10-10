@@ -71,7 +71,7 @@ class OpenNLP(object):
   def parse(self, text):
     parser = self.ParserFactory.create(self.ParserModel(self.FileInputStream('en-parser-chunking.bin')))
     sentence = JArray(JString,1)(text.split(' '))
-    spans = JArray(sentence.length,1)
+    spans = JArray(self.Span,1)
     for i in range(sentence.length):
       spans[i] = self.Span(i, i + 1)
     results = Parser.parse(sentence, spans)
