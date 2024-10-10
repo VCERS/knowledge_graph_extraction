@@ -65,7 +65,7 @@ class OpenNLP(object):
     return tags
   def parse(self, text):
     parser = self.ParserFactory.create(self.ParserModel(self.FileInputStream('en-parser-chunking.bin')))
-    sentences = self.sentence_detector(JString(text))
+    sentences = self.sentence_detector.sentDetect(JString(text))
     results = list()
     for sentence in sentences:
       parses = self.ParserTool.parseLine(sentence, parser, 1)
