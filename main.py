@@ -22,6 +22,7 @@ def add_options():
   flags.DEFINE_string('output_dir', default = 'processed', help = 'path to output directory')
   flags.DEFINE_enum('model', default = 'llama3', enum_values = {'llama3', 'qwen2'}, help = 'model to use')
   flags.DEFINE_enum('method', default = 'corenlp', enum_values = {'oscar', 'corenlp'}, help = 'which method to use for triplet extraction')
+  flags.DEFINE_boolean('only_exp', default = False, help = 'whether to use only experimental part of the paper')
 
 def extract_triplets_by_sentence(doc):
   triplets_by_sentence = list()
@@ -46,10 +47,11 @@ def tree2dict(tree):
 def main(unused_argv):
   if exists(FLAGS.output_dir): rmtree(FLAGS.output_dir)
   mkdir(FLAGS.output_dir)
-  tokenizer, llm = {
-    'llama3': Llama3,
-    'qwen2': Qwen2}[FLAGS.model](True)
-  exp_chain = experimental_chain(llm, tokenizer)
+  if FLAGS.only_exp:
+    tokenizer, llm = {
+      'llama3': Llama3,
+      'qwen2': Qwen2}[FLAGS.model](True)
+    exp_chain = experimental_chain(llm, tokenizer)
   if FLAGS.method == 'oscar':
     oscar = Oscar4()
   elif FLAGS.method == 'corenlp':
@@ -63,24 +65,25 @@ def main(unused_argv):
       if ext != '.md': continue
       loader = UnstructuredMarkdownLoader(join(root, f), model = 'single', strategy = 'fast')
       text = ' '.join([doc.page_content for doc in loader.load()])
-      print('1) extracting experimental part')
-      results = exp_chain.invoke({'text': text})
-      with open(join(FLAGS.output_dir, stem + '_experimental.md'), 'w') as f:
-        f.write(results)
+      if FLAGS.only_exp:
+        print('1) extracting experimental part')
+        text = exp_chain.invoke({'text': text})
+        with open(join(FLAGS.output_dir, stem + '_experimental.md'), 'w') as f:
+          f.write(text)
       print('2) named entity recognition')
       if FLAGS.method == 'oscar':
-        ne = oscar.ner(results)
+        ne = oscar.ner(text)
       elif FLAGS.method == 'corenlp':
-        ne = corenlp.ner(results)
+        ne = corenlp.ner(text)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_ner.json'), 'w') as f:
         f.write(json.dumps(ne, indent = 2, ensure_ascii = False))
       print('3) parsing text')
       if FLAGS.method == 'oscar':
-        tree = oscar.parse(results)
+        tree = oscar.parse(text)
       elif FLAGS.method == 'corenlp':
-        tree = corenlp.parse(results)
+        tree = corenlp.parse(text)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_parsetree.json'), 'w') as f:
@@ -89,7 +92,7 @@ def main(unused_argv):
       if FLAGS.method == 'oscar':
         triplets = extract_triplets_by_sentence(tree)
       elif FLAGS.method == 'corenlp':
-        triplets = corenlp.triplets(results)
+        triplets = corenlp.triplets(text)
       else:
         raise Exception('unknown method!')
       with open(join(FLAGS.output_dir, stem + '_triplets.json'), 'w') as f:
