@@ -80,7 +80,11 @@ class OpenNLP(object):
       for parse in parses:
         sb = self.StringBuffer()
         parse.show(sb)
-        results.append(Tree.fromstring(str(sb.toString())))
+        s = str(sb.toString())
+        count = s.count('(') - s.count(')')
+        if count > 0: s += ')' * count
+        if count < 0: s = s[:count]
+        results.append(Tree.fromstring(s))
     return results
   def extract_triplets_from_sentence(self, tree):
     triplets = list()
