@@ -1,0 +1,1347 @@
+[
+  {
+    "entities": [],
+    "original sentence": "1 Introduction\n\nThe solution processing of metal chalcogenides is key to various electronic- and energy-related devices."
+  },
+  {
+    "entities": [],
+    "original sentence": "All-solid-state batteries (ASSBs) modified to achieve better safety and higher energy density have been emerging for application in battery-driven electric vehicles."
+  },
+  {
+    "entities": [],
+    "original sentence": "Owing to their high ionic conductivities that reach a maximum of ≈10−2 S cm−1 at room temperature (e.g., Li10GeP2S12(LGPS): 12 mS cm−1 and Li5.5PS4.5Cl1.5:"
+  },
+  {
+    "entities": [
+      {
+        "entity": "ASSB",
+        "type": "organization",
+        "start": 22,
+        "end": 23
+      }
+    ],
+    "original sentence": "9.4 mS cm−1) and mechanical deformability that eases the integration to devices, sulfide superionic conductors hold great promise for practical ASSB technologies."
+  },
+  {
+    "entities": [],
+    "original sentence": "Notably, several sulfide solid electrolyte (SE) materials can be synthesized or processed via soft chemistry using liquid solvents, which has become a popular topic in ASSB research."
+  },
+  {
+    "entities": [],
+    "original sentence": "The “wet” preparation for sulfide SEs is classified into three categories (Figure , Supporting Information): i) suspension synthesis, ii) solution process, and iii) solution synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "In suspension synthesis, SE precursors are partly dissolved in organic solvents (e.g., tetrahydrofuran and acetonitrile) and the reaction proceeds via a suspension state, with organic solvents serving as a medium for soft chemistry."
+  },
+  {
+    "entities": [],
+    "original sentence": "Compared to conventional solid-state synthesis, the suspension synthesis of sulfide SEs has multiple advantages, such as a reduced reaction time and scalable production of SEs or electrodes."
+  },
+  {
+    "entities": [],
+    "original sentence": "In the solution process, the sulfide SEs, not precursors, are dissolved in specific polar solvents, forming a homogeneous solution."
+  },
+  {
+    "entities": [],
+    "original sentence": "Original SEs can be precipitated via the removal of solvents and subsequent heat treatment (HT)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The liquefied sulfide SEs for the solution process can be utilized for coating on active materials and the infiltration of porous composite electrodes or separators."
+  },
+  {
+    "entities": [],
+    "original sentence": "In addition, in situ formation of nanocomposite electrodes via solution processing has been reported."
+  },
+  {
+    "entities": [],
+    "original sentence": "All these methods have demonstrated exceptional advantages in forming intimate ionic contacts and alternative production capability of ASSBs."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SE",
+        "type": "organization",
+        "start": 54,
+        "end": 55
+      }
+    ],
+    "original sentence": "Solution synthesis, in which SE precursors are fully dissolved in solvents and SEs are formed via the removal of solvents, could be ideal because it combines the advantages of both the solution process (i.e., forming a homogeneous solution) and suspension synthesis (i.e., using SE precursors)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SE",
+        "type": "organization",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "However, solvents that are known to form homogeneous SE solutions (e.g., ethanol (EtOH) and water) are highly polar and protic, and they readily hydrolyze P2S5and/or Li2S precursors."
+  },
+  {
+    "entities": [],
+    "original sentence": "This explains the limited types of solution-processable SEs, such as (LiI-)Li4SnS4using methanol (MeOH) or water, Li6PS5Cl (LPSCl) using EtOH, and Na3SbS4using MeOH or water."
+  },
+  {
+    "entities": [],
+    "original sentence": "To date, only a few solution syntheses for sulfide SEs have been identified."
+  },
+  {
+    "entities": [],
+    "original sentence": "Notably, all suspension and solution syntheses of SEs thus far have covered only restricted compositions, those based on binary (Li2S–P2S5) or ternary systems (Li2S–P2S5–LiX), and excluded metal sulfides such as GeS2(Table , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "This is attributed to the limited dissolving power of the solvents used for the suspension synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thus, the counteracting requirement of solvents for solution synthesis, i.e., high dissolving power for homogeneous solutions but inertness toward vulnerable sulfide precursors, has been a formidable challenge."
+  },
+  {
+    "entities": [],
+    "original sentence": "Here, we demonstrate the first universal solution synthesis of sulfide SEs using an alkahest solvent system."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDA",
+        "type": "date",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "entity": "SE",
+        "type": "organization",
+        "start": 31,
+        "end": 32
+      }
+    ],
+    "original sentence": "Binary mixtures of 1,2-ethylenediamine (EDA)–1,2-ethanedithiol (EDT) and EDA–ethanethiol (ET), which show strong dissolving power for metal chalcogenides, fully dissolved not only conventional sulfide SE precursors of Li2S, P2S5, LiCl, and Na2S, but also metal sulfides, such as GeS2and SnS2."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dissolution mechanism of GeS2in EDA–EDT solvents was revealed using density functional theory calculations."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dissolution of precursors in the EDA–EDT solvents, followed by precipitation via the removal of solvents, and subsequent HT, yielded the targeted SEs, LGPS, LPSCl, and Na11Sn2PS12(NSPS) with high ionic conductivities (0.74, 1.3, and 0.10 mS cm−1, respectively)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, their applicability for ASSBs employing TiS2and Na2S/carbon nanocomposites was demonstrated."
+  },
+  {
+    "entities": [
+      {
+        "entity": "20",
+        "type": "percentage",
+        "start": 17,
+        "end": 19
+      },
+      {
+        "entity": "40",
+        "type": "percentage",
+        "start": 20,
+        "end": 22
+      }
+    ],
+    "original sentence": "2 Results and Discussions\n\nBinary solvent mixtures of EDA–EDT with various volume fractions (0%, 20%, 40%, and 100% EDT) were prepared and their molecular interactions were examined using Raman spectroscopy (Figure )."
+  },
+  {
+    "entities": [
+      {
+        "entity": "0:100",
+        "type": "date",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "entity": "2555",
+        "type": "date",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "original sentence": "For pure EDT (EDA:EDT = 0:100 vol), the distinct peaks at 2555 and 817 cm−1 are attributed to SH stretching and CSH bending modes, respectively, indicating the presence of the thiol group."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDT",
+        "type": "organization",
+        "start": 19,
+        "end": 20
+      },
+      {
+        "entity": ">90",
+        "type": "percentage",
+        "start": 23,
+        "end": 25
+      }
+    ],
+    "original sentence": "Upon addition of 60 vol% of EDA, the intensities of the peaks of the thiol group for EDT were reduced by >90%."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDT",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "This result indicates the significant deprotonation of EDT and the resulting generation of thiolate anions (EDT2−), which should be accompanied by the protonation of EDA."
+  },
+  {
+    "entities": [
+      {
+        "entity": "3298",
+        "type": "date",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "Compared with the spectrum of pure EDA, the NH stretching peak at 3298 cm−1 underwent a red shift upon the addition of EDT."
+  },
+  {
+    "entities": [],
+    "original sentence": "This result confirms the protonation of EDA, where the NH bonds are slightly elongated."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SE",
+        "type": "organization",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "Figure 1\n\nResults of the dissolution of sulfide SE precursors in EDA–EDT cosolvents."
+  },
+  {
+    "entities": [],
+    "original sentence": "a) Raman spectra of EDA–EDT cosolvents with varying volume ratio."
+  },
+  {
+    "entities": [],
+    "original sentence": "The insets show enlarged views of the C–S–H bending peaks (highlighted in yellow) and NH2stretching peaks (highlighted in pink)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SE",
+        "type": "organization",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "b) Photograph of SE precursors, Li2S, P2S5, Na2S, LiCl, in EDA–EDT."
+  },
+  {
+    "entities": [],
+    "original sentence": "c) Photograph of GeS2in EDA and EDA–EDT."
+  },
+  {
+    "entities": [],
+    "original sentence": "d) Photograph of SnS2in EDA–EDT."
+  },
+  {
+    "entities": [],
+    "original sentence": "e) Raman spectra for the solution of GeS2dissolved in the EDA–EDT cosolvent, showing the signals of GeS− and GeSGe (inset), in comparison with that for the EDA–EDT cosolvent."
+  },
+  {
+    "entities": [],
+    "original sentence": "The inset in the right shows an enlarged view of the C–S stretching peaks and unknown peak (denoted as “*”)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dissolving ability of the EDA–EDT solvent (10:1 vol) was assessed for the major SE precursors that were used for conventional compositions of Li2S–P2S5(–LiX) or Na2S–P2S5(–NaX) (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "All precursors of Li2S, P2S5, LiCl, and Na2S were fully dissolved in EDA–EDT without any side reactions."
+  },
+  {
+    "entities": [],
+    "original sentence": "Specifically, the full dissolution of P2S5and Li2S into EDA–EDT is noteworthy, which is in sharp contrast to the hydrolysis of P2S5by EtOH and incomplete dissolution of Li2S in anhydrous EtOH, respectively."
+  },
+  {
+    "entities": [],
+    "original sentence": "More importantly, the EDA–EDT solvent exhibited exceptional dissolving ability for the unprecedented SE precursor for the wet-chemical synthesis of sulfide SEs, GeS2(Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Pure EDA could not dissolve GeS2, which is similar to conventional protic solvents, such as water, EtOH, and MeOH."
+  },
+  {
+    "entities": [],
+    "original sentence": "GeS2in pure EDA remained in a dark suspension, even after a day."
+  },
+  {
+    "entities": [],
+    "original sentence": "In sharp contrast, the EDA–EDT solvent fully dissolved GeS2within seconds and showed a transparent pinkish solution (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The UV–vis spectrum of the GeS2/(EDA–EDT) solution confirmed the absence of light scattering by solid particulates of >1 nm (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, SnS2could be dissolved in EDA–EDT, forming a clear yellowish solution (Figure ) after gentle heating at 60 °C."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDA/EDT",
+        "type": "organization",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "original sentence": "With varying the EDA/EDT ratio, the dissolving ability of EDA–EDT for each SE precursor was assessed (Table , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The solvent mixture was solidified when the volume fraction of EDT was higher than 10:4 (EDA/EDT)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The solubility limits of Li2S, P2S5, LiCl, GeS2, and Na2S for EDA–EDT with 10:1 vol were 1.31, 1.65, 1.41, 0.82, and 0.59 m, respectively, and the solubility limits for Li2S and GeS2slightly decreased to 1.09 and 0.51 m for EDA–EDT with 10:3 vol."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dissolution mechanism of GeS2in EDA–EDT was examined using Raman spectroscopy (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "For the GeS2/(EDA–EDT) solution, the peak at 410 cm−1 indicates the evolution of the sulfur-terminating GeS− bonding, which is absent for GeS2powders (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "This observation suggests that the GeS bonds in solid GeS2were broken via nucleophilic thiolate anions and dissociated into molecular solutes (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Considering the strong GeSGe signal at 356 cm−1, the solute is a polyanionic species."
+  },
+  {
+    "entities": [
+      {
+        "entity": "3298",
+        "type": "date",
+        "start": 36,
+        "end": 37
+      }
+    ],
+    "original sentence": "Moreover, as GeS2was dissolved in EDA–EDT, the peak intensities for the CS bonding (651, 678, and 732 cm−1) were slightly reduced, while that for the NH stretching mode (3298 cm−1) remained unchanged (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "This result reflects the change in the chemical environments near the thiolate anions due to the dissolution of GeS2."
+  },
+  {
+    "entities": [],
+    "original sentence": "The absence of disulfide bonding (νS−S= 510 and 524 cm−1) for the GeS2/(EDA–EDT) solution suggests that thiolate anions were bonded to Ge ions rather than sulfur atoms for GeS2(Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Based on this understanding, the new Raman peak that evolved near 651 cm−1 was tentatively assigned to CSGe bonding (inset (right) in Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "We examined the proton transfer in the EDA–EDT mixture solution and the dissolution mechanism of GeS2in EDA–EDT using theoretical calculations (see theoretical calculations in the Experimental Section)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The EDA–EDT (10:1 vol) mixture solvent modeled using molecular dynamics simulation was used to check the probability of proton transfer in the mixture solution."
+  },
+  {
+    "entities": [],
+    "original sentence": "The proton transfer energy from EDT to EDA in molecules within 3 Å around the EDT in the relaxed solvent structure was calculated to be −0.61"
+  },
+  {
+    "entities": [],
+    "original sentence": "eV through density functional theory calculations (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "From these results, we revealed that the thiolate anion could be readily formed via proton transfer from EDT to EDA."
+  },
+  {
+    "entities": [],
+    "original sentence": "In addition, the molecular electrostatic potential map reveals that the deprotonated EDT has the point of nucleophilic attack, which is the deprotonated thiolate anion (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, to elucidate the mechanism of the dissolution reaction of the GeS2crystal, we traced the step-by-step pathway in dissociating the GeS bond in the GeS2surface caused by thiolate anions (Figure ; Figures and , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The pathway of GeS2dissolution was assumed to gradually dissociate the GeS bond in GeS2via the nucleophilic attack of thiolate anions."
+  },
+  {
+    "entities": [],
+    "original sentence": "It should be noted that in the first step, the thiolate anion was adsorbed on the uncoordinated Ge site (G1site) on the GeS2surface, and the GeS bond on the GeS2surface was dissociated with no activation energy (Ea), indicating that the thiolate anion is a strong nucleophilic attacker capable of separating GeS bonds (i.e., from IS to ISad)."
+  },
+  {
+    "entities": [],
+    "original sentence": "In the subsequent reaction, the additional deprotonated EDT was continuously attached to the Ge site exposed on the surface, dissociating the bond between Ge and sulfur on the surface."
+  },
+  {
+    "entities": [],
+    "original sentence": "Finally, the product was a (thiolate)2–G1–S2–G2–S2–G3–(thiolate)2structure and completely dissolved from the GeS2surface."
+  },
+  {
+    "entities": [],
+    "original sentence": "Importantly, the total GeS2dissolution mechanism via the nucleophilic attack of the thiolate anion requires a low activation energy, indicating that the GeS cluster could be easily formed."
+  },
+  {
+    "entities": [],
+    "original sentence": "This mechanistic calculation suggested a plausible formation of polyanionic GeS clusters through a continuous dissolution reaction."
+  },
+  {
+    "entities": [],
+    "original sentence": "Likewise, the dissociation of P2S5, Li2S, and Na2S by EDT− were also favorable (Figures , Supporting Information)\n\nFigure 2\n\nDissolution mechanism of sulfide SE precursors in EDA–EDT cosolvents."
+  },
+  {
+    "entities": [],
+    "original sentence": "a) Reaction coordinates of dissolution mechanism of the GeS2surface."
+  },
+  {
+    "entities": [],
+    "original sentence": "b) Magnified view of the optimized configurations of each state."
+  },
+  {
+    "entities": [],
+    "original sentence": "In (b), IS, IM, TS, and FS in each reaction mechanism represent initial state, intermediate, transition state, and final state, respectively."
+  },
+  {
+    "entities": [],
+    "original sentence": "For the clear view, the dissolved Ge atoms and surface atoms near the Ge atoms are depicted using the ball-and-stick model, and the deprotonated EDT molecules are depicted using the stick model."
+  },
+  {
+    "entities": [],
+    "original sentence": "The remaining atoms are indicated as lines."
+  },
+  {
+    "entities": [
+      {
+        "entity": "C",
+        "type": "person",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "The dissolved three Ge atoms are colored pink and the remaining Ge, C, S, N, H atoms are colored green, gray, yellow, blue, and white, respectively."
+  },
+  {
+    "entities": [],
+    "original sentence": "A detailed explanation is provided in the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "c) A schematic showing the dissolution mechanism of GeS2in EDA–EDT cosolvents."
+  },
+  {
+    "entities": [],
+    "original sentence": "Overall, Raman spectroscopy and theoretical calculation results collectively suggest that the thiolate anions dissociate GeS2crystals into GeS ionic fragments via nucleophilic attack, and the EDT2−-terminated polyanionic species are then counterbalanced by the protonated EDA cation (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Three representative sulfide SEs, LGPS, LPSCl, and NSPS, were selected as test vehicles to validate the universal feasibility of solution synthesis using EDA–EDT, and the results are displayed in Figure ."
+  },
+  {
+    "entities": [],
+    "original sentence": "The relevant precursors were dissolved in EDA–EDT to form transparent homogeneous solutions, which was followed by the removal of solvents and subsequent HT (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Field-emission scanning electron microscopy images of the solution-synthesized SEs are shown in Figure of the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "For all the SEs obtained via the solution synthesis using EDA–EDT (referred to as “EDT-SEs”), main reflections for the powder X-ray diffraction (XRD) patterns were identical to those for the samples prepared via conventional solid-state reaction (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Notably, the electronic conductivities for EDT-LGPS, EDT-LPSCl, and EDT-NSPS were significant: 17, 19, and 13 mS cm−1, respectively (Figure ; Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "This result is attributed to the residual solvent carbonized upon HT, which will be discussed later."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thus, the EDT-SE samples were subjected to electrochemical impedance spectroscopy measurements using Ti/Li/LPSX/(EDT-SE)/LPSX/Li/Ti symmetric cells to extract the ionic conductivities (see the Experimental Section and Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The ionic conductivities of 0.74, 1.3, and 0.10 mS cm−1 at 30 °C were obtained for LGPS, LPSCl, and NSPS, respectively (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Notably, these values approached those for samples produced via conventional solid-state synthesis (7.0, 3.5, and 1.0 mS cm−1 for LGPS, LPSCl, and NSPS, respectively (cold-pressed pellet))."
+  },
+  {
+    "entities": [],
+    "original sentence": "More importantly, the solution synthesis process for the three SEs is unprecedented."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, the ionic conductivities of 0.74 and 1.3 mS cm−1 for EDT-LGPS and EDT-LPSCl, respectively, are at the highest level, compared with materials prepared via the solution process (Table , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The slightly lower ionic conductivities for EDT-SEs, compared to those for the samples produced via conventional solid-state synthesis, are attributed to the presence of residual carbon, which interrupts Li+ migration."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure 3\n\nSolution synthesis of sulfide SEs using EDA–EDT and EDA–ET."
+  },
+  {
+    "entities": [],
+    "original sentence": "a) Schematic illustrating solution synthesis of LGPS (Li10GeP2S12)."
+  },
+  {
+    "entities": [],
+    "original sentence": "XRD patterns of b) LGPS, c) LPSCl (Li6PS5Cl), and d) NSPS (Na11Sn2PS12) prepared via solution versus solid-state synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "Bragg peaks for Li10GeP2S12(ICSD no."
+  },
+  {
+    "entities": [],
+    "original sentence": "425992), Li6PS5Cl (ICSD no."
+  },
+  {
+    "entities": [],
+    "original sentence": "418490), and Na11Sn2PS12are also shown at the bottom of each panel."
+  },
+  {
+    "entities": [],
+    "original sentence": "e) Li+ and e− conductivities at 30 °C for EDT- and ET-SEs."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thermogravimetric analysis (TGA) and Raman spectroscopy measurements were carried out to trace the structural construction of SEs and residual carbon for EDT-SEs."
+  },
+  {
+    "entities": [],
+    "original sentence": "Raman analysis was conducted on the EDT-LPSCl samples heat-treated at different temperatures (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The powders heat-treated at 150 °C showed a peak for PS43− at 420 cm−1 without any signals for unreacted precursors, indicating that the structural frameworks of sulfide SEs were already formed from the dissociated precursors."
+  },
+  {
+    "entities": [],
+    "original sentence": "In addition, distinct peaks at 3070–2760 cm−1 (denoted “#”) and 3340–3240 cm−1 (denoted “^”), attributed to CH and NH stretching, respectively, indicate residual organic species."
+  },
+  {
+    "entities": [],
+    "original sentence": "Increasing the HT temperature to 350, 550, and 700 °C led to the evolution of D- and G-bands in the range of 1580–1350 cm−1, which confirms the carbonization of the organic residues."
+  },
+  {
+    "entities": [],
+    "original sentence": "The TGA profile showed that most of the solvents were removed by 300 °C (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "However, a further decrease in weight loss in the range of 290–350 °C reflects the carbonization of residual solvents."
+  },
+  {
+    "entities": [
+      {
+        "entity": "2.03",
+        "type": "percentage",
+        "start": 18,
+        "end": 20
+      }
+    ],
+    "original sentence": "Indeed, the weight fraction of carbon in the EDT-LPSCl samples, determined through elemental analysis, was 2.03% (Table , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The incomplete removal of solvents for the EDT-SEs could be due to the high boiling point of EDT (146 °C) and the strong chemical interaction between EDA–EDT and SE precursor molecules."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDA–EDT.",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "Figure 4\n\nCharacterization of Li6PS5Cl prepared using EDA–EDT."
+  },
+  {
+    "entities": [],
+    "original sentence": "a) Raman spectra for EDT-LPSCl prepared at different HT temperatures."
+  },
+  {
+    "entities": [],
+    "original sentence": "b) Cryo-TEM image of EDT-LPSCl and corresponding elemental maps for sulfur, phosphorus, and chlorine."
+  },
+  {
+    "entities": [],
+    "original sentence": "Cryo-TEM images of EDT-LPSCl at c) lower magnification and d,e) higher magnification with corresponding inverse-fast Fourier transform (FFT) patterns."
+  },
+  {
+    "entities": [],
+    "original sentence": "To minimize the amount of residual solvents that are subjected to carbonization, solution synthesis using an alternative solvent, EDA-ET (b.p. of ET = 35 °C), was carried out."
+  },
+  {
+    "entities": [],
+    "original sentence": "EDA–ET (10:2 vol) could also fully dissolve each SE precursor (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "After evaporation of the solvent and subsequent HT at 550 °C, SEs with targeted compositions (denoted as “ET-SEs”) were obtained (Figure ), only except for ET-NSPS (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The ionic and electronic conductivities are summarized in Table of the Supporting Information, and the Arrhenius plots for the ionic conductivity are shown in Figure of the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "The LGPS and LPSCl prepared using EDA–ET (ET-LGPS and ET-LPSCl, respectively) showed high ionic conductivities of 1.2 mS cm−1 (Table , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Notably, ET-SEs prepared at 550 °C showed much lower electronic conductivities (ET-LGPS: 5.9 × 10−9 S cm−1, ET-LPSCl: 4.6 × 10−7 S cm−1) than those obtained using EDA–EDT (e.g., EDT-LPSCl prepared at 550 °C: 1.7 × 10−5 S cm−1), reflecting much lowered amounts of carbon."
+  },
+  {
+    "entities": [],
+    "original sentence": "This result emphasizes the importance of solvent design to control the amount of residual carbons in solution-synthesized SEs."
+  },
+  {
+    "entities": [],
+    "original sentence": "Increasing the amount of carbon residue accelerates the electrochemical decomposition of solution-synthesized SEs."
+  },
+  {
+    "entities": [],
+    "original sentence": "From the cyclic voltammetry tests using SE/ss-LPSCl/Li-In cells, EDT-SEs with higher electronic conductivities (thus, more residual carbons) showed the higher redox currents compare to ET-SEs (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Nanostructures of EDT-LPSCl were further probed via cryogenic transmission electron microscopy (cryo-TEM) measurements to suppress any phase changes induced by a strong electron beam (Figure ; Figure , Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Energy",
+        "type": "organization",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "original sentence": "Energy dispersive X-ray spectroscopy (EDXS) maps for EDT-LPSCl denote the even distribution of C 1s signals throughout the SE particles (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "It is shown that the crystalline and amorphous regions are distributed at the nanoscale (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The lattice spacing for the crystalline domain was determined to be 0.20 nm, which corresponds to the (422) plane of Li6PS5Cl (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The amorphous domain corresponding to carbon (Figure ) was found around the crystalline Li6PS5Cl."
+  },
+  {
+    "entities": [],
+    "original sentence": "Similar results for the nanodomains of SEs and carbon were also obtained for the EDT-LGPS, ET-LPSCl, and ET-LGPS samples (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The electrochemical performance of TiS2/Li-In cells at 30 °C for using solution-synthesized SEs as the catholyte and/or separating SE layer is shown in Figure , and Figures and (Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "When EDT-SEs were used as the SE layer, corresponding cells exhibited open-circuit voltages decreasing over time and reaching to 0 V, which is an indicative of the significant electrical leakages (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thus, SEs prepared by solid-state reaction (denoted as “ss-SEs”) were used as the SE layer."
+  },
+  {
+    "entities": [
+      {
+        "entity": "199",
+        "type": "person",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "original sentence": "TiS2cells employing EDT-LPSCl, EDT-LGPS, and EDT-NSPS as the catholyte showed reversible capacities of 231, 258, and 199 mA h g−1 and excellent capacity retention over 100 cycles (Figure ), confirming that the presence of residual carbon did not decrease the potential of the EDT-SEs for use in composite electrodes."
+  },
+  {
+    "entities": [],
+    "original sentence": "On the other hand, ET-SEs showing low electronic conductivities could be employed as the SE layer."
+  },
+  {
+    "entities": [
+      {
+        "entity": "206",
+        "type": "person",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "original sentence": "TiS2/Li-In cells employing ET-LPSCl and ET-LGPS as the SE layer exhibited reversible capacities of 223 and 206 mA h g−1 with high initial Coulombic efficiencies of 96.6% and 91.2%, respectively (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "However, the cells using ET-LPSCl showed abnormally high Coulombic efficiencies of >100% at subsequent cycles, which is in contrast to that for using ET-LGPS (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "This result is explained by the difference in electronic conductivity between ET-LPSCl (4.6 × 10−7 S cm−1) and ET-LGPS (5.9 × 10−9 S cm−1)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SEs",
+        "type": "organization",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "original sentence": "Figure 5\n\nElectrochemical performances at 30 °C for all-solid-state cells using SEs prepared using EDA–EDT and EDA–ET."
+  },
+  {
+    "entities": [],
+    "original sentence": "First-cycle charge–discharge voltage profiles of TiS2/Li-In cells at 0.3 C for employing solution-synthesized a) LPSCl, b) LGPS, and c) NSPS."
+  },
+  {
+    "entities": [],
+    "original sentence": "d–f) Corresponding cycling performances."
+  },
+  {
+    "entities": [],
+    "original sentence": "SEs used as the catholytes and separating SE layers are denoted as “SE/SE.”"
+  },
+  {
+    "entities": [],
+    "original sentence": "Full data for using various SEs for catholytes and separating SE layers are shown in Figure of the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "Exploiting the homogeneous feature of the precursor/(EDA–EDT) solution and the facile formation of carbon networks at the nanoscale via solution synthesis, nanocomposites of Na2S, NSPS, and carbon were prepared via a one-pot solution synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "The addition of Na2S, P2S5, SnS2, and super C65 to the EDA–EDT solvent (10:1 vol) resulted in carbon particles (super C65) suspended in a homogeneous solution, which was subjected to solvent evaporation and subsequent HT at 700 °C (Figure )."
+  },
+  {
+    "entities": [
+      {
+        "entity": "impurity",
+        "type": "date",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "original sentence": "XRD patterns of the product showed reflections for Na2S and Na11Sn2PS12without any impurity phases (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The microstructures of the Na2S–NSPS–C nanocomposites were also analyzed via cryo-TEM measurements (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "Crystalline grains of Na2S, NSPS, and graphitic carbon with tens of nanometers in size were uniformly distributed."
+  },
+  {
+    "entities": [],
+    "original sentence": "Specifically, the (204) plane of the Na11Sn2PS12and the (111) plane of Na2S were identified."
+  },
+  {
+    "entities": [],
+    "original sentence": "Corresponding lattice spacings were determined to be 0.48 and 0.38 nm for Na11Sn2PS12and Na2S, respectively (Figure , Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "EDXS",
+        "type": "organization",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "original sentence": "The uniform distribution of elements at the nanoscale for the Na2S–NSPS–C nanocomposites was also confirmed using EDXS elemental maps (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The electrochemical performance at 70 °C of Na2S–NSPS–C in Na2S/Na3Sn all-solid-state cells is presented in Figure , in comparison with the electrodes prepared via manual mixing (Figure )."
+  },
+  {
+    "entities": [],
+    "original sentence": "The manually mixed electrodes showed a second discharge capacity of only 147 mA h g−1, and the capacity drastically decayed in the second cycle."
+  },
+  {
+    "entities": [
+      {
+        "entity": "507",
+        "type": "person",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "original sentence": "In stark contrast, the Na2S–NSPS–C electrodes exhibited a much higher discharge capacity of 507 mA h g−1 (at the second cycle) and moderate capacity retention."
+  },
+  {
+    "entities": [],
+    "original sentence": "The drastic improvement in the cell performance via solution synthesis stems from the formation of nanosized Na2S, which is beneficial for shortening conduction pathways and reducing the absolute volume changes upon charge–discharge, and the intimate ionic and electronic contacts enabled by the solution synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure 6\n\nNa2S–NSPS–C electrodes derived via solution synthesis using EDA–EDT for all-solid-state Na–S batteries."
+  },
+  {
+    "entities": [],
+    "original sentence": "a) Schematic illustrating Na2S–NSPS–C nanocomposites and b) corresponding XRD pattern."
+  },
+  {
+    "entities": [],
+    "original sentence": "XRD patterns of Na2S and solid-state synthesized NSPS are also compared."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Na11Sn2PS12and",
+        "type": "organization",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "original sentence": "c) Cryo-TEM image for the Na2S–NSPS–C nanocomposite and corresponding inversed-FFT patterns for the high-magnification regions for Na11Sn2PS12and Na2S."
+  },
+  {
+    "entities": [],
+    "original sentence": "d) Dark-field cryo-TEM image for the Na2S–NSPS–C nanocomposite and corresponding elemental maps."
+  },
+  {
+    "entities": [],
+    "original sentence": "First two-cycle charge–discharge voltage profiles at 70 °C for Na2S-NSPS-C electrodes prepared via e) solution synthesis and f) manual mixing."
+  },
+  {
+    "entities": [],
+    "original sentence": "3 Conclusion\n\nIn summary, we demonstrated the first universal solution synthesis for sulfide SEs using EDA–EDT and EDA–ET alkahests."
+  },
+  {
+    "entities": [],
+    "original sentence": "The exceptional dissolving power of EDA–EDT for not only conventional precursors (Li2S, P2S5, LiX, and Na2S) but also metal sulfides, such as GeS2and SnS2, and its ability to form homogeneous solutions allowed for the facile synthesis of various classes of sulfide SEs with high ionic conductivities including Li10GeP2S12, Li6PS5Cl, and Na11Sn2PS12(0.74, 1.3, and 0.10 mS cm−1 at 30 °C, respectively)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dissolution mechanism of GeS2in EDA–EDT was revealed using Raman spectroscopy and DFT calculations."
+  },
+  {
+    "entities": [],
+    "original sentence": "Specifically, the thiolate anions formed in the EDA–EDT solvent system dissociated metal sulfides via nucleophilic attack, forming polyanionic solutes."
+  },
+  {
+    "entities": [],
+    "original sentence": "The applicability of solution-synthesized SEs was successfully demonstrated for TiS2electrodes."
+  },
+  {
+    "entities": [],
+    "original sentence": "It was demonstrated that the amount of carbon in the solution-synthesized SEs, originating from organic residue, could be controlled by tuning the chemistry (e.g., using low-b.p."
+  },
+  {
+    "entities": [],
+    "original sentence": "ET) and/or engineering."
+  },
+  {
+    "entities": [],
+    "original sentence": "TiS2electrodes employing solution-synthesized SEs exhibited high reversible capacities and stable cycling retention."
+  },
+  {
+    "entities": [],
+    "original sentence": "Finally, a simple one-pot solution synthesis of Na2S–NSPS–C nanocomposites for all-solid-state Na–S batteries was successfully demonstrated."
+  },
+  {
+    "entities": [],
+    "original sentence": "The superior performance of the Na2S–NSPS–C, as compared with manual-mixing electrodes (497 vs 287 mA h g−1 in the second cycle), was attributed to nanodomains with intimate contacts derived from the unique solution synthesis."
+  },
+  {
+    "entities": [],
+    "original sentence": "We expect that our results will open new opportunities for the scalable synthesis and discovery of new soft-chemistry-guided superionic conductors for ASSBs."
+  },
+  {
+    "entities": [
+      {
+        "entity": "(98.5",
+        "type": "percentage",
+        "start": 17,
+        "end": 19
+      }
+    ],
+    "original sentence": "4 Experimental Section\n\nMaterial Preparation\n\nFor the solution synthesis of Li10GeP2S12, Li6PS5Cl, and Na11Sn2PS12using EDA (98.5%, Sigma-Aldrich) and EDT (98.0%,"
+  },
+  {
+    "entities": [
+      {
+        "entity": "(99",
+        "type": "percentage",
+        "start": 4,
+        "end": 6
+      }
+    ],
+    "original sentence": "Sigma-Aldrich), ET (99%, Alfa-Aesar) Li2S (99.9%,"
+  },
+  {
+    "entities": [],
+    "original sentence": "Alfa-Aesar), P2S5(99.9%,"
+  },
+  {
+    "entities": [
+      {
+        "entity": "(99.99",
+        "type": "date",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "Sigma-Aldrich), LiCl (99.99%,"
+  },
+  {
+    "entities": [],
+    "original sentence": "Alfa-Aesar), GeS2(99.9%,"
+  },
+  {
+    "entities": [],
+    "original sentence": "American Elements), Na2S (Sigma-Aldrich), and SnS2(99%, MKN) were used as precursor materials."
+  },
+  {
+    "entities": [],
+    "original sentence": "Stoichiometric mixtures were added to the EDA–EDT mixture solvent and stirred at 60 °C for 3 h."
+  },
+  {
+    "entities": [],
+    "original sentence": "For EDT- and ET-Na11Sn2PS12, the solution was stirred at 70 °C."
+  },
+  {
+    "entities": [],
+    "original sentence": "All synthetic procedures were performed under an argon atmosphere."
+  },
+  {
+    "entities": [],
+    "original sentence": "Li6PS5Cl0.5Br0.5and"
+  },
+  {
+    "entities": [],
+    "original sentence": "Na3PS4used for separating SE layers in all-solid-state Li- and Na-ion cells, respectively, was prepared via ball milling and subsequent HT under an Ar atmosphere."
+  },
+  {
+    "entities": [],
+    "original sentence": "For Li6PS5Cl0.5Br0.5, after a stoichiometric mixture of Li2S, P2S5, LiCl, and LiBr was ball-milled at 600 rpm for 10 h in a ZrO2vial with ZrO2balls using a Pulverisette 7PL (Fritsch GmbH), it was subjected to HT at 550 °C for 5 h under an Ar atmosphere."
+  },
+  {
+    "entities": [],
+    "original sentence": "For Na3PS4, a stoichiometric mixture of Na2S and P2S5was ball-milled at 500 rpm for 1 h in a ZrO2vial with ZrO2balls using a Pulverisette 7PL, followed by HT at 270 °C for 1 h under an Ar atmosphere."
+  },
+  {
+    "entities": [],
+    "original sentence": "Li6PS5Cl0.5Br0.5and"
+  },
+  {
+    "entities": [],
+    "original sentence": "Na3PS4exhibited ionic conductivities of 4.6 × 10−3 S cm−1 and 9.1 × 10−5 S cm−1 at 30 °C, respectively."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Na2S",
+        "type": "organization",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "To prepare the Na2S–NSPS–C nanocomposites, stoichiometric amounts of Na2S, SnS2, and P2S5powders were fully dissolved in the EDA–EDT solvent and stirred at 70 °C for 3 h."
+  },
+  {
+    "entities": [],
+    "original sentence": "Super C65 was then added, and the solution was stirred."
+  },
+  {
+    "entities": [],
+    "original sentence": "The target weight ratio of Na2S/Na11Sn2PS12/super C65 was 30:50:20."
+  },
+  {
+    "entities": [],
+    "original sentence": "The solvent was removed at 150 °C for 3 h under vacuum, and the as-obtained powders were subjected to HT at 700 °C for 12 h under an argon atmosphere."
+  },
+  {
+    "entities": [],
+    "original sentence": "The mixture electrodes were prepared via conventional manual mixing of Na2S, NSPS (prepared by solid-state synthesis, 0.8 mS cm−1), and super C65, with a weight ratio of 30:50:20."
+  },
+  {
+    "entities": [
+      {
+        "entity": "15",
+        "type": "person",
+        "start": 25,
+        "end": 26
+      }
+    ],
+    "original sentence": "Material Characterization\n\nPowder XRD patterns were measured using a MiniFlex600 (Rigaku) with Cu-Kαradiation (λ = 1.54056 Å) at 40 kV and 15 mA."
+  },
+  {
+    "entities": [],
+    "original sentence": "The samples were hermetically sealed using a beryllium window."
+  },
+  {
+    "entities": [
+      {
+        "entity": "514.5",
+        "type": "date",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "original sentence": "The Raman spectra were collected with an Ar-ion laser beam at an excitation wavelength of 514.5 nm using LabRam Arimis (Horiba Jobin Yvon)."
+  },
+  {
+    "entities": [],
+    "original sentence": "For the cryo-TEM measurements, the samples were loaded onto a lacey Cu grid and mounted on a double-tilt cryo-TEM holder with vacuum transfer (Double tilt LN2 Atmos Defend Holder, Mel-Build) to prevent air exposure of the samples."
+  },
+  {
+    "entities": [
+      {
+        "entity": "JEM-2100F",
+        "type": "date",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "The cryo-TEM images were obtained using a JEM-2100F (JEOL) at an acceleration voltage of 200 kV."
+  },
+  {
+    "entities": [
+      {
+        "entity": "(S-4100",
+        "type": "date",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "UV–vis spectra were measured using a UV-IR spectrometer (S-4100, SCINCO) and Starna quartz cuvettes with 10 mm path lengths."
+  },
+  {
+    "entities": [
+      {
+        "entity": "TA",
+        "type": "organization",
+        "start": 30,
+        "end": 31
+      }
+    ],
+    "original sentence": "The TGA data were recorded in the range of room temperature to 700 °C at a scan rate of 5 °C min−1 under continuous Ar flow using a Q600 (TA instrument Corp.)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "2000",
+        "type": "date",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "entity": "Thermo",
+        "type": "organization",
+        "start": 12,
+        "end": 14
+      }
+    ],
+    "original sentence": "Elemental analyses were performed using a Flash 2000 organic elemental analyzer (Thermo Scientific)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Electrochemical Characterization\n\nTo extract ionic conductivities of solution-synthesized SEs, two types of symmetric cells were fabricated (Figure , Supporting Information): Li/Li6PS5Cl0.5Br0.5(200"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/Li cell and Li/Li6PS5Cl0.5Br0.5(100"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/SE (70 mg)/Li6PS5Cl0.5Br0.5(100"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/Li cell."
+  },
+  {
+    "entities": [],
+    "original sentence": "The ionic conductivities of solution-synthesized Li10GeP2S12, Li6PS5Cl, and Na11Sn2PS12were determined by subtracting the resistance of Li/Li6PS5Cl0.5Br0.5(200"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/Li cell (=RLPSX+ 2Rint(Li/LPSX interfacial resistance)) from that of the Li/Li6PS5Cl0.5Br0.5(100"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/SE (70 mg)/Li6PS5Cl0.5Br0.5(100"
+  },
+  {
+    "entities": [],
+    "original sentence": "mg)/Li cells (=RLPSX+ 2Rint(Li/LPSX interfacial resistance) + RSE)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thus, only the ionic resistances of SE (RSE) could be extracted."
+  },
+  {
+    "entities": [],
+    "original sentence": "The cell resistances were measured by cyclic voltammetry, and confirmed by electrochemical impedance spectroscopy measurements."
+  },
+  {
+    "entities": [
+      {
+        "entity": "PEEK",
+        "type": "organization",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "To assemble the cells, SE powders were placed in a poly(aryl-ether-ether-ketone (PEEK) mold (diameter: 13 mm) and pressed under 360 MPa before attaching Li foils on both sides."
+  },
+  {
+    "entities": [
+      {
+        "entity": "TiS2(99.9",
+        "type": "date",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "The TiS2composite electrodes were prepared by mixing TiS2(99.9%,"
+  },
+  {
+    "entities": [],
+    "original sentence": "Sigma-Aldrich) and SEs in a weight ratio of 1:2."
+  },
+  {
+    "entities": [
+      {
+        "entity": "FMC",
+        "type": "organization",
+        "start": 12,
+        "end": 15
+      }
+    ],
+    "original sentence": "Li0.5In (nominal composition) powders prepared by mixing Li powders (FMC Lithium Corp.) and In powder (Sigma-Aldrich, 99%) were used as the counter/reference electrodes."
+  },
+  {
+    "entities": [],
+    "original sentence": "The SE layers were prepared by pelletizing the Li6PS5Cl0.5Br0.5powder"
+  },
+  {
+    "entities": [],
+    "original sentence": "(150 mg)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The as-prepared electrodes (15 mg) and Li0.5In powders (100 mg) were then spread on each side of the SE layer."
+  },
+  {
+    "entities": [],
+    "original sentence": "Finally, the assemblies were pressed at 370 MPa."
+  },
+  {
+    "entities": [],
+    "original sentence": "For the fabrication of all-solid-state Na–S cells, Na3PS4was pelletized and used as the SE layer."
+  },
+  {
+    "entities": [
+      {
+        "entity": "1376",
+        "type": "date",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "original sentence": "Na3Sn (nominal composition) powders were prepared by mixing Na metal (800 mg) and Sn metal (1376 mg), and used as the counter/reference electrodes, which exhibited an operating voltage of ≈0.1 V versus Na/Na+."
+  },
+  {
+    "entities": [],
+    "original sentence": "After, the Na2S–NSPS–C and Na3Sn powders were spread on each side of the Na3PS4layer, the whole assemblies were subjected to pressing at 370 MPa."
+  },
+  {
+    "entities": [],
+    "original sentence": "The mass loading of Na2S–NSPS–C was 7 mg."
+  },
+  {
+    "entities": [
+      {
+        "entity": "PEEK",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "All assemblies were carried out in a PEEK mold (diameter: 13 mm) with two Ti rods as the current collectors."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DMol3",
+        "type": "organization",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "Theoretical Calculations\n\nAll DFT calculations were performed using DMol3 program."
+  },
+  {
+    "entities": [],
+    "original sentence": "The electron exchange-correlation energy was calculated with the generalized gradient approximation and the Perdew–Burke–Ernzerhof functional."
+  },
+  {
+    "entities": [],
+    "original sentence": "The effective core potential was used for core treatment with a basis set of DNP 4.4 level."
+  },
+  {
+    "entities": [],
+    "original sentence": "The convergence criteria for energy, force, and displacement were set as 1.0 × 10−5 Ha, 0.002 Ha Å−1, and 0.005 Å, respectively."
+  },
+  {
+    "entities": [
+      {
+        "entity": "15.83",
+        "type": "date",
+        "start": 22,
+        "end": 23
+      }
+    ],
+    "original sentence": "The Conductor-like Screening Model solvation model was applied using the dielectric constant of EDA–EDT (10:1 vol) solvent mixture (ε 15.83)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "To include the dispersion correction of the van der Waals effect, the DFT empirical dispersion correction (DFT-D3) was used."
+  },
+  {
+    "entities": [],
+    "original sentence": "The Brillouin-zone was sampled by a Monkhorst–Pack as a single k-point (Γ-point) for surface model systems."
+  },
+  {
+    "entities": [],
+    "original sentence": "The dipole slab correction was also employed for all slab calculations."
+  },
+  {
+    "entities": [
+      {
+        "entity": "0.003",
+        "type": "date",
+        "start": 31,
+        "end": 32
+      },
+      {
+        "entity": "RMS",
+        "type": "organization",
+        "start": 24,
+        "end": 25
+      }
+    ],
+    "original sentence": "To examine the reaction paths, the linear synchronous transit and quadratic synchronous transit methods were used to satisfy the convergence criteria of the RMS force, which was set as 0.003 Ha Å−1."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "To observe the proton transfer reaction in the EDA–EDT mixture solvent, a DFT model with the explicit solvents was sampled using molecular dynamics (MD) simulation."
+  },
+  {
+    "entities": [
+      {
+        "entity": "COMPASS",
+        "type": "organization",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "MD simulation was performed using COMPASS forcefield under the isothermal-isobaric (i.e.,NPT) ensemble, whereNis the number of atoms,Pis the pressure, andTis the temperature."
+  },
+  {
+    "entities": [],
+    "original sentence": "The temperature and pressure were maintained at 298 K and atmospheric pressure using a Berendsen thermostat and barostat."
+  },
+  {
+    "entities": [],
+    "original sentence": "The cutoff distance of the van der Waals interaction was set to 12.5 Å, and the electrostatic interactions were calculated using the Ewald summation method with an accuracy of 10−5 kcal mol−1."
+  },
+  {
+    "entities": [],
+    "original sentence": "The time step was set to 1 fs, and the total simulation time was 2 ns."
+  },
+  {
+    "entities": [],
+    "original sentence": "The EDA–EDT mixture solvent was considered to contain 60 EDA molecules and 6 EDT molecules (i.e., 10:1 vol) in a 20 Å cubic box, and the equilibrated density was 0.92 g cc−1."
+  },
+  {
+    "entities": [],
+    "original sentence": "From the last configuration of MD simulation, one EDT molecule and surrounding molecules within 3 Å around the EDT were selected for calculating the energy of proton transfer as EDA–EDT cluster, which contained the 8 EDA molecules and 2 EDT molecules (Figure , Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "To carry out theoretical DFT calculations of the dissolution mechanism on GeS2, a slab model consisting of two atomic layers of GeS2with the (001) surface of the experimental structure determined by the XRD measurement (Figure , Supporting Information) was employed."
+  },
+  {
+    "entities": [],
+    "original sentence": "The top layer of the model system was relaxed, while the bottom layer was fixed to represent the bulk phase during the optimization calculation."
+  },
+  {
+    "entities": [],
+    "original sentence": "The vacuum region of the slab model was set to ≈30 Å for all slab models to avoid self-interaction errors."
+  },
+  {
+    "entities": [
+      {
+        "entity": "GeS2slab",
+        "type": "location",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "When a deprotonated EDT molecule was added near the GeS2slab region, protonated EDA was also added to the vacuum region for charge balance (Figure , Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Note that when two or more protonated EDAs were in the vacuum area, the distances between protonated EDAs were maximized to prevent them from reacting."
+  },
+  {
+    "entities": [],
+    "original sentence": "Statistical Analysis\n\nRaman spectra shown in Figure  were normalized to have identical maximum intensity."
+  },
+  {
+    "entities": [],
+    "original sentence": "Conflict of Interest\n\nThe authors declare no conflict of interest."
+  }
+]

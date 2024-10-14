@@ -1,0 +1,1785 @@
+[
+  {
+    "entities": [],
+    "original sentence": "1 Introduction\n\nAll-solid-state Li metal batteries (ASSLMBs) have been proposed to eliminate the safety problems and limited energy density (<500 Wh kg−1) in current lithium-ion batteries (LIBs)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The solid-state electrolyte (SSE) is a critical component in ASSLMBs and has received extensive attention.,"
+  },
+  {
+    "entities": [],
+    "original sentence": "Among the various types of SSEs, sulfide-based SSEs are considered as one of the most promising candidates, because of their high ionic conductivity, inherent softness for intimate contact between electrodes and electrolytes, as well as good mechanical strength for large-scale practical applications."
+  },
+  {
+    "entities": [],
+    "original sentence": "However, two major detrimental factors have plagued the development of sulfide SSEs."
+  },
+  {
+    "entities": [],
+    "original sentence": "First, the poor electrode material/sulfide SSEs interface deteriorates the battery performance.,"
+  },
+  {
+    "entities": [],
+    "original sentence": "Since the compatibility issue between cathode materials and sulfide SSEs has prevented sulfide SSEs from achieving stable cycling performance, considerable efforts have been made to develop strategies to alleviate those problems.,"
+  },
+  {
+    "entities": [],
+    "original sentence": "In contrast, catastrophic Li metal anode interface makes the use of Li metal as an anode directly against sulfide electrolyte extremely challenging, because of its strong reducing capabilities toward almost all kinds of sulfide SSEs, such as β-Li3PS4, Li7P3S11, argyrodite-type, and thio-LISICON-type electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li",
+        "type": "location",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "Moreover, the uneven Li deposition can cause Li dendrites formation, which can penetrate through the soft electrolyte to vitiate batteries."
+  },
+  {
+    "entities": [],
+    "original sentence": "Second, the air-sensitive nature of sulfide SSEs increases the difficulty for manufacturing and practical applications."
+  },
+  {
+    "entities": [],
+    "original sentence": "Due to the high oxygen affinity of P5+, the sulfide SSEs that contain PS43− structure blocks are extremely prone to reacting with H2O to generate toxic H2S gas."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thus, vacuum or inert gas atmosphere is required to handle sulfide SSEs, which would complicate the manufacturing and preparation processes with increased fabrication cost."
+  },
+  {
+    "entities": [],
+    "original sentence": "To alleviate the poor Li metal anode/sulfide SSEs interface problem, rich I or F-containing Li metal anode/sulfide SSEs interfaces have been reported."
+  },
+  {
+    "entities": [],
+    "original sentence": "The functional interface can exhibit very stable electrochemical behaviors against sulfide SSEs in fabricated symmetric or full cells."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SEI",
+        "type": "organization",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "LiI or LiF compositions in the solid-electrolyte-interphase (SEI) formed between Li metal and sulfide SSEs play crucial roles in preventing side reactions and Li dendrites formation."
+  },
+  {
+    "entities": [],
+    "original sentence": "Especially when I- or F-based sulfide SSEs are used, high current density and reversible cut-off capacities can be achieved to meet the requirement of high-energy-density ASSLMBs.,  Nevertheless, it is still very challenging to realize air-stable sulfide SSEs with decent room temperature (RT) ionic conductivity (>10−4 S cm−1)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Li–Sn–S electrolytes (Li4SnS4and Li2SnS3) were demonstrated to possess excellent air stability, benefiting from the hard-softs-acids-bases (HSAB) theory."
+  },
+  {
+    "entities": [],
+    "original sentence": "Sn is classified as a soft acid, which prefers to bond with soft base S rather than hard base O."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li–Sn–S",
+        "type": "location",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "original sentence": "However, the low ionic conductivity of pristine Li–Sn–S electrolytes limited at 10−5 S cm−1 level restrains their development."
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "Although As substitution in Li4SnS4can improve the RT ionic conductivity to reach 1.0 × 10−3 S cm−1, the highly toxic As element brings additional safety and environmental concerns."
+  },
+  {
+    "entities": [],
+    "original sentence": "Nevertheless, the air stability of the sulfide electrolytes is predicted to be improved after Sn substitution in the PS43− structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, the aliovalent element (Sn) substitution with larger atomic radius and lower valence compared with phosphorus (P) can expand the cell volume and increase the Li solubility in the unit cells, which can synergistically increase the corresponding ionic conductivity."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSX",
+        "type": "organization",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "Argyrodite electrolytes Li6PS5X (LPSX, X = Cl, Br, and I) represent one type of popular sulfide electrolytes, due to the low cost of raw materials and high ionic conductivity."
+  },
+  {
+    "entities": [],
+    "original sentence": "Both LPSCl and LPSBr with a high ionic conductivity of >1 × 10−3 S cm−1 still suffer from the problems that are mentioned above.,  Li6PS5I (LPSI) has received less attention, because the low S−/I− exchange disorder leads to a low conductivity in the order of 10−6 S cm−1."
+  },
+  {
+    "entities": [],
+    "original sentence": "However, the high I concentration in the electrolyte itself is highly anticipated to stabilize the Li metal/LPSI-based electrolyte interface in ASSLMBs if decent ionic conductivity can be obtained."
+  },
+  {
+    "entities": [],
+    "original sentence": "Recent studies show that the ionic conductivity of LPSI SSE can be significantly improved by aliovalent element substitutions.,  Different from previous work that is fundamentally dedicated to improve the ionic conductivity fundamentally, we aim in using a versatile strategy to achieve an excellent sulfide SSE with good Li metal compatibility, improved air stability, and decent ionic conductivity, simultaneously."
+  },
+  {
+    "entities": [],
+    "original sentence": "Herein, we originally propose to partially substitute Sn for P in LPSI argyrodite electrolytes to prepare new argyrodite-type electrolytes: LPSI-xSn or Li6+yP1−ySnyS5I (xis the Sn substitution percentage,y=x%)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The optimized ionic conductivity of LPSI-20Sn reaches a value as high as 3.5 × 10−4 S cm−1, which is 125 times higher than that of the LPSI electrolyte without Sn substitution."
+  },
+  {
+    "entities": [
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 26,
+        "end": 28
+      }
+    ],
+    "original sentence": "More importantly, LPSI-20Sn electrolyte is stable without any degradation in pure O2, and even shows negligible decrease in ionic conductivity after being exposed to 10% humidity atmosphere and postheating treatment."
+  },
+  {
+    "entities": [
+      {
+        "entity": "1.26",
+        "type": "person",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "original sentence": "Additionally, the robust Li/LPSI-20Sn interface enables ultrastable Li plating/stripping for over 200 h at a high current density (1.26 mA cm−2) and cut-off capacity (1 mAh cm−2) in Li//LPSI-20Sn//Li symmetric cells."
+  },
+  {
+    "entities": [],
+    "original sentence": "The application of this electrolyte is also demonstrated in ASSLMBs by using LPSI-20Sn as the Li anode interlayer in full cells that exhibits excellent cycling stability and rate capability.\n\n2 Results and Discussion\n\n2.1 Synthesis and Structure of LPSI-xSn SSEs\n\nConventional solid-state-reaction methods were employed to synthesize a series of Sn-substituted argyrodite LPSI-based electrolytes with various Sn substitution percentages: LPSI-xSn (x= 0, 10, 20, 30, 50, 80, and 100, wherex= 0 is the pristine LPSI electrolyte, andx= 100 means complete substitution of P with Sn in the LPSI electrolyte)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The corresponding chemical reaction equation can be written as: (5 +y) Li2S + (1 −y) P2S5+ (2y) SnS2+ 2 LiI = 2 Li6+yP1−ySnyS5I, whereyis the substitution content of Sn (0 ≤y≤ 1)."
+  },
+  {
+    "entities": [],
+    "original sentence": "X-ray diffraction (XRD) measurements were first carried out to study the phase composition of the prepared LPSI-xSn electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "As shown in Figure a, pure LPSI phase can be obtained without any Sn substitution, which is highly consistent with the referenced LPSI (PDF# 04-018-1431)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "XRD",
+        "type": "organization",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "original sentence": "The border diffraction peak at around 18° is assigned to the Kapton tape, which is used to seal the XRD sample and prevent air exposure."
+  },
+  {
+    "entities": [],
+    "original sentence": "With the Sn substitution percentage increasing, the characteristic diffraction peaks of LPSI vanish, while some peaks belonging to the Li4SnS4and LiI phases raise gradually."
+  },
+  {
+    "entities": [
+      {
+        "entity": "XRD",
+        "type": "organization",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "Close inspection on the XRD pattern in the 2θ range of 24.5°–25° (Figure b) suggests that the strongest diffraction peak in LPSI patterns at 24.8° shifts continually to lower diffraction angle along with increased Sn substitution amount."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure c presents a low-speed-scan XRD with Rietveld refinement of the representative LPSI-20Sn electrolyte."
+  },
+  {
+    "entities": [
+      {
+        "entity": "90.00°",
+        "type": "date",
+        "start": 28,
+        "end": 29
+      }
+    ],
+    "original sentence": "One predominant phase is an argyrodite structure with cubic symmetry (space groupF-43m) with unit cell parameters:a=b=c= 10.21760 Å, α = β = γ = 90.00°,"
+  },
+  {
+    "entities": [],
+    "original sentence": "andV= 1066.71"
+  },
+  {
+    "entities": [],
+    "original sentence": "Å3 (Table S1, Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LiI.",
+        "type": "person",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "original sentence": "The small amount of impurity (2.7%) is identified as LiI."
+  },
+  {
+    "entities": [],
+    "original sentence": "The distorted argyrodite structure (as shown in Figure d) exhibits a nonstoichiometric composition of Li6.24P0.823Sn0.177S4.58I0.9with"
+  },
+  {
+    "entities": [],
+    "original sentence": "Li-rich and vacancy in the structure (Table S2, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The substituted Sn atom in the 4b site is shared with P and the occupation is around 17.8%, which is close to the designed substitution content (20%)."
+  },
+  {
+    "entities": [],
+    "original sentence": "It is found that the Li-rich environment and vacancy distribution within the synthesized of Li6.24P0.823Sn0.177S4.58I0.9is"
+  },
+  {
+    "entities": [],
+    "original sentence": "quite different from that of the Li6PS5I structure (Table S3, Supporting Information), indicating different Li+ conduction and migration pathways in the electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "The enlarged crystal unit cell is derived from the replacement of P with Sn, which has a larger atomic radius (R1.40 Å >R1.10 Å), and the increased Li+ ion concentration in the specific unit cell."
+  },
+  {
+    "entities": [],
+    "original sentence": "The characteristic unit cell is expected to benefit the Li+ ion conduction and to increase the ionic conductivity."
+  },
+  {
+    "entities": [],
+    "original sentence": "A similar phenomenon is observed in the LPSBr-xSn (x= 0, 1, 5, 10, 12.5, 15, 20, 30) system (Figure S1, Supporting Information), but cannot occur in the LPSCl-xSn (x= 0 and 30) system (Figure S2, Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSX",
+        "type": "organization",
+        "start": 35,
+        "end": 36
+      }
+    ],
+    "original sentence": "The reason is related to the atomic radius of X in the argyrodite structure (X = Cl, Br, and I), where the larger size of the I atom endows the LPSX structure with more possibilities of various aliovalent elemental substitutions."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure 1\na) XRD patterns of the prepared LPSI-xSn sulfide-based electrolytes (x= 0, 10, 20, 30, 50, 80, 100)."
+  },
+  {
+    "entities": [],
+    "original sentence": "b) Magnified region of the XRD patterns in the 2θ range: 24° < 2θ < 25.5°."
+  },
+  {
+    "entities": [],
+    "original sentence": "c) Low-speed-scan XRD pattern of representative LPSI-20Sn electrolyte and the corresponding Rietveld refinements."
+  },
+  {
+    "entities": [],
+    "original sentence": "d) Structure of the prepared LPSI-20Sn (Li6.24P0.823Sn0.177S4.58I0.9)"
+  },
+  {
+    "entities": [],
+    "original sentence": "from the view of perpendicular toc-axis."
+  },
+  {
+    "entities": [],
+    "original sentence": "Furthermore, Raman spectral measurements were conducted to verify Sn substitution in the position of P in LPSI-xSn electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "As shown in Figure S3 in the Supporting Information, the Raman shift at 416.3 cm−1 is the fingerprint position that reflects the PS4blocks (P only exists in tetrahedral PS4in LPSI electrolyte) in LPSI electrolyte."
+  },
+  {
+    "entities": [
+      {
+        "entity": "PS4peak",
+        "type": "location",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "After Sn substitution, the intensity of PS4peak reduces, and an additional peak in the 337.7–342.9"
+  },
+  {
+    "entities": [],
+    "original sentence": "cm−1 region appears and increases in intensity with increased Sn substitution percentage."
+  },
+  {
+    "entities": [],
+    "original sentence": "Co-existence of the two peaks implies the formation of (P/Sn)S4structure."
+  },
+  {
+    "entities": [
+      {
+        "entity": "342.9",
+        "type": "date",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "entity": "SnS4structure",
+        "type": "location",
+        "start": 26,
+        "end": 27
+      },
+      {
+        "entity": "cm−1",
+        "type": "organization",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "In the fully Sn-substituted sample LPSI-100Sn, the only characteristic peak at 342.9 cm−1 agrees well with the previously reported position that indicates the formation of SnS4structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "Scanning electron microscopy (SEM) was used to examine the morphology and the element distribution in LPSI-20Sn electrolyte (Figure S4, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Microsized irregular LPSI-20Sn secondary particle is composed of nanosized primary particles (≈100 nm)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Energy",
+        "type": "organization",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "original sentence": "Energy dispersive spectroscopy (EDS) element mapping for the selected area demonstrates that P, S, Sn, and I are homogeneously dispersed in granular LPSI-20Sn electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "In other words, the Sn precursors can fully mix and react with other raw materials for substitution."
+  },
+  {
+    "entities": [],
+    "original sentence": "The results of the above mentioned structural and compositional analyses confirm that successful Sn substitution for P in LPSI-xSn structure is achieved."
+  },
+  {
+    "entities": [],
+    "original sentence": "The expanded unit cells and small electrolyte particle sizes are desirable for high ionic conductivity and applicable LPSI-based electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li/electrolyte",
+        "type": "location",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "The derived I chemistry at Li/electrolyte interface is favorable toward achieving a stable Li metal anode."
+  },
+  {
+    "entities": [],
+    "original sentence": "In addition, the formation of the SnS bonds is also beneficial for enhanced air stability."
+  },
+  {
+    "entities": [],
+    "original sentence": "2.2 Ionic Conductivity and Li+ Ion Dynamics of LPSI-xSn SSEs\nElectrochemical impedance spectroscopy (EIS) was measured to deduce the ionic conductivity (σ) of the prepared LPSI-xSn electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "original sentence": "The plot of σ value as a function of Sn content at RT is shown in Figure a."
+  },
+  {
+    "entities": [],
+    "original sentence": "The LPSI electrolyte without any Sn substitution shows a very low σ of 2.8 × 10−6 S cm−1, which is in agreement with previously reported literatures."
+  },
+  {
+    "entities": [],
+    "original sentence": "After partly replacing P with Sn in the tetrahedral PS4of LPSI-based electrolyte, dramatic change of σ takes place."
+  },
+  {
+    "entities": [],
+    "original sentence": "10% Sn substitution can significantly increase the σ to 4.2 × 10−5 S cm−1, showing a 15 times increase."
+  },
+  {
+    "entities": [
+      {
+        "entity": "20",
+        "type": "percentage",
+        "start": 16,
+        "end": 18
+      }
+    ],
+    "original sentence": "The optimized σ can reach 3.5 × 10−4 S cm−1 when the Sn substitution percentage is 20%."
+  },
+  {
+    "entities": [],
+    "original sentence": "Compared with the σ of the pristine LPSI electrolyte, the σ of LPSI-20Sn exhibits an increase of 125 times."
+  },
+  {
+    "entities": [],
+    "original sentence": "This makes LPSI-20Sn comparable to some common sulfide SSEs in terms of ionic conductivity."
+  },
+  {
+    "entities": [],
+    "original sentence": "Nevertheless, too much Sn substitution can lead to decrease in σ as a result of the formation of impurity phases."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure b compares the Arrhenius plots of LPSI and LPSI-20Sn electrolytes derived from a series of ionic conductivities in a temperature range from −5 to 45 °C (interval 10 °C for each point)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The σ value of the LPSI-20Sn electrolyte at any given temperature is about two orders of magnitude higher than that of LPSI electrolyte without Sn substitution."
+  },
+  {
+    "entities": [
+      {
+        "entity": "0.299",
+        "type": "date",
+        "start": 23,
+        "end": 24
+      }
+    ],
+    "original sentence": "Furthermore, the activation energy of Li+ ion transport in LPSI-20Sn structure (Ea-LPSI-20Sn) calculated from the slop of Arrhenius plot is 0.299 eV, which is much lower than that in LPSI structure (Ea-LPSI = 0.424 eV)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Arrhenius plots of other Sn-substituted LPSI-xSn electrolytes (x= 10, 15, 17.5, 22.5, 25, 30, 50, 80) are also presented in Figure S5 in the Supporting Information, and the derived activation energy of each composition is displayed in Figure c."
+  },
+  {
+    "entities": [],
+    "original sentence": "The trend for change inEaagainst Sn substitution amount is inverse compared with the trend in Figure a."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "original sentence": "Li+ ion movement becomes much easier after Sn substitution in the LPSI structure."
+  },
+  {
+    "entities": [
+      {
+        "entity": "20",
+        "type": "percentage",
+        "start": 9,
+        "end": 11
+      }
+    ],
+    "original sentence": "The lowest point appears with a substitution percentage of 20%, which is corresponding to the fastest Li+ ion motion and the largest ionic conductivity in this structure."
+  },
+  {
+    "entities": [
+      {
+        "entity": "20",
+        "type": "percentage",
+        "start": 14,
+        "end": 16
+      }
+    ],
+    "original sentence": "The activation energy shows an increasing trend after the Sn substitution percentage is over 20%."
+  },
+  {
+    "entities": [],
+    "original sentence": "This is ascribed to the gradually increasing amount of impurity phases (mainly LiI and Li4SnS4)."
+  },
+  {
+    "entities": [],
+    "original sentence": "σ of another Sn-substituted system, LPSBr-xSn (substitution percentagex= 1, 2.5, 5, 10, 12.5, 15, 20, 30), was also investigated to further understand the Sn substitution effect on the ionic conductivity."
+  },
+  {
+    "entities": [],
+    "original sentence": "The results are shown in Figure S6 in the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "The optimized σ value of 2.1 × 10−3 S cm−1 is achieved when the degree of Sn substitution is at 12.5% in the LPSBr structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "This σ value of LPSBr-12.5Sn is twice larger than that of LPSBr electrolyte (σ-LPSBr = 1.0 × 10−3 S cm−1)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Meanwhile, the activation energy of LPSBr-12.5Sn"
+  },
+  {
+    "entities": [],
+    "original sentence": "(0.30 eV) is lower than that of LPSBr (0.33 eV).\nFigure 2\na) The room temperature (RT, 25 °C) ionic conductivity of LPSI-xSn sulfide-based electrolytes with different amounts of Sn substitution (x= 0, 10, 15, 17.5, 20, 22.5, 25, 30, 50, 80, 100)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "b) Arrhenius plots of the LPSI-20Sn electrolyte and LPSI electrolyte without Sn substitution."
+  },
+  {
+    "entities": [],
+    "original sentence": "c) Change trend of the activation energy against different substitution percentages."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SLR",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "entity": "NMR",
+        "type": "organization",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "d) Temperature-dependent 7Li spin–lattice relaxation (SLR) NMR rates measured in the laboratory frame for LPSI-20Sn electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "7Li solid-state nuclear magnetic resonance (7Li-NMR) was employed to probe the Li+ ion dynamics in LPSI-20Sn at an atomic level."
+  },
+  {
+    "entities": [],
+    "original sentence": "It can provide information on bulk ionic conductivity of the electrolyte without the contribution from grain boundaries in SSEs."
+  },
+  {
+    "entities": [
+      {
+        "entity": "NMR",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "First, the line-shapes of 7Li static NMR resonance of LPSI-20Sn at different temperatures are presented as Figure S7 in the Supporting Information."
+  },
+  {
+    "entities": [],
+    "original sentence": "The line-shape of 7Li resonance becomes narrower with increasing temperature, a phenomenon reported elsewhere."
+  },
+  {
+    "entities": [],
+    "original sentence": "The observed line narrowing is due to the increased Li-ion mobility that averages out the dipolar interaction at higher test temperatures."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SLR",
+        "type": "organization",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "original sentence": "Then, 7Li spin–lattice relaxation (SLR) rates (1/T1) were measured as a function of temperature (T)."
+  },
+  {
+    "entities": [],
+    "original sentence": "As shown in Figure d, a minimumT1(T1min) is observed whenTreaches 130 °C."
+  },
+  {
+    "entities": [],
+    "original sentence": "The slopes of the linear portions of the curves on both low temperature (LT) and high temperature (HT) sides of theT1minare used to calculate the activation energy of short-range (EaLT) and long-range (EaHT) Li+ ion mobility, respectively."
+  },
+  {
+    "entities": [
+      {
+        "entity": "0.075",
+        "type": "date",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "They are 0.041 and 0.075 eV forEaHT andEaLT, respectively."
+  },
+  {
+    "entities": [],
+    "original sentence": "These results are reasonable as they are much lower than the values derived from the EIS measurements, because the negative effect of boundary has been excluded.,"
+  },
+  {
+    "entities": [
+      {
+        "entity": "0.076",
+        "type": "date",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "entity": "0.082",
+        "type": "date",
+        "start": 36,
+        "end": 37
+      },
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "In contrast, for the LPSI electrolyte without Sn substitution, the 7Li SLR results (Figure S8, Supporting Information) show a larger activation energy in both HT and LT regions (0.076 and 0.082 eV, respectively)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Sn",
+        "type": "organization",
+        "start": 21,
+        "end": 22
+      },
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 32,
+        "end": 33
+      }
+    ],
+    "original sentence": "All above Li+ ion motion analyses (both EIS and 7Li-NMR results) confirm that replacing P with appropriate amounts of Sn can promote Li+ ion transport in the favorable Sn-substituted argyrodite LPSI structures."
+  },
+  {
+    "entities": [],
+    "original sentence": "The Sn substitution results in significantly improved ionic conductivity and reduced Li+ ion motional activation energy."
+  },
+  {
+    "entities": [],
+    "original sentence": "2.3 Air Stability of LPSI-20Sn SSEs\nAfter optimizing ionic conductivity and probing Li+ ion mobility in the LPSI-xSn electrolyte system, the air stability of the LPSI-20Sn electrolyte was examined."
+  },
+  {
+    "entities": [],
+    "original sentence": "The reactivity toward O2was investigated by monitoring the weight change of the electrolyte in a microbalance of a thermogravimetric analysis (TGA) instrument when the electrolyte is exposed to pure O2(99.999%)"
+  },
+  {
+    "entities": [],
+    "original sentence": "flow."
+  },
+  {
+    "entities": [],
+    "original sentence": "Figure a illustrates the change in mass percentage of the electrolytes as a function of the exposure time in pure O2atmosphere."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "entity": "1.12",
+        "type": "percentage",
+        "start": 18,
+        "end": 20
+      }
+    ],
+    "original sentence": "Compared with pure LPSI electrolyte (specific surface area: 1.50 cm2 g−1) whose weight increases by 1.12% after being exposed to O2for 10 h, LPSI-20Sn electrolyte (specific surface area: 1.41 cm2 g−1) shows significantly improved resistance toward O2."
+  },
+  {
+    "entities": [],
+    "original sentence": "The mass percentage increase is as low as 0.28% after exposure to pure O2for 10 h and only 0.35% after 20 h, which indicates that the LPSI-20Sn electrolyte maintains its structure in pure O2after initial minor decomposition."
+  },
+  {
+    "entities": [],
+    "original sentence": "In addition to the good resistance to O2, LPSI-20Sn electrolyte also exhibits excellent stability toward moisture."
+  },
+  {
+    "entities": [
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 20,
+        "end": 22
+      }
+    ],
+    "original sentence": "As shown in Figure b, the XRD patterns exhibit little difference between LPSI-20Sn electrolytes before and after exposure to 10% humidity overnight except for some small unknown impurity peaks (Figure S9, Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Figure",
+        "type": "organization",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 45,
+        "end": 46
+      },
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 25,
+        "end": 27
+      }
+    ],
+    "original sentence": "X-ray absorption near-edge spectra (XANES) of P K-edge (Figure c) cannot also witness the chemical environment change of P after exposing to 10% humidity overnight, but the ionic conductivity of LPSI-20Sn drops slightly to 2.2 × 10−4 S cm−1 at RT (Figure d)."
+  },
+  {
+    "entities": [],
+    "original sentence": "This might be ascribed to the decomposition of some PS4blocks which are not effectively Sn substituted."
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "original sentence": "However, the ionic conductivity of LPSI-20Sn can recover to 3.1 × 10−4 S cm−1 at RT after a postheating process (180 °C in vacuum oven) is conducted."
+  },
+  {
+    "entities": [],
+    "original sentence": "The XRD pattern of the postheated sample in Figure b confirms that the impurity phases vanish and all featured diffraction peaks agree well with the pristine LPSI-20Sn electrolyte."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 18,
+        "end": 20
+      }
+    ],
+    "original sentence": "In contrast, a larger amount of impurity diffraction peaks can be observed after exposing LPSI electrolytes to 10% humidity (Figure S10, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Even after the same postheating treatment, the diffraction peaks from impurities still exist."
+  },
+  {
+    "entities": [
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 36,
+        "end": 38
+      }
+    ],
+    "original sentence": "Figure 3\na) Time-resolved mass change of LPSI and LPSI-20Sn electrolytes in pure O2. b) XRD patterns and d) Arrhenius plots of the LPSI-20Sn electrolyte before and after exposure to air with 10% humidity, as well as after postheating process."
+  },
+  {
+    "entities": [
+      {
+        "entity": "XANES",
+        "type": "organization",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 14,
+        "end": 16
+      }
+    ],
+    "original sentence": "c) XANES of P K-edge in LPSI-20Sn and the sample after exposing to 10% humidity."
+  },
+  {
+    "entities": [],
+    "original sentence": "e) Schematic diagram of the difficult degree of being oxidized by H2O of PS4and (P/Sn)S4tetrahedrons based on the DFT calculation."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "original sentence": "Density functional theory (DFT) calculations of the oxygen replacement reaction energy (ΔE) were conducted to reveal the improved air stability of LPSI-20Sn electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "PS4tetrahedron",
+        "type": "person",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "original sentence": "Generally, the first-step degradation of the sulfide electrolyte containing PS4tetrahedron toward O2or H2O is related to the replacement reaction of S with O atom."
+  },
+  {
+    "entities": [],
+    "original sentence": "The oxygen replacement reaction energy of LPSI-20Sn and LPSI electrolytes was simulated based on the differential energy by changing one of the S atoms to O atom in the model structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "When changing one of the PS4tetrahedrons to PS3O tetrahedron in the whole crystal structure, the reaction can be simulated as PS4tetrahedron + O atom = PS3O tetrahedron + S atom."
+  },
+  {
+    "entities": [
+      {
+        "entity": "U(",
+        "type": "person",
+        "start": 19,
+        "end": 20
+      },
+      {
+        "entity": "O",
+        "type": "person",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "original sentence": "Therefore, the oxygen replacement reaction energy (ΔE) can be calculated as ΔE=U(S atom)+U(PS3O tetrahedron)−U(O atom)−U(PS4 tetrahedron)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The oxygen replacement reaction energy (ΔE) can be defined as one of the indicators to evaluate the reaction capabilities between sulfide electrolytes and O2or H2O."
+  },
+  {
+    "entities": [
+      {
+        "entity": "2.667",
+        "type": "date",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "entity": "9.298",
+        "type": "date",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "As a result of the DFT calculation, the ΔEof LPSI and LPSI-20Sn electrolyte is 2.667 and 9.298 eV, respectively."
+  },
+  {
+    "entities": [],
+    "original sentence": "The results indicate a much stronger bonding energy of (P/Sn)–S in the (P/Sn)S4tetrahedron than that of P–S in the PS4tetrahedron when replacing S with O."
+  },
+  {
+    "entities": [],
+    "original sentence": "In other words, a better resistance capability of LPSI-based electrolytes can be obtained after Sn substitution (see the schematic diagram in Figure e)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "O",
+        "type": "person",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "The Sn substituted in the lattice prefers to bond to S rather than O, endowing the LPSI-20Sn electrolyte to have a stable crystal structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "2.4 Li Metal Compatibility of LPSI-20Sn SSEs\nThe Li anode interface stability of Li/LPSI-20Sn compared to that of Li/LPSI was evaluated by cycling the Li–Li symmetric cells."
+  },
+  {
+    "entities": [],
+    "original sentence": "The results are shown in Figure ."
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 35,
+        "end": 36
+      },
+      {
+        "entity": "0.1",
+        "type": "person",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "Under a current density of 0.1 mA cm−2 and a cut-off capacity of 0.1 mAh cm−2, Li//LPSI-20Sn//Li symmetric cell can perform an ultrastable Li plating/stripping for over 700 h (350 cycles) at RT (Figure a)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT",
+        "type": "organization",
+        "start": 41,
+        "end": 42
+      },
+      {
+        "entity": "Figure",
+        "type": "organization",
+        "start": 43,
+        "end": 44
+      },
+      {
+        "entity": "1.26",
+        "type": "person",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "Even under a high current density of 1.26 mA cm−2 and cut-off capacity of 1 mAh cm−2, our Li//LPSI-20Sn//Li symmetric cell can still display a very stable Li plating and stripping behavior for ≈200 h (125 cycles) at RT (Figure c)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The durability can be comparable to the best performances in the previous reported symmetric cells using sulfide-based electrolytes (Table S4, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Detailed plating/stripping voltage profiles under low current density of 0.1 mA cm−2 can be seen in the magnified regions at different cycling time points in Figure a-1–a-3."
+  },
+  {
+    "entities": [],
+    "original sentence": "Flat and axisymmetric polarization curves exhibit ultrastable and highly reversible Li plating and stripping behaviors at the Li/LPSI-20Sn interface."
+  },
+  {
+    "entities": [],
+    "original sentence": "The initial overpotential is 30 mV, which is comparable to that of the LiI-doped LPS electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SEI",
+        "type": "organization",
+        "start": 26,
+        "end": 27
+      }
+    ],
+    "original sentence": "After 700 h of stable Li plating and stripping process, the overpotential increases to 56 mV, which is due to the in situ formed SEI layer slightly increasing the interfacial impedance."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "In sharp contrast, the Li–Li symmetric cell using LPSI as the electrolyte even cannot plate and strip regularly for one cycle."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "original sentence": "The ultralow ionic conductivity of LPSI leads to a high overpotential of more than 3 V."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li",
+        "type": "person",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "original sentence": "The violent fluctuation and gradually reduced overpotential indicate poor Li plating/stripping kinetics at the Li/LPSI interface (Figure b)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Time-resolved EIS of the Li//LPSI-20Sn//Li symmetric cell was also used to enclose the stable Li/LPSI-20Sn interface before symmetric cell cycling (Figure S11, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "During the 24 h after assembling, negligible impedance change can be found in the Li//LPSI-20Sn//Li symmetric cell."
+  },
+  {
+    "entities": [],
+    "original sentence": "This reveals that there is no side reaction happening to the Li/LPSI-20Sn interface."
+  },
+  {
+    "entities": [],
+    "original sentence": "The robust Li anode interface benefits from the rich I-containing electrolytes (7.7% mole ratio), which has also been demonstrated in LiI-doped LPS electrolytes."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li",
+        "type": "person",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "original sentence": "SEM measurements for the Li metal surface were conducted after Li plating/stripping in the Li//LPSI-20Sn//Li symmetric cell at 0.1 mA cm−2/0.1 mAh cm−2 for ≈60 h (Figure S12, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "A relatively smooth and dense Li surface is formed in situ, which shows a uniform distribution of I-containing species."
+  },
+  {
+    "entities": [],
+    "original sentence": "X-ray photoelectron spectroscopy (XPS) measurements for the surface further confirm that the I species is LiI compounds (Figure S13, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The binding energy of 3d2/3(630.6"
+  },
+  {
+    "entities": [],
+    "original sentence": "eV) and 3d5/3(619.1 eV) agree well with the previous literature."
+  },
+  {
+    "entities": [
+      {
+        "entity": "SEI",
+        "type": "organization",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "entity": "1.26",
+        "type": "person",
+        "start": 96,
+        "end": 97
+      }
+    ],
+    "original sentence": "The LiI formed at the Li anode interface can serve as a vital component for stabilizing SEI to create uniform electron and ion distribution as well as suppress the formation of Li dendrites., \nFigure 4\nLi–Li symmetric cells performance: a) comparison of using LPSI and LPSI-20Sn to operate symmetric cells; b) magnified region of 0–10 h in (a); a-1–a-3) The magnified regions of the voltage profile at different time from (a). c) Li plating/stripping polarization of the Li//LPSI-20Sn//Li symmetric cell tested under 1.26 mA cm−2/1 mAh cm−2."
+  },
+  {
+    "entities": [],
+    "original sentence": "2.5 Full Battery Performance\nTo demonstrate the applicability of the LPSI-20Sn electrolyte in ASSLMBs, we further employed the LPSI-20Sn electrolyte as the interlayer separating the Li metal and Li10GeP2S12(LGPS) electrolyte, with the use of a LiNbOxcoated LiCoO2(LCO@LNO) cathode (as shown in the schematic diagram Figure a)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "2.8–4.2",
+        "type": "date",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "original sentence": "RT galvanostatic charge–discharge tests were conducted on full batteries in a voltage window of 2.8–4.2"
+  },
+  {
+    "entities": [
+      {
+        "entity": "RT.",
+        "type": "organization",
+        "start": 14,
+        "end": 16
+      }
+    ],
+    "original sentence": "V (Li/Li+, the same below) and under various current densities at RT. Figure b shows the first three charging and discharging curves under a low current density of 0.05 C (1 C = 140 mA gLCO−1)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The charge and discharge curves with a plateau at ≈3.9 V are extremely similar to those in the liquid electrolyte systems, suggesting highly reversible Li+ ion de-intercalation and intercalation behavior toward the LCO cathode materials."
+  },
+  {
+    "entities": [
+      {
+        "entity": "123.7",
+        "type": "date",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "entity": "91",
+        "type": "percentage",
+        "start": 20,
+        "end": 22
+      }
+    ],
+    "original sentence": "The first-cycle reversible specific capacity is 123.7 mAh g−1, and the corresponding Coulombic efficiency can reach as high as 91%."
+  },
+  {
+    "entities": [],
+    "original sentence": "The first cycle efficiency is one of the highest reported for ASSLMBs using Li metal as the anode directly."
+  },
+  {
+    "entities": [],
+    "original sentence": "The high efficiency is attributed to the excellent stability of Li/LPSI-20Sn interface."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Li",
+        "type": "person",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "original sentence": "Because Li+ ions can smoothly shutter through this LiI-assistant robust Li anode interface, no waste of Li source accounts for consumption of irreversible reactions and the Li dendrites."
+  },
+  {
+    "entities": [],
+    "original sentence": "After three initial cycles at 0.05 C, the cycling stability of this full battery at 0.1 C at RT is displayed in Figure c."
+  },
+  {
+    "entities": [
+      {
+        "entity": "≈113.0",
+        "type": "date",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "original sentence": "The reversible specific capacity maintains steady at ≈113.0 mAh g−1, and negligible capacity decay is observed in the first 20 cycles."
+  },
+  {
+    "entities": [],
+    "original sentence": "After 50 cycles, a capacity retention of 88.5% can be achieved."
+  },
+  {
+    "entities": [
+      {
+        "entity": "99.8",
+        "type": "percentage",
+        "start": 7,
+        "end": 9
+      }
+    ],
+    "original sentence": "Remarkably, the average coulombic efficiency reaches 99.8% during the long cycling process, suggesting highly reversible Li+ ion intercalation/de-intercalation."
+  },
+  {
+    "entities": [],
+    "original sentence": "In sharp contrast, the full battery without the LPSI-20Sn functional interlayer (Li//LGPS//LCO@LNO//LGPS) shows large voltage polarization at 0.05 C and even cannot deliver reversible capacity at 0.1 C (Figure S14, Supporting Information)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Apart from the cycling stability, the rate capability was also evaluated as shown in Figure d."
+  },
+  {
+    "entities": [],
+    "original sentence": "The rate performance was obtained by elevating the discharge current densities, while keeping the charge current density at 0.05 C."
+  },
+  {
+    "entities": [],
+    "original sentence": "This method enables the complete uptake of Li source from the cathode and an estimate of the influence of sluggish Li+ ion transport problem in cathode composites."
+  },
+  {
+    "entities": [],
+    "original sentence": "In this way, reversible specific capacities can hold to as high as 98.1 and 93.8 mAh g−1 at high current densities of 0.8 and 1 C, respectively."
+  },
+  {
+    "entities": [
+      {
+        "entity": "111.0",
+        "type": "date",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "original sentence": "Moreover, when the current density is reduced to 0.1 C afterward, the specific capacity can recover to 111.0 mAh g−1 and remains stable in the following cycling."
+  },
+  {
+    "entities": [],
+    "original sentence": "Unlike the reported results that indicate Li dendrites are prone to form under high current densities, our full batteries have been proved to possess very promising performance, particularly, the rate capability for the practical applications (Table S5, Supporting Information)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LPSI",
+        "type": "organization",
+        "start": 60,
+        "end": 61
+      },
+      {
+        "entity": "Sn",
+        "type": "person",
+        "start": 66,
+        "end": 67
+      }
+    ],
+    "original sentence": "Figure 5\nElectrochemical performance of ASSLMBs: a) schematic diagram of the Li/LPSI-20Sn//LGPS//LCO@LNO//LGPS ASSLMBs with the highlighted anode interlayer; b) the first three charge–discharge profiles of the fabricated ASSLMBs; c) cycling stability and d) rate capability of the Li/LPSI-20Sn//LGPS//LCO@LNO//LGPS at RT.\n3 Conclusion\nTo conclude, P (V) in argyrodite LPSI electrolyte was partially replaced by Sn (IV) to form a series of new LPSI-xSn electrolytes."
+  },
+  {
+    "entities": [],
+    "original sentence": "The larger cell volume and increased Li+ solubility resulting from Sn substitution for P in the PS4tetrahedral structure endow the optimized LPSI-20Sn electrolyte with two orders of magnitudes higher (125 times) ionic conductivity (3.5 × 10−4 S cm−1) compared with LPSI electrolyte (2.8 × 10−6 S cm−1)."
+  },
+  {
+    "entities": [],
+    "original sentence": "More remarkably, the optimized LPSI-20Sn electrolyte is also proved to possess excellent air stability (O2and moisture) derived from the strong Sn–S bonding energy in (P/Sn)S4structure."
+  },
+  {
+    "entities": [
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 12,
+        "end": 14
+      }
+    ],
+    "original sentence": "The mass and ionic conductivity of LPSI-20Sn exhibits negligible changes after O2and 10% humidity exposure (after reheating), respectively."
+  },
+  {
+    "entities": [
+      {
+        "entity": "1.26",
+        "type": "person",
+        "start": 43,
+        "end": 44
+      }
+    ],
+    "original sentence": "In addition, benefiting from the I-based chemistry in stabilizing the Li metal anode interface against sulfide electrolytes, Li–Li symmetric cells using LPSI-20Sn as the electrolyte can exhibit outstanding plating and stripping for over 200 h at a high current density (1.26 mA cm−2) and cut-off capacity (1 mAh cm−2) in the Li//LPSI-20Sn//Li symmetric cell."
+  },
+  {
+    "entities": [],
+    "original sentence": "LPSI-20Sn electrolyte was further employed as the Li metal anode interlayer in ASSLMBs to provide a stabilized Li metal anode interface for achieving excellent cycling stability and rate capability."
+  },
+  {
+    "entities": [],
+    "original sentence": "All these results suggest that the reasonable aliovalent element substitution for the problematic element in promising sulfide electrolytes can exhibit multifunction capabilities and make them more suitable for application in sulfide-based ASSLMBs.\n4 Experimental Section\nMaterials\nAll materials were used directly without any purification."
+  },
+  {
+    "entities": [
+      {
+        "entity": "(99.99",
+        "type": "date",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "entity": ">99.98",
+        "type": "date",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "original sentence": "P2S5(>99%), LiI (99.99%, anhydrous), LiCl (>99.98%,"
+  },
+  {
+    "entities": [],
+    "original sentence": "anhydrous), LiBr (99.9%, anhydrous), and LCO (99.8%) particles were purchased from Sigma-Aldrich."
+  },
+  {
+    "entities": [
+      {
+        "entity": "(99.9",
+        "type": "percentage",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "entity": "%",
+        "type": "percentage",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "original sentence": "Li2S (99.9%) was purchased from Alfa Aesar."
+  },
+  {
+    "entities": [],
+    "original sentence": "SnS2(99.999%) was purchased from American Elements."
+  },
+  {
+    "entities": [],
+    "original sentence": "Preparation of LPSI-xSn Sulfide SSEs (x, the Sn Substitution Percentage, Equals to 0, 10, 15, 17.5, 20, 22.5, 25, 30, 50, 80, and 100)\nStoichiometric raw materials (Li2S, P2S5, LiI, and SnS2) were weighed (total 1 g) and sealed in zirconia ball milling pots."
+  },
+  {
+    "entities": [],
+    "original sentence": "The mass ratio between the mixture and the zirconia ball was 1:40."
+  },
+  {
+    "entities": [],
+    "original sentence": "Low-speed ball milling (180 rpm for 2 h) was used at first to fully mix the starting materials."
+  },
+  {
+    "entities": [],
+    "original sentence": "After that, high-speed of 510 rpm for 13 h was conducted on the mixture."
+  },
+  {
+    "entities": [],
+    "original sentence": "All ball milling processes were protected under Ar gas atmosphere by using planetary ball milling apparatus."
+  },
+  {
+    "entities": [],
+    "original sentence": "Then, the ball-milled product was pressed into pellets, and sealed in quartz tubes for postannealing treatment."
+  },
+  {
+    "entities": [],
+    "original sentence": "The annealing condition was 450 °C/8 h in the muffle furnace."
+  },
+  {
+    "entities": [],
+    "original sentence": "The rate of increasing temperature was fixed at 5 °C min−1."
+  },
+  {
+    "entities": [],
+    "original sentence": "After the annealing was completed, the sample naturally cooled down to RT."
+  },
+  {
+    "entities": [],
+    "original sentence": "It was noted that S vacancy can be produced by partly replacing P2S5with SnS2in the starting raw materials, which can be represented by the following defect equation using Kröger–Vink notation: ."
+  },
+  {
+    "entities": [],
+    "original sentence": "Through reacting with other reactants, the S vacancy was occupied, while more Li atoms were introduced to keep the charge balance, increasing the solubility of Li+ ions in the crystal structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "Preparation of LPSBr-xSn SSEs (Substitution Percentage x = 1, 2.5, 5, 10, 12.5, 15, 20, 30) and LPSCl-xSn SSEs (Substitution Percentage x = 0 and 30)\nLi2S, P2S5, SnS2, and LiBr were used for LPSBr-xSn SSEs preparation, while Li2S, P2S5, SnS2, and LiCl raw materials for LPSCl-xSn."
+  },
+  {
+    "entities": [],
+    "original sentence": "Similar to the preparation process of synthesizing LPSI-xSn SSEs, same ball milling condition and annealing process were used to prepare LPSBr-xSn and LPSCl-xSn SSEs."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 2,
+        "end": 6
+      },
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 37,
+        "end": 39
+      }
+    ],
+    "original sentence": "Preparation of LCO@LNO Cathode Materials and LCO@LNO/LGPS Cathode Composites\nAccording to the previously reported method from the group, ALD process was used to prepare a LiNbOxcoating layer on the commercial LCO particles to form LCO@LNO composites."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 9,
+        "end": 11
+      }
+    ],
+    "original sentence": "The LCO@LNO/LGPS cathode composite was prepared by milling LCO@LNO powder and LGPS electrolyte (mass ratio 7:3) with a roll mixer."
+  },
+  {
+    "entities": [],
+    "original sentence": "Ionic Conductivity Measurements\nIonic conductivity of prepared SSEs was measured by the EIS measurements and corresponding simulation method."
+  },
+  {
+    "entities": [],
+    "original sentence": "EIS measurements were completed on a multichannel potentiostation 3/Z (German VMP3)."
+  },
+  {
+    "entities": [],
+    "original sentence": "The applied frequency range was 0.1 Hz to 7 MHz and the amplitude was 20 mV."
+  },
+  {
+    "entities": [],
+    "original sentence": "The test cell was fabricated as follows: 80 mg of the SSEs were pressed into a pellet (diameter 1 cm, thickness 0.7 mm) with a pressure of ≈300 MPa."
+  },
+  {
+    "entities": [],
+    "original sentence": "Subsequently, two pieces of indium (In) foil serving as the current collector were pressed on both sides of the electrolyte pellet in a model cell."
+  },
+  {
+    "entities": [],
+    "original sentence": "To gain the Arrhenius plot, variable-temperature EIS was measured from −5 to 45 °C with an interval of 10 °C."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Assembly",
+        "type": "organization",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "original sentence": "Cell Assembly and Electrochemical Measurements\nFor Li//LPSI-20Sn//Li symmetric cells, typically, 80 mg of LPSI-20Sn electrolyte was pressed by ≈300 MPa to form solid pellet."
+  },
+  {
+    "entities": [
+      {
+        "entity": "China",
+        "type": "location",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "entity": "China",
+        "type": "organization",
+        "start": 6,
+        "end": 10
+      }
+    ],
+    "original sentence": "Two pieces of Li metal (China Energy Lithium Co., Ltd.) were placed onto both sides of the LPSI-20Sn pellet and then pressed by ≈120 MPa for 3 min."
+  },
+  {
+    "entities": [
+      {
+        "entity": "CT-2001A",
+        "type": "date",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "entity": "LAND",
+        "type": "organization",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "entity": "Wuhan",
+        "type": "person",
+        "start": 14,
+        "end": 19
+      }
+    ],
+    "original sentence": "Li plating/stripping experiments were carried out on LAND battery testing stations (CT-2001A, Wuhan Rambo Testing Equipment Co., Ltd.)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Current density and cut-off capacity were set at 0.1 mA cm−2 and 0.1 mAh cm−2."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LGPS",
+        "type": "organization",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 12,
+        "end": 14
+      }
+    ],
+    "original sentence": "Li/LPSI-20Sn//LGPS//LCO@LNO//LGPS ASSLMBs were fabricated using LGPS as the electrolyte, prepared LCO@LNO/LGPS as the cathode composite, LPSI-20Sn as the Li metal anode interlayer, and Li metal as the anode."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LGPS",
+        "type": "organization",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "entity": "LGPS",
+        "type": "organization",
+        "start": 24,
+        "end": 25
+      }
+    ],
+    "original sentence": "Typically, 80 mg of the LGPS electrolyte (purchased from MSE supplies LLC) was pressed under ≈300 MPa to form a solid LGPS layer (diameter: 10 mm, thickness: 0.65 mm)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LGPS",
+        "type": "organization",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "entity": "LGPS",
+        "type": "organization",
+        "start": 40,
+        "end": 41
+      }
+    ],
+    "original sentence": "20 mg of LPSI-20Sn electrolyte was spread on one side of the LGPS layer, and pressed under ≈300 MPa to form an interlayer (diameter: 10 mm, thickness: 0.17 mm) to separate Li metal and LGPS layer."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LC",
+        "type": "organization",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "original sentence": "10 mg of LCO@LNO/LGPS powder was uniformly spread onto the surface of the other side of LGPS layer and pressed under ≈360 MPa for 5 min."
+  },
+  {
+    "entities": [],
+    "original sentence": "Finally, Li metal was placed on the LPSI-20Sn layer and pressed by ≈120 MPa for 3 min."
+  },
+  {
+    "entities": [],
+    "original sentence": "The four-layered pellet cell was sandwiched between two stainless-steel rods as current collectors and sealed in the model cell."
+  },
+  {
+    "entities": [
+      {
+        "entity": "LAND",
+        "type": "organization",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "original sentence": "Galvanostatic charge–discharge was conducted on the LAND battery test system."
+  },
+  {
+    "entities": [
+      {
+        "entity": "2.8–4.2",
+        "type": "date",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "original sentence": "The voltage window was set as 2.8–4.2"
+  },
+  {
+    "entities": [],
+    "original sentence": "V (vs Li/Li+), and various constant current densities were applied to evaluate the cycling stability and the rate performance."
+  },
+  {
+    "entities": [],
+    "original sentence": "All cell fabrication processes were conducted in an Ar-filled glovebox."
+  },
+  {
+    "entities": [
+      {
+        "entity": "TGA",
+        "type": "organization",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "original sentence": "Air Stability Measurements\nThe electrolyte stability against dry O2was measured in the TGA instrument."
+  },
+  {
+    "entities": [],
+    "original sentence": "Powder electrolytes were placed in the atmosphere of continuous flow of dry O2with the weight recorded by the built-in microbalance."
+  },
+  {
+    "entities": [],
+    "original sentence": "The stability toward moisture was evaluated as follows: electrolytes were placed in an airtight chamber with humidity and gas (O2, N2, air, and vacuum) controlling."
+  },
+  {
+    "entities": [
+      {
+        "entity": "10",
+        "type": "percentage",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "original sentence": "After exposure of 10% humidity overnight, XRD and the EIS measurements were conducted for the electrolyte samples."
+  },
+  {
+    "entities": [],
+    "original sentence": "Reheating process was processed in a vacuum oven (180 °C) overnight."
+  },
+  {
+    "entities": [
+      {
+        "entity": "S-4800",
+        "type": "date",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "original sentence": "Characterization\nSEM images and element mapping were obtained by using a Hitachi S-4800 field-emission scanning electron microscope (FE-SEM, acceleration voltage 5 kV) equipped with EDS."
+  },
+  {
+    "entities": [],
+    "original sentence": "XRD measurements were performed on Bruker AXS D8 Advance with Cu Kα radiation (λ = 1.54178"
+  },
+  {
+    "entities": [],
+    "original sentence": "Å)."
+  },
+  {
+    "entities": [],
+    "original sentence": "Kapton tape was covered on the XRD holder to prevent from the air exposure."
+  },
+  {
+    "entities": [],
+    "original sentence": "Low-speed-scan XRD pattern of LPSI-20Sn electrolyte was obtained by scanning at the speed of 5 s per step (1 step = 0.02°) from 10° to 90° (2θ)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Materials",
+        "type": "organization",
+        "start": 7,
+        "end": 9
+      }
+    ],
+    "original sentence": "XRD Rietveld refinement was performed by using Materials Studio software."
+  },
+  {
+    "entities": [
+      {
+        "entity": "HORIBA",
+        "type": "organization",
+        "start": 6,
+        "end": 11
+      }
+    ],
+    "original sentence": "Raman spectra were measured with a HORIBA Scientific LabRAM HR Raman spectrometer operated under an incident laser beam at 532 nm."
+  },
+  {
+    "entities": [],
+    "original sentence": "Electrolyte samples were sealed and sandwiched in two pieces of transparent glasses for Raman testing."
+  },
+  {
+    "entities": [
+      {
+        "entity": "Krotos",
+        "type": "organization",
+        "start": 6,
+        "end": 10
+      },
+      {
+        "entity": "Al",
+        "type": "person",
+        "start": 14,
+        "end": 16
+      }
+    ],
+    "original sentence": "XPS spectra were obtained by using Krotos AXIS Ultra Spectrometer system using a monochromatic Al K(alpha) source (25 mA, 15 kV)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "NMR",
+        "type": "organization",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "original sentence": "Solid-state 7Li NMR measurements were carried out on a Varian Infinity Plus 400 (I+400) NMR spectrometer (Bo= 9.4 T), operating at a 7Li resonance frequency of 155.248"
+  },
+  {
+    "entities": [],
+    "original sentence": "MHz."
+  },
+  {
+    "entities": [],
+    "original sentence": "The π/2 pulse length was determined to be 2.3 µs."
+  },
+  {
+    "entities": [],
+    "original sentence": "Chemical shifts were referenced with respect to a 1.0 m LiCl solution."
+  },
+  {
+    "entities": [],
+    "original sentence": "The electrolyte sample was sealed in custom-made Teflon tubes (ϕ = 4.7 mm) in an argon-filled glovebox."
+  },
+  {
+    "entities": [],
+    "original sentence": "Variable temperature (−40 to 130 °C with an interval of 5 or 10 °C) measurements were performed by using a 5 mm static probe.T1relaxation (spin–lattice) time at various temperatures was determined by using the saturation recovery method."
+  },
+  {
+    "entities": [
+      {
+        "entity": "DFT",
+        "type": "organization",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "original sentence": "DFT Calculation\nIt was conducted for both static computation and geometry optimization of LPSI and LPSI-20Sn crystal, using the CASTEP DFT code of Accelrys Material Studio 8.0 with the exchange–correlation functional of Perdew–Burke–Ernzerhof (PBE) based on the generalized gradient approximation (GGA)."
+  },
+  {
+    "entities": [
+      {
+        "entity": "380.0",
+        "type": "date",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "original sentence": "The cut-off energy for the plane-wave basis was set as 380.0 eV."
+  },
+  {
+    "entities": [],
+    "original sentence": "Thek-point mesh of 2 × 2 × 2 was adopted and the self-consistent field tolerance was set as 5.0 × 10−7 eV Å−1."
+  },
+  {
+    "entities": [
+      {
+        "entity": "90",
+        "type": "percentage",
+        "start": 9,
+        "end": 12
+      }
+    ],
+    "original sentence": "The fast Fourier transform grid density was set as 90 × 90 × 90."
+  },
+  {
+    "entities": [],
+    "original sentence": "The crystal structure of LPSI-20Sn crystal was employed by using different occupation ratios of Sn and P in the same site position."
+  },
+  {
+    "entities": [],
+    "original sentence": "The oxygen replacement reaction energy (ΔE) of LPSI-20Sn and LPSI electrolytes was simulated based on the differential energy by changing one of the S atoms to O atom in the model structure."
+  },
+  {
+    "entities": [],
+    "original sentence": "One 2 × 2 × 2 supercell of LPSI or LPSI-20Sn was used as the model structure by changing one of the S atoms."
+  },
+  {
+    "entities": [
+      {
+        "entity": "U(",
+        "type": "person",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "entity": "O",
+        "type": "person",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "original sentence": "The oxygen replacement reaction energy (ΔE) can be calculated as ΔE=U(S atom)+U(PS3O tetrahedron)−U(O atom)−U(PS4 tetrahedron), which can be defined as one of the indicators to reveal the resistance capability of sulfide electrolyte (containing PS4tetrahedron) to O2.\nConflict of Interest\nThe authors declare no conflict of interest."
+  }
+]
